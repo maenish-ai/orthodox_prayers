@@ -1,0 +1,596 @@
+{
+  "schema_version": 1,
+  "effective_from": "2026-07-16",
+  "mode": "STRICT_NATIVE_LANGUAGE_FAIL_CLOSED",
+  "owner_permissions": {
+    "status": "CONFIRMED_BY_PROJECT_OWNER",
+    "documents": "kept_outside_public_repository"
+  },
+  "religious_text_rules": {
+    "translation_between_lanes": false,
+    "machine_translation": false,
+    "ai_generation_or_rewriting": false,
+    "automatic_diacritization": false,
+    "display_normalization": "PRESERVE_SOURCE_UNICODE_CODEPOINTS_EXACTLY",
+    "search_normalization": "DERIVED_INDEX_ONLY_NEVER_DISPLAYED",
+    "on_missing_native_text": "PUBLISH_REFERENCE_OR_UNAVAILABLE_ONLY; NEVER_FALL_BACK_TO_ANOTHER_LANGUAGE",
+    "on_changed_locked_text": "BLOCK_UPDATE_AND_KEEP_LAST_SIGNED_GOOD",
+    "scripture_text_source_policy": "OFFICIAL_NATIVE_CORPUS_OR_REGISTERED_PUBLIC_DOMAIN_NATIVE_CORPUS",
+    "lectionary_reference_authority_remains_official": true
+  },
+  "language_lanes": {
+    "ar": {
+      "priority": [
+        "arabic_great_horologion_1870",
+        "orthodox_jordan_arabic_services",
+        "orthodox_jordan",
+        "jerusalem_patriarchate_ar",
+        "antioch_archdiocese_tripoli_ar",
+        "antioch_patriarchate_ar",
+        "ebible_arabic_van_dyck",
+        "st_george_flint_basil_ar",
+        "jerusalem_ramallah_presanctified_ar"
+      ],
+      "required_script": "Arabic",
+      "preserve_marks": true,
+      "minimum_diacritic_ratio_when_source_is_marked_vocalized": 0.15
+    },
+    "en": {
+      "priority": [
+        "hapgood_service_book_1906",
+        "oca_horologion_2021",
+        "goarch_ogden_epubs",
+        "goarch_online_chapel",
+        "jerusalem_patriarchate_en",
+        "goarch_digital_chant_stand_english",
+        "akroasis_small_menaion_english",
+        "goarch_synekdemos",
+        "oca_official_english",
+        "metropolis_toronto_liturgy_en",
+        "ebible_world_english_bible",
+        "st_maximus_midnight_office_en",
+        "st_mary_wichita_communion_en"
+      ],
+      "required_script": "Latin",
+      "preserve_marks": true
+    },
+    "el": {
+      "priority": [
+        "goarch_glt_greek",
+        "ecumenical_patriarchate_ieratikon_1875",
+        "kilkis_greek_services",
+        "imks_greek_services",
+        "church_of_greece_apostoliki_diakonia",
+        "church_of_greece_ecclesia",
+        "jerusalem_patriarchate_el",
+        "goarch_online_chapel_greek",
+        "goarch_digital_chant_stand_greek",
+        "metropolis_toronto_liturgy_el",
+        "ebible_greek_byzantine_1904",
+        "metropolis_limassol_communion_el"
+      ],
+      "required_script": "Greek",
+      "preserve_marks": true,
+      "polytonic_preferred": true
+    }
+  },
+  "sources": {
+    "orthodox_jordan": {
+      "language": "ar",
+      "official": true,
+      "base_url": "https://orthodoxjordan.org/",
+      "capabilities": [
+        "daily_calendar",
+        "daily_reading_references",
+        "prayers",
+        "fasting",
+        "saints",
+        "liturgy"
+      ]
+    },
+    "jerusalem_hagiotaphite_calendar_ar_2024": {
+      "language": "ar",
+      "official": true,
+      "base_url": "https://ar.jerusalem-patriarchate.info/wp-content/uploads/2024/02/Arabic_CALENDAR-OF-PATRIARCHATE_2024_R.pdf",
+      "capabilities": ["calendar", "fixed_daily_commemorations"],
+      "jurisdiction": "jerusalem_patriarchate",
+      "source_year": 2024,
+      "status": "PENDING_VISUAL_REVIEW"
+    },
+    "jerusalem_hagiotaphite_calendar_ar_2026": {
+      "language": "ar",
+      "official": true,
+      "base_url": "https://ar.jerusalem-patriarchate.info/wp-content/uploads/2026/02/arabic_2026.pdf",
+      "capabilities": ["calendar", "fixed_daily_commemorations"],
+      "jurisdiction": "jerusalem_patriarchate",
+      "source_year": 2026,
+      "status": "PENDING_VISUAL_REVIEW"
+    },
+    "jerusalem_patriarchate_ar": {
+      "language": "ar",
+      "official": true,
+      "base_url": "https://ar.jerusalem-patriarchate.info/",
+      "capabilities": [
+        "calendar",
+        "feasts",
+        "prayers",
+        "liturgy",
+        "scripture_when_explicitly_published"
+      ]
+    },
+    "antioch_patriarchate_ar": {
+      "language": "ar",
+      "official": true,
+      "base_url": "https://www.antiochpatriarchate.org/",
+      "capabilities": [
+        "calendar",
+        "lectionary",
+        "prayers",
+        "liturgy"
+      ]
+    },
+    "goarch_online_chapel": {
+      "language": "en",
+      "official": true,
+      "base_url": "https://www.goarch.org/chapel",
+      "capabilities": [
+        "daily_calendar",
+        "daily_reading_references",
+        "daily_reading_text",
+        "fasting",
+        "saints"
+      ]
+    },
+    "holy_trinity_calendar_en_comparative": {
+      "language": "en",
+      "official": true,
+      "base_url": "https://www.holytrinityorthodox.com/htc/ocalendar/",
+      "capabilities": ["comparative_daily_calendar", "fixed_daily_commemorations"],
+      "jurisdiction": "comparative_not_jerusalem_jordan",
+      "role": "comparative_only_never_satisfies_jerusalem_jordan_named_gate",
+      "status": "COMPARATIVE_NATIVE_ENGLISH_SOURCE"
+    },
+    "jerusalem_patriarchate_en": {
+      "language": "en",
+      "official": true,
+      "base_url": "https://en.jerusalem-patriarchate.info/",
+      "capabilities": [
+        "calendar",
+        "feasts",
+        "liturgy",
+        "scripture_when_explicitly_published"
+      ]
+    },
+    "goarch_digital_chant_stand_english": {
+      "language": "en",
+      "official": true,
+      "base_url": "https://digitalchantstand.goarch.org/",
+      "capabilities": [
+        "services",
+        "liturgy",
+        "daily_texts"
+      ]
+    },
+    "goarch_synekdemos": {
+      "language": "en",
+      "official": true,
+      "base_url": "https://www.goarch.org/-/the-synekdemos-daily-prayers-for-orthodox-christians",
+      "capabilities": [
+        "prayers"
+      ]
+    },
+    "oca_official_english": {
+      "language": "en",
+      "official": true,
+      "base_url": "https://www.oca.org/",
+      "capabilities": [
+        "daily_reading_references",
+        "daily_reading_text"
+      ],
+      "role": "same-language_last_fallback_only"
+    },
+    "church_of_greece_apostoliki_diakonia": {
+      "language": "el",
+      "official": true,
+      "base_url": "https://apostoliki-diakonia.gr/",
+      "capabilities": [
+        "scripture_corpus",
+        "calendar",
+        "saints",
+        "prayers"
+      ]
+    },
+    "church_of_greece_ecclesia": {
+      "language": "el",
+      "official": true,
+      "base_url": "https://www.ecclesia.gr/",
+      "capabilities": [
+        "calendar",
+        "prayers",
+        "liturgy"
+      ]
+    },
+    "jerusalem_hagiotaphite_calendar_el_2024": {
+      "language": "el",
+      "official": true,
+      "base_url": "https://en.jerusalem-patriarchate.info/wp-content/uploads/2024/02/2024_GREEK_CALENDAR_OF_PATRIARCHATE-2024__R.pdf",
+      "capabilities": ["calendar", "fixed_daily_commemorations"],
+      "jurisdiction": "jerusalem_patriarchate",
+      "source_year": 2024,
+      "status": "VERIFIED_NATIVE_LOCAL_GREEK_SOURCE_VISUAL_PAGE_REVIEW"
+    },
+    "jerusalem_hagiotaphite_calendar_el_2025": {
+      "language": "el",
+      "official": true,
+      "base_url": "https://jerusalem-patriarchate.info/wp-content/uploads/2025/03/GREEK_CALENDAR_OF_PATRIARCHATE_2025_R.pdf",
+      "capabilities": ["calendar", "fixed_daily_commemorations"],
+      "jurisdiction": "jerusalem_patriarchate",
+      "source_year": 2025,
+      "status": "PER_RECORD_INTEGRITY_REVIEW"
+    },
+    "jerusalem_patriarchate_el": {
+      "language": "el",
+      "official": true,
+      "base_url": "https://jerusalem-patriarchate.info/",
+      "capabilities": [
+        "calendar",
+        "feasts",
+        "liturgy",
+        "scripture_when_explicitly_published"
+      ]
+    },
+    "goarch_digital_chant_stand_greek": {
+      "language": "el",
+      "official": true,
+      "base_url": "https://digitalchantstand.goarch.org/",
+      "alternate_base_urls": [
+        "https://dcs.goarch.org/"
+      ],
+      "capabilities": [
+        "services",
+        "liturgy",
+        "daily_texts"
+      ]
+    },
+    "ebible_arabic_van_dyck": {
+      "language": "ar",
+      "official": false,
+      "public_domain": true,
+      "base_url": "https://ebible.org/",
+      "capabilities": [
+        "scripture_corpus"
+      ],
+      "title": "الكتاب المقدس باللغة العربية، فان دايك",
+      "license": "Public Domain",
+      "role": "independent_native_scripture_text_only",
+      "source_details_url": "https://ebible.org/find/details.php?id=arb-vd",
+      "text_base_url": "https://ebible.org/arb-vd/"
+    },
+    "ebible_world_english_bible": {
+      "language": "en",
+      "official": false,
+      "public_domain": true,
+      "base_url": "https://ebible.org/",
+      "capabilities": [
+        "scripture_corpus"
+      ],
+      "title": "World English Bible",
+      "license": "Public Domain",
+      "role": "independent_native_scripture_text_only",
+      "edition": "ENGWEBP 2020 stable text edition",
+      "source_details_url": "https://ebible.org/find/details.php?id=engwebp",
+      "text_base_url": "https://ebible.org/engwebp/"
+    },
+    "ebible_greek_byzantine_1904": {
+      "language": "el",
+      "official": false,
+      "public_domain": true,
+      "base_url": "https://ebible.org/",
+      "capabilities": [
+        "scripture_corpus"
+      ],
+      "title": "1904 Patriarchal Greek New Testament",
+      "license": "Public Domain",
+      "role": "independent_native_scripture_text_only",
+      "source_details_url": "https://ebible.org/find/details.php?id=grcbyz",
+      "text_base_url": "https://ebible.org/grcbyz/"
+    },
+    "antioch_archdiocese_tripoli_ar": {
+      "language": "ar",
+      "official": true,
+      "base_url": "https://archtripoli.org/",
+      "capabilities": [
+        "calendar",
+        "lectionary",
+        "troparia",
+        "kontakia",
+        "prokeimena",
+        "liturgy"
+      ],
+      "jurisdiction": "Greek Orthodox Archdiocese of Tripoli and Koura (Antiochian Patriarchate)"
+    },
+    "akroasis_small_menaion_english": {
+      "language": "en",
+      "official": false,
+      "orthodox_resource": true,
+      "base_url": "https://akroasis.org/",
+      "capabilities": [
+        "fixed_feast_troparia",
+        "fixed_feast_kontakia"
+      ],
+      "role": "same_language_registered_menaion_source"
+    },
+    "goarch_online_chapel_greek": {
+      "language": "el",
+      "official": true,
+      "base_url": "https://www.goarch.org/",
+      "capabilities": [
+        "post_communion_prayers"
+      ],
+      "permission_confirmed": false,
+      "redistribution_review_required": true,
+      "name": "Greek Orthodox Archdiocese of America — Greek Chapel Texts"
+    },
+    "metropolis_toronto_liturgy_en": {
+      "language": "en",
+      "official": true,
+      "base_url": "https://goarchdiocese.ca/",
+      "capabilities": [
+        "liturgy"
+      ],
+      "permission_confirmed": true,
+      "permission_basis": "CONFIRMED_BY_PROJECT_OWNER; retain external authorization record before public distribution",
+      "title": "Greek Orthodox Metropolis of Toronto bilingual Divine Liturgy (2017)",
+      "role": "authorized_native_liturgy_text"
+    },
+    "metropolis_toronto_liturgy_el": {
+      "language": "el",
+      "official": true,
+      "base_url": "https://goarchdiocese.ca/",
+      "capabilities": [
+        "liturgy"
+      ],
+      "permission_confirmed": true,
+      "permission_basis": "CONFIRMED_BY_PROJECT_OWNER; retain external authorization record before public distribution",
+      "title": "Greek Orthodox Metropolis of Toronto bilingual Divine Liturgy (2017)",
+      "role": "authorized_native_liturgy_text"
+    },
+    "goarch_ogden_epubs": {
+      "language": "en",
+      "official": true,
+      "base_url": "https://www.tgoc.ut.goarch.org/epub.htm",
+      "capabilities": [
+        "basil_liturgy",
+        "presanctified_liturgy",
+        "pre_communion",
+        "post_communion"
+      ],
+      "permission_confirmed": true,
+      "permission_basis": "CONFIRMED_BY_PROJECT_OWNER",
+      "title": "GOARCH Ogden — Digital Chant Stand service eBooks",
+      "role": "authorized_native_service_text"
+    },
+    "imks_greek_services": {
+      "language": "el",
+      "official": true,
+      "base_url": "https://imks.gr/",
+      "capabilities": [
+        "presanctified_liturgy"
+      ],
+      "permission_confirmed": true,
+      "permission_basis": "CONFIRMED_BY_PROJECT_OWNER",
+      "title": "Ιερά Μητρόπολις Κισάμου και Σελίνου — Προηγιασμένη",
+      "role": "authorized_native_service_text"
+    },
+    "kilkis_greek_services": {
+      "language": "el",
+      "official": true,
+      "base_url": "https://metamorfosikilkis.gr/",
+      "capabilities": [
+        "small_compline"
+      ],
+      "permission_confirmed": true,
+      "permission_basis": "CONFIRMED_BY_PROJECT_OWNER",
+      "title": "Ι. Μ. Ναός Μεταμορφώσεως Σωτήρος Κιλκίς — Μικρό Απόδειπνο",
+      "role": "authorized_native_service_text"
+    },
+    "oca_horologion_2021": {
+      "language": "en",
+      "official": true,
+      "base_url": "https://www.oca.org/",
+      "capabilities": [
+        "horologion",
+        "vespers",
+        "matins",
+        "hours",
+        "typika",
+        "compline"
+      ],
+      "permission_confirmed": true,
+      "permission_basis": "CONFIRMED_BY_PROJECT_OWNER",
+      "title": "Orthodox Church in America — Horologion",
+      "role": "authorized_native_horologion_text"
+    },
+    "orthodox_jordan_arabic_services": {
+      "language": "ar",
+      "official": true,
+      "base_url": "https://orthodoxjordan.org/",
+      "capabilities": [
+        "vespers",
+        "matins",
+        "hours",
+        "pre_communion",
+        "post_communion"
+      ],
+      "permission_confirmed": true,
+      "permission_basis": "CONFIRMED_BY_PROJECT_OWNER",
+      "title": "مطرانية الروم الأرثوذكس في الأردن — نصوص الصلوات",
+      "role": "authorized_native_service_text"
+    },
+    "arabic_great_horologion_1870": {
+      "language": "ar",
+      "official": true,
+      "public_domain": true,
+      "base_url": "https://books.google.com/",
+      "capabilities": [
+        "horologion",
+        "prayers",
+        "services",
+        "liturgy"
+      ],
+      "permission_confirmed": true,
+      "permission_basis": "PUBLIC_DOMAIN_SOURCE; CONFIRMED_BY_PROJECT_OWNER",
+      "title": "كتاب السواعي الكبير، أورشليم 1870",
+      "role": "registered_public_domain_native_service_text"
+    },
+    "hapgood_service_book_1906": {
+      "language": "en",
+      "official": true,
+      "public_domain": true,
+      "base_url": "https://archive.org/",
+      "capabilities": [
+        "service_book",
+        "proskomide",
+        "prayers",
+        "liturgy"
+      ],
+      "permission_confirmed": true,
+      "permission_basis": "PUBLIC_DOMAIN_SOURCE; CONFIRMED_BY_PROJECT_OWNER",
+      "title": "Hapgood Service Book 1906",
+      "role": "registered_public_domain_native_service_text"
+    },
+    "goarch_glt_greek": {
+      "language": "el",
+      "official": true,
+      "public_domain": true,
+      "base_url": "https://digitalchantstand.goarch.org/",
+      "capabilities": [
+        "horologion",
+        "services",
+        "prayers",
+        "liturgy"
+      ],
+      "permission_confirmed": true,
+      "permission_basis": "CONFIRMED_BY_PROJECT_OWNER",
+      "title": "Greek Horologion native text",
+      "role": "registered_native_service_text"
+    },
+    "ecumenical_patriarchate_ieratikon_1875": {
+      "language": "el",
+      "official": true,
+      "public_domain": true,
+      "base_url": "https://archive.org/",
+      "capabilities": [
+        "ieratikon",
+        "proskomide",
+        "basil_liturgy",
+        "liturgy"
+      ],
+      "permission_confirmed": true,
+      "permission_basis": "PUBLIC_DOMAIN_SOURCE; CONFIRMED_BY_PROJECT_OWNER",
+      "title": "Ecumenical Patriarchate Ieratikon 1875",
+      "role": "registered_public_domain_native_service_text"
+    },
+    "st_george_flint_basil_ar": {
+      "language": "ar",
+      "official": true,
+      "base_url": "https://saintgeorgeflint.org/",
+      "capabilities": [
+        "basil_liturgy"
+      ],
+      "permission_confirmed": true,
+      "redistribution_review_required": false,
+      "name": "St. George Orthodox Church, Flint — Arabic Liturgy of St. Basil",
+      "permission_basis": "CONFIRMED_BY_PROJECT_OWNER",
+      "authorization_reference": "OWNER-AUTH-2026-08-13-AMMAN-JERUSALEM-ANTIOCH",
+      "document_title": "Bilingual Prayers of the Liturgy of St. Basil — Arabic update 3/2022",
+      "validation_status": "NATIVE_PDF_TEXT_LAYER_GLYPH_MAP_VALIDATED"
+    },
+    "st_maximus_midnight_office_en": {
+      "language": "en",
+      "official": true,
+      "base_url": "https://stmaximus.org/",
+      "capabilities": [
+        "midnight_office"
+      ],
+      "permission_confirmed": false,
+      "redistribution_review_required": true,
+      "name": "St. Maximus the Confessor Orthodox Mission — Midnight Office"
+    },
+    "st_mary_wichita_communion_en": {
+      "language": "en",
+      "official": true,
+      "base_url": "https://www.stmarywichita.org/",
+      "capabilities": [
+        "pre_communion_prayers"
+      ],
+      "permission_confirmed": false,
+      "redistribution_review_required": true,
+      "name": "St. Mary Orthodox Christian Church — Prayers before Communion"
+    },
+    "metropolis_limassol_communion_el": {
+      "language": "el",
+      "official": true,
+      "base_url": "https://iml.cy/",
+      "capabilities": [
+        "pre_communion_prayers"
+      ],
+      "permission_confirmed": false,
+      "redistribution_review_required": true,
+      "name": "Ἱερὰ Μητρόπολις Λεμεσοῦ — Ἀκολουθία Θείας Μεταλήψεως"
+    },
+    "jerusalem_ramallah_presanctified_ar": {
+      "language": "ar",
+      "official": true,
+      "base_url": "https://www.stgeorgeramallah.org/",
+      "capabilities": [
+        "presanctified_liturgy"
+      ],
+      "permission_confirmed": true,
+      "redistribution_review_required": false,
+      "permission_basis": "CONFIRMED_BY_PROJECT_OWNER",
+      "authorization_reference": "OWNER-AUTH-2026-08-13-AMMAN-JERUSALEM-ANTIOCH",
+      "document_title": "خدمة البرويجيازميني، أي خدمة القداس السابق تقديسها",
+      "publication_year": 1992,
+      "name": "الأرشمندريت د. ملاتيوس بصل — رام الله / بطريركية القدس",
+      "validation_status": "COMPLETE_NATIVE_PDF_GEOMETRY_RECONSTRUCTED"
+    },
+    "antiochian_au_presanctified_ar": {
+      "language": "ar",
+      "official": true,
+      "base_url": "https://www.antiochian.org.au/",
+      "capabilities": [
+        "presanctified_liturgy"
+      ],
+      "permission_confirmed": true,
+      "redistribution_review_required": false,
+      "permission_basis": "CONFIRMED_BY_PROJECT_OWNER",
+      "authorization_reference": "OWNER-AUTH-2026-08-13-AMMAN-JERUSALEM-ANTIOCH",
+      "document_title": "Presanctified Liturgy Bilingual",
+      "name": "Antiochian Orthodox Archdiocese of Australia",
+      "validation_status": "BILINGUAL_PDF_CROSS_CHECK_SOURCE"
+    }
+  },
+  "publication": {
+    "daily_update_time": "04:23 and 16:43 Asia/Amman every 24 hours",
+    "daily_update_windows": [
+      "04:23",
+      "16:43"
+    ],
+    "active_product_profile": "canonical/follow_along_liturgy_contract.json",
+    "schedule_role": "AUTHORITATIVE_DAILY_PUBLICATION",
+    "same_day_regression_behavior": "KEEP_LAST_SIGNED_GOOD_LANE",
+    "verification_mode": "same_workflow_after_publish",
+    "publish_branch": "verified-data",
+    "signed_data_required": true,
+    "same_language_fallback_only": true,
+    "missing_content_is_not_a_failure": true,
+    "cross_language_content_is_a_failure": true
+  },
+  "permission_basis": {
+    "status": "CONFIRMED_BY_PROJECT_OWNER",
+    "confirmed_at": "2026-08-13",
+    "note_ar": "أكد مالك المشروع امتلاكه موافقات إعادة استخدام المحتوى من الجهات الكنسية المدرجة. تحفظ المستندات الأصلية خارج المستودع العام.",
+    "authorization_reference": "OWNER-AUTH-2026-08-13-AMMAN-JERUSALEM-ANTIOCH"
+  }
+}

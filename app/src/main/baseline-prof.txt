@@ -1,0 +1,28 @@
+# Church Prayers critical user journeys.
+# Startup: application initialization, signed bootstrap, home rendering, and navigation.
+HSPLcom/orthodoxprayers/privateapp/OrthodoxPrayersApp;->**(**)**
+HSPLcom/orthodoxprayers/privateapp/MainActivity;->**(**)**
+HSPLcom/orthodoxprayers/privateapp/AppPreferences;->**(**)**
+HSPLcom/orthodoxprayers/privateapp/data/DataRepository;->**(**)**
+HSPLcom/orthodoxprayers/privateapp/data/DailyDataStore;->**(**)**
+HSPLcom/orthodoxprayers/privateapp/data/DataContract;->**(**)**
+HSPLcom/orthodoxprayers/privateapp/data/VerifiedContentSanitizer;->**(**)**
+HSPLcom/orthodoxprayers/privateapp/data/DisplayTextSanitizer;->**(**)**
+HSPLcom/orthodoxprayers/privateapp/ui/ScreenHost;->**(**)**
+HSPLcom/orthodoxprayers/privateapp/ui/UiKit;->**(**)**
+HSPLcom/orthodoxprayers/privateapp/ui/ThemePalette;->**(**)**
+HSPLcom/orthodoxprayers/privateapp/ui/LocalizedResources;->**(**)**
+HSPLcom/orthodoxprayers/privateapp/ui/screens/HomeScreen;->**(**)**
+
+# Post-startup journeys: open and scroll prayers, readings, search, and calendar.
+HPLcom/orthodoxprayers/privateapp/ui/screens/ReaderScreen;->**(**)**
+HPLcom/orthodoxprayers/privateapp/ui/ReaderAdapter;->**(**)**
+HPLcom/orthodoxprayers/privateapp/ui/ReaderControlsPolicy;->**(**)**
+HPLcom/orthodoxprayers/privateapp/ui/ReadingProgressPolicy;->**(**)**
+HPLcom/orthodoxprayers/privateapp/ui/screens/ReadingsScreen;->**(**)**
+HPLcom/orthodoxprayers/privateapp/ui/screens/ReadingDetailScreen;->**(**)**
+HPLcom/orthodoxprayers/privateapp/ui/screens/SearchScreen;->**(**)**
+HPLcom/orthodoxprayers/privateapp/data/SearchEngine;->**(**)**
+HPLcom/orthodoxprayers/privateapp/ui/screens/CalendarScreen;->**(**)**
+HPLcom/orthodoxprayers/privateapp/ui/screens/CalendarDayScreen;->**(**)**
+HPLcom/orthodoxprayers/privateapp/ui/screens/UpcomingScreen;->**(**)**

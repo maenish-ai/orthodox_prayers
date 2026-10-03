@@ -1,0 +1,653 @@
+{
+  "schema_version": 2,
+  "policy": "RIGHTS_AWARE_NATIVE_SOURCE_ONLY_NO_TRANSLATION",
+  "runtime_network_required": false,
+  "languages": {
+    "ar": {
+      "source_id": "orthodox_jordan",
+      "source_name": "مطرانية الروم الأرثوذكس في الأردن",
+      "services": [
+        {
+          "id": "church_baptism",
+          "title": "خدمة العماد والميرون",
+          "url": "https://orthodoxjordan.org/خدمة-المعمودية/",
+          "required": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PROJECT_OWNER_CONFIRMED_R64_JERUSALEM_JORDAN_LICENSE",
+          "allow_link_fallback": true,
+          "fallback_policy": "OFFICIAL_SOURCE_LINK_ONLY_WHEN_BUILD_SOURCE_UNAVAILABLE",
+          "max_chars": 80000,
+          "authorization_record": "Project owner attestation 2026-08-10; original license/permission retained outside public repository."
+        },
+        {
+          "id": "church_confession",
+          "title": "سر الاعتراف الإلهي",
+          "url": "https://orthodoxjordan.org/سر-الاعتراف-الالهي/",
+          "required": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PROJECT_OWNER_CONFIRMED_R64_JERUSALEM_JORDAN_LICENSE",
+          "allow_link_fallback": true,
+          "fallback_policy": "OFFICIAL_SOURCE_LINK_ONLY_WHEN_BUILD_SOURCE_UNAVAILABLE",
+          "max_chars": 80000,
+          "authorization_record": "Project owner attestation 2026-08-10; original license/permission retained outside public repository."
+        },
+        {
+          "id": "church_betrothal",
+          "title": "صلاة العربون (الخطوبة)",
+          "url": "https://orthodoxjordan.org/صلاة-العربون-الخطوبة/",
+          "required": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PROJECT_OWNER_CONFIRMED_R64_JERUSALEM_JORDAN_LICENSE",
+          "allow_link_fallback": true,
+          "fallback_policy": "OFFICIAL_SOURCE_LINK_ONLY_WHEN_BUILD_SOURCE_UNAVAILABLE",
+          "max_chars": 80000,
+          "authorization_record": "Project owner attestation 2026-08-10; original license/permission retained outside public repository."
+        },
+        {
+          "id": "church_marriage",
+          "title": "خدمة العرس (الإكليل)",
+          "url": "https://orthodoxjordan.org/خدمة-صلاة-الإكليل/",
+          "required": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PROJECT_OWNER_CONFIRMED_R64_JERUSALEM_JORDAN_LICENSE",
+          "allow_link_fallback": true,
+          "fallback_policy": "OFFICIAL_SOURCE_LINK_ONLY_WHEN_BUILD_SOURCE_UNAVAILABLE",
+          "max_chars": 80000,
+          "authorization_record": "Project owner attestation 2026-08-10; original license/permission retained outside public repository."
+        },
+        {
+          "id": "church_crowns_removal",
+          "title": "صلاة حل الأكاليل",
+          "url": "https://orthodoxjordan.org/صلاة-لحل-الأكاليل/",
+          "required": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PROJECT_OWNER_CONFIRMED_R64_JERUSALEM_JORDAN_LICENSE",
+          "allow_link_fallback": true,
+          "fallback_policy": "OFFICIAL_SOURCE_LINK_ONLY_WHEN_BUILD_SOURCE_UNAVAILABLE",
+          "max_chars": 80000,
+          "authorization_record": "Project owner attestation 2026-08-10; original license/permission retained outside public repository."
+        },
+        {
+          "id": "church_unction",
+          "title": "زيارة المرضى وسر الزيت المقدس",
+          "url": "https://orthodoxjordan.org/صلاة-سر-الزيت-المقدس/",
+          "required": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PROJECT_OWNER_CONFIRMED_R64_JERUSALEM_JORDAN_LICENSE",
+          "allow_link_fallback": true,
+          "fallback_policy": "OFFICIAL_SOURCE_LINK_ONLY_WHEN_BUILD_SOURCE_UNAVAILABLE",
+          "max_chars": 80000,
+          "authorization_record": "Project owner attestation 2026-08-10; original license/permission retained outside public repository."
+        },
+        {
+          "id": "church_funeral",
+          "title": "صلاة الجنازة للعلمانيين",
+          "url": "https://orthodoxjordan.org/صلاة-الجنازة-للعلمانيين/",
+          "required": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PROJECT_OWNER_CONFIRMED_R64_JERUSALEM_JORDAN_LICENSE",
+          "allow_link_fallback": true,
+          "fallback_policy": "OFFICIAL_SOURCE_LINK_ONLY_WHEN_BUILD_SOURCE_UNAVAILABLE",
+          "max_chars": 80000,
+          "authorization_record": "Project owner attestation 2026-08-10; original license/permission retained outside public repository."
+        },
+        {
+          "id": "church_memorial",
+          "title": "خدمة صلاة الجناز والذكرانيات",
+          "url": "https://orthodoxjordan.org/خدمة-صلاة-الجناز/",
+          "required": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PROJECT_OWNER_CONFIRMED_R64_JERUSALEM_JORDAN_LICENSE",
+          "allow_link_fallback": true,
+          "fallback_policy": "OFFICIAL_SOURCE_LINK_ONLY_WHEN_BUILD_SOURCE_UNAVAILABLE",
+          "max_chars": 80000,
+          "authorization_record": "Project owner attestation 2026-08-10; original license/permission retained outside public repository."
+        },
+        {
+          "id": "church_trisagion",
+          "title": "صلاة النياحة (التريصاجيون)",
+          "url": "https://orthodoxjordan.org/صلاة-النياحة-التريصاجيون/",
+          "required": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PROJECT_OWNER_CONFIRMED_R64_JERUSALEM_JORDAN_LICENSE",
+          "allow_link_fallback": true,
+          "fallback_policy": "OFFICIAL_SOURCE_LINK_ONLY_WHEN_BUILD_SOURCE_UNAVAILABLE",
+          "max_chars": 80000,
+          "authorization_record": "Project owner attestation 2026-08-10; original license/permission retained outside public repository."
+        },
+        {
+          "id": "church_great_water",
+          "title": "صلاة تقديس الماء الكبرى",
+          "url": "https://orthodoxjordan.org/صلاة-تقديس-الماء-الكبرى/",
+          "required": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PROJECT_OWNER_CONFIRMED_R64_JERUSALEM_JORDAN_LICENSE",
+          "allow_link_fallback": true,
+          "fallback_policy": "OFFICIAL_SOURCE_LINK_ONLY_WHEN_BUILD_SOURCE_UNAVAILABLE",
+          "max_chars": 80000,
+          "authorization_record": "Project owner attestation 2026-08-10; original license/permission retained outside public repository."
+        }
+      ]
+    },
+    "en": {
+      "source_id": "hapgood_service_book_1922_public_domain",
+      "source_name": "Isabel F. Hapgood — Service Book, revised edition 1922 (public domain)",
+      "services": [
+        {
+          "id": "church_baptism",
+          "title": "Holy Baptism and Chrismation",
+          "source_transport": "public_domain_plain_text",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PUBLIC_DOMAIN_1922_HAPGOOD",
+          "license_url": "https://archive.org/details/servicebookofhol0000orth_i9n7",
+          "url": "https://archive.org/download/servicebookofhol0000orth_i9n7/servicebookofhol0000orth_i9n7_djvu.txt",
+          "marker_occurrence": "last",
+          "start_marker": [
+            "THE PRAYERS AT THE RECEPTION OF CATECHUMENS"
+          ],
+          "end_marker": [
+            "THE RITE OF CONFESSION"
+          ],
+          "max_chars": 80000
+        },
+        {
+          "id": "church_confession",
+          "title": "The Mystery of Confession",
+          "source_transport": "public_domain_plain_text",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PUBLIC_DOMAIN_1922_HAPGOOD",
+          "license_url": "https://archive.org/details/servicebookofhol0000orth_i9n7",
+          "url": "https://archive.org/download/servicebookofhol0000orth_i9n7/servicebookofhol0000orth_i9n7_djvu.txt",
+          "marker_occurrence": "first",
+          "start_marker": [
+            "THE RITE OF CONFESSION"
+          ],
+          "end_marker": [
+            "THE BETROTHAL SERVICE"
+          ],
+          "max_chars": 80000
+        },
+        {
+          "id": "church_betrothal",
+          "title": "Service of Betrothal",
+          "source_transport": "public_domain_plain_text",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PUBLIC_DOMAIN_1922_HAPGOOD",
+          "license_url": "https://archive.org/details/servicebookofhol0000orth_i9n7",
+          "url": "https://archive.org/download/servicebookofhol0000orth_i9n7/servicebookofhol0000orth_i9n7_djvu.txt",
+          "marker_occurrence": "first",
+          "start_marker": [
+            "THE BETROTHAL SERVICE"
+          ],
+          "end_marker": [
+            "THE ORDER OF MARRIAGE, OR OF CROWNING"
+          ],
+          "max_chars": 80000
+        },
+        {
+          "id": "church_marriage",
+          "title": "Service of Marriage (Crowning)",
+          "source_transport": "public_domain_plain_text",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PUBLIC_DOMAIN_1922_HAPGOOD",
+          "license_url": "https://archive.org/details/servicebookofhol0000orth_i9n7",
+          "url": "https://archive.org/download/servicebookofhol0000orth_i9n7/servicebookofhol0000orth_i9n7_djvu.txt",
+          "marker_occurrence": "first",
+          "start_marker": [
+            "THE ORDER OF MARRIAGE, OR OF CROWNING"
+          ],
+          "end_marker": [
+            "PRAYER AT THE REMOVAL OF THE CROWNS ON THE"
+          ],
+          "max_chars": 80000
+        },
+        {
+          "id": "church_crowns_removal",
+          "title": "Removal of the Crowns",
+          "source_transport": "public_domain_plain_text",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PUBLIC_DOMAIN_1922_HAPGOOD",
+          "license_url": "https://archive.org/details/servicebookofhol0000orth_i9n7",
+          "url": "https://archive.org/download/servicebookofhol0000orth_i9n7/servicebookofhol0000orth_i9n7_djvu.txt",
+          "marker_occurrence": "first",
+          "start_marker": [
+            "PRAYER AT THE REMOVAL OF THE CROWNS ON THE"
+          ],
+          "end_marker": [
+            "THE ORDER OF SECOND MARRIAGE"
+          ],
+          "max_chars": 80000
+        },
+        {
+          "id": "church_unction",
+          "title": "Holy Unction",
+          "source_transport": "public_domain_plain_text",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PUBLIC_DOMAIN_1922_HAPGOOD",
+          "license_url": "https://archive.org/details/servicebookofhol0000orth_i9n7",
+          "url": "https://archive.org/download/servicebookofhol0000orth_i9n7/servicebookofhol0000orth_i9n7_djvu.txt",
+          "marker_occurrence": "first",
+          "start_marker": [
+            "THE OFFICE OF HOLY UNCTION, SUNG BY SEVEN"
+          ],
+          "end_marker": [
+            "THE ORDER FOR THE BURIAL OF THE DEAD (LAYMEN)"
+          ],
+          "max_chars": 100000
+        },
+        {
+          "id": "church_funeral",
+          "title": "Funeral Service for Laypeople",
+          "source_transport": "public_domain_plain_text",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PUBLIC_DOMAIN_1922_HAPGOOD",
+          "license_url": "https://archive.org/details/servicebookofhol0000orth_i9n7",
+          "url": "https://archive.org/download/servicebookofhol0000orth_i9n7/servicebookofhol0000orth_i9n7_djvu.txt",
+          "marker_occurrence": "first",
+          "start_marker": [
+            "THE ORDER FOR THE BURIAL OF THE DEAD (LAYMEN)"
+          ],
+          "end_marker": [
+            "THE ORDER FOR THE BURIAL OF THE DEAD (PRIESTS)"
+          ],
+          "max_chars": 80000
+        },
+        {
+          "id": "church_memorial",
+          "title": "Memorial Service (Panikhida)",
+          "source_transport": "public_domain_plain_text",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PUBLIC_DOMAIN_1922_HAPGOOD",
+          "license_url": "https://archive.org/details/servicebookofhol0000orth_i9n7",
+          "url": "https://archive.org/download/servicebookofhol0000orth_i9n7/servicebookofhol0000orth_i9n7_djvu.txt",
+          "marker_occurrence": "first",
+          "start_marker": [
+            "THE GENERAL PANIKHIDA OR REQUIEM SERVICE"
+          ],
+          "end_marker": [
+            "PRAYERS IN PREPARATION FOR THE HOLY COMMUNION"
+          ],
+          "max_chars": 80000
+        },
+        {
+          "id": "church_home_blessing",
+          "title": "Blessing on Entering a New Home",
+          "source_transport": "public_domain_plain_text",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PUBLIC_DOMAIN_1922_HAPGOOD",
+          "license_url": "https://archive.org/details/servicebookofhol0000orth_i9n7",
+          "url": "https://archive.org/download/servicebookofhol0000orth_i9n7/servicebookofhol0000orth_i9n7_djvu.txt",
+          "marker_occurrence": "last",
+          "start_marker": [
+            "NEW HOUSE"
+          ],
+          "end_marker": [
+            "FOR THE BLESSING OF ANY OBJECT"
+          ],
+          "max_chars": 80000,
+          "min_chars": 500
+        },
+        {
+          "id": "church_priesthood",
+          "title": "Ordination to the Priesthood",
+          "source_transport": "public_domain_plain_text",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PUBLIC_DOMAIN_1922_HAPGOOD",
+          "license_url": "https://archive.org/details/servicebookofhol0000orth_i9n7",
+          "url": "https://archive.org/download/servicebookofhol0000orth_i9n7/servicebookofhol0000orth_i9n7_djvu.txt",
+          "marker_occurrence": "first",
+          "start_marker": [
+            "THE FORM AND MANNER OF ORDAINING A PRIEST"
+          ],
+          "end_marker": [
+            "THE FORM AND MANNER OF MAKING AN"
+          ],
+          "max_chars": 80000
+        },
+        {
+          "id": "church_great_water",
+          "title": "Great Blessing of the Waters",
+          "source_transport": "public_domain_plain_text",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "PUBLIC_DOMAIN_1922_HAPGOOD",
+          "license_url": "https://archive.org/details/servicebookofhol0000orth_i9n7",
+          "url": "https://archive.org/download/servicebookofhol0000orth_i9n7/servicebookofhol0000orth_i9n7_djvu.txt",
+          "marker_occurrence": "first",
+          "start_marker": [
+            "THE OFFICE AT THE GREAT BLESSING OF WATERS AT"
+          ],
+          "end_marker": [
+            "THE MEETING OF THE LORD"
+          ],
+          "max_chars": 80000
+        }
+      ]
+    },
+    "el": {
+      "source_id": "uoi_euchologion_1860_cc_by_4_0",
+      "source_name": "Εὐχολόγιον τὸ Μέγα, Venice 1860 — University of Ioannina repository",
+      "source_page": "https://olympias.lib.uoi.gr/jspui/handle/123456789/28576",
+      "services": [
+        {
+          "id": "church_baptism",
+          "title": "Ἀκολουθία τοῦ Ἁγίου Βαπτίσματος καὶ Χρίσματος",
+          "source_transport": "official_html_user_permission",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "USER_CONFIRMED_REPUBLICATION_PERMISSION_FOR_GOARCH_GLT_TEXTS_2026_08_24",
+          "license_url": "",
+          "url": "https://glt.goarch.org/texts/Euch/Baptism.html",
+          "marker_occurrence": "first",
+          "filter_script": "greek",
+          "start_marker": [
+            "Η ΑΚΟΛΟΥΘΙΑ ΤΟΥ ΑΓΙΟΥ ΒΑΠΤΙΣΜΑΤΟΣ"
+          ],
+          "end_marker": [],
+          "max_chars": 60000,
+          "source_id": "goarch_glt_greek_euchologion_pages",
+          "source_name": "Greek Orthodox Archdiocese of America — Greek Language Texts (GLT)"
+        },
+        {
+          "id": "church_confession",
+          "title": "Ἀκολουθία Ἐξομολογήσεως",
+          "source_transport": "local_native_ocr_text",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "CC_BY_4_0_UNIVERSITY_OF_IOANNINA_EUCHOLOGION_1860",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "url": "https://olympias.lib.uoi.gr/jspui/bitstream/123456789/28576/1/BK.%CE%9666.pdf?sequence=1&isAllowed=y",
+          "marker_occurrence": "first",
+          "filter_script": "greek",
+          "start_marker": [
+            "ΑΚΟΛΟΥΘΙΑ ΤΩΝ ΕΞΟΜΟΛΟΓΟΥΜΕΝΩΝ"
+          ],
+          "max_chars": 90000,
+          "source_id": "uoi_euchologion_1860_scanned_ocr",
+          "source_name": "Ευχολόγιον το Μέγα, Venice 1860 — University of Ioannina scanned source, OCR transcription",
+          "source_page": "https://olympias.lib.uoi.gr/jspui/handle/123456789/28576",
+          "extraction_method": "OCR_FROM_REGISTERED_NATIVE_GREEK_SCAN_NO_TRANSLATION",
+          "ecclesiastical_approval_certified": false,
+          "local_path": "canonical/sources/greek_uoi_ocr/church_confession.txt",
+          "ocr_page_ranges": [
+            [
+              271,
+              287
+            ]
+          ]
+        },
+        {
+          "id": "church_betrothal",
+          "title": "Ἀκολουθία Ἀρραβῶνος",
+          "source_transport": "official_html_user_permission",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "USER_CONFIRMED_REPUBLICATION_PERMISSION_FOR_GOARCH_GLT_TEXTS_2026_08_24",
+          "license_url": "",
+          "url": "https://glt.goarch.org/texts/Euch/Wedding.html",
+          "marker_occurrence": "first",
+          "filter_script": "greek",
+          "start_marker": [
+            "ΑΚΟΛΟΥΘΙΑ ΕΠΙ ΜΝΗΣΤΡΟΙΣ ΗΤΟΙ ΑΡΡΑΒΩΝΟΣ"
+          ],
+          "end_marker": [
+            "ΑΚΟΛΟΥΘΙΑ ΣΤΕΦΑΝΩΜΑΤΟΣ"
+          ],
+          "max_chars": 12000,
+          "source_id": "goarch_glt_greek_euchologion_pages",
+          "source_name": "Greek Orthodox Archdiocese of America — Greek Language Texts (GLT)"
+        },
+        {
+          "id": "church_marriage",
+          "title": "Ἀκολουθία Γάμου (Στέψεως)",
+          "source_transport": "official_html_user_permission",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "USER_CONFIRMED_REPUBLICATION_PERMISSION_FOR_GOARCH_GLT_TEXTS_2026_08_24",
+          "license_url": "",
+          "url": "https://glt.goarch.org/texts/Euch/Wedding.html",
+          "marker_occurrence": "first",
+          "filter_script": "greek",
+          "start_marker": [
+            "ΑΚΟΛΟΥΘΙΑ ΣΤΕΦΑΝΩΜΑΤΟΣ"
+          ],
+          "end_marker": [],
+          "max_chars": 30000,
+          "source_id": "goarch_glt_greek_euchologion_pages",
+          "source_name": "Greek Orthodox Archdiocese of America — Greek Language Texts (GLT)"
+        },
+        {
+          "id": "church_crowns_removal",
+          "title": "Λύσις τῶν Στεφάνων",
+          "source_transport": "local_native_ocr_text",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "CC_BY_4_0_UNIVERSITY_OF_IOANNINA_EUCHOLOGION_1860",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "url": "https://olympias.lib.uoi.gr/jspui/bitstream/123456789/28576/1/BK.%CE%9666.pdf?sequence=1&isAllowed=y",
+          "marker_occurrence": "first",
+          "filter_script": "greek",
+          "start_marker": [
+            "ΕΥΧΗ ΕΠΙ ΑΥΣΙΝ ΣΤΕΦΑΝΩΝ"
+          ],
+          "max_chars": 90000,
+          "source_id": "uoi_euchologion_1860_scanned_ocr",
+          "source_name": "Ευχολόγιον το Μέγα, Venice 1860 — University of Ioannina scanned source, OCR transcription",
+          "source_page": "https://olympias.lib.uoi.gr/jspui/handle/123456789/28576",
+          "extraction_method": "OCR_FROM_REGISTERED_NATIVE_GREEK_SCAN_NO_TRANSLATION",
+          "ecclesiastical_approval_certified": false,
+          "local_path": "canonical/sources/greek_uoi_ocr/church_crowns_removal.txt",
+          "ocr_page_ranges": [
+            [
+              302,
+              302
+            ]
+          ],
+          "min_chars": 500
+        },
+        {
+          "id": "church_unction",
+          "title": "Ἀκολουθία τοῦ Ἁγίου Εὐχελαίου",
+          "source_transport": "official_html_user_permission",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "USER_CONFIRMED_REPUBLICATION_PERMISSION_FOR_GOARCH_GLT_TEXTS_2026_08_24",
+          "license_url": "",
+          "url": "https://glt.goarch.org/texts/Euch/Uncion.html",
+          "marker_occurrence": "first",
+          "filter_script": "greek",
+          "start_marker": [
+            "ΑΚΟΛΟΥΘΙΑ ΤΟΥ ΕΥΧΕΛΑΙΟΥ"
+          ],
+          "end_marker": [],
+          "max_chars": 70000,
+          "source_id": "goarch_glt_greek_euchologion_pages",
+          "source_name": "Greek Orthodox Archdiocese of America — Greek Language Texts (GLT)"
+        },
+        {
+          "id": "church_funeral",
+          "title": "Ἐξόδιος Ἀκολουθία",
+          "source_transport": "official_html_user_permission",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "USER_CONFIRMED_REPUBLICATION_PERMISSION_FOR_GOARCH_GLT_TEXTS_2026_08_24",
+          "license_url": "",
+          "url": "https://glt.goarch.org/texts/Euch/Funeral.html",
+          "marker_occurrence": "first",
+          "filter_script": "greek",
+          "start_marker": [
+            "ΚΥΔΕΙΑ"
+          ],
+          "end_marker": [],
+          "max_chars": 22000,
+          "source_id": "goarch_glt_greek_euchologion_pages",
+          "source_name": "Greek Orthodox Archdiocese of America — Greek Language Texts (GLT)"
+        },
+        {
+          "id": "church_memorial",
+          "title": "Μνημόσυνο",
+          "source_transport": "local_native_text",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "USER_CONFIRMED_REPUBLICATION_PERMISSION_FOR_GOARCH_DCS_GREEK_MEMORIAL_2026_08_24",
+          "license_url": "",
+          "url": "https://dcs.goarch.org/goa/dcs/p/s/2026/07/19/li/gr-en/index.html",
+          "source_id": "goarch_dcs_greek_memorial_2026_07_19",
+          "source_name": "Greek Orthodox Archdiocese of America — Digital Chant Stand Greek/English Divine Liturgy, July 19 2026",
+          "local_path": "canonical/sources/greek_dcs_memorial/church_memorial.txt",
+          "extraction_method": "EXACT_GREEK_ONLY_FROM_REGISTERED_DCS_PAGE_NO_TRANSLATION",
+          "start_marker": [
+            "Εὐλογητὸς εἶ, Κύριε, δίδαξόν με τὰ δικαιώματά σου."
+          ],
+          "end_marker": [
+            "Εὐλογία Κυρίου καὶ ἔλεος ἔλθοι"
+          ],
+          "marker_occurrence": "first",
+          "filter_script": "greek",
+          "max_chars": 80000
+        },
+        {
+          "id": "church_trisagion",
+          "title": "Τρισάγιον ὑπὲρ Κεκοιμημένων",
+          "source_transport": "official_html_user_permission",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "USER_CONFIRMED_REPUBLICATION_PERMISSION_FOR_GOARCH_GLT_TEXTS_2026_08_24",
+          "license_url": "",
+          "url": "https://glt.goarch.org/texts/Euch/Trisagion.html",
+          "marker_occurrence": "first",
+          "filter_script": "greek",
+          "start_marker": [
+            "ΤΡΙΣΑΓΙΟΝ"
+          ],
+          "end_marker": [
+            "ΕΝ ΔΙΑΚΑΙΝΗΣΙΜΩ ΕΒΔΟΜΑΔΙ"
+          ],
+          "max_chars": 10000,
+          "source_id": "goarch_glt_greek_euchologion_pages",
+          "source_name": "Greek Orthodox Archdiocese of America — Greek Language Texts (GLT)"
+        },
+        {
+          "id": "church_priesthood",
+          "title": "Ἀκολουθία Χειροτονίας Πρεσβυτέρου",
+          "source_transport": "local_native_ocr_text",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "CC_BY_4_0_UNIVERSITY_OF_IOANNINA_EUCHOLOGION_1860",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "url": "https://olympias.lib.uoi.gr/jspui/bitstream/123456789/28576/1/BK.%CE%9666.pdf?sequence=1&isAllowed=y",
+          "marker_occurrence": "first",
+          "filter_script": "greek",
+          "start_marker": [
+            "ΧΕΙΡΟΤΟΝΙΑ"
+          ],
+          "max_chars": 90000,
+          "source_id": "uoi_euchologion_1860_scanned_ocr",
+          "source_name": "Ευχολόγιον το Μέγα, Venice 1860 — University of Ioannina scanned source, OCR transcription",
+          "source_page": "https://olympias.lib.uoi.gr/jspui/handle/123456789/28576",
+          "extraction_method": "OCR_FROM_REGISTERED_NATIVE_GREEK_SCAN_NO_TRANSLATION",
+          "ecclesiastical_approval_certified": false,
+          "local_path": "canonical/sources/greek_uoi_ocr/church_priesthood.txt",
+          "ocr_page_ranges": [
+            [
+              213,
+              237
+            ]
+          ]
+        },
+        {
+          "id": "church_great_water",
+          "title": "Ἀκολουθία τοῦ Μεγάλου Ἁγιασμοῦ",
+          "source_transport": "local_native_ocr_text",
+          "required": true,
+          "allow_link_fallback": true,
+          "permission_confirmed": true,
+          "redistribution_review_required": false,
+          "rights_basis": "CC_BY_4_0_UNIVERSITY_OF_IOANNINA_EUCHOLOGION_1860",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "url": "https://olympias.lib.uoi.gr/jspui/bitstream/123456789/28576/1/BK.%CE%9666.pdf?sequence=1&isAllowed=y",
+          "marker_occurrence": "first",
+          "filter_script": "greek",
+          "start_marker": [
+            "ΑΚΟΛΟΥΘΙΑ ΤΟΥ ΜΕΡΑΛΟΥ ΑΕΊΑΞΜ"
+          ],
+          "max_chars": 90000,
+          "source_id": "uoi_euchologion_1860_scanned_ocr",
+          "source_name": "Ευχολόγιον το Μέγα, Venice 1860 — University of Ioannina scanned source, OCR transcription",
+          "source_page": "https://olympias.lib.uoi.gr/jspui/handle/123456789/28576",
+          "extraction_method": "OCR_FROM_REGISTERED_NATIVE_GREEK_SCAN_NO_TRANSLATION",
+          "ecclesiastical_approval_certified": false,
+          "local_path": "canonical/sources/greek_uoi_ocr/church_great_water.txt",
+          "ocr_page_ranges": [
+            [
+              399,
+              409
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

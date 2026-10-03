@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "civil_range": {
+    "start": "2026-01-01",
+    "end": "2050-12-31",
+    "expected_days": 9131,
+    "actual_days": 9131
+  },
+  "strict_flags": {
+    "require_complete": false,
+    "require_named_commemorations": false
+  },
+  "coverage": {
+    "calendar_days": 9131,
+    "reading_resolved_days": 9131,
+    "fasting_complete_days": 9131,
+    "service_selected_days": 9131,
+    "commemoration_display_complete_days": 9131,
+    "named_commemoration_days": 9127,
+    "generic_commemoration_days": 4,
+    "perpetual_baseline_dates": 9131,
+    "official_harvest_documents": 1200,
+    "official_direct_documents_configured": 4,
+    "official_direct_document_ids": [
+      "jerusalem_patriarchate_calendar_2026_ar",
+      "jerusalem_patriarchate_calendar_2024_ar",
+      "jerusalem_patriarchate_calendar_2024_el",
+      "jerusalem_patriarchate_calendar_2025_el"
+    ],
+    "old_calendar_slots_with_arabic_candidate": 0
+  },
+  "commemoration_policy": {
+    "required_native_languages": [
+      "ar",
+      "en",
+      "el"
+    ],
+    "generic_old_calendar_date_label_is_not_named": true,
+    "status": "INCOMPLETE",
+    "note": "Comparative native-English evidence may be displayed in the English lane but never satisfies the Jerusalem/Jordan local-language named gate; local Arabic, English, and Greek evidence are still required."
+  },
+  "missing_dates": [],
+  "extra_dates": [],
+  "problem_counts": {
+    "reading_unresolved": 0,
+    "fasting_incomplete": 0,
+    "service_incomplete": 0,
+    "commemoration_incomplete": 0,
+    "generic_commemoration": 4
+  },
+  "problem_samples": {
+    "reading_unresolved": [],
+    "fasting_incomplete": [],
+    "service_incomplete": [],
+    "commemoration_incomplete": [],
+    "generic_commemoration": [
+      "2028-03-13",
+      "2036-03-13",
+      "2040-03-13",
+      "2048-03-13"
+    ]
+  }
+}

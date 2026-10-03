@@ -1,0 +1,350 @@
+name: Build Church Prayers Fast
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish_release:
+        description: "Publish a signed GitHub Release for the current version"
+        required: false
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-church-prayers-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build Church Prayers Fast
+    # Pin the runner image to avoid GitHub's ubuntu-latest migration notice.
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+
+    steps:
+      - name: Get project
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          fetch-depth: 0
+
+      - name: Keep only the optional app build workflow
+        run: python scripts/keep_required_workflows.py
+
+      - name: Remove obsolete workflows from GitHub
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- .github/workflows; then
+            echo "Only the optional church-prayers.yml build workflow is present."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/workflows
+          git commit -m "Keep only optional app build workflow"
+          git push origin HEAD:main
+
+      - name: Prepare Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+
+      - name: Install checks
+        run: python -m pip install --disable-pip-version-check -r requirements-dev.txt
+
+      - name: Restore official Jerusalem/Jordan source-network cache
+        id: official-network-cache-restore
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: app/build/official-source-harvest-r64
+          key: r64-official-network-${{ runner.os }}-${{ hashFiles('canonical/r64_official_source_network.json', 'scripts/harvest_official_source_network_r64.py') }}
+          restore-keys: |
+            r64-official-network-${{ runner.os }}-
+
+      - name: Harvest focused official Jerusalem/Jordan liturgical source network
+        timeout-minutes: 15
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          set -euo pipefail
+          python scripts/harvest_official_source_network_r64.py --workers 16 --max-pages 1200 --max-depth 2
+          python scripts/build_r64_official_content_inventory.py --require-harvest
+          python scripts/extract_r64_commemoration_candidates.py --require-harvest
+
+      - name: Save official Jerusalem/Jordan source-network cache
+        if: always() && steps.official-network-cache-restore.outputs.cache-hit != 'true'
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: app/build/official-source-harvest-r64
+          key: ${{ steps.official-network-cache-restore.outputs.cache-primary-key }}
+
+      - name: Restore perpetual lectionary cache
+        id: lectionary-cache-restore
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: app/build/lectionary-download-cache
+          key: r63-perpetual-lectionary-${{ runner.os }}-393d5bb55d31bf14fa9c2a706e21c2f1bb48f400
+          restore-keys: |
+            r63-perpetual-lectionary-${{ runner.os }}-
+
+      - name: Restore all-calendar Scripture source cache
+        id: all-calendar-scripture-cache-restore
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: .cache/scripture
+          key: r64-2-all-calendar-scripture-${{ runner.os }}-${{ hashFiles('scripts/public_domain_scripture.py', 'scripts/prepare_all_calendar_scripture_fallback.py') }}
+          restore-keys: |
+            r64-2-all-calendar-scripture-${{ runner.os }}-
+
+      - name: Bootstrap perpetual 2026-2050 appointed readings
+        timeout-minutes: 10
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          set -euo pipefail
+          python scripts/bootstrap_perpetual_lectionary_2050.py --workers 8
+          python scripts/build_internal_calendar_2050.py
+          python scripts/prepare_all_calendar_scripture_fallback.py
+          python scripts/update_calendar_2050_lock.py --approve-r63-perpetual-lectionary
+          python scripts/audit_perpetual_lectionary_r63.py --require-baseline
+          python scripts/audit_absolute_coverage_r64.py --require-complete
+
+      - name: Save all-calendar Scripture source cache
+        if: always() && steps.all-calendar-scripture-cache-restore.outputs.cache-hit != 'true'
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: .cache/scripture
+          key: ${{ steps.all-calendar-scripture-cache-restore.outputs.cache-primary-key }}
+
+      - name: Save perpetual lectionary cache
+        if: always() && steps.lectionary-cache-restore.outputs.cache-hit != 'true'
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: app/build/lectionary-download-cache
+          key: ${{ steps.lectionary-cache-restore.outputs.cache-primary-key }}
+
+      - name: Check content, languages, security, and calendar
+        run: python scripts/run_local_daily_release_gate.py
+
+      - name: Audit daily liturgy selections through 2050
+        run: python scripts/audit_daily_liturgy_2050.py
+
+      - name: Audit strict beginning-to-dismissal liturgy structure
+        run: python scripts/validate_liturgy_structure_strict.py
+
+      - name: Report absolute named commemoration coverage through 2050
+        id: r64-strict-named-coverage
+        shell: bash
+        run: |
+          set -uo pipefail
+          if python scripts/audit_absolute_coverage_r64.py --require-complete --require-named-commemorations; then
+            echo "complete=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "complete=false" >> "$GITHUB_OUTPUT"
+            echo "R64 named commemoration coverage is incomplete on this branch; the audit artifact contains the exact gaps." >&2
+            echo "::notice title=R64 content advisory::Named commemoration coverage is incomplete; release publishing remains blocked until native source coverage is complete."
+            {
+              echo "## R64 named commemoration coverage"
+              echo "The build artifact is available. This is a content-completeness advisory, not a build failure."
+              jq -r '"- Generic date-based records: " + ((.coverage.generic_commemoration_days // 0)|tostring), "- Named records: " + ((.coverage.named_commemoration_days // 0)|tostring), "- Official direct source documents configured: " + ((.coverage.official_direct_documents_configured // 0)|tostring)' canonical/r64_absolute_coverage_audit.json
+              echo "Release/tag publishing remains fail-closed until native Arabic, English, and Greek evidence covers the horizon."
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload R64 coverage evidence even when strict coverage fails
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0
+        with:
+          name: R64-2050-Coverage-Audit
+          path: |
+            canonical/r64_absolute_coverage_audit.json
+            canonical/r64_official_source_harvest.json
+            canonical/r64_official_content_inventory.json
+            canonical/r64_commemoration_candidates.json
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Block build unless absolute named 2050 coverage is proven
+        if: (startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'workflow_dispatch' && inputs.publish_release)) && steps.r64-strict-named-coverage.outputs.complete != 'true'
+        shell: bash
+        run: |
+          echo "R64 absolute 2050 coverage is incomplete. Download the R64-2050-Coverage-Audit artifact for exact gaps." >&2
+          exit 1
+
+      - name: Restore offline source cache
+        id: source-cache-restore
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            app/build/bible-download-cache
+            app/build/church-service-download-cache
+          key: offline-sources-v3-${{ runner.os }}-${{ hashFiles('scripts/prepare_bible_corpus.py', 'scripts/prepare_church_service_corpus.py', 'canonical/church_service_full_sources.json', 'canonical/bible_sources.json', 'app/build.gradle.kts') }}
+          restore-keys: |
+            offline-sources-v3-${{ runner.os }}-
+
+      - name: Prepare open liturgical source tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! command -v pdftotext >/dev/null 2>&1 || ! command -v tesseract >/dev/null 2>&1 || ! tesseract --list-langs 2>/dev/null | grep -qx 'ell'; then
+            sudo apt-get update
+            sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-ell
+          fi
+          pdftotext -v 2>&1 | head -n 1 || true
+          tesseract --list-langs 2>&1 | grep -E '^(ell|List)' || true
+
+      - name: Prepare Java
+        uses: actions/setup-java@dded0888837ed1f317902acf8a20df0ad188d165 # v5.0.0
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Check Gradle wrapper
+        uses: gradle/actions/wrapper-validation@3f131e8634966bd73d06cc69884922b02e6faf92 # v6.2.0
+
+      - name: Prepare Gradle
+        uses: gradle/actions/setup-gradle@3f131e8634966bd73d06cc69884922b02e6faf92 # v6.2.0
+
+      - name: Prepare offline Bible and church-service assets once
+        timeout-minutes: 12
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: ./gradlew --no-daemon prepareBibleCorpus prepareChurchServiceCorpus --stacktrace
+
+      - name: Validate complete church-service corpus
+        run: python scripts/validate_full_church_services.py
+
+      - name: Save offline source cache immediately
+        if: always() && steps.source-cache-restore.outputs.cache-hit != 'true'
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            app/build/bible-download-cache
+            app/build/church-service-download-cache
+          key: ${{ steps.source-cache-restore.outputs.cache-primary-key }}
+
+      - name: Prepare release signing
+        shell: bash
+        env:
+          IS_RELEASE_BUILD: ${{ startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'workflow_dispatch' && inputs.publish_release) }}
+          ANDROID_KEYSTORE_B64: ${{ secrets.ANDROID_KEYSTORE_B64 }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          python scripts/ensure_gradlew_executable.py
+          signing_ready=true
+          for value in "$ANDROID_KEYSTORE_B64" "$ANDROID_KEYSTORE_PASSWORD" "$ANDROID_KEY_ALIAS" "$ANDROID_KEY_PASSWORD"; do
+            if [[ -z "$value" ]]; then signing_ready=false; fi
+          done
+          if [[ "$signing_ready" == "true" ]]; then
+            printf '%s' "$ANDROID_KEYSTORE_B64" | base64 --decode > "$RUNNER_TEMP/church-prayers.keystore"
+            echo "ANDROID_KEYSTORE_FILE=$RUNNER_TEMP/church-prayers.keystore" >> "$GITHUB_ENV"
+            echo "ANDROID_KEYSTORE_PASSWORD=$ANDROID_KEYSTORE_PASSWORD" >> "$GITHUB_ENV"
+            echo "ANDROID_KEY_ALIAS=$ANDROID_KEY_ALIAS" >> "$GITHUB_ENV"
+            echo "ANDROID_KEY_PASSWORD=$ANDROID_KEY_PASSWORD" >> "$GITHUB_ENV"
+            echo "Release signing enabled."
+          elif [[ "$IS_RELEASE_BUILD" == "true" ]]; then
+            echo "Release tags require the production signing secrets; manual release publishing requires them too." >&2
+            exit 1
+          else
+            echo "Signing secrets are absent; branch artifacts will use the debug APK fallback."
+          fi
+
+      - name: Test and build the app
+        timeout-minutes: 20
+        run: ./gradlew --no-daemon testDebugUnitTest lintRelease assembleDebug assembleRelease bundleRelease --stacktrace
+
+      - name: Prepare final files and updater metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p output
+          if [[ -f app/build/outputs/apk/release/app-release.apk ]]; then
+            cp app/build/outputs/apk/release/app-release.apk output/Church-Prayers.apk
+          else
+            cp app/build/outputs/apk/debug/app-debug.apk output/Church-Prayers.apk
+          fi
+          cp app/build/outputs/bundle/release/app-release.aab output/Church-Prayers.aab
+          test -s output/Church-Prayers.apk
+          test -s output/Church-Prayers.aab
+          python scripts/generate_app_update_manifest.py \
+            --apk output/Church-Prayers.apk \
+            --output output/app-update.json \
+            --checksum-output output/Church-Prayers.apk.sha256
+
+      - name: Validate release identity and signature requirements
+        if: startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'workflow_dispatch' && inputs.publish_release)
+        shell: bash
+        run: |
+          set -euo pipefail
+          version_name="$(python -c 'from scripts.release_version import current_release; print(current_release()[0])')"
+          release_tag="v$version_name"
+          if [[ "$GITHUB_REF" == refs/tags/v* && "$GITHUB_REF_NAME" != "$release_tag" ]]; then
+            echo "Tag $GITHUB_REF_NAME must equal $release_tag from app/build.gradle.kts" >&2
+            exit 1
+          fi
+          test -n "${ANDROID_KEYSTORE_FILE:-}"
+          if [[ ! -f app/build/outputs/apk/release/app-release.apk ]]; then
+            echo "A signed release APK is required for GitHub Releases." >&2
+            exit 1
+          fi
+          echo "RELEASE_TAG=$release_tag" >> "$GITHUB_ENV"
+
+      - name: Upload Church Prayers build artifact
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6.0.0
+        with:
+          name: Church-Prayers
+          path: |
+            output/Church-Prayers.apk
+            output/Church-Prayers.aab
+            output/Church-Prayers.apk.sha256
+            output/app-update.json
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Publish GitHub Release for the updater
+        if: startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'workflow_dispatch' && inputs.publish_release)
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          release_tag="${RELEASE_TAG:?release tag was not validated}"
+          assets=(
+            output/Church-Prayers.apk
+            output/Church-Prayers.aab
+            output/Church-Prayers.apk.sha256
+            output/app-update.json
+          )
+
+          if ! git rev-parse -q --verify "refs/tags/$release_tag" >/dev/null; then
+            echo "Creating release tag $release_tag at $GITHUB_SHA"
+            gh api --method POST \
+              "repos/$GITHUB_REPOSITORY/git/refs" \
+              -f ref="refs/tags/$release_tag" \
+              -f sha="$GITHUB_SHA" >/dev/null
+          fi
+
+          if gh release view "$release_tag" >/dev/null 2>&1; then
+            gh release upload "$release_tag" "${assets[@]}" --clobber
+          else
+            gh release create "$release_tag" "${assets[@]}" \
+              --verify-tag \
+              --generate-notes \
+              --title "Orthodox Prayers ${release_tag#v}"
+          fi
+
+      - name: Remove signing key
+        if: always()
+        run: rm -f "$RUNNER_TEMP/church-prayers.keystore"

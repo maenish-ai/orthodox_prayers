@@ -1,2 +1,15 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Keep checked text deterministic across Linux and Windows so SHA-256 verification is reproducible.
+* text=auto eol=lf
+
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+*.jar binary
+*.png binary
+*.ico binary
+# Detached signatures cover exact bytes. Never normalize signed payloads in Git.
+data/calendar/*.json -text
+data/calendar/*.json.sig -text
+data/daily/*/*.json -text
+data/daily/*/*.json.sig -text
+app/src/main/assets/data/*.json -text
+app/src/main/assets/data/*.json.sig -text
