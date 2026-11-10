@@ -1,0 +1,1873 @@
+{
+  "schema_version": 2,
+  "generated_from": [
+    "canonical/native_language_sources.json",
+    "canonical/native_service_manifest.json",
+    "canonical/official_source_registry.json",
+    "canonical/r64_official_source_network.json",
+    "canonical/source_connectors.json",
+    "canonical/static_prayer_sources.json",
+    "data/sources/health/current.json",
+    "data/scripture/native/*/manifest.json"
+  ],
+  "policy": {
+    "ar": "تعرض الصفحة المصادر والموصلات المسجلة فعليًا، مع سلّم السلطة وصحة الاتصال. وجود المصدر لا يعني نسخ كل محتواه؛ النصوص الدينية تبقى محكومة بالترخيص والتحقق واللغة الأصلية.",
+    "en": "This page lists active sources and connectors with authority tier and health. Listing a source never means all content is copied; religious text remains license-, verification-, and native-language-gated.",
+    "el": "Ἡ σελίδα παραθέτει ἐνεργὲς πηγὲς καὶ συνδέσεις μὲ βαθμίδα ἀρχῆς καὶ κατάσταση ἐλέγχου."
+  },
+  "health_date": "2026-07-26",
+  "health_summary": {
+    "connector_count": 9,
+    "usable_connector_count": 8,
+    "official_current_count": 2,
+    "status_counts": {
+      "undated": 1,
+      "available": 5,
+      "http_error": 1,
+      "current": 2
+    },
+    "consensus": {
+      "status": "CONFLICT_REQUIRES_AUTHORITY_RULE",
+      "fields": {
+        "epistle_reference": {
+          "status": "single_source",
+          "normalized": "1 corinthians 1:10-17",
+          "sources": [
+            "goarch_digital_chant_stand"
+          ]
+        },
+        "gospel_reference": {
+          "status": "single_source",
+          "normalized": "john 20:11-18",
+          "sources": [
+            "oca_daily_readings"
+          ]
+        }
+      },
+      "conflicts": [
+        {
+          "field": "epistle_reference",
+          "variants": [
+            {
+              "normalized": "1 corinthians 1:10-17",
+              "sources": [
+                "goarch_digital_chant_stand"
+              ]
+            },
+            {
+              "normalized": "solomon 5:15-6:3",
+              "sources": [
+                "oca_daily_readings"
+              ]
+            }
+          ]
+        },
+        {
+          "field": "gospel_reference",
+          "variants": [
+            {
+              "normalized": "john 20:11-18",
+              "sources": [
+                "oca_daily_readings"
+              ]
+            },
+            {
+              "normalized": "matthew 14:14-22",
+              "sources": [
+                "goarch_digital_chant_stand"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "r64_official_network": {
+    "schema_version": 1,
+    "name": "Jerusalem Patriarchate / Jordan official public source network",
+    "jurisdiction": "Greek Orthodox Patriarchate of Jerusalem — Jordan priority",
+    "public_only": true,
+    "authorized_reuse_asserted_by_project_owner": true,
+    "crawl_policy": {
+      "same_institution_network_only": true,
+      "follow_subdomains_of_allowed_domains": true,
+      "follow_external_social_links": false,
+      "record_external_social_links": true,
+      "authentication_bypass": false,
+      "captcha_bypass": false,
+      "rate_limit_requests_per_host_per_second": 2,
+      "default_workers": 16,
+      "default_timeout_seconds": 20,
+      "default_attempts": 2,
+      "default_max_pages": 1200,
+      "cache_raw_public_documents": true,
+      "default_max_depth": 2,
+      "sitemap_fetch_strategy": "index_all_fetch_liturgical_priority_only",
+      "skip_low_value_archives_and_assets": true,
+      "incremental_cache_enabled": true
+    },
+    "roots": [
+      {
+        "id": "orthodox_jordan_ar",
+        "url": "https://orthodoxjordan.org/",
+        "language": "ar",
+        "authority": "Jordan local primary",
+        "categories": [
+          "daily",
+          "calendar",
+          "fasting",
+          "readings",
+          "prayers",
+          "services",
+          "churches",
+          "events",
+          "live",
+          "library"
+        ]
+      },
+      {
+        "id": "orthodox_jordan_en",
+        "url": "https://orthodoxjordan.org/en/",
+        "language": "en",
+        "authority": "Jordan local official English lane",
+        "categories": [
+          "daily",
+          "calendar",
+          "fasting",
+          "readings",
+          "prayers",
+          "services",
+          "churches",
+          "events",
+          "live",
+          "library"
+        ]
+      },
+      {
+        "id": "orthodox_tv_ar",
+        "url": "https://orthodoxjo.tv/",
+        "language": "ar",
+        "authority": "Official Jerusalem Church television — Jordan/Palestine",
+        "categories": [
+          "live",
+          "radio",
+          "services",
+          "prayers",
+          "calendar",
+          "library",
+          "media"
+        ]
+      },
+      {
+        "id": "orthodox_tv_en",
+        "url": "https://orthodoxjo.tv/en/",
+        "language": "en",
+        "authority": "Official Jerusalem Church television English lane",
+        "categories": [
+          "live",
+          "radio",
+          "services",
+          "prayers",
+          "calendar",
+          "library",
+          "media"
+        ]
+      },
+      {
+        "id": "jerusalem_patriarchate_el",
+        "url": "https://jerusalem-patriarchate.info/",
+        "language": "el",
+        "authority": "Patriarchate primary Greek lane",
+        "categories": [
+          "calendar",
+          "feasts",
+          "services",
+          "churches",
+          "monasteries",
+          "events",
+          "announcements",
+          "radio"
+        ]
+      },
+      {
+        "id": "jerusalem_patriarchate_ar",
+        "url": "https://ar.jerusalem-patriarchate.info/",
+        "language": "ar",
+        "authority": "Patriarchate Arabic lane",
+        "categories": [
+          "calendar",
+          "feasts",
+          "services",
+          "churches",
+          "monasteries",
+          "events",
+          "announcements",
+          "radio"
+        ]
+      },
+      {
+        "id": "jerusalem_patriarchate_en",
+        "url": "https://en.jerusalem-patriarchate.info/",
+        "language": "en",
+        "authority": "Patriarchate English lane",
+        "categories": [
+          "calendar",
+          "feasts",
+          "services",
+          "churches",
+          "monasteries",
+          "events",
+          "announcements",
+          "radio"
+        ]
+      },
+      {
+        "id": "jerusalem_patriarchate_radio",
+        "url": "https://radio.jerusalem-patriarchate.info/",
+        "language": "multi",
+        "authority": "Official Patriarchate radio",
+        "categories": [
+          "radio",
+          "live",
+          "schedule"
+        ]
+      }
+    ],
+    "direct_documents": [
+      {
+        "id": "jerusalem_patriarchate_calendar_2026_ar",
+        "url": "https://ar.jerusalem-patriarchate.info/wp-content/uploads/2026/02/arabic_2026.pdf",
+        "language": "ar",
+        "authority": "Jerusalem Patriarchate official annual calendar",
+        "coverage": "2026 annual calendar; Arabic source only",
+        "promotion": "evidence_only_until_native_en_el_sources_and_parser_verification"
+      },
+      {
+        "id": "jerusalem_patriarchate_calendar_2024_ar",
+        "url": "https://ar.jerusalem-patriarchate.info/wp-content/uploads/2024/02/Arabic_CALENDAR-OF-PATRIARCHATE_2024_R.pdf",
+        "language": "ar",
+        "authority": "Jerusalem Patriarchate official annual calendar",
+        "coverage": "2024 leap annual calendar; Arabic source only; 366 slots parsed, visual review pending",
+        "promotion": "evidence_only_until_arabic_visual_review_and_native_en_el_sources"
+      },
+      {
+        "id": "jerusalem_patriarchate_calendar_2024_el",
+        "url": "https://jerusalem-patriarchate.info/wp-content/uploads/2024/02/2024_GREEK_CALENDAR_OF_PATRIARCHATE-2024__R.pdf",
+        "language": "el",
+        "authority": "Jerusalem Patriarchate official annual calendar",
+        "coverage": "2024 leap annual calendar; Greek source only; embedded text glyph map requires visual review",
+        "promotion": "evidence_only_until_greek_visual_review_and_native_ar_en_sources"
+      },
+      {
+        "id": "jerusalem_patriarchate_calendar_2025_el",
+        "url": "https://jerusalem-patriarchate.info/wp-content/uploads/2025/03/GREEK_CALENDAR_OF_PATRIARCHATE_2025_R.pdf",
+        "language": "el",
+        "authority": "Jerusalem Patriarchate official annual calendar",
+        "coverage": "2025 annual calendar; Greek source only; 365 slots parsed with two visual-review records",
+        "promotion": "evidence_only_until_native_ar_en_sources_and_per_record_review"
+      }
+    ],
+    "allowed_domain_suffixes": [
+      "orthodoxjordan.org",
+      "orthodoxjo.tv",
+      "jerusalem-patriarchate.info"
+    ],
+    "relevance_keywords": {
+      "daily": [
+        "صلاة اليوم",
+        "تذكار",
+        "رسالة اليوم",
+        "انجيل اليوم",
+        "إنجيل اليوم",
+        "مزمور اليوم",
+        "daily prayer",
+        "today",
+        "commemoration"
+      ],
+      "calendar": [
+        "تقويم",
+        "رزنامة",
+        "calendar",
+        "ημερολόγ",
+        "εορτολόγ"
+      ],
+      "fasting": [
+        "صوم",
+        "صيام",
+        "fast",
+        "νηστε"
+      ],
+      "readings": [
+        "رسالة",
+        "انجيل",
+        "إنجيل",
+        "قراءات",
+        "epistle",
+        "gospel",
+        "readings",
+        "ἀπόστολ",
+        "εὐαγγέλ"
+      ],
+      "prayers": [
+        "صلاة",
+        "صلوات",
+        "prayer",
+        "prayers",
+        "προσευχ"
+      ],
+      "services": [
+        "خدمة",
+        "خدم كنسية",
+        "قداس",
+        "سحر",
+        "غروب",
+        "نوم",
+        "ليتورج",
+        "service",
+        "liturgy",
+        "matins",
+        "orthros",
+        "vespers",
+        "compline",
+        "λειτουργ",
+        "ὄρθρ",
+        "ἑσπεριν"
+      ],
+      "churches": [
+        "كنيسة",
+        "كنائس",
+        "church",
+        "parish",
+        "ναός",
+        "εκκλησ"
+      ],
+      "monasteries": [
+        "دير",
+        "أديرة",
+        "monastery",
+        "monasteries",
+        "μονή"
+      ],
+      "live": [
+        "بث مباشر",
+        "live",
+        "stream"
+      ],
+      "radio": [
+        "إذاعة",
+        "راديو",
+        "radio",
+        "voice of the church",
+        "صوت الكنيسة"
+      ],
+      "library": [
+        "مكتبة",
+        "تحميل",
+        "كتاب",
+        "pdf",
+        "library",
+        "download",
+        "book"
+      ],
+      "schedule": [
+        "جدول",
+        "برنامج الخدمات",
+        "schedule",
+        "program"
+      ],
+      "events": [
+        "مناسبة",
+        "خدمة السحرية",
+        "القداس الإلهي",
+        "event",
+        "events"
+      ],
+      "commemorations": [
+        "تذكار",
+        "سنكسار",
+        "قديس",
+        "قدّيس",
+        "saint",
+        "saints",
+        "synaxarion",
+        "commemoration",
+        "ἅγιος",
+        "ἁγί",
+        "συναξ"
+      ]
+    },
+    "inventory_only_affiliates": [
+      {
+        "domain": "orthodoxcourt.com",
+        "relationship": "Linked by Orthodox Jordan under church services; inventory only, never a liturgical authority"
+      },
+      {
+        "domain": "gops.edu.jo",
+        "relationship": "Patriarchate schools linked by Orthodox Jordan; inventory only"
+      },
+      {
+        "domain": "theorthodoxcenter.org",
+        "relationship": "Orthodox Center linked by Orthodox Jordan; inventory only"
+      },
+      {
+        "domain": "services.orthodoxjordan.org",
+        "relationship": "Orthodox Jordan service-booking subdomain; covered by recursive official-domain crawl"
+      },
+      {
+        "domain": "jobs.orthodoxjordan.org",
+        "relationship": "Orthodox Jordan jobs subdomain; covered by recursive official-domain crawl"
+      },
+      {
+        "domain": "reyada.orthodoxjordan.org",
+        "relationship": "Orthodox Jordan community-program subdomain; covered by recursive official-domain crawl"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "orthodox_jordan",
+      "name": {
+        "ar": "مطرانية الروم الأرثوذكس في الأردن",
+        "en": "مطرانية الروم الأرثوذكس في الأردن",
+        "el": "مطرانية الروم الأرثوذكس في الأردن"
+      },
+      "url": "https://orthodoxjordan.org/",
+      "official": true,
+      "languages": [
+        "ar"
+      ],
+      "categories": [
+        "church_directory",
+        "commemorations",
+        "daily_calendar",
+        "daily_prayer",
+        "daily_reading_references",
+        "epistle_reference",
+        "fasting",
+        "gospel_reference",
+        "liturgy",
+        "live_broadcast",
+        "prayers",
+        "saints",
+        "weekly_schedule"
+      ],
+      "used_for": {
+        "ar": "المرجع المحلي الأعلى للأردن: التقويم القديم، الصوم، الكنائس، الصلوات والمراجع اليومية.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "2026-07-26",
+      "authority_tier": 1,
+      "connector_count": 3,
+      "connector_ids": [
+        "orthodox_jordan_daily",
+        "orthodox_jordan_churches",
+        "orthodox_jordan_live"
+      ],
+      "publication_roles": [
+        "local_primary_authority",
+        "official_directory",
+        "official_live_link"
+      ],
+      "health_statuses": [
+        "available",
+        "undated"
+      ],
+      "health": [
+        {
+          "connector_id": "orthodox_jordan_daily",
+          "source_id": "orthodox_jordan",
+          "official": true,
+          "authority_tier": 1,
+          "publication_role": "local_primary_authority",
+          "calendar_profile": "jerusalem_old_calendar",
+          "target_date": "2026-07-26",
+          "url": "https://orthodoxjordan.org/",
+          "status": "undated",
+          "checked_at_utc": "2026-07-26T13:21:30Z",
+          "http_status": 200,
+          "content_sha256": "eca7bc340534407c13999ec159f8fe4b885fafb3df8e005a35d5bff72e4c5530",
+          "content_bytes": 498885,
+          "detected_date": null,
+          "epistle_reference": null,
+          "gospel_reference": null,
+          "commemorations": [
+            "اية اليوم:",
+            "انجيل اليوم"
+          ],
+          "service_links": [],
+          "church_count": null,
+          "confidence": 0.45,
+          "rights_mode": "reference_and_authorized_native_import_only",
+          "reason": "content was found but the requested civil date was not proven",
+          "warnings": []
+        },
+        {
+          "connector_id": "orthodox_jordan_churches",
+          "source_id": "orthodox_jordan",
+          "official": true,
+          "authority_tier": 1,
+          "publication_role": "official_directory",
+          "calendar_profile": "not_applicable",
+          "target_date": "2026-07-26",
+          "url": "https://orthodoxjordan.org/%D8%A7%D9%84%D9%83%D9%86%D8%A7%D8%A6%D8%B3/",
+          "status": "available",
+          "checked_at_utc": "2026-07-26T13:21:32Z",
+          "http_status": 200,
+          "content_sha256": "a4e6ad0b505b3cb12270e8218d2a05d975b144453bf819d2c63b6cda0b2217db",
+          "content_bytes": 887573,
+          "detected_date": null,
+          "epistle_reference": null,
+          "gospel_reference": null,
+          "commemorations": [],
+          "service_links": [],
+          "church_count": 41,
+          "confidence": 0.9,
+          "rights_mode": "metadata_and_official_links_only",
+          "reason": null,
+          "warnings": []
+        },
+        {
+          "connector_id": "orthodox_jordan_live",
+          "source_id": "orthodox_jordan",
+          "official": true,
+          "authority_tier": 1,
+          "publication_role": "official_live_link",
+          "calendar_profile": "not_applicable",
+          "target_date": "2026-07-26",
+          "url": "https://orthodoxjordan.org/%D8%A7%D9%84%D8%A8%D8%AB-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B4%D8%B1/",
+          "status": "available",
+          "checked_at_utc": "2026-07-26T13:21:33Z",
+          "http_status": 200,
+          "content_sha256": "7e48301865fa0dabae3b17cc181db62f612461635e44fc4ecbfb6b7465733f13",
+          "content_bytes": 377529,
+          "detected_date": null,
+          "epistle_reference": null,
+          "gospel_reference": null,
+          "commemorations": [],
+          "service_links": [],
+          "church_count": null,
+          "confidence": 0.55,
+          "rights_mode": "official_link_only",
+          "reason": null,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "jerusalem_patriarchate_en",
+      "name": {
+        "ar": "بطريركية الروم الأرثوذكس المقدسية — الإنجليزية",
+        "en": "Greek Orthodox Patriarchate of Jerusalem — English",
+        "el": "Greek Orthodox Patriarchate of Jerusalem — English"
+      },
+      "url": "https://en.jerusalem-patriarchate.info/",
+      "official": true,
+      "languages": [
+        "en"
+      ],
+      "categories": [
+        "calendar",
+        "feasts",
+        "jurisdiction",
+        "liturgy",
+        "major_feasts",
+        "old_style_date_evidence",
+        "scripture_when_explicitly_published"
+      ],
+      "used_for": {
+        "ar": "سلطة الاختصاص الكنسي والأعياد الكبرى والتقويم المقدسي.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "2026-07-26",
+      "authority_tier": 2,
+      "connector_count": 1,
+      "connector_ids": [
+        "jerusalem_major_feasts"
+      ],
+      "publication_roles": [
+        "jurisdiction_and_feast_authority"
+      ],
+      "health_statuses": [
+        "available"
+      ],
+      "health": [
+        {
+          "connector_id": "jerusalem_major_feasts",
+          "source_id": "jerusalem_patriarchate",
+          "official": true,
+          "authority_tier": 2,
+          "publication_role": "jurisdiction_and_feast_authority",
+          "calendar_profile": "jerusalem_old_calendar",
+          "target_date": "2026-07-26",
+          "url": "https://en.jerusalem-patriarchate.info/liturgical-life/major-feasts/",
+          "status": "available",
+          "checked_at_utc": "2026-07-26T13:21:34Z",
+          "http_status": 200,
+          "content_sha256": "3da510893c9ce3178fe9c0eedbf01fc124a6b40d1ae0d57934ec9bcd74482f11",
+          "content_bytes": 173537,
+          "detected_date": null,
+          "epistle_reference": null,
+          "gospel_reference": null,
+          "commemorations": [],
+          "service_links": [],
+          "church_count": null,
+          "confidence": 0.55,
+          "rights_mode": "reference_and_official_links_only",
+          "reason": null,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "antioch_patriarchate_ar",
+      "name": {
+        "ar": "بطريركية أنطاكية وسائر المشرق — العربية",
+        "en": "بطريركية أنطاكية وسائر المشرق — العربية",
+        "el": "بطريركية أنطاكية وسائر المشرق — العربية"
+      },
+      "url": "https://www.antiochpatriarchate.org/",
+      "official": true,
+      "languages": [
+        "ar"
+      ],
+      "categories": [
+        "calendar",
+        "feasts",
+        "lectionary",
+        "lectionary_reference",
+        "liturgical_articles",
+        "liturgy",
+        "prayers"
+      ],
+      "used_for": {
+        "ar": "مرجع عربي أرثوذكسي للمقارنة والخدمات والمقالات الليتورجية.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "2026-07-26",
+      "authority_tier": 3,
+      "connector_count": 1,
+      "connector_ids": [
+        "antioch_official"
+      ],
+      "publication_roles": [
+        "arabic_cross_check"
+      ],
+      "health_statuses": [
+        "available"
+      ],
+      "health": [
+        {
+          "connector_id": "antioch_official",
+          "source_id": "antioch_patriarchate_ar",
+          "official": true,
+          "authority_tier": 3,
+          "publication_role": "arabic_cross_check",
+          "calendar_profile": "antioch_local_calendar",
+          "target_date": "2026-07-26",
+          "url": "https://www.antiochpatriarchate.org/",
+          "status": "available",
+          "checked_at_utc": "2026-07-26T13:21:34Z",
+          "http_status": 200,
+          "content_sha256": "ce0854f8613382766b232a413e177c9096869417943a7071456e387de92165c7",
+          "content_bytes": 6664,
+          "detected_date": null,
+          "epistle_reference": null,
+          "gospel_reference": null,
+          "commemorations": [],
+          "service_links": [],
+          "church_count": null,
+          "confidence": 0.55,
+          "rights_mode": "reference_only_unless_authorized",
+          "reason": null,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "church_of_greece_apostoliki_diakonia",
+      "name": {
+        "ar": "خدمة الرسالة الرسولية التابعة لكنيسة اليونان",
+        "en": "Αποστολική Διακονία τῆς Ἐκκλησίας τῆς Ἑλλάδος",
+        "el": "Αποστολική Διακονία τῆς Ἐκκλησίας τῆς Ἑλλάδος"
+      },
+      "url": "https://apostoliki-diakonia.gr/",
+      "official": true,
+      "languages": [
+        "el"
+      ],
+      "categories": [
+        "calendar",
+        "greek_reference",
+        "prayers",
+        "saints",
+        "scripture_corpus",
+        "sermon",
+        "weekly_readings"
+      ],
+      "used_for": {
+        "ar": "مرجع يوناني رسمي أسبوعي ولغوي.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "2026-07-26",
+      "authority_tier": 4,
+      "connector_count": 1,
+      "connector_ids": [
+        "apostoliki_diakonia_voice"
+      ],
+      "publication_roles": [
+        "greek_language_cross_check"
+      ],
+      "health_statuses": [
+        "available"
+      ],
+      "health": [
+        {
+          "connector_id": "apostoliki_diakonia_voice",
+          "source_id": "church_of_greece_apostoliki_diakonia",
+          "official": true,
+          "authority_tier": 4,
+          "publication_role": "greek_language_cross_check",
+          "calendar_profile": "church_of_greece_new_calendar",
+          "target_date": "2026-07-26",
+          "url": "https://apostoliki-diakonia.gr/fk/",
+          "status": "available",
+          "checked_at_utc": "2026-07-26T13:21:40Z",
+          "http_status": 200,
+          "content_sha256": "f0ec9ab63edb6df323e4f96d199817471ae35ccd33f8aca995188e7f175216cd",
+          "content_bytes": 115656,
+          "detected_date": "2026-07-26",
+          "epistle_reference": null,
+          "gospel_reference": null,
+          "commemorations": [],
+          "service_links": [],
+          "church_count": null,
+          "confidence": 0.55,
+          "rights_mode": "official_link_only_unless_explicitly_licensed",
+          "reason": null,
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "goarch_digital_chant_stand_english",
+      "name": {
+        "ar": "منصة الترتيل الرقمية — الإنجليزية",
+        "en": "GOARCH Digital Chant Stand — English",
+        "el": "GOARCH Digital Chant Stand — English"
+      },
+      "url": "https://digitalchantstand.goarch.org/",
+      "official": true,
+      "languages": [
+        "en"
+      ],
+      "categories": [
+        "daily_propers",
+        "daily_texts",
+        "divine_liturgy",
+        "liturgy",
+        "matins",
+        "service_links",
+        "services",
+        "vespers"
+      ],
+      "used_for": {
+        "ar": "روابط وبنية الغروب والسحر والقداس والقطع المتغيرة دون نسخ غير مرخص.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "2026-07-26",
+      "authority_tier": 4,
+      "connector_count": 1,
+      "connector_ids": [
+        "goarch_digital_chant_stand"
+      ],
+      "publication_roles": [
+        "service_structure_and_link_discovery"
+      ],
+      "health_statuses": [
+        "current"
+      ],
+      "health": [
+        {
+          "connector_id": "goarch_digital_chant_stand",
+          "source_id": "goarch_digital_chant_stand_english",
+          "official": true,
+          "authority_tier": 4,
+          "publication_role": "service_structure_and_link_discovery",
+          "calendar_profile": "ecumenical_patriarchate_new_calendar",
+          "target_date": "2026-07-26",
+          "url": "https://digitalchantstand.goarch.org/goa/dcs/dcs.html",
+          "status": "current",
+          "checked_at_utc": "2026-07-26T13:21:35Z",
+          "http_status": 200,
+          "content_sha256": "4765642e9fb508b746595779462522e1be26a609843b6f61d60f6bb034124dbe",
+          "content_bytes": 2422,
+          "detected_date": "2026-07-26",
+          "epistle_reference": "1 Corinthians 1:10-17",
+          "gospel_reference": "Matthew 14:14-22",
+          "commemorations": [],
+          "service_links": [
+            {
+              "title": "Divine Liturgy",
+              "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2026/07/26/h91/en/index.html",
+              "status": "available",
+              "content_sha256": "e02e2db3b2293aa8c8e9c74f71963940be33fa95dc11e894f751d186639e6e82"
+            },
+            {
+              "title": "Matins / Orthros",
+              "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2026/07/26/ma/en/index.html",
+              "status": "available",
+              "content_sha256": "f9c9bf4771ef455223d7f7f37ff0c401e0435164ab692bc52ac217c6e418342d"
+            },
+            {
+              "title": "Vespers",
+              "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2026/07/26/li/en/index.html",
+              "status": "available",
+              "content_sha256": "a079ca12c576c486de85ecd97d08bf312633cb1f2e68506bb2869a69f60ca0e5"
+            }
+          ],
+          "church_count": null,
+          "confidence": 0.95,
+          "rights_mode": "official_links_and_structure_only_without_separate_permission",
+          "reason": null,
+          "warnings": [
+            "Service links are discovery links; full text import remains rights-gated",
+            "DCS regular-cycle references extracted; full Scripture text is not imported"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goarch_online_chapel",
+      "name": {
+        "ar": "المصلّى الإلكتروني لأبرشية الروم الأرثوذكس في أميركا",
+        "en": "Greek Orthodox Archdiocese of America — Online Chapel",
+        "el": "Greek Orthodox Archdiocese of America — Online Chapel"
+      },
+      "url": "https://www.goarch.org/chapel",
+      "official": true,
+      "languages": [
+        "en"
+      ],
+      "categories": [
+        "daily_calendar",
+        "daily_reading_references",
+        "daily_reading_text",
+        "epistle_reference",
+        "fasting",
+        "feasts",
+        "gospel_reference",
+        "matins_gospel_reference",
+        "saints"
+      ],
+      "used_for": {
+        "ar": "مراجع القراءات والأعياد والقديسين باللغة الإنجليزية واليونانية.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "2026-07-26",
+      "authority_tier": 4,
+      "connector_count": 2,
+      "connector_ids": [
+        "goarch_online_chapel_daily",
+        "goarch_calendar_month"
+      ],
+      "publication_roles": [
+        "dated_monthly_reference_cross_check",
+        "regular_cycle_cross_check"
+      ],
+      "health_statuses": [
+        "http_error"
+      ],
+      "health": [
+        {
+          "connector_id": "goarch_online_chapel_daily",
+          "source_id": "goarch_online_chapel",
+          "official": true,
+          "authority_tier": 4,
+          "publication_role": "regular_cycle_cross_check",
+          "calendar_profile": "ecumenical_patriarchate_new_calendar",
+          "target_date": "2026-07-26",
+          "url": "https://www.goarch.org/chapel/",
+          "status": "http_error",
+          "checked_at_utc": "2026-07-26T13:21:35Z",
+          "http_status": 403,
+          "content_sha256": null,
+          "content_bytes": null,
+          "detected_date": null,
+          "epistle_reference": null,
+          "gospel_reference": null,
+          "commemorations": [],
+          "service_links": [],
+          "church_count": null,
+          "confidence": 0.0,
+          "rights_mode": "references_and_links; verify_each_full_text_license",
+          "reason": "HTTP 403",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "antioch_archdiocese_tripoli_ar",
+      "name": {
+        "ar": "أبرشية طرابلس والكورة وتوابعهما للروم الأرثوذكس",
+        "en": "Greek Orthodox Archdiocese of Tripoli, Koura and Dependencies",
+        "el": "Greek Orthodox Archdiocese of Tripoli, Koura and Dependencies"
+      },
+      "url": "https://archtripoli.org/",
+      "official": true,
+      "languages": [
+        "ar"
+      ],
+      "categories": [
+        "prokeimenon"
+      ],
+      "used_for": {
+        "ar": "يُستخدم في: prokeimenon.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "arabic_great_horologion_1870",
+      "name": {
+        "ar": "كتاب السواعي الكبير، أورشليم 1870",
+        "en": "كتاب السواعي الكبير، أورشليم 1870",
+        "el": "كتاب السواعي الكبير، أورشليم 1870"
+      },
+      "url": "https://books.google.com/",
+      "official": true,
+      "languages": [
+        "ar"
+      ],
+      "categories": [
+        "liturgy",
+        "prayers"
+      ],
+      "used_for": {
+        "ar": "يُستخدم في: prayers, liturgy.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "ecumenical_patriarchate_ieratikon_1875",
+      "name": {
+        "ar": "Ecumenical Patriarchate Ieratikon 1875",
+        "en": "Ecumenical Patriarchate Ieratikon 1875",
+        "el": "Ecumenical Patriarchate Ieratikon 1875"
+      },
+      "url": "https://archive.org/",
+      "official": true,
+      "languages": [
+        "el"
+      ],
+      "categories": [
+        "liturgy",
+        "prayers"
+      ],
+      "used_for": {
+        "ar": "يُستخدم في: prayers, liturgy.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "goarch_digital_chant_stand_greek",
+      "name": {
+        "ar": "منصة الترتيل الرقمية — اليونانية",
+        "en": "GOARCH Digital Chant Stand — Greek",
+        "el": "GOARCH Digital Chant Stand — Greek"
+      },
+      "url": "https://digitalchantstand.goarch.org/",
+      "official": true,
+      "languages": [
+        "el"
+      ],
+      "categories": [
+        "daily_texts",
+        "liturgy",
+        "services"
+      ],
+      "used_for": {
+        "ar": "بنية الخدمات والقطع المتغيرة باللغة اليونانية.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "goarch_glt_greek",
+      "name": {
+        "ar": "Greek Horologion native text",
+        "en": "Greek Horologion native text",
+        "el": "Greek Horologion native text"
+      },
+      "url": "https://digitalchantstand.goarch.org/",
+      "official": true,
+      "languages": [
+        "el"
+      ],
+      "categories": [
+        "liturgy",
+        "prayers"
+      ],
+      "used_for": {
+        "ar": "يُستخدم في: prayers, liturgy.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "goarch_ogden_epubs",
+      "name": {
+        "ar": "Transfiguration Greek Orthodox Church, Ogden — GOARCH",
+        "en": "Transfiguration Greek Orthodox Church, Ogden — GOARCH",
+        "el": "Transfiguration Greek Orthodox Church, Ogden — GOARCH"
+      },
+      "url": "https://www.tgoc.ut.goarch.org/epub.htm",
+      "official": true,
+      "languages": [
+        "en"
+      ],
+      "categories": [
+        "basil_liturgy",
+        "post_communion",
+        "pre_communion",
+        "presanctified_liturgy"
+      ],
+      "used_for": {
+        "ar": "يُستخدم في: basil_liturgy, presanctified_liturgy, pre_communion, post_communion.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "goarch_synekdemos",
+      "name": {
+        "ar": "كتاب الصلوات اليومية Synekdemos",
+        "en": "GOARCH Synekdemos",
+        "el": "GOARCH Synekdemos"
+      },
+      "url": "https://www.goarch.org/-/the-synekdemos-daily-prayers-for-orthodox-christians",
+      "official": true,
+      "languages": [
+        "en"
+      ],
+      "categories": [
+        "prayers"
+      ],
+      "used_for": {
+        "ar": "يُستخدم في: prayers.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "hapgood_service_book_1906",
+      "name": {
+        "ar": "Hapgood Service Book 1906",
+        "en": "Hapgood Service Book 1906",
+        "el": "Hapgood Service Book 1906"
+      },
+      "url": "https://archive.org/",
+      "official": true,
+      "languages": [
+        "en"
+      ],
+      "categories": [
+        "liturgy",
+        "prayers"
+      ],
+      "used_for": {
+        "ar": "يُستخدم في: prayers, liturgy.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "holy_trinity_calendar_en_comparative",
+      "name": {
+        "ar": "كنيسة الثالوث القدوس الروسية الأرثوذكسية — تقويم إنجليزي للمقارنة فقط",
+        "en": "Holy Trinity Russian Orthodox Church — comparative English calendar",
+        "el": "Ἱερὰ Μονὴ Ἁγίας Τριάδος — συγκριτικὸ Ἀγγλικὸ Ἡμερολόγιον"
+      },
+      "url": "https://www.holytrinityorthodox.com/htc/ocalendar/",
+      "official": true,
+      "languages": [
+        "en"
+      ],
+      "categories": [
+        "comparative_daily_calendar",
+        "fixed_daily_commemorations"
+      ],
+      "used_for": {
+        "ar": "تقويم إنجليزي أصلي للمقارنة فقط؛ ليس مرجع القدس/الأردن ولا يفتح بوابة R64.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "imks_greek_services",
+      "name": {
+        "ar": "Ιερά Μητρόπολις Κισάμου και Σελίνου",
+        "en": "Ιερά Μητρόπολις Κισάμου και Σελίνου",
+        "el": "Ιερά Μητρόπολις Κισάμου και Σελίνου"
+      },
+      "url": "https://imks.gr/",
+      "official": true,
+      "languages": [
+        "el"
+      ],
+      "categories": [
+        "presanctified_liturgy"
+      ],
+      "used_for": {
+        "ar": "يُستخدم في: presanctified_liturgy.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "jerusalem_hagiotaphite_calendar_ar_2024",
+      "name": {
+        "ar": "بطريركية القدس — التقويم العربي الهاغيوتافي 2024",
+        "en": "Jerusalem Patriarchate — Hagiotaphite Arabic Calendar 2024",
+        "el": "Πατριαρχεῖον Ἱεροσολύμων — Ἁγιοταφιτικὸν Ἀραβικὸν Ἡμερολόγιον 2024"
+      },
+      "url": "https://ar.jerusalem-patriarchate.info/wp-content/uploads/2024/02/Arabic_CALENDAR-OF-PATRIARCHATE_2024_R.pdf",
+      "official": true,
+      "languages": [
+        "ar"
+      ],
+      "categories": [
+        "calendar",
+        "fixed_daily_commemorations"
+      ],
+      "used_for": {
+        "ar": "تقويم عربي مقدسي سنوي كبيس؛ النصوص قيد المراجعة البصرية قبل الترقية.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "jerusalem_hagiotaphite_calendar_ar_2026",
+      "name": {
+        "ar": "بطريركية القدس — التقويم العربي الهاغيوتافي 2026",
+        "en": "Jerusalem Patriarchate — Hagiotaphite Arabic Calendar 2026",
+        "el": "Πατριαρχεῖον Ἱεροσολύμων — Ἁγιοταφιτικὸν Ἀραβικὸν Ἡμερολόγιον 2026"
+      },
+      "url": "https://ar.jerusalem-patriarchate.info/wp-content/uploads/2026/02/arabic_2026.pdf",
+      "official": true,
+      "languages": [
+        "ar"
+      ],
+      "categories": [
+        "calendar",
+        "fixed_daily_commemorations"
+      ],
+      "used_for": {
+        "ar": "تقويم عربي مقدسي سنوي؛ النصوص قيد المراجعة البصرية قبل الترقية.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "jerusalem_hagiotaphite_calendar_el_2024",
+      "name": {
+        "ar": "بطريركية القدس — التقويم اليوناني الهاغيوتافي 2024",
+        "en": "Jerusalem Patriarchate — Hagiotaphite Greek Calendar 2024",
+        "el": "Πατριαρχεῖον Ἱεροσολύμων — Ἁγιοταφιτικὸν Ἑλληνικὸν Ἡμερολόγιον 2024"
+      },
+      "url": "https://en.jerusalem-patriarchate.info/wp-content/uploads/2024/02/2024_GREEK_CALENDAR_OF_PATRIARCHATE-2024__R.pdf",
+      "official": true,
+      "languages": [
+        "el"
+      ],
+      "categories": [
+        "calendar",
+        "fixed_daily_commemorations"
+      ],
+      "used_for": {
+        "ar": "تقويم يوناني مقدسي كبيس؛ الصفحة 60 راجعت بصريًا خانة 29 شباط اليولياني.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "jerusalem_hagiotaphite_calendar_el_2025",
+      "name": {
+        "ar": "بطريركية القدس — التقويم اليوناني الهاغيوتافي 2025",
+        "en": "Jerusalem Patriarchate — Hagiotaphite Greek Calendar 2025",
+        "el": "Πατριαρχεῖον Ἱεροσολύμων — Ἁγιοταφιτικὸν Ἑλληνικὸν Ἡμερολόγιον 2025"
+      },
+      "url": "https://jerusalem-patriarchate.info/wp-content/uploads/2025/03/GREEK_CALENDAR_OF_PATRIARCHATE_2025_R.pdf",
+      "official": true,
+      "languages": [
+        "el"
+      ],
+      "categories": [
+        "calendar",
+        "fixed_daily_commemorations"
+      ],
+      "used_for": {
+        "ar": "تقويم يوناني مقدسي أصلي لعام 2025؛ بعض السجلات تحتاج مراجعة glyph قبل الترقية الكاملة.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "jerusalem_patriarchate_english_timetable_2019",
+      "name": {
+        "ar": "بطريركية القدس — الجدول الإنجليزي الرسمي للتذكارات اليومية 2019",
+        "en": "Jerusalem Patriarchate — official English daily timetable 2019",
+        "el": "Πατριαρχεῖον Ἱεροσολύμων — ἐπίσημον Ἀγγλικὸν Ἡμερολόγιον 2019"
+      },
+      "url": "https://en.jerusalem-patriarchate.info/timetable-of-church-services-2/",
+      "official": true,
+      "languages": [
+        "en"
+      ],
+      "categories": [
+        "calendar",
+        "daily_calendar",
+        "feasts",
+        "fixed_daily_commemorations"
+      ],
+      "used_for": {
+        "ar": "صفحة رسمية إنجليزية لبطريركية القدس؛ توفر 365 خانة للتقويم القديم لعام 2019، ولا تشمل 29 شباط.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "jerusalem_ramallah_presanctified_ar",
+      "name": {
+        "ar": "الأرشمندريت د. ملاتيوس بصل — رام الله / بطريركية القدس",
+        "en": "الأرشمندريت د. ملاتيوس بصل — رام الله / بطريركية القدس",
+        "el": "الأرشمندريت د. ملاتيوس بصل — رام الله / بطريركية القدس"
+      },
+      "url": "https://www.stgeorgeramallah.org/",
+      "official": true,
+      "languages": [
+        "ar"
+      ],
+      "categories": [
+        "presanctified_liturgy"
+      ],
+      "used_for": {
+        "ar": "يُستخدم في: presanctified_liturgy.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "kilkis_greek_services",
+      "name": {
+        "ar": "Ιερός Μητροπολιτικός Ναός Μεταμορφώσεως του Σωτήρος Κιλκίς",
+        "en": "Ιερός Μητροπολιτικός Ναός Μεταμορφώσεως του Σωτήρος Κιλκίς",
+        "el": "Ιερός Μητροπολιτικός Ναός Μεταμορφώσεως του Σωτήρος Κιλκίς"
+      },
+      "url": "https://metamorfosikilkis.gr/",
+      "official": true,
+      "languages": [
+        "el"
+      ],
+      "categories": [
+        "small_compline"
+      ],
+      "used_for": {
+        "ar": "يُستخدم في: small_compline.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "metropolis_limassol_communion_el",
+      "name": {
+        "ar": "Ἱερὰ Μητρόπολις Λεμεσοῦ — Ἀκολουθία Θείας Μεταλήψεως",
+        "en": "Ἱερὰ Μητρόπολις Λεμεσοῦ — Ἀκολουθία Θείας Μεταλήψεως",
+        "el": "Ἱερὰ Μητρόπολις Λεμεσοῦ — Ἀκολουθία Θείας Μεταλήψεως"
+      },
+      "url": "https://iml.cy/",
+      "official": true,
+      "languages": [
+        "el"
+      ],
+      "categories": [
+        "pre_communion_prayers"
+      ],
+      "used_for": {
+        "ar": "يُستخدم في: pre_communion_prayers.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Verify source terms before redistribution",
+      "permission_confirmed": false,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "metropolis_toronto_liturgy_el",
+      "name": {
+        "ar": "مطرانية تورونتو للروم الأرثوذكس — اليونانية",
+        "en": "Greek Orthodox Metropolis of Toronto (Canada) — Greek Liturgy",
+        "el": "Greek Orthodox Metropolis of Toronto (Canada) — Greek Liturgy"
+      },
+      "url": "https://goarchdiocese.ca/",
+      "official": true,
+      "languages": [
+        "el"
+      ],
+      "categories": [
+        "liturgy"
+      ],
+      "used_for": {
+        "ar": "يُستخدم في: liturgy.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "metropolis_toronto_liturgy_en",
+      "name": {
+        "ar": "مطرانية تورونتو للروم الأرثوذكس — الإنجليزية",
+        "en": "Greek Orthodox Metropolis of Toronto (Canada) — English Liturgy",
+        "el": "Greek Orthodox Metropolis of Toronto (Canada) — English Liturgy"
+      },
+      "url": "https://goarchdiocese.ca/",
+      "official": true,
+      "languages": [
+        "en"
+      ],
+      "categories": [
+        "liturgy"
+      ],
+      "used_for": {
+        "ar": "يُستخدم في: liturgy.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "oca_horologion_2021",
+      "name": {
+        "ar": "Orthodox Church in America — Horologion",
+        "en": "Orthodox Church in America — Horologion",
+        "el": "Orthodox Church in America — Horologion"
+      },
+      "url": "https://www.oca.org/liturgics/rubrics/horologion",
+      "official": true,
+      "languages": [
+        "en"
+      ],
+      "categories": [
+        "compline",
+        "horologion",
+        "hours",
+        "matins",
+        "typika",
+        "vespers"
+      ],
+      "used_for": {
+        "ar": "يُستخدم في: horologion, vespers, matins, hours, typika, compline.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "oca_official_english",
+      "name": {
+        "ar": "الكنيسة الأرثوذكسية في أميركا — الإنجليزية",
+        "en": "Orthodox Church in America — English",
+        "el": "Orthodox Church in America — English"
+      },
+      "url": "https://www.oca.org/",
+      "official": true,
+      "languages": [
+        "en"
+      ],
+      "categories": [
+        "daily_reading_references",
+        "daily_reading_text",
+        "epistle_reference",
+        "gospel_reference",
+        "saints"
+      ],
+      "used_for": {
+        "ar": "مرجع رسمي أخير لمراجع القراءات الإنجليزية؛ لا يعاد نشر نص NKJV.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "2026-07-26",
+      "authority_tier": 5,
+      "connector_count": 1,
+      "connector_ids": [
+        "oca_daily_readings"
+      ],
+      "publication_roles": [
+        "last_official_reference_fallback"
+      ],
+      "health_statuses": [
+        "current"
+      ],
+      "health": [
+        {
+          "connector_id": "oca_daily_readings",
+          "source_id": "oca_official_english",
+          "official": true,
+          "authority_tier": 5,
+          "publication_role": "last_official_reference_fallback",
+          "calendar_profile": "oca_calendar",
+          "target_date": "2026-07-26",
+          "url": "https://www.oca.org/readings/daily/2026/07/26",
+          "status": "current",
+          "checked_at_utc": "2026-07-26T13:21:37Z",
+          "http_status": 200,
+          "content_sha256": "4023d74520a033f61d2a76cdfc70b5dff7d4a96d3bddb063e36f928b4423b298",
+          "content_bytes": 15158,
+          "detected_date": "2026-07-26",
+          "epistle_reference": "Solomon 5:15-6:3",
+          "gospel_reference": "John 20:11-18",
+          "commemorations": [],
+          "service_links": [],
+          "church_count": null,
+          "confidence": 0.75,
+          "rights_mode": "references_only; displayed_NKJV_text_is_web_only",
+          "reason": null,
+          "warnings": [
+            "OCA page Scripture text is not redistributed; references only"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orthodox_jordan_arabic_services",
+      "name": {
+        "ar": "مطرانية الروم الأرثوذكس في الأردن",
+        "en": "مطرانية الروم الأرثوذكس في الأردن",
+        "el": "مطرانية الروم الأرثوذكس في الأردن"
+      },
+      "url": "https://orthodoxjordan.org/تحميل-الصلوات-2/",
+      "official": true,
+      "languages": [
+        "ar"
+      ],
+      "categories": [
+        "hours",
+        "matins",
+        "post_communion",
+        "pre_communion",
+        "vespers"
+      ],
+      "used_for": {
+        "ar": "يُستخدم في: vespers, matins, hours, pre_communion, post_communion.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "st_george_flint_basil_ar",
+      "name": {
+        "ar": "St. George Orthodox Church, Flint — Arabic Liturgy of St. Basil",
+        "en": "St. George Orthodox Church, Flint — Arabic Liturgy of St. Basil",
+        "el": "St. George Orthodox Church, Flint — Arabic Liturgy of St. Basil"
+      },
+      "url": "https://saintgeorgeflint.org/",
+      "official": true,
+      "languages": [
+        "ar"
+      ],
+      "categories": [
+        "basil_liturgy"
+      ],
+      "used_for": {
+        "ar": "يُستخدم في: basil_liturgy.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Permission confirmed by project owner",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "st_mary_wichita_communion_en",
+      "name": {
+        "ar": "St. Mary Orthodox Christian Church — Prayers before Communion",
+        "en": "St. Mary Orthodox Christian Church — Prayers before Communion",
+        "el": "St. Mary Orthodox Christian Church — Prayers before Communion"
+      },
+      "url": "https://www.stmarywichita.org/",
+      "official": true,
+      "languages": [
+        "en"
+      ],
+      "categories": [
+        "pre_communion_prayers"
+      ],
+      "used_for": {
+        "ar": "يُستخدم في: pre_communion_prayers.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Verify source terms before redistribution",
+      "permission_confirmed": false,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "st_maximus_midnight_office_en",
+      "name": {
+        "ar": "St. Maximus the Confessor Orthodox Mission — Midnight Office",
+        "en": "St. Maximus the Confessor Orthodox Mission — Midnight Office",
+        "el": "St. Maximus the Confessor Orthodox Mission — Midnight Office"
+      },
+      "url": "https://stmaximus.org/",
+      "official": true,
+      "languages": [
+        "en"
+      ],
+      "categories": [
+        "midnight_office"
+      ],
+      "used_for": {
+        "ar": "يُستخدم في: midnight_office.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Verify source terms before redistribution",
+      "permission_confirmed": false,
+      "last_verified": "",
+      "authority_tier": 5,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": []
+    },
+    {
+      "id": "ebible_arabic_van_dyck",
+      "name": {
+        "ar": "الكتاب المقدس العربي — فان دايك",
+        "en": "الكتاب المقدس باللغة العربية، فان دايك",
+        "el": "الكتاب المقدس باللغة العربية، فان دايك"
+      },
+      "url": "https://ebible.org/Scriptures/arb-vd_usfm.zip",
+      "official": false,
+      "languages": [
+        "ar"
+      ],
+      "categories": [
+        "scripture_corpus"
+      ],
+      "used_for": {
+        "ar": "نص الرسالة والإنجيل بالعربية من مجموعة عامة الملكية.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Public Domain",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 99,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": [],
+      "distribution_status": "",
+      "content_sha256": "8992858ac3628613510b201668426994e36d4d516fb876bd60be397d09fd32d3",
+      "source_snapshot_sha256": "",
+      "source_title": "الكتاب المقدس باللغة العربية، فان دايك"
+    },
+    {
+      "id": "ebible_greek_byzantine_1904",
+      "name": {
+        "ar": "العهد الجديد البطريركي اليوناني 1904",
+        "en": "1904 Patriarchal Greek New Testament",
+        "el": "1904 Patriarchal Greek New Testament"
+      },
+      "url": "https://ebible.org/Scriptures/grcbyz_usfm.zip",
+      "official": false,
+      "languages": [
+        "el"
+      ],
+      "categories": [
+        "scripture_corpus"
+      ],
+      "used_for": {
+        "ar": "نص الرسالة والإنجيل باليونانية من مجموعة عامة الملكية.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Public Domain",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 99,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": [],
+      "distribution_status": "",
+      "content_sha256": "c4868249c9f961c8658b2481e23fb32125aa062ce96f89f23d428dd0c171b465",
+      "source_snapshot_sha256": "",
+      "source_title": "1904 Patriarchal Greek New Testament"
+    },
+    {
+      "id": "ebible_world_english_bible",
+      "name": {
+        "ar": "الكتاب المقدس الإنجليزي العالمي",
+        "en": "World English Bible Classic",
+        "el": "World English Bible Classic"
+      },
+      "url": "https://ebible.org/Scriptures/engwebp_usfm.zip",
+      "official": false,
+      "languages": [
+        "en"
+      ],
+      "categories": [
+        "scripture_corpus"
+      ],
+      "used_for": {
+        "ar": "نص الرسالة والإنجيل بالإنجليزية من مجموعة عامة الملكية.",
+        "en": "Used for registered Orthodox content, calendar, prayer, service, directory, or Scripture data.",
+        "el": "Χρησιμοποιεῖται γιὰ καταχωρισμένο ὀρθόδοξο περιεχόμενο, ἡμερολόγιο ἢ ἀκολουθίες."
+      },
+      "rights": "Public Domain",
+      "permission_confirmed": true,
+      "last_verified": "",
+      "authority_tier": 99,
+      "connector_count": 0,
+      "connector_ids": [],
+      "publication_roles": [],
+      "health_statuses": [],
+      "health": [],
+      "distribution_status": "",
+      "content_sha256": "03a8b0f246825913114eeb350f41f1fbeb78e2839f571f2f574a0c7ba10161ac",
+      "source_snapshot_sha256": "",
+      "source_title": "World English Bible"
+    }
+  ]
+}

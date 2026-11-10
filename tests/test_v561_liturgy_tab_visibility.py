@@ -1,0 +1,45 @@
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def text(path):
+    return (ROOT / path).read_text(encoding='utf-8')
+
+
+def test_liturgy_is_stable_top_level_destination():
+    main = text('app/src/main/java/com/orthodoxprayers/privateapp/MainActivity.java')
+    assert 'addNav(R.drawable.ic_nav_liturgy' in main
+    assert 'case "liturgy":' in main
+    assert 'if (canOpenTodayLiturgyDirectly())' in main
+    assert 'return new ReaderScreen(this, serviceId);' in main
+    assert 'return new LiturgyHubScreen(this);' in main
+
+
+def test_hub_never_hides_tab_when_appointed_text_is_blocked():
+    hub = text('app/src/main/java/com/orthodoxprayers/privateapp/ui/screens/LiturgyHubScreen.java')
+    assert 'selection.optBoolean("displayable", false)' in hub
+    assert 'host.navigate("reader", appointedId)' in hub
+    assert 'no_divine_liturgy' in hub
+    assert 'typikon_override_required' in hub
+    # Reader action belongs only to the displayable branch.
+    assert hub.index('if (displayable)') < hub.index('host.navigate("reader", appointedId)')
+
+
+def test_home_keeps_liturgy_available_through_the_stable_top_navigation():
+    main = text('app/src/main/java/com/orthodoxprayers/privateapp/MainActivity.java')
+    home = text('app/src/main/java/com/orthodoxprayers/privateapp/ui/screens/HomeScreen.java')
+    assert 'addNav(R.drawable.ic_nav_liturgy' in main
+    assert 'host.navigate("liturgy", null)' not in home
+
+
+def test_calendar_keeps_blocked_liturgy_visible_but_not_openable():
+    screen = text('app/src/main/java/com/orthodoxprayers/privateapp/ui/screens/CalendarDayScreen.java')
+    assert 'if (liturgy && !complete)' in screen
+    assert 'button.setEnabled(false);' in screen
+
+
+def test_release_version_is_561():
+    build = text('app/build.gradle.kts')
+    assert 'versionCode = 50608' in build
+    assert 'versionName = "5.6.8"' in build
