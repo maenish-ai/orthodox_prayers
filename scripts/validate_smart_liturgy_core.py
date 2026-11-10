@@ -187,7 +187,9 @@ def audit_source_contract(errors: list[str]) -> None:
     require('appendNativePrayerService(continuous, "pre_communion_prayers", language)' in composer, "pre-Communion preparation phase missing", errors)
     require('appendNativePrayerService(continuous, "proskomide", language)' in composer, "Proskomide phase missing", errors)
     require("thanksgivingSegmentsForLiturgy" in composer, "post-Communion thanksgiving phase missing", errors)
-    require("appendSundayCycleGospel" in composer, "Sunday Matins Gospel phase missing", errors)
+    require('appendNativePrayerService(continuous, "third_hour", language)' in composer, "Third Hour pre-Liturgy phase missing", errors)
+    require('appendNativePrayerService(continuous, "sixth_hour", language)' in composer, "Sixth Hour pre-Liturgy phase missing", errors)
+    require("appendSundayCycleGospel(continuous" not in composer, "isolated Matins Gospel is incorrectly included", errors)
     require("adjacent_offices_rendered_as_distinct_phases" in composer, "adjacent-office separation marker missing", errors)
     require("excluded_from_liturgy_core" in composer, "strict Liturgy core exclusion metadata missing", errors)
 

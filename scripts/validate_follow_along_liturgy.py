@@ -150,8 +150,10 @@ def main() -> None:
         errors.append("the believer-facing continuous Liturgy path is not wired")
     if 'appendNativePrayerService(continuous, "pre_communion_prayers", language)' not in repository or 'appendNativePrayerService(continuous, "proskomide", language)' not in repository:
         errors.append("pre-Liturgy preparation phases are not wired")
-    if "appendSundayCycleGospel" not in repository:
-        errors.append("Sunday cycle/Matins Gospel is not wired as a separate pre-Liturgy phase")
+    if 'appendNativePrayerService(continuous, "third_hour", language)' not in repository or 'appendNativePrayerService(continuous, "sixth_hour", language)' not in repository:
+        errors.append("Third and Sixth Hours are missing from the pre-Liturgy sequence")
+    if "appendSundayCycleGospel(continuous" in repository:
+        errors.append("Matins Gospel must not be inserted as an isolated segment before the Divine Liturgy")
     if "thanksgivingSegmentsForLiturgy" not in repository or "arabicThanksgivingVariant" not in repository:
         errors.append("service-specific post-Liturgy thanksgiving filtering is not wired")
 

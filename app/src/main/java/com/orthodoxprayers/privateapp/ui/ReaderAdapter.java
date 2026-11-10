@@ -134,15 +134,23 @@ public final class ReaderAdapter extends RecyclerView.Adapter<ReaderAdapter.Hold
 
     private void bindText(LinearLayout container, JSONObject segment, boolean rubric) {
         LinearLayout card = ui.card(readerCardColor(), readerBorderColor(), 14);
-        String speaker = data.localized(segment.optJSONObject("speaker"), "");
+        String speaker = data.localized(segment.optJSONObject("speaker"), "").trim();
+        LocalizedValue value = data.localizedValue(segment.optJSONObject("text"), "");
+        String bodyText = stripSpeakerPrefix(value.text, speaker);
+        if (speaker.isEmpty()) {
+            String inferred = inferSpeakerPrefix(bodyText);
+            if (!inferred.isEmpty()) {
+                speaker = inferred;
+                bodyText = stripSpeakerPrefix(bodyText, speaker);
+            }
+        }
         if (!speaker.isEmpty()) {
             TextView speakerView = ui.text(speaker, 14, ThemePalette.GOLD, true);
             card.addView(speakerView);
         }
         addEventContextBadge(card, segment);
         addDeliveryBadge(card, segment);
-        LocalizedValue value = data.localizedValue(segment.optJSONObject("text"), "");
-        TextView body = ui.body(value.text, rubric);
+        TextView body = ui.body(bodyText, rubric);
         body.setTextColor(readerPrimaryText());
         card.addView(body, ui.margins(-1, -2, 0, speaker.isEmpty() ? 0 : 3, 0, 0));
 
@@ -161,7 +169,7 @@ public final class ReaderAdapter extends RecyclerView.Adapter<ReaderAdapter.Hold
                 card.addView(originalView, ui.margins(-1, -2, 0, 8, 0, 0));
             }
         }
-        card.setContentDescription((speaker.isEmpty() ? "" : speaker + ". ") + value.text);
+        card.setContentDescription((speaker.isEmpty() ? "" : speaker + ". ") + bodyText);
         container.addView(card, new LinearLayout.LayoutParams(-1, -2));
     }
 
@@ -184,6 +192,28 @@ public final class ReaderAdapter extends RecyclerView.Adapter<ReaderAdapter.Hold
         card.addView(badge, ui.margins(-1, -2, 0, 3, 0, 4));
     }
 
+    private String stripSpeakerPrefix(String text, String speaker) {
+        if (text == null || text.isEmpty() || speaker == null || speaker.isEmpty()) return text == null ? "" : text;
+        String value = text.trim();
+        if (value.startsWith(speaker)) {
+            String remainder = value.substring(speaker.length());
+            if (remainder.startsWith(":") || remainder.startsWith("：")) return remainder.substring(1).trim();
+            if (remainder.startsWith(" ") && remainder.trim().startsWith(":")) return remainder.trim().substring(1).trim();
+        }
+        return value;
+    }
+    private String inferSpeakerPrefix(String text) {
+        if (text == null) return "";
+        String value = text.trim();
+        String[] labels = {"الكاهن", "الشعب", "الشماس", "القارئ", "المرتل", "الجوقة", "Priest", "People", "Deacon", "Reader", "Chanter", "Λαός", "Ἱερεύς", "Διάκονος", "Ἀναγνώστης", "Ψάλτης"};
+        for (String label : labels) {
+            if (value.startsWith(label)) {
+                String rest = value.substring(label.length()).trim();
+                if (rest.startsWith(":") || rest.startsWith("：")) return label;
+            }
+        }
+        return "";
+    }
     private String originalText(JSONObject object) {
         if (object == null) return "";
         // A source view may repeat only the service's own registered language.
@@ -203,6 +233,7 @@ public final class ReaderAdapter extends RecyclerView.Adapter<ReaderAdapter.Hold
         String speaker = data.localized(segment.optJSONObject("speaker"), "").trim();
         String text = data.localized(segment.optJSONObject("text"), data.localized(segment.optJSONObject("title"), "")).trim();
         if (text.isEmpty()) return "";
+        text = stripSpeakerPrefix(text, speaker);
         return speaker.isEmpty() ? text : speaker + "\n" + text;
     }
 

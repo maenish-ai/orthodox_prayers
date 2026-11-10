@@ -91,7 +91,9 @@ def test_android_reader_keeps_core_strict_but_surrounds_it_with_distinct_native_
     assert 'appendNativePrayerService(continuous, "pre_communion_prayers", language)' in composer
     assert 'appendNativePrayerService(continuous, "proskomide", language)' in composer
     assert "thanksgivingSegmentsForLiturgy" in composer
-    assert "appendSundayCycleGospel" in composer
+    assert 'appendNativePrayerService(continuous, "third_hour", language)' in composer
+    assert 'appendNativePrayerService(continuous, "sixth_hour", language)' in composer
+    assert "appendSundayCycleGospel(continuous" not in composer
     assert "adjacent_offices_rendered_as_distinct_phases" in composer
     assert '"matins_gospel".equals(copy.optString("dynamic_slot", ""))' in source
 

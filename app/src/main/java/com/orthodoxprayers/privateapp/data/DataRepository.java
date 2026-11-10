@@ -2241,20 +2241,27 @@ public final class DataRepository {
             JSONArray continuous = new JSONArray();
 
             continuous.put(followAlongSection(
-                    "ما قبل القداس — صلوات الاستعداد للمناولة",
-                    "Before the Liturgy — Prayers of Preparation for Communion",
-                    "Πρὸ τῆς Θείας Λειτουργίας — Προσευχὲς προετοιμασίας γιὰ τὴ Θεία Μετάληψη"
+                    "قبل القداس — الساعتان الثالثة والسادسة",
+                    "Before the Liturgy — Third and Sixth Hours",
+                    "Πρὸ τῆς Θείας Λειτουργίας — Ἡ Τρίτη καὶ ἡ Ἕκτη Ὥρα"
+            ));
+            appendNativePrayerService(continuous, "third_hour", language);
+            appendNativePrayerService(continuous, "sixth_hour", language);
+            continuous.put(followAlongSection(
+                    "صلوات الاستعداد للمناولة",
+                    "Prayers of Preparation for Communion",
+                    "Εὐχὲς προετοιμασίας γιὰ τὴ Θεία Μετάληψη"
             ));
             appendNativePrayerService(continuous, "pre_communion_prayers", language);
 
             continuous.put(followAlongSection(
-                    "خدمة التقدمة (البروسكوميدي)",
-                    "Proskomide — Service of Preparation",
+                    "خدمة التقدمة (البروسكوميدي — يقوم بها الكاهن)",
+                    "Proskomide — the priest's preparation service",
                     "Προσκομιδή — Ἀκολουθία τῆς Προθέσεως"
             ));
             appendNativePrayerService(continuous, "proskomide", language);
 
-            appendSundayCycleGospel(continuous, liturgy, language);
+            // Orthros/Matins is a distinct office; do not insert its Gospel alone here.
 
             continuous.put(followAlongSection(
                     "بداية القداس الإلهي",
@@ -2286,13 +2293,14 @@ public final class DataRepository {
             result.put("follow_along_mode", "CONTINUOUS_WORSHIP_PATH_SEPARATE_PHASES");
             result.put("liturgy_core_scope", "APPOINTED_LITURGY_FROM_OPENING_BLESSING_TO_DISMISSAL");
             result.put("full_service_scope", "PRE_LITURGY_PREPARATION_THROUGH_POST_COMMUNION_THANKSGIVING");
-            result.put("full_service_phase_count", thanksgivingSegments.length() > 0 ? 5 : 4);
+            result.put("full_service_phase_count", thanksgivingSegments.length() > 0 ? 6 : 5);
             result.put("adjacent_offices_separate", true);
             result.put("adjacent_offices_rendered_as_distinct_phases", true);
             result.put("included_reader_phases", new JSONArray()
+                    .put("third_hour")
+                    .put("sixth_hour")
                     .put("pre_communion_prayers")
                     .put("proskomide")
-                    .put("sunday_matins_gospel_when_appointed")
                     .put("appointed_divine_liturgy_core")
                     .put("thanksgiving_after_communion"));
             // These remain excluded from the *Liturgy core* even though the reader
@@ -2312,57 +2320,6 @@ public final class DataRepository {
             Log.w(TAG, "Could not compose continuous Liturgy reader", error);
             return liturgy;
         }
-    }
-
-    private void appendSundayCycleGospel(JSONArray target, JSONObject liturgy, String language) throws Exception {
-        if (target == null || liturgy == null) return;
-        String dynamicDate = liturgy.optString("dynamic_date", "").trim();
-        if (dynamicDate.isEmpty()) return;
-        LocalDate date;
-        try { date = LocalDate.parse(dynamicDate); }
-        catch (Exception ignored) { return; }
-        if (date.getDayOfWeek() != java.time.DayOfWeek.SUNDAY) return;
-
-        JSONObject plan = liturgy.optJSONObject("liturgy_day_plan");
-        JSONObject orthros = plan == null ? null : plan.optJSONObject("orthros_separate");
-        if (orthros == null) return;
-        String canonical = orthros.optString("matins_gospel_canonical", "").trim();
-        if (canonical.isEmpty()) return;
-        BibleCorpusRepository.ResolvedPassage passage;
-        try { passage = bibleCorpusRepository.resolve(language, canonical); }
-        catch (Exception error) {
-            Log.w(TAG, "Could not resolve Sunday Matins Gospel " + canonical, error);
-            return;
-        }
-        if (passage == null || passage.text == null || passage.text.trim().isEmpty()) return;
-
-        JSONObject reference = orthros.optJSONObject("matins_gospel_reference");
-        String localizedReference = reference == null ? "" : reference.optString(language, "").trim();
-        if (localizedReference.isEmpty()) localizedReference = canonical;
-        String heading;
-        String speaker;
-        if ("ar".equals(language)) {
-            heading = "إنجيل الدورة (إنجيل السَحَر) — " + localizedReference;
-            speaker = "القارئ";
-        } else if ("el".equals(language)) {
-            heading = "Ἑωθινὸν Εὐαγγέλιον — " + localizedReference;
-            speaker = "Ἀναγνώστης";
-        } else {
-            heading = "Sunday Matins Gospel (Eothinon) — " + localizedReference;
-            speaker = "Reader";
-        }
-        target.put(new JSONObject()
-                .put("type", "section")
-                .put("follow_along_phase", true)
-                .put("adjacent_office", "orthros")
-                .put("title", localizedOnly(language, heading)));
-        target.put(new JSONObject()
-                .put("type", "text")
-                .put("follow_along_phase", true)
-                .put("adjacent_office", "orthros")
-                .put("speaker", localizedOnly(language, speaker))
-                .put("text", localizedOnly(language, passage.text.trim()))
-                .put("canonical_reference", canonical));
     }
 
     private static JSONObject silentPrayerContract(JSONArray segments) throws Exception {

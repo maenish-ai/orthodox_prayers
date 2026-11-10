@@ -73,12 +73,13 @@ def test_liturgy_tab_opens_today_appointed_service_directly_with_safe_hub_fallba
     assert '"typikon_override_required".equals(type)' in main
 
 
-def test_reader_has_pre_liturgy_core_sunday_gospel_and_post_liturgy_phases():
+def test_reader_has_pre_liturgy_hours_core_and_post_liturgy_phases():
     repo = (ROOT / "app/src/main/java/com/orthodoxprayers/privateapp/data/DataRepository.java").read_text(encoding="utf-8")
     assert 'appendNativePrayerService(continuous, "pre_communion_prayers", language)' in repo
     assert 'appendNativePrayerService(continuous, "proskomide", language)' in repo
-    assert "appendSundayCycleGospel" in repo
-    assert "إنجيل الدورة (إنجيل السَحَر)" in repo
+    assert 'appendNativePrayerService(continuous, "third_hour", language)' in repo
+    assert 'appendNativePrayerService(continuous, "sixth_hour", language)' in repo
+    assert "appendSundayCycleGospel(continuous" not in repo
     assert "thanksgivingSegmentsForLiturgy" in repo
     assert "CONTINUOUS_WORSHIP_PATH_SEPARATE_PHASES" in repo
     assert '"matins_gospel".equals(copy.optString("dynamic_slot", ""))' in repo
