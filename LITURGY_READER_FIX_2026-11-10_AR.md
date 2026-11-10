@@ -23,7 +23,7 @@
 
 ## الفحوص
 
-نجح `scripts/validate_follow_along_liturgy.py` و`scripts/validate_smart_liturgy_core.py`، واجتاز Python فحص بناء الجملة للملفات الاختبارية والمدققات. تعذّر تشغيل اختبارات Android عبر Gradle لعدم وجود Android SDK في بيئة العمل (`SDK location not found`). لم يُبنَ APK ولم يُرفع أي تغيير إلى GitHub.
+نجحت فحوص القداس المحددة (25 اختبارًا)، ونجح `scripts/validate_follow_along_liturgy.py` و`scripts/validate_smart_liturgy_core.py`، كما اجتاز `git diff --check`. في التشغيل الشامل نجح 704 اختبارًا وفشل 16 اختبارًا غير متعلق بالملفات المعدّلة؛ تشمل مسارات تقويم/خدمات وصفحات أخرى، ويجب تتبعها منفصلة. تعذّر تشغيل اختبارات Android عبر Gradle لعدم وجود Android SDK في بيئة العمل (`SDK location not found`). لم يُبنَ APK ولم يُرفع أي تغيير إلى GitHub.
 
 ## مصادر الترتيب
 
