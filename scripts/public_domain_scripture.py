@@ -220,6 +220,17 @@ def parse_usfm_document_detailed(
             continue
         if line.startswith("\\"):
             # Paragraph and poetry markers can carry continuation text.
+            # The World English Bible USFM file for 3 John places the final
+            # verse text in an unnumbered paragraph after explicit verse 14.
+            # Preserve the source wording under canonical verse 15 rather than
+            # appending it to verse 14 and later reporting verse 15 as missing.
+            if (
+                book_id == "3JN"
+                and chapter == 1
+                and active_keys == [(1, 14)]
+                and line.startswith("\\p ")
+            ):
+                active_keys = [(1, 15)]
             marker_end = line.find(" ")
             if marker_end >= 0:
                 append_to_active(line[marker_end + 1 :])

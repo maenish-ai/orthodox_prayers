@@ -129,6 +129,18 @@ class PublicDomainScriptureTests(unittest.TestCase):
         self.assertEqual("إنجيل متّى", title)
         self.assertEqual("طُوبَى لِلْمَسَاكِينِ", verses[(5, 3)])
 
+    def test_world_english_bible_trailing_3_john_verse_15_is_not_lost(self):
+        raw = (
+            "\\id 3JN\n\\toc1 Third John\n\\c 1\n\\p\n"
+            "\\v 14 I hope to see you soon.\n"
+            "\\p Peace be to you. The friends greet you. Greet the friends by name.\n"
+        )
+        book, title, verses, omissions = self.public.parse_usfm_document_detailed(raw)
+        self.assertEqual("3JN", book)
+        self.assertEqual("I hope to see you soon.", verses[(1, 14)])
+        self.assertEqual("Peace be to you. The friends greet you. Greet the friends by name.", verses[(1, 15)])
+        self.assertNotIn((1, 15), omissions)
+
     def test_human_discovery_reference_becomes_canonical_before_lane_enforcement(self):
         reading = {
             "kind": "gospel",
