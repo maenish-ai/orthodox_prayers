@@ -153,7 +153,8 @@ public final class HomeScreen extends BaseScreen {
 
         LinearLayout third = ui.row();
         addShortcutCard(third, com.orthodoxprayers.privateapp.R.drawable.ic_action_readings, bibleTitle(), "bible", null);
-        addShortcutCard(third, com.orthodoxprayers.privateapp.R.drawable.ic_action_search, searchTitle(), "search", null);
+        addShortcutCard(third, com.orthodoxprayers.privateapp.R.drawable.ic_action_calendar,
+                local(com.orthodoxprayers.privateapp.R.string.ui_church_occasions), "occasions", null);
         add(root, third, 0, 6);
     }
 
@@ -169,13 +170,6 @@ public final class HomeScreen extends BaseScreen {
         if ("ar".equals(language)) return "الكتاب المقدس";
         if ("el".equals(language)) return "Ἁγία Γραφή";
         return "Holy Bible";
-    }
-
-    private String searchTitle() {
-        String language = preferences.effectiveLanguage();
-        if ("ar".equals(language)) return "البحث";
-        if ("el".equals(language)) return "Ἀναζήτηση";
-        return "Search";
     }
 
     private void addSmartFastingNotice(LinearLayout root) {

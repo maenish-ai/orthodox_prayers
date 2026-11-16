@@ -106,7 +106,9 @@ public final class ReaderScreen extends BaseScreen {
     }
 
     private View createReaderView() {
-        service = data.findService(serviceId);
+        service = serviceId.startsWith("worship_all::")
+                ? data.findWorshipSequence(serviceId.substring("worship_all::".length()))
+                : data.findService(serviceId);
         if (service == null) return errorView(local(com.orthodoxprayers.privateapp.R.string.ui_the_requested_text_was_not_found_in_the_app_data_97e2becd));
 
         preferences.recordRecentService(serviceId);
@@ -129,6 +131,12 @@ public final class ReaderScreen extends BaseScreen {
         root.setOrientation(LinearLayout.VERTICAL);
         root.setBackgroundColor(readerBackground());
         root.setLayoutDirection(preferences.isRtl() ? View.LAYOUT_DIRECTION_RTL : View.LAYOUT_DIRECTION_LTR);
+        if (service.has("edition_date"))
+            root.addView(ui.infoBadge(localFormat(com.orthodoxprayers.privateapp.R.string.ui_occasion_source_edition,
+                    service.optString("edition_date"))));
+        JSONArray missingOffices = service.optJSONArray("unavailable_offices");
+        if (missingOffices != null && missingOffices.length() > 0)
+            root.addView(ui.infoBadge(local(com.orthodoxprayers.privateapp.R.string.ui_occasions_missing_parts)));
         if ("orthros".equals(service.optString("id", "")) && !service.optBoolean("matins_gospel_available", false)) {
             String language = preferences.effectiveLanguage();
             String message = "ar".equals(language) ? "لا يتوفر إنجيل سَحَر موثّق لهذا اليوم ضمن البيانات الحالية."
@@ -143,6 +151,8 @@ public final class ReaderScreen extends BaseScreen {
                 ui.dp(340),
                 Math.max(ui.dp(180), Math.round(displayHeight * 0.38f))
         );
+        maximumControlsHeight = Math.min(maximumControlsHeight,
+                Math.max(ui.dp(72), displayHeight - ui.dp(worshipTabs ? 380 : 330)));
         controlsViewport = new MaxHeightScrollView(host.activity(), maximumControlsHeight);
         controlsViewport.setFillViewport(false);
         controlsViewport.setClipToPadding(false);
@@ -185,6 +195,19 @@ public final class ReaderScreen extends BaseScreen {
         });
         root.addView(recycler, new LinearLayout.LayoutParams(-1, 0, 1f));
 
+        LinearLayout readingActions = ui.row();
+        readingActions.setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
+        Button toTop = ui.smallButton("↑", false);
+        toTop.setContentDescription(local(com.orthodoxprayers.privateapp.R.string.ui_reader_back_to_start));
+        toTop.setOnClickListener(v -> {
+            stopAutoScroll(false);
+            if (recycler != null) recycler.stopScroll();
+            if (layoutManager != null) layoutManager.scrollToPositionWithOffset(0, 0);
+            if (recycler != null) recycler.post(() -> { saveReaderPosition(); updateReaderProgress(); });
+        });
+        readingActions.addView(toTop, new LinearLayout.LayoutParams(ui.dp(48), ui.dp(48)));
+        root.addView(readingActions, ui.margins(-1, -2, 10, 2, 10, 2));
+
         applyControlsVisibility(false);
         root.post(() -> { restoreReaderPosition(); updateReaderProgress(); });
         return root;
@@ -226,7 +249,14 @@ public final class ReaderScreen extends BaseScreen {
         final View active = selectedTab;
         if (active != null) scroll.post(() -> scroll.smoothScrollTo(
                 Math.max(0, active.getLeft() - (scroll.getWidth() - active.getWidth()) / 2), 0));
-        return scroll;
+        LinearLayout bar = ui.row();
+        Button all = ui.smallButton(local(com.orthodoxprayers.privateapp.R.string.ui_worship_all),
+                serviceId.startsWith("worship_all::"));
+        all.setSelected(serviceId.startsWith("worship_all::"));
+        all.setOnClickListener(v -> switchWorshipTab("worship_all::" + appointedServiceId));
+        bar.addView(all, ui.margins(-2, -2, 4, 3, 4, 3));
+        bar.addView(scroll, new LinearLayout.LayoutParams(0, -2, 1f));
+        return bar;
     }
 
     private void switchWorshipTab(String target) {
@@ -667,11 +697,14 @@ public final class ReaderScreen extends BaseScreen {
                 && "OFFICIAL_ARABIC_EXACT_PINNED".equals(provenance.optString("status"));
         boolean pinnedStatic = provenance != null
                 && "PINNED_STATIC_TEXT_WITH_OFFICIAL_CATALOG_PROVENANCE".equals(provenance.optString("status"));
+        boolean pinnedBook = provenance != null && "PINNED_NATIVE_SERVICE_BOOK".equals(provenance.optString("status"));
         boolean churchCatalogOnly = "church_service".equals(service.optString("category", ""))
                 && service.optString("publication_status", "").startsWith("CATALOG_AND_FIXED_SCRIPTURE_ONLY");
         String badge;
         if (churchCatalogOnly) {
             badge = local(com.orthodoxprayers.privateapp.R.string.ui_church_service_catalog_only_r62);
+        } else if (pinnedBook) {
+            badge = local(com.orthodoxprayers.privateapp.R.string.ui_occasion_pinned_book);
         } else if (dailyVerified) {
             badge = local(com.orthodoxprayers.privateapp.R.string.ui_daily_propers_and_scripture_passed_source_and_si_d42c1070);
         } else if (officialStatic) {
@@ -681,7 +714,7 @@ public final class ReaderScreen extends BaseScreen {
         } else {
             badge = local(com.orthodoxprayers.privateapp.R.string.ui_source_state_is_incomplete_unverified_daily_text_0f17ecef);
         }
-        box.addView(ui.badge(badge, !churchCatalogOnly && (dailyVerified || officialStatic || pinnedStatic)),
+        box.addView(ui.badge(badge, !churchCatalogOnly && (dailyVerified || officialStatic || pinnedStatic || pinnedBook)),
                 ui.margins(-1, -2, 0, notice.isEmpty() ? 0 : 7, 0, 0));
 
         LocalizedValue title = data.localizedValue(service.optJSONObject("title"), "");
@@ -845,6 +878,7 @@ public final class ReaderScreen extends BaseScreen {
     }
 
     private boolean isLiturgy() {
+        if (serviceId.startsWith("worship_all::")) return true;
         String baseId = serviceId;
         int separator = baseId.indexOf("::");
         if (separator >= 0) baseId = baseId.substring(separator + 2);

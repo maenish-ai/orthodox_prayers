@@ -48,6 +48,7 @@ COMMANDS = [
         "tests/test_r64_2_scripture_omission_sync.py",
         "tests/test_public_domain_scripture.py",
         "tests/test_android_resources.py",
+        "tests/test_v570_church_occasions.py",
     ],
 ]
 
@@ -58,7 +59,7 @@ def main() -> None:
         subprocess.run(command, cwd=ROOT, check=True)
     print(
         "\nLOCAL_DAILY_RELEASE_GATE_OK "
-        "version=5.6.9 code=50609 schedule=00:03 timezone=Asia/Amman "
+        "version=5.7.0 code=50700 schedule=00:03 timezone=Asia/Amman "
         "runtime_network_required=false github_daily_action=false calendar=2026-2050"
     )
 

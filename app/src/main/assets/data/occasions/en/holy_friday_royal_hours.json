@@ -1,0 +1,3450 @@
+{
+  "id": "occasion::holy_friday_royal_hours",
+  "title": {
+    "ar": "الجمعة العظيمة — الساعات الكبرى",
+    "en": "Holy Friday — Royal Hours",
+    "el": "Μεγάλη Παρασκευή — Μεγάλες Ὧρες"
+  },
+  "source_language": "en",
+  "displayable": true,
+  "source_document": {
+    "source_id": "goarch_digital_chant_stand_english",
+    "source_url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d069/gh/gr-en/index.html",
+    "source_sha256": "839cf19bf98c9e6d4ad422abc8bbc4c6fceff18e8fafb64d30bda1f0c921d003",
+    "machine_translation_used": false
+  },
+  "category": "occasions",
+  "full_service_complete": true,
+  "completeness_scope": "COMPLETE_SOURCE_EDITION_ONLY",
+  "source_provenance": {
+    "status": "PINNED_NATIVE_SERVICE_BOOK",
+    "source_id": "goarch_digital_chant_stand_english",
+    "source_sha256": "839cf19bf98c9e6d4ad422abc8bbc4c6fceff18e8fafb64d30bda1f0c921d003",
+    "machine_translation_used": false
+  },
+  "native_source": {
+    "source_id": "goarch_digital_chant_stand_english",
+    "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d069/gh/gr-en/index.html",
+    "native_language": "en",
+    "permission_confirmed": true
+  },
+  "segments": [
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Books - Sources",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Triodion - Holy Week",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Good Friday - The Great Hours",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "__________",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "THE SERVICE OF THE HOURS ON GREAT AND HOLY FRIDAY",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "By Cyril, Patriarch of Alexandria.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "FIRST HOUR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed is our God always, now and ever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to You, our God, glory to You.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Heavenly King, Comforter, Spirit of Truth, present in all places and filling all things, treasury of good things and giver of life: come; take Your abode in us; cleanse us of every stain, and save our souls, O Good one.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Trisagion Prayers.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Holy God, Holy Mighty, Holy Immortal, have mercy on us. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit; both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "All-holy Trinity, have mercy on us. Lord, forgive our sins. Master, pardon our transgressions. Holy One, visit and heal our infirmities for Your name’s sake.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. Lord, have mercy. Lord, have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit; both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For Thine is the kingdom and the power and the glory, of the Father and the Son and the Holy Spirit, now and ever and to ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. (12)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come, let us worship and bow down before God our King.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come, let us worship and bow down before Christ God our King.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come, let us worship and bow down before Him, Christ our King and God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 5.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Give ear to my words, O Lord, Hear my cry. Give heed to the voice of my supplication, my King and my God, for to You will I pray, O Lord. In the morning You shall hear my voice; in the morning I will stand before You, and I will watch. For You are not a God who wills lawlessness, nor shall the evildoer dwell with You. The lawless shall not stand before Your eyes; You hate all the workers of lawlessness; You shall destroy all who speak falsehood; the Lord abhors the man of violence and deceit. But as for me, in the fullness of Your mercy I will come into Your house; in fear of You I will worship toward Your holy temple. Lead me, O Lord, in Your righteousness because of my enemies; make straight Your way before me. For there is no truth in their mouth; their heart is vain; their throat is an open grave; they deal deceptively with their tongues. Judge them, O God. Let them fall by their false accusations; cast them out in the multitude of their ungodliness; for they provoked You, O Lord. But let all who hope in You be glad; they will greatly rejoice forever, for You will dwell in them; and all who love Your name will boast in You. For You will bless the righteous; O Lord, You crowned us with the shield of Your goodwill. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 2.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Why do the nations rage, and the people meditate on vain things? The kings of the earth set themselves, and the rulers gather together against the Lord and against His anointed, saying, “Let us break their bands, and cast away their yokes from us.” He who sits in the heavens shall laugh at them; the Lord shall mock them. Then shall He speak to them in His wrath and trouble them in His anger, “But I was established as King by Him over His holy hill of Zion, declaring the Lord’s decree. The Lord said to Me, ‘You are My Son, today I have begotten You; ask of Me, and I will give You the nations for Your inheritance and the ends of the earth for Your possession. You shall shepherd them with an iron staff; You shall shatter them like a potter’s vessel.’” And now, O kings, understand; be instructed, all you judges of the earth. Serve the Lord with fear and rejoice in Him with trembling. Lay hold of His instruction, lest the Lord be angry, and you perish from the righteous way when His fury shall be quickly kindled. Blessed are all who trust in Him. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 21 (22).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O God, my God, hear me; why have You forsaken me? The words of my transgressions are far from my salvation. O my God, I will cry out by day, but You will not hear me; and by night, but not for a lack of understanding in me. But You dwell among the saints, O praise of Israel. Our fathers hoped in You; they hoped in You, and You delivered them. They cried out to You and were saved; they hoped in You and were not ashamed. But I am a worm, and not a man; a reproach of man and despised by the people. All who see me mock me; they speak with their lips and shake their head, saying, “He hoped in the Lord, let Him rescue him; let Him save him since He delights in him.” For You are He who drew me from the womb, my hope from my mother’s breasts; I was cast upon You from the womb, from my mother’s womb You are my God. Do not stand off from me, for affliction is near; there is no one to help. Many young bulls surrounded me; fat bulls encircled me. They opened their mouths against me like a raging and roaring lion. I am poured out like water, and all my bones are shattered; my heart is like wax, melting into my stomach. My strength is dried up like an earthen vessel; my tongue cleaves to my throat; and You led me into the dust of death. For many dogs surrounded me; an assembly of evildoers enclosed me; they pierced my hands and my feet. I numbered all my bones, and they look and stare at me. They divided my garments among themselves, and for my clothing they cast lots. But You, O Lord, do not remove Your help from me; attend to my aid. Deliver my soul from the sword and my only-begotten from the hand of the dog; save me from the lion’s mouth, my humiliation from the horns of the unicorns. I will declare Your name to my brethren; in the midst of the church I will sing to You. You who fear the Lord, praise Him. All you seed of Jacob, glorify Him; fear Him, all you seed of Israel. For He has not despised nor scorned the beggar’s supplication, nor has He turned away His face from me; and when I cried out to Him, He heard me. My praise is from You in the great church; I will pay my vows before those who fear Him. The poor shall eat and be well-filled, and those who seek Him will praise the Lord; their hearts will live unto ages of ages. All the ends of the world shall remember and turn to the Lord; and all families of the Gentiles shall worship before You, for the kingdom is the Lord’s; and He is the Master of the Gentiles. All the prosperous of the earth ate and worshiped; all going down into the earth shall bow down before Him, and my soul lives with Him. And my seed shall serve Him; the coming generation shall be told of the Lord, and they will declare His righteousness to a people who will be born, because the Lord made them. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Alleluia. Alleluia. Alleluia. Glory to You, O God. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Troparion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "When You were crucified, O Christ, the enemy’s tyranny was lifted and his power was crushed. For it was no Angel nor mere man, but You, the Lord himself, who saved us. Glory to You! [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "What shall we call you, O Lady full of grace? Heaven? For you gave rise to the Sun of righteousness. Paradise? For you blossomed the flower of incorruption. Virgin? For you remained incorrupt. Pure Mother? For you held in your holy embrace a Son who is the God of all. Entreat Him to save our souls. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Idiomela.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode pl. 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Today, the veil of the Temple is torn in two, as a reproof to the transgressors. And the sun hides its rays, beholding the Master on the Cross. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode pl. 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse: Why do the nations rage, and the people meditate on vain things? [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You were led as a sheep to slaughter, O Christ the King, and as an innocent lamb, You were nailed to a cross by lawless men, for our sins, O benevolent Lord. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Both now. Mode pl. 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "As You permitted the transgressors to arrest You, Lord, You said to them, “Even though you struck the shepherd and scattered the sheep, namely My twelve Disciples, I could summon more than twelve legions of angels. But I forbear, so that the unknown and secret things that I showed you through My prophets may be fulfilled.” Glory to You, O Lord! [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "THE PROPHECY",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Prokeimenon. Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "He went forth and spoke the same.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse: Blessed is he who understands the poor and needy. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The reading is from the Prophecy of Zechariah.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Wisdom. Let us be attentive.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Zec 11:10 – 13",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Thus says the Lord: I shall take my staff Beauty, and I shall cast it away, to break my covenant which I made with all the people. And in that day they will be scattered about. And the Canaanites shall know the flock is kept safe, for this is the word of the Lord. And I shall say to them, “If it is fitting in your judgment, give me my payment, or refuse it.” And they established my wage at thirty pieces of silver. And the Lord said to me, “Drop them into the smelting furnace and see if it is proven, as in the same manner I was proven for their sake.” And I took the thirty pieces of silver and threw them into the smelting furnace in the house of the Lord, as the Lord commanded me. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "The Epistle",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The reading is from Paul’s Letter to the Galatians.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us be attentive. Wisdom. Let us be attentive.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "6:14 – 18",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Brethren, far be it from me to glory except in the cross of our Lord Jesus Christ, by which the world has been crucified to me, and I to the world. For neither circumcision counts for anything, nor uncircumcision, but a new creation. Peace and mercy be upon all who walk by this rule, upon the Israel of God. Henceforth let no man trouble me; for I bear on my body the marks of Jesus. The grace of our Lord Jesus Christ be with your spirit, brethren. Amen [RSV]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Wisdom. Arise. Let us hear the holy Gospel.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Peace be with all.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "And with your spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The reading is from the holy Gospel according to Matthew. Let us be attentive.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to You, O Lord, glory to You.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "27:1 – 56",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "At that time, when morning came, all the chief priests and the elders of the people took counsel against Jesus to put him to death; and they bound him and led him away and delivered him to Pilate the governor. When Judas, his betrayer, saw that he was condemned, he repented and brought back the thirty pieces of silver to the chief priests and the elders, saying, “I have sinned in betraying innocent blood.” They said, “What is that to us? See to it yourself.” And throwing down the pieces of silver in the temple, he departed; and he went and hanged himself. But the chief priests, taking the pieces of silver, said, “It is not lawful to put them into the treasury, since they are blood money.” So they took counsel, and bought with them the potter’s field, to bury strangers in. Therefore that field has been called the Field of Blood to this day. Then was fulfilled what had been spoken by the prophet Jeremiah, saying, “And they took the thirty pieces of silver, the price of him on whom a price had been set by some of the sons of Israel, and they gave them for the potter’s field, as the Lord directed me.” Now Jesus stood before the governor; and the governor asked him, “Are you the King of the Jews?” Jesus said, “You have said so.” But when he was accused by the chief priests and elders, he made no answer. Then Pilate said to him, “Do you not hear how many things they testify against you?” But he gave him no answer, not even to a single charge; so that the governor wondered greatly. Now at the feast the governor was accustomed to release for the crowd any one prisoner whom they wanted. And they had then a notorious prisoner, called Barabbas. So when they had gathered, Pilate said to them, “Whom do you want me to release for you, Barabbas or Jesus who is called Christ?” For he knew that it was out of envy that they had delivered him up. Besides, while he was sitting on the judgment seat, his wife sent word to him, “Have nothing to do with that righteous man, for I have suffered much over him today in a dream.” Now the chief priests and the elders persuaded the people to ask for Barabbas and destroy Jesus. The governor again said to them, “Which of the two do you want me to release for you?” And they said, “Barabbas.” Pilate said to them, “Then what shall I do with Jesus who is called Christ?” They all said, “Let him be crucified.” And he said, “Why, what evil has he done?” But they shouted all the more, “Let him be crucified.” So when Pilate saw that he was gaining nothing, but rather that a riot was beginning, he took water and washed his hands before the crowd, saying, “I am innocent of this righteous man’s blood; see to it yourselves.” And all the people answered, “His blood be on us and on our children!” Then he released for them Barabbas, and having scourged Jesus, delivered him to be crucified. Then the soldiers of the governor took Jesus into the praetorium, and they gathered the whole battalion before him. And they stripped him and put a scarlet robe upon him, and plaiting a crown of thorns they put it on his head, and put a reed in his right hand. And kneeling before him they mocked him, saying, “Hail, King of the Jews!” And they spat upon him, and took the reed and struck him on the head. And when they had mocked him, they stripped him of the robe, and put his own clothes on him, and led him away to crucify him. As they went out, they came upon a man of Cyrene, Simon by name; this man they compelled to carry his cross. And when they came to a place called Golgotha (which means the place of a skull), they offered him wine to drink, mingled with gall; but when he tasted it, he would not drink it. And when they had crucified him, they divided his garments among them by casting lots; then they sat down and kept watch over him there. And over his head they put the charge against him, which read, “This is Jesus the King of the Jews.” Then two robbers were crucified with him, one on the right and one on the left. And those who passed by derided him, wagging their heads and saying, “You who would destroy the temple and build it in three days, save yourself! If you are the Son of God, come down from the cross.” So also the chief priests, with the scribes and elders, mocked him, saying, “He saved others; he cannot save himself. He is the King of Israel; let him come down now from the cross, and we will believe in him. He trusts in God; let God deliver him now, if he desires him; for he said, ‘I am the Son of God.’” And the robbers who were crucified with him also reviled him in the same way. Now from the sixth hour there was darkness over all the earth until the ninth hour. And about the ninth hour Jesus cried with a loud voice, “Eli, Eli, lama sabachthani?” that is, “My God, my God, why have you forsaken me?” And some of the bystanders hearing it said, “This man is calling Elijah.” And one of them at once ran and took a sponge, filled it with vinegar, and put it on a reed, and gave it to him to drink. But the others said, “Wait, let us see whether Elijah will come to save him.” And Jesus cried again with a loud voice and yielded up his spirit. And behold, the curtain of the temple was torn in two, from top to bottom; and the earth shook, and the rocks were split; the tombs also were opened, and many bodies of the saints who had fallen asleep were raised, and coming out of the tombs after his resurrection they went into the holy city and appeared to many. When the centurion and those who were with him, keeping watch over Jesus, saw the earthquake and what took place, they were filled with awe, and said, “Truly this was the Son of God!” There were also many women there, looking on from afar, who had followed Jesus from Galilee, ministering to him; among whom were Mary Magdalene, and Mary the mother of James and Joseph, and the mother of the sons of Zebedee. [RSV]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to You, O Lord, glory to You.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Direct my steps according to Your teaching and let no lawlessness rule over me.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ransom me from the slander of men, and I will keep Your commandments.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Make Your face shine upon Your servant and teach me Your ordinances.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let my mouth be filled with Your praise, O Lord, that I may sing of Your glory and of Your magnificence all the day long. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Trisagion Prayers.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Holy God, Holy Mighty, Holy Immortal, have mercy on us. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit; both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "All-holy Trinity, have mercy on us. Lord, forgive our sins. Master, pardon our transgressions. Holy One, visit and heal our infirmities for Your name’s sake.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. Lord, have mercy. Lord, have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit; both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For Thine is the kingdom and the power and the glory, of the Father and the Son and the Holy Spirit, now and ever and to ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Kontakion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come, let us all extol Him who was crucified for us. Mary beheld Him on the Cross and she said, “Though You endure the Cross, You are my Son and my God.” [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. (40)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Christ our God, who at all times and at every hour, both in heaven and on earth, are worshipped and glorified, long suffering and plenteous in mercy and compassion; who love the just and show mercy to the sinners; who call all men to salvation through the promise of the blessings to come: Do You, the same Lord, receive also our supplications at this present time, and direct our lives according to Your commandments. Sanctify our souls; purify our bodies; set our minds right; clear up our thoughts, and deliver us from every sorrow, evil and distress. Surround us with Your holy Angels so that being guarded and guided by their presence, we may arrive at the unity of the faith and the knowledge of Your ineffable glory; for blessed are You unto the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Greater in honor than the Cherubim, and in glory greater beyond compare than the Seraphim; you without corruption gave birth to God the Word, and are truly Theotokos. You do we magnify.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "In the name of the Lord, Father, bless!",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "May God have compassion on us and bless us; may his face shine upon us and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Christ, the true light that enlightens and sanctifies every man who comes into the world, let the light of Your countenance shine on us, that in it we may behold the unapproachable light. And direct our steps to keep Your commandments, by the intercessions of Your all-immaculate Mother and all the saints.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER: Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "THIRD HOUR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come, let us worship and bow down before God our King.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come, let us worship and bow down before Christ God our King.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come, let us worship and bow down before Him, Christ our King and God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 34 (35).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Lord, judge those who injure me; make war on those who make war on me. Take hold of weapon and shield, and rise up to my help. bring forth the sword, and confine those in opposition who pursue me; say to my soul, “I am your salvation.” Let those who seek my soul be dishonored and shamed; let those who plot evils against me be turned backward and disappointed. Let them be like dust in the wind’s face, and let the Angel of the Lord afflict them. Let their way be dark and slippery, and let the Angel of the Lord pursue them. For without cause they hid the destruction of their trap for me; in vain they reproached my soul. Let a trap they do not know catch them, and they themselves shall fall into the same trap. But my soul shall greatly rejoice in the Lord; my soul shall delight in His salvation. All my bones shall say, “O Lord, who is like You? You who deliver a poor man from hands stronger than he, and a poor and needy man from those who plunder him.” Unjust witnesses rose up against me, asking me things I knew nothing about; they repaid me evil for good, and bereavement for my soul. But I put on sackcloth when they troubled me, and I humbled my soul with fasting; and my prayer will return into my bosom. Like a neighbor, like our brother, so they were well-pleasing; like one who laments and is of a sad countenance, so I humbled myself. But they were delighted, and were gathered together against me; whips were gathered together against me, but I did not know it; they were torn asunder, yet they were not pierced to the heart. They tempted me; they mocked and sneered at me; they gnashed their teeth at me. O Lord, when will You look on this? Restore my soul from their malice, my only-begotten from the lions. I will give thanks to You, O Lord, in the great church; I will praise You among a mighty people. Let them not rejoice over me, those who are unjustly my enemies, those who hate me without a cause, and wink with their eyes. For they spoke peace to me, but in their wrath they schemed deceit, and opened wide their mouth at me, saying, “Well done! Well done! Our eyes saw it!” You saw this, O Lord; do not keep silence; O Lord, do not be far from me. Arise, O Lord, attend to my judgment, my God and my Lord, to my cause. Judge me according to Your righteousness, O Lord my God, and let them not rejoice against me; let them not say in their hearts, “Well done! Well done, our soul!” Let them not say, “We swallowed him up!” May those who rejoice at my troubles be altogether dishonored and shamed; let those who boast against me be clothed with shame and humiliation. Let those who desire my righteousness greatly rejoice, and be glad, and let them say continually, “The Lord be magnified,” Those who desire His servant’s peace. And my tongue shall meditate on Your righteousness, and on Your praise all the day long. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 108 (109).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O God, do not pass over my praise in silence, for the mouth of the sinner and the mouth of the deceitful man opened against me; they spoke against me with a deceitful tongue; and they surrounded me with words of hatred, and warred against me without cause. Instead of loving me, they falsely accused me, but I continued to pray; so they repaid me evil for good, and hatred for my love. Set a sinner over him, and let the devil stand at his right hand. And when he is judged, may he go forth condemned, and let his prayer become sin. Let his days be very few, and may a different man receive his office; let his children be fatherless and his wife a widow; let his children wander about and be beggars; let them be cast out of their houses. Let the creditor search out whatever possessions he has; let strangers plunder his labors; let there be no helper for him, nor a compassionate one for his fatherless children; let his children be utterly destroyed; in a single generation, let his name be blotted out. May the lawlessness of his fathers be remembered before the Lord, and may the sin of his mother not be blotted out; let them be continually before the Lord, and may the remembrance of them be utterly destroyed from the earth, because he did not remember to show mercy, but persecuted a poor and needy man, and one pierced to the heart, that he might kill him. And he loved cursing, and it came to him, and he did not desire blessing, so it shall be far from him. So he clothed himself with cursing like a garment, and it entered like water into his bowels and like oil into his bones; let it be for him like a garment that clothes him, and like a belt that girds him continually. This is the work of those who falsely accuse me before the Lord, and of those who speak evil things against my soul. But You, O Lord, O Lord, deal mercifully with me for Your name’s sake, for Your mercy is good. Save me, for I am poor and needy, and my heart is troubled within me. I was removed like a shadow when it declines; I was shaken off like the locusts. My knees were weak from fasting, and my flesh was changed because of the oil. And I became an object of reproach to them; they saw me; they shook their heads. Help me, O Lord my God; save me according to Your mercy; then let them know this is Your hand, and You, O Lord, did this. They themselves shall curse, but You shall bless; let those who rise up against me be put to shame, but let Your servant be glad. Let those who falsely accuse me be clothed with shame, and let them be covered with their dishonor like a double cloak. I will give thanks to the Lord abundantly with my mouth, and in the midst of many I will praise Him, because He stood at the right hand of a poor man, to save me from those who persecute my soul. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 50 (51).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on me, O God, according to Your great mercy; and according to the abundance of Your compassion, blot out my transgression. Wash me thoroughly from my lawlessness and cleanse me from my sin. For I know my lawlessness, and my sin is always before me. Against You only have I sinned and done evil in Your sight; that You may be justified in Your words, and overcome when You are judged. For behold, I was conceived in transgressions, and in sins my mother bore me. Behold, You love truth; You showed me the unknown and secret things of Your wisdom. You shall sprinkle me with hyssop, and I will be cleansed; You shall wash me, and I will be made whiter than snow. You shall make me hear joy and gladness; my bones that were humbled shall greatly rejoice. Turn Your face from my sins, and blot out all my transgressions. Create in me a clean heart, O God, and renew a right spirit within me. Do not cast me away from Your presence, and do not take Your Holy Spirit from me. Restore to me the joy of Your salvation, and uphold me with Your guiding Spirit. I will teach transgressors Your ways, and the ungodly shall turn back to You. Deliver me from bloodguiltiness, O God, the God of my salvation, and my tongue shall greatly rejoice in Your righteousness. O Lord, You shall open my lips, and my mouth will declare Your praise. For if You desired sacrifice, I would give it; You will not be pleased with whole burnt offerings. A sacrifice to God is a broken spirit, a broken and humbled heart God will not despise. Do good, O Lord, in Your good pleasure to Zion, and let the walls of Jerusalem be built; then You will be pleased with a sacrifice of righteousness, with offerings and whole burnt offerings; then shall they offer young bulls on Your altar. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Alleluia. Alleluia. Alleluia. Glory to You, O God. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Troparion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, the Jews condemned You to death, You the Life of all. They who walked across the Red Sea by the rod of Moses, had You nailed to a cross; and they who sipped honey from a rock gave you gall. But You willingly endured it, in order to free us from slavery to the enemy. O Christ our God, glory to You! [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokos, you are the true vine that produced the fruit of life. Lady, we fervently entreat you to intercede along with the Apostles and all the saints, that our souls be treated mercifully. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Idiomela.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode pl. 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For fear of the Jews, Your friend and neighbor Peter denied You, O Lord. Then he lamented and said, “Do not be silent at my tears. I know I said I would keep the faith, but I did not keep it, O merciful One.” Accept our repentance as well, and have mercy on us. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode pl. 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse: Give ear to my words, O Lord, hear my cry. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Before Your venerable crucifixion, soldiers were mocking You, O Lord; and the angelic ranks were astounded. You who adorned the earth with flowers put on a crown of insult. You who cover the world with clouds put on the robe and were ridiculed. Such was Your plan, and by it Your compassion was known, O Christ, the great mercy. Glory to You! [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Both now. Mode pl. 1.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "As You were led to the cross, O Lord, You said something like this, “For which deed do you wish to crucify Me, O Jews? Is it for bracing your paralytics, or for raising your dead as if from sleep? I cured the woman with the flow of blood, I had mercy on the Canaanite woman. For which of My deeds do you wish to murder Me, O Jews? But you will look on Me, the Christ, whom you now pierce, O transgressors of the Law.” [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "THE PROPHECY",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Prokeimenon. Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For I am ready for wounds.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse: O Lord, do not rebuke me in Your wrath. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The reading is from the Prophecy of Isaiah.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Wisdom. Let us be attentive.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Is 50:4 – 11",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The Lord gives Me the tongue of the learned, so as to know when to speak a word at a fitting time; and He causes My ear to listen each morning. The Lord’s instruction opens My ears, and I am not disobedient, nor do I contradict Him. I gave My back to whips, and My cheeks to blows; and I turned not away My face from the shame of spitting. The Lord became My helper; therefore, I was not disgraced. But I made My face like a solid rock and knew I would not be ashamed. For He who pronounces Me righteous draws near. Who is he who judges Me? Let him oppose Me at the same time. Who is he who judges Me? Let him come near Me. Behold, the Lord will help Me. Who will harm Me? Behold, all of you will grow old like a garment, and old age will devour you, as a moth does a garment. Who among you fears the Lord? Let him listen to the voice of His Servant. You who walk in the darkness and have not light, trust in the name of the Lord and rely upon God. Behold, all of you kindle a fire and feed a flame. Walk in the light of your fire and the flame you kindled. This happened to you for My sake, and you shall lie down in sorrow. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "The Epistle",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The reading is from Paul’s Letter to the Romans.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us be attentive. Wisdom. Let us be attentive.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "5:6 – 10",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Brethren, while we were still weak, at the right time Christ died for the ungodly. Why, one will hardly die for a righteous man — though perhaps for a good man one will dare even to die. But God shows his love for us in that while we were yet sinners Christ died for us. Since, therefore, we are now justified by his blood, much more shall we be saved by him from the wrath. For if while we were enemies we were reconciled to God by the death of his Son, much more, now that we are reconciled, shall we be saved by his life. [RSV]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Wisdom. Arise. Let us hear the holy Gospel.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Peace be with all.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "And with your spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The reading is from the holy Gospel according to Mark. Let us be attentive.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to You, O Lord, glory to You.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "15:16 – 41",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "At time, the soldiers led Jesus away inside the palace (that is, the praetorium); and they called together the whole battalion. And they clothed him in a purple cloak, and plaiting a crown of thorns they put it on him. And they began to salute him, “Hail, King of the Jews!” And they struck his head with a reed, and spat upon him, and they knelt down in homage to him. And when they had mocked him, they stripped him of the purple cloak, and put his own clothes on him. And they led him out to crucify him. And they compelled a passer-by, Simon of Cyrene, who was coming in from the country, the father of Alexander and Rufus, to carry his cross. And they brought him to the place called Golgotha (which means the place of a skull). And they offered him wine mingled with myrrh; but he did not take it. And they crucified him, and divided his garments among them, casting lots for them, to decide what each should take. And it was the third hour, when they crucified him. And the inscription of the charge against him read, “The King of the Jews.” And with him they crucified two robbers, one on his right and one on his left. And the scripture was fulfilled which says, “He was reckoned with the transgressors.” And those who passed by derided him, wagging their heads, and saying, “Aha! You who would destroy the temple and build it in three days, save yourself, and come down from the cross!” So also the chief priests mocked him to one another with the scribes, saying, “He saved others; he cannot save himself. Let the Christ, the King of Israel, come down now from the cross, that we may see and believe.” Those who were crucified with him also reviled him. And when the sixth hour had come, there was darkness over the whole earth until the ninth hour. And at the ninth hour Jesus cried with a loud voice, “Eloi, Eloi, lama sabachthani?” which means, “My God, my God, why have you forsaken me?” And some of the bystanders hearing it said, “Behold, he is calling Elijah.” And one ran and, filling a sponge full of vinegar, put it on a reed and gave it to him to drink, saying, “Wait, let us see whether Elijah will come to take him down.” And Jesus uttered a loud cry, and breathed his last. And the curtain of the temple was torn in two, from top to bottom. And when the centurion, who stood facing him, saw that he thus breathed his last, he said, “Truly this man was the Son of God!” There were also women looking on from afar, among whom were Mary Magdalene, and Mary the mother of James the younger and of Joses, and Salome, who, when he was in Galilee, followed him, and ministered to him; and also many other women who came up with him to Jerusalem. [RSV]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to You, O Lord, glory to You.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed is the Lord from day to day; the God of our salvation will bring prosperity upon us; our God is the God Who saves us. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Trisagion Prayers.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Holy God, Holy Mighty, Holy Immortal, have mercy on us. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit; both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "All-holy Trinity, have mercy on us. Lord, forgive our sins. Master, pardon our transgressions. Holy One, visit and heal our infirmities for Your name’s sake.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. Lord, have mercy. Lord, have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit; both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For Thine is the kingdom and the power and the glory, of the Father and the Son and the Holy Spirit, now and ever and to ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Kontakion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come, let us all extol Him who was crucified for us. Mary beheld Him on the Cross and she said, “Though You endure the Cross, You are my Son and my God.” [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. (40)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Christ our God, who at all times and at every hour, both in heaven and on earth, are worshipped and glorified, long suffering and plenteous in mercy and compassion; who love the just and show mercy to the sinners; who call all men to salvation through the promise of the blessings to come: Do You, the same Lord, receive also our supplications at this present time, and direct our lives according to Your commandments. Sanctify our souls; purify our bodies; set our minds right; clear up our thoughts, and deliver us from every sorrow, evil and distress. Surround us with Your holy Angels so that being guarded and guided by their presence, we may arrive at the unity of the faith and the knowledge of Your ineffable glory; for blessed are You unto the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Greater in honor than the Cherubim, and in glory greater beyond compare than the Seraphim; you without corruption gave birth to God the Word, and are truly Theotokos. You do we magnify.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "In the name of the Lord, Father, bless!",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "May God have compassion on us and bless us; may his face shine upon us and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Master God, Father Almighty, only-begotten Son, Lord Jesus Christ, and Holy Spirit: One Godhead, One Power, have mercy on me, a sinner, and in your knowing ways save me, your unworthy servant; for you are blessed unto the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER: Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "SIXTH HOUR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come, let us worship and bow down before God our King.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come, let us worship and bow down before Christ God our King.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come, let us worship and bow down before Him, Christ our King and God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 53 (54).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Save me, O God, in Your name, and judge me in Your power. O God, hear my prayer; give ear to the words of my mouth. For strangers rise up against me, and the powerful seek after my soul; they have not set God before them. For behold, God is my helper; the Lord is the protector of my soul. He will return evils to my enemies; utterly destroy them in Your truth. I will sacrifice to You voluntarily; I will give thanks to Your name, O Lord, for it is good. You delivered me from all my afflictions, and my eye looked upon my enemies. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 139 (140).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Deliver me, O Lord, from the evil man, rescue me from the unjust man, who devised wrongdoing in their heart; they arrayed themselves for war all day long; they sharpened their tongue like a serpent; the venom of asps was under their lips. Keep me, O Lord, from the hand of the sinner; deliver me from unjust men who plotted to trip up my steps; the arrogant hid a trap for me, and they stretched out ropes as snares for my feet; they set a stumbling block for me near my path. I said to the Lord, “You are my God; give ear, O Lord, to the voice of my supplication. O Lord, O Lord, the power of my salvation, You overshadowed my head in the day of war. Because of my desire, O Lord, do not hand me over to the sinner; they plotted against me; do not forsake me, lest they be exalted. “As for the head of those who encircle me, the toil of their lips shall cover them. Coals shall fall upon them; You shall overthrow them with fire; do not let them withstand hardships.” A talkative man shall not prosper on earth; evils shall hunt the unjust man to destruction. I know the Lord will maintain the cause of the poor man and the justice of the needy. Surely the righteous shall give thanks to Your name, and the upright shall dwell in Your presence. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 90 (91).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "He who dwells in the help of the Most High shall lodge in the shelter of the God of heaven. He shall say to the Lord, “You are my protector and my refuge, my God; I will hope in Him; for He shall free me from the snare of the hunters, and from every troubling word.” He shall overshadow you with His shoulders, and under His wings you shall hope; His truth shall encircle you with a shield. You shall not be frightened by fear at night, nor from an arrow that flies by day, nor by a thing moving in darkness, nor by mishap and a demon of noonday. A thousand shall fall at your side and ten thousand at your right hand, yet it shall not come near you; but you shall observe with your eyes, and you shall see the reward of sinners. For You, O Lord, are my hope; You made the Most High your refuge. Evils shall not come to you, and a scourge shall not draw near your dwelling; for He shall command His angels concerning you, to keep you in all your ways; in their hands they shall bear you up, lest you strike your foot against a stone; You shall tread upon the asp and the basilisk, and you shall trample the lion and the dragon. “For he hoped in Me, and I will deliver him; I will shelter him, because he knew My name. He shall call upon Me, and I will hear him; I am with him in affliction, and I will deliver and glorify him. With length of days I will satisfy him, and show him My salvation.” [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Alleluia. Alleluia. Alleluia. Glory to You, O God. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Troparion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You worked salvation in the midst of the earth, O Christ our God. You stretched out your immaculate hands on the Cross, and gathered all the nations, who cry to You: “Lord, glory to You!” [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Since we may not presume to speak because of our many sins, will you beseech your Son, O Virgin Theotokos. For the request of a mother can do much to pacify the Master. Do not despise the prayers of us sinners, all-noble Lady. He is merciful and able to save us; after all, He accepted to suffer for our sake. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Idiomela.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode pl. 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Thus says the Lord to the Jews, “O my people, what have I done to you, how have I upset you? I gave sight to your blind; I cleansed your lepers; I raised the man who lay paralyzed on his bed. O my people, what have I done to you, and how have you repaid me? Instead of manna, you fed Me gall; instead of water, you gave Me vinegar; instead of loving Me, you nailed Me to the Cross. So, I will no longer hold back, but I will call My Gentiles, and they will glorify Me and the Father and the Spirit; and I will grant them eternal life.” [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode pl. 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse: They gave me gall for my food, and they gave me vinegar for my drink. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O lawmakers of Israel, Jewish leaders, and Pharisees, the choir of Apostles calls out to you, “Behold, the Temple that you destroyed; behold, the Lamb that you crucified. You delivered Him to the grave, but He has risen by His own power. Do not deceive yourselves; for He is the One who saved you in the sea, and fed you in the desert. He is the Life, and the Light, and the Peace of the world.” [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Both now. Mode pl. 1.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come, O Christ-bearing people, let us contemplate how Judas the Betrayer and the unlawful priests conspired against our Savior. Today, they declared the immortal Logos as deserving death. They delivered Him to Pilate and had Him crucified on The Place of the Skull. And yet, as the Savior was suffering these things, He cried aloud and said, “Father, forgive them this sin, so that the Gentiles may come to know my resurrection from the dead.” [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "THE PROPHECY",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Prokeimenon. Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Lord, our Lord, how wondrous is Your name in all the earth.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse: For Your splendor is exalted far beyond the heavens. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The reading is from the Prophecy of Isaiah.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Wisdom. Let us be attentive.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Is 52:13 – 54:1",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Thus says the Lord: Behold, My Servant shall have wisdom, and He shall be exalted and glorified exceedingly. Just as many shall be astonished at You, so Your form and glory shall be dishonored by men. Thus many nations shall marvel at Him, and kings shall shut their mouth, because they to whom no report was brought concerning Him shall see; and they who did not hear shall understand. O Lord, who has believed our report, and to whom was the arm of the Lord revealed? We proclaimed His presence as a Child, as a Root in the thirsty land. He had no form or glory, and we saw Him; and He had no form or beauty. But in comparison to all men, His form was lacking in honor. He was a man in suffering and knew how to bear sickness. His face was turned away, and He was dishonored and not esteemed. He bears our sins and suffers for us, yet we considered Him to be in pain, suffering, and ill-treatment. But He was wounded because of our lawlessness, and became sick because of our sins. The chastisement of our peace was upon Him, and by His bruise we are healed. All we like sheep have gone astray. Man has gone astray in his way, and the Lord delivered Him over for our sins. Although He was ill-treated, He opened not His mouth. He was led as a sheep to the slaughter, and as a lamb is silent before his shearers, so He opens not His mouth. In His humiliation His judgment was taken away, and who will declare His generation? For His life is taken from the earth, and because of the lawlessness of My people He was led to death. I will appoint evil men for His burial and rich men for His death, because He committed no lawlessness, nor was deceit found in His mouth. The Lord wishes to cleanse Him of His wound, and if You give an offering for sin, Your soul shall see a long-lived seed. The Lord wishes to take away the pain of His soul, to show Him light, to form Him with understanding, and to pronounce righteous the Righteous One who serves many well; and He shall bear their sins. Therefore He shall inherit many, and will divide the spoil with the strong, because His soul was delivered over to death. He was considered among the lawless, and He bore the sins of many, and was delivered over because of their sins. “Be glad, O barren woman who does not bear; break forth and cry out, you who are not in travail, for more are the children of the desolate than the children of the married woman.” [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "The Epistle",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The reading is from Paul’s Letter to the Hebrews.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us be attentive. Wisdom. Let us be attentive.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "2:11 – 18",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Brethren, he who sanctifies and those who are sanctified have all one origin. That is why he is not ashamed to call them brethren, saying, “I will proclaim your name to my brethren, in the midst of the congregation I will praise you.” And again, “I will put my trust in him.” And again, “Here am I, and the children God has given me.” Since therefore the children share in flesh and blood, he himself likewise partook of the same nature, that through death he might destroy him who has the power of death, that is, the devil, and deliver all those who through fear of death were subject to lifelong bondage. For surely it is not with angels that he is concerned but with the descendants of Abraham. Therefore he had to be made like his brethren in every respect, so that he might become a merciful and faithful high priest in the service of God, to make expiation for the sins of the people. For because he himself has suffered and been tempted, he is able to help those who are tempted. [RSV]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Wisdom. Arise. Let us hear the holy Gospel.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Peace be with all.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "And with your spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The reading is from the holy Gospel according to Luke. Let us be attentive.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to You, O Lord, glory to You.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "23:32 – 49",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "At that time, two others also, who were criminals, were led away to be put to death with Jesus. And when they came to the place which is called The Skull, there they crucified him, and the criminals, one on the right and one on the left. And Jesus said, “Father, forgive them; for they know not what they do.” And they cast lots to divide his garments. And the people stood by, watching; but the rulers scoffed at him, saying, “He saved others; let him save himself, if he is the Christ, the chosen of God!” The soldiers also mocked him, coming up and offering him vinegar, and saying, “If you are the King of the Jews, save yourself!” There was also an inscription written in Greek, Latin, and Hebrew over him, “This is the King of the Jews.” One of the criminals who were hanged railed at him, saying, “Are you not the Christ? Save yourself and us!” But the other rebuked him, saying, “Do you not fear God, since you are under the same sentence of condemnation? And we indeed justly; for we are receiving the due reward of our deeds; but this man has done nothing wrong.” And he said to Jesus, “Lord, remember me when you come in your kingdom.” And he said to him, “Truly, I say to you, today you will be with me in Paradise.” It was now about the sixth hour, and there was darkness over the whole earth until the ninth hour, while the sun’s light failed; and the curtain of the temple was torn in two. Then Jesus, crying with a loud voice, said, “Father, into your hands I commit my spirit!” And having said this he breathed his last. Now when the centurion saw what had taken place, he praised God, and said, “Certainly this man was righteous!” And all the multitudes who assembled to see the sight, when they saw what had taken place, returned home beating their breasts. And all his acquaintances and the women who had followed him from Galilee stood at a distance and saw these things. [RSV]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to You, O Lord, glory to You.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let Your mercies quickly overtake us, for we have become very poor. Help us, O God our savior; because of the glory of Your name, O Lord, save us, and be merciful to our sins because of Your name. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Trisagion Prayers.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Holy God, Holy Mighty, Holy Immortal, have mercy on us. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit; both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "All-holy Trinity, have mercy on us. Lord, forgive our sins. Master, pardon our transgressions. Holy One, visit and heal our infirmities for Your name’s sake.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. Lord, have mercy. Lord, have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit; both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For Thine is the kingdom and the power and the glory, of the Father and the Son and the Holy Spirit, now and ever and to ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Kontakion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come, let us all extol Him who was crucified for us. Mary beheld Him on the Cross and she said, “Though You endure the Cross, You are my Son and my God.” [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. (40)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Christ our God, who at all times and at every hour, both in heaven and on earth, are worshipped and glorified, long suffering and plenteous in mercy and compassion; who love the just and show mercy to the sinners; who call all men to salvation through the promise of the blessings to come: Do You, the same Lord, receive also our supplications at this present time, and direct our lives according to Your commandments. Sanctify our souls; purify our bodies; set our minds right; clear up our thoughts, and deliver us from every sorrow, evil and distress. Surround us with Your holy Angels so that being guarded and guided by their presence, we may arrive at the unity of the faith and the knowledge of Your ineffable glory; for blessed are You unto the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Greater in honor than the Cherubim, and in glory greater beyond compare than the Seraphim; you without corruption gave birth to God the Word, and are truly Theotokos. You do we magnify.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "In the name of the Lord, Father, bless!",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "May God have compassion on us and bless us; may his face shine upon us and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "God and Lord of hosts and Maker of all creation, in Your unfathomable compassion and mercy You sent down Your Only-Begotten Son, our Lord Jesus Christ, for the salvation of the human race; and by His precious Cross You tore up the record of our sins, and triumphed over the principalities and powers of darkness. O benevolent Lord, accept the thanksgiving and fervent prayers even of us sinners. Deliver us from every dark and destructive transgression and from all the visible and invisible enemies that seek to harm us. Nail our flesh with the fear of You, and do not incline our hearts to evil words or thoughts; but rather prick our souls with love for You, so that always looking to You, and guided by Your light, and gazing on You, the eternal and ineffable Light, we may send up unceasing praise and thanksgiving to You, the Father without beginning, and Your Only-Begotten Son, and Your all-holy, good and life-giving Spirit, now and forever and to ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER: Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "NINTH HOUR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come, let us worship and bow down before God our King.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come, let us worship and bow down before Christ God our King.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come, let us worship and bow down before Him, Christ our King and God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 68 (69).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Save me, O God, for the waters flood my soul. I am stuck in the mire of the sea, and there is no place to stand; I came into the depths of the sea, and the storm overwhelmed me. I grow weary with crying; my throat is hoarse; my eyes fail me from hoping in my God. Those who hate me without a cause multiplied even more than the hairs of my head; my enemies who persecute me unjustly have become strong; then I paid for things I did not steal. O God, You know my foolishness, and my transgressions are not hidden from You. O Lord, O Lord of hosts, let not those who wait for You be put to shame because of me; O God of Israel, let not those who seek You feel ashamed because of me. For Your sake I bore disgrace; humiliation covered my face. I am become a stranger to my brothers, an alien to my mother’s sons; for the zeal of Your house consumed me, and the insults of those who disgraced You fell on me. I bent down my soul with fasting, and it became a disgrace for me. I also made sackcloth my garment, and I became a byword to them. Those who sit at the gate were talking against me, and those who drink wine were singing about me. But I, O Lord, pray with my prayer to You; it is the time of Your goodwill, O God, in the abundance of Your mercies; in the truth of Your salvation, hear me. Save me from the mire, that I may not be stuck therein; deliver me from those who hate me, and from the depths of the waters. Let not a storm of water drown me; neither let the deep swallow me up, nor the well enclose its mouth upon me. Hear me, O Lord, for Your mercy is good; according to Your abundant compassion, look upon me. Turn not Your face from Your child, for I am afflicted; hear me speedily. Give heed to my soul, and redeem it; deliver me because of my enemies. For You know my disgrace and my shame and humiliation; all who afflict me are before You. My soul expected disgrace and trouble, and I waited for someone to sympathize with me; but no one was there, and for comforters, but I found not one. They gave me gall for my food, and they gave me vinegar for my drink. Let their table become a snare before them, and a recompense and a stumbling block. Let their eyes be darkened so they may not see, and bend down their backs continually; pour out Your anger upon them, and let the fury of Your wrath lay hold of them. Let their dwelling place be laid waste, and let no one live in their tents. For they pursued closely the one You slew, and they added to the pain of my wounds. Add lawlessness to their lawlessness, and let them not enter into Your righteousness; let them be blotted out from the book of the living, and not be written with the righteous. I am poor and suffering, and the salvation of Your presence, O God, lays hold of me. I will praise God’s name with a song; I will magnify Him in praise, and this shall be more pleasing to God than a young bull with horns and hooves. Let the poor behold this, and be glad; seek God, and your soul shall live, for the Lord hears the poor, and does not despise His prisoners. Let heaven and earth praise Him, the seas and everything that moves in them. For God shall save Zion, and the cities of Judah shall be built; and they shall dwell therein, and inherit it; and the seed of His servants shall possess it, and those who love His name shall dwell in it. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 69 (70).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O God, [give heed] to help me. [O Lord, make haste to help me.] May those who seek my soul be dishonored and shamed; may those who plot evils against me be turned back and disgraced; may those be turned back immediately who shame me, saying, “Well done! Well done!” May all who seek You greatly rejoice and be glad in You, and let those who love Your salvation always say, “Let God be magnified.” But I am poor and needy; O God, help me. You are my helper and deliverer, O Lord; do not delay. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 85 (86).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Incline Your ear, O Lord, and hear me, for I am poor and needy. Guard my soul, for I am holy; O my God, save Your servant, who hopes in You. Have mercy on me, O Lord, for all the day long I will cry to You. Gladden the soul of Your servant, O Lord, for to You, O Lord, I lift up my soul. For You, O Lord, are kind and good, and very merciful to all who call upon You. Give ear, O Lord, to my prayer and heed the voice of my supplication. In the day of my affliction I cried to You, for You heard me. There is none like You among the gods, O Lord, and there are no works like Your works. All the Gentiles You made shall come and worship before You, O Lord, and they shall glorify Your name; for You are great, doing wonders; You alone are the great God. Lead me in Your way, O Lord, and I will walk in Your truth; gladden my heart so as to fear Your name. I will give thanks to You, O Lord my God, with my whole heart, and I shall glorify Your name forever; for great is Your mercy to me, and You rescued my soul from the lowest Hades. O God, lawless men rose up against me, and a gathering of strong men sought my soul; and they did not set You before them. But You, O Lord, are compassionate and merciful, longsuffering and very merciful and truthful. Look upon me and have mercy; give Your strength to Your servant, and save the son of Your handmaid. Work a sign in my midst for good, and let those who hate me see it and be disgraced; for You, O Lord, helped me and comforted me.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Work a sign in my midst for good, and let those who hate me see it and be disgraced; for You, O Lord, helped me and comforted me. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Alleluia. Alleluia. Alleluia. Glory to You, O God. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Troparion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "When the Robber saw the Author of life hanging on the Cross, he said, “If He who is crucified with us were not God incarnate, the sun would not have hid its rays, nor would the earth have quaked and trembled. I pray You who endure everything, remember me, O Lord, in Your Kingdom.” [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You were born of a Virgin, and You endured crucifixion for us, O good Lord. By Your death You divested death of spoils, and You displayed resurrection, as God. Please do not despise us, the work of Your hand. Demonstrate Your loving kindness, O merciful Master. Defer to Your Mother, the Theotokos, when she intercedes on our behalf, and save us, Your people in despair, O Savior. [GOASD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Idiomela.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Grave Mode.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "It was shocking to see the Creator of heaven and earth hanging on the Cross, the sun darkened, and day turned into night; and earth sending up from the graves the bodies of the dead. With them we also worship You. Save us. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 2.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse: They divided my garments among themselves, and for my clothing they cast lots. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "When the transgressors of the Law had You nailed to the Cross -- You who are the King of glory, You said to them, “How have I vexed you, or with what did I provoke you to anger? Before Me, who delivered you from affliction? And now, how do you repay Me? Evil instead of good. In return for the pillar of fire, you nailed Me to a cross; in return for the cloud, you dug a grave for Me. In return for the manna, you fed Me gall, and in return for the water, you gave Me vinegar to drink. So, I will call the Gentiles, and they will glorify Me, with the Father and the Holy Spirit.” [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Both now. Mode pl. 2.",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "The Reader (or one of the chanters) stands in the center of the solea in front of the Crucifix and facing east, and reverently intones the following hymn in the same style as the Epistle Readings. When he is finished, the choirs sing the hymn antiphonally, verse by verse.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Today, He who suspended the earth in the waters is suspended on a cross. (3) The King of the Angels wears a crown of thorns. He who wraps the sky in clouds is wrapped in a fake purple robe. He who freed Adam in the Jordan accepts to be slapped. The Bridegroom of the Church is fixed with nails to the cross. The Son of the Virgin is pierced with a spear. We worship Your Passion, O Christ. (3) Show us also Your glorious Resurrection. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "THE PROPHECY",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Prokeimenon. Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The fool says in his heart, “There is no God.”",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse: There is none, not even one, who does good. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The reading is from the Prophecy of Jeremiah.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Wisdom. Let us be attentive.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Jer 11:17 – 22; 12:1 – 5, 9 – 11, 14 – 15",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Lord, teach me, and I will know. Then I saw their purpose. For I did not know I was like an innocent lamb led to be sacrificed. They plotted an evil device against me, saying, “Come, let us put wood in his bread, and destroy him root and branch from the land of the living, so his name might not be remembered any longer.” But, O Lord, You who judge righteously, who tests minds and hearts, let me see Your vengeance on them, for I have revealed my righteous plea to You. Therefore thus says the Lord against the men of Anathoth, against those who seek my life, and who say, “Do not prophesy in the name of the Lord, lest you die by our hands” – “Behold, I will visit them. The young men shall die by the sword, and their sons and daughters shall die by famine. There shall be no remnant of them, for I will bring calamities on the inhabitants of Anathoth in the year of their visitation.” O Lord, You are righteous, that I may plead my case with You, to speak to You concerning judgments. Why does the way of the ungodly prosper, and all who deal treacherously flourish? You planted them, and they took root. They bear children and are fruitful. You are near in their mouth, but far from their mind. But You, O Lord, know me. You have proven my heart before You. Set them apart for the day of slaughter. How long will the land mourn and the grass of the field wither, because of the vices of those who dwell in it? The cattle and the birds are destroyed, because they said, “God will not see our ways.” “Your feet run and grow weary. Gather together all the wild beasts of the field and let them come to devour her. Many shepherds destroyed My vineyard and defiled My portion. They turned My pleasant portion into an impassable desert. It was made a complete ruin.” For thus says the Lord: “Concerning all the evil neighbors who touch My inheritance, which I divided to My people Israel – behold, I shall draw them away from their land and will cast out Judah from their midst. Then it shall come to pass, after I cast them out, that I will return them and have mercy on them. I will settle them, each in his inheritance and each in his land.” [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "The Epistle",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The reading is from Paul’s Letter to the Hebrews.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us be attentive. Wisdom. Let us be attentive.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "10:19 – 31",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Brethren, since we have confidence to enter the sanctuary by the blood of Jesus, by the new and living way which he opened for us through the curtain, that is, through his flesh, and since we have a great priest over the house of God, let us draw near with a true heart in full assurance of faith, with our hearts sprinkled clean from an evil conscience and our bodies washed with pure water. Let us hold fast the confession of our hope without wavering, for he who promised is faithful; and let us consider how to stir up one another to love good works, not neglecting to meet together, as is the habit of some, but encouraging one another, and all the more as you see the Day drawing near. For if we sin deliberately after receiving the knowledge of the truth, there no longer remains a sacrifice for sins, but a fearful prospect of judgment, and a fury of fire which will consume the adversaries. A man who has violated the law of Moses dies without mercy at the testimony of two or three witnesses. How much worse punishment do you think will be deserved by the man who has spurned the Son of God, and profaned the blood of the covenant by which he was sanctified, and outraged the Spirit of grace? For we know him who said, “Vengeance is mine, says the Lord, I will repay.” And again, “The Lord will judge his people.” It is a fearful thing to fall into the hands of the living God. [RSV]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "The Gospel",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Wisdom. Arise. Let us hear the holy Gospel.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Peace be with all.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "And with your spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The reading is from the holy Gospel according to John. Let us be attentive.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to You, O Lord, glory to You.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "19:23 – 37",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "At that time, when the soldiers had crucified Jesus they took his garments and made four parts, one for each soldier; also his tunic. But the tunic was without seam, woven from top to bottom; so they said to one another, “Let us not tear it, but cast lots for it to see whose it shall be.” This was to fulfill the scripture, “They parted my garments among them, and for my clothing they cast lots.” So the soldiers did this. But standing by the cross of Jesus were his mother, and his mother’s sister, Mary the wife of Clopas, and Mary Magdalene. When Jesus saw his mother, and the disciple whom he loved standing near, he said to his mother, “Woman, behold, your son!” Then he said to the disciple, “Behold, your mother!” And from that hour the disciple took her to his own home. After this Jesus, knowing that all was now finished, said (to fulfill the scripture), “I thirst.” A bowl full of vinegar stood there; so they put a sponge full of the vinegar on hyssop and held it to his mouth. When Jesus had received the vinegar, he said, “It is finished”; and he bowed his head and gave up his spirit. Since it was the day of Preparation, in order to prevent the bodies from remaining on the cross on the sabbath (for that sabbath was a high day), the Jews asked Pilate that their legs might be broken, and that they might be taken away. So the soldiers came and broke the legs of the first, and of the other who had been crucified with him; but when they came to Jesus and saw that he was already dead, they did not break his legs. But one of the soldiers pierced his side with a spear, and at once there came out blood and water. He who saw it has borne witness — his testimony is true, and he knows that he tells the truth — that you also may believe. For these things took place that the scripture might be fulfilled, “Not a bone of him shall be broken.” And again another scripture says, “They shall look on him whom they have pierced.” [RSV]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to You, O Lord, glory to You.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For Your name’s sake, do not hand us over to the end, and do not reject Your covenant. Do not withdraw Your mercy from us for the sake of Abraham, who is loved by You, and for the sake of Isaac, Your servant, and of Israel, Your holy one.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Trisagion Prayers.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Holy God, Holy Mighty, Holy Immortal, have mercy on us. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit; both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "All-holy Trinity, have mercy on us. Lord, forgive our sins. Master, pardon our transgressions. Holy One, visit and heal our infirmities for Your name’s sake.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. Lord, have mercy. Lord, have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit; both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For Thine is the kingdom and the power and the glory, of the Father and the Son and the Holy Spirit, now and ever and to ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Kontakion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come, let us all extol Him who was crucified for us. Mary beheld Him on the Cross and she said, “Though You endure the Cross, You are my Son and my God.” [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. (40)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Christ our God, who at all times and at every hour, both in heaven and on earth, are worshipped and glorified, long suffering and plenteous in mercy and compassion; who love the just and show mercy to the sinners; who call all men to salvation through the promise of the blessings to come: Do You, the same Lord, receive also our supplications at this present time, and direct our lives according to Your commandments. Sanctify our souls; purify our bodies; set our minds right; clear up our thoughts, and deliver us from every sorrow, evil and distress. Surround us with Your holy Angels so that being guarded and guided by their presence, we may arrive at the unity of the faith and the knowledge of Your ineffable glory; for blessed are You unto the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Greater in honor than the Cherubim, and in glory greater beyond compare than the Seraphim; you without corruption gave birth to God the Word, and are truly Theotokos. You do we magnify.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "In the name of the Lord, Father, bless!",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "May God have compassion on us and bless us; may his face shine upon us and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Master, Lord Jesus Christ our God, who are long-suffering in the face of our transgressions, and have led us to the present hour, in which, as You hung upon the life-giving tree, You made a way into Paradise for the penitent robber, and destroyed death by death: Cleanse us, Your humble, sinful and unworthy servants. For we have sinned and transgressed and are not worthy to lift up our eyes and look at the height of heaven, for we have abandoned the path of righteousness and followed the desires of our hearts. So we implore Your incomparable goodness: Spare us, O Lord, according to the abundance of Your mercy, and save us for Your holy name’s sake, for our days have passed in vanity. Rescue us from the hand of the adversary and forgive our sins, and mortify our mind set on the flesh; so that we may put off the old man be clothed with the new, and live for You, our Master and Benefactor. And thus may we follow Your commandments, and arrive at the eternal rest, where the dwelling is of all those who rejoice. For You are the true joy and exultation of those who love You, Christ our God, and we send up glory to You and Your unoriginate Father and Your all-holy, good and life-giving Spirit, now and forever and to ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER: Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "THE BEATITUDES",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "In Your kingdom. Remember us, O Lord, when You come in Your kingdom. Blessed are the poor in spirit, for theirs is the kingdom of heaven",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed are those who mourn, for they shall be comforted.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed are the meek, for they shall inherit the earth.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed are those who hunger and thirst for righteousness, for they shall be satisfied.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed are the merciful, for they shall obtain mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed are the pure in heart, for they shall see God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed are the peacemakers, for they shall be called sons of God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed are those who are persecuted for righteousness’ sake, for theirs is the kingdom of heaven.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed are you when men revile you and persecute you and utter all kinds of evil against you falsely [for my sake].",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Rejoice and be glad, for your reward is great in heaven.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Remember us, O Lord, when You come in Your kingdom.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Remember us, O Master, when You come in Your kingdom.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Remember us, O Holy One, when You come in Your kingdom.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The heavenly choir extols you and says: Holy, Holy, Holy, Lord Sabaoth; heaven and earth are full of Your glory.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come to Him, and be enlightened, and your face shall never be ashamed. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The heavenly choir extols you and says: Holy, Holy, Holy, Lord Sabaoth; heaven and earth are full of Your glory.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The choir of holy Angels and Archangels, with all the heavenly Powers, extols you and says: Holy, Holy, Holy, Lord Sabaoth; heaven and earth are full of Your glory.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "I believe in one God, Father Almighty, Creator of heaven and earth, and of all things visible and invisible. And in one Lord Jesus Christ, the only-begotten Son of God, begotten of the Father before all ages; Light of Light, true God of true God, begotten, not created, of one essence with the Father, through Whom all things were made. Who for us men and for our salvation came down from heaven and was incarnate of the Holy Spirit and the Virgin Mary and became man. He was crucified for us under Pontius Pilate, and suffered and was buried; And He rose on the third day, according to the Scriptures. He ascended into heaven and is seated at the right hand of the Father; And He will come again with glory to judge the living and the dead. His kingdom shall have no end. And in the Holy Spirit, the Lord, the Creator of life, Who proceeds from the Father, Who together with the Father and the Son is worshiped and glorified, Who spoke through the prophets. In one, holy, catholic, and apostolic Church. I confess one baptism for the forgiveness of sins. I look for the resurrection of the dead, and the life of the age to come. Amen. [GOA]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Pardon, remit, and forgive our offenses, voluntary or involuntary, in deed or word, committed knowingly or unknowingly, day or night, in mind and thought; forgive us all things, as our good and benevolent God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For Thine is the kingdom and the power and the glory, of the Father and the Son and the Holy Spirit, now and ever and to ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Kontakion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come, let us all extol Him who was crucified for us. Mary beheld Him on the Cross and she said, “Though You endure the Cross, You are my Son and my God.”",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. (12)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed be the name of the Lord, from this time forth and to the ages. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Both now.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 33 (34).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "I will bless the Lord at all times; His praise shall continually be in my mouth. My soul shall be praised in the Lord; let the gentle hear, and be glad. Oh, magnify the Lord with me, and let us exalt His name together. I sought the Lord, and He heard me; and He delivered me from all my sojourning. Come to Him, and be enlightened, and your face shall never be ashamed. This poor man cried, and the Lord heard him, and saved him from all his afflictions. The Angel of the Lord shall encamp around those who fear Him, and He will deliver them. Oh, taste and see that the Lord is good; blessed is the man who hopes in Him. Fear the Lord, you His saints, for there is no want for those who fear Him. Rich men turned poor and went hungry; but those who seek the Lord shall not lack any good thing. Come, you children, listen to me; I will teach you the fear of the Lord. Who is the man who desires life, who loves to see good days? Keep your tongue from evil, and your lips from speaking deceit. Shun evil and do good; seek peace and pursue it. The eyes of the Lord are upon the righteous, and His ears are open to their supplications. The Lord’s face is against those who do evil, so as to destroy their remembrance from the earth. The righteous cried, and the Lord heard them; and He delivered them from all their afflictions. The Lord is near those who are brokenhearted, and He will save the humble in spirit. Many are the afflictions of the righteous, but He will deliver them from them all. The Lord shall guard all their bones; not one of them shall be broken. The death of sinners is evil, and those who hate the righteous shall go wrong. The Lord will redeem the souls of His servants, and all who hope in Him shall not go wrong. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Both now. Lord, have mercy. (3) Father, bless!",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "He who endured the spitting, the scourging, the beatings, the Cross and death for the salvation of the world, Christ our true God, through the intercessions of His all-pure and all-immaculate holy Mother, the power of the precious and life-giving Cross, the protection of the honorable, bodiless powers of heaven, the supplications of the honorable, glorious prophet and forerunner John the Baptist, of the holy, glorious, and praiseworthy apostles, of the holy, glorious, and triumphant martyrs, of our righteous and God-bearing fathers, (local patron saint); of the holy and righteous ancestors of God Joachim and Anna, and of all the saints, have mercy on us and save us, as He is good, benevolent, and merciful God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Through the prayers of our holy fathers, Lord Jesus Christ our God, have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    }
+  ],
+  "content_kind": "native_text"
+}

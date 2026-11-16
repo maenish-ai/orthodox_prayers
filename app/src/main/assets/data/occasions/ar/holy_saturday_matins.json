@@ -1,0 +1,35 @@
+{
+  "id": "occasion::holy_saturday_matins",
+  "title": {
+    "ar": "جناز المسيح — سَحَر السبت العظيم",
+    "en": "The Lamentations — Holy Saturday Matins",
+    "el": "Ἐπιτάφιος — Ὄρθρος Μεγάλου Σαββάτου"
+  },
+  "source_language": "ar",
+  "displayable": true,
+  "source_document": {
+    "source_id": "orthodox_jordan_arabic_services",
+    "source_url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/جناز-المسيح-1.pdf",
+    "source_sha256": "91a7f69030acb3bab8d05ad7198e6a1213d61c5ee8dee463270fc69467865e47",
+    "machine_translation_used": false
+  },
+  "category": "occasions",
+  "full_service_complete": true,
+  "completeness_scope": "COMPLETE_SOURCE_EDITION_ONLY",
+  "source_provenance": {
+    "status": "PINNED_NATIVE_SERVICE_BOOK",
+    "source_id": "orthodox_jordan_arabic_services",
+    "source_sha256": "91a7f69030acb3bab8d05ad7198e6a1213d61c5ee8dee463270fc69467865e47",
+    "machine_translation_used": false
+  },
+  "native_source": {
+    "source_id": "orthodox_jordan_arabic_services",
+    "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/جناز-المسيح-1.pdf",
+    "native_language": "ar",
+    "permission_confirmed": true
+  },
+  "content_kind": "pdf_facsimile",
+  "asset_pdf": "data/occasions/ar/holy_saturday_matins.pdf",
+  "asset_sha256": "91a7f69030acb3bab8d05ad7198e6a1213d61c5ee8dee463270fc69467865e47",
+  "page_count": 60
+}

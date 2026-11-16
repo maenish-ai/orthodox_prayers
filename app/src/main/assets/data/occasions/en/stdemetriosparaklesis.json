@@ -1,0 +1,1922 @@
+{
+  "id": "occasion::stdemetriosparaklesis",
+  "title": {
+    "ar": "براكليسي القديس ديميتريوس",
+    "en": "Paraklesis to Saint Demetrios",
+    "el": "Παράκλησις τοῦ Ἁγίου Δημητρίου"
+  },
+  "source_language": "en",
+  "displayable": true,
+  "source_document": {
+    "source_id": "goarch_digital_chant_stand_english",
+    "source_url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/other/stdemetriosparaklesis/gr-en/index.html",
+    "source_sha256": "883c5f619be9fa61c3dd5c0ccddb655d6475084aeb6a7513ccfb1ecda9207ec8",
+    "machine_translation_used": false
+  },
+  "category": "occasions",
+  "full_service_complete": true,
+  "completeness_scope": "COMPLETE_SOURCE_EDITION_ONLY",
+  "source_provenance": {
+    "status": "PINNED_NATIVE_SERVICE_BOOK",
+    "source_id": "goarch_digital_chant_stand_english",
+    "source_sha256": "883c5f619be9fa61c3dd5c0ccddb655d6475084aeb6a7513ccfb1ecda9207ec8",
+    "machine_translation_used": false
+  },
+  "native_source": {
+    "source_id": "goarch_digital_chant_stand_english",
+    "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/other/stdemetriosparaklesis/gr-en/index.html",
+    "native_language": "en",
+    "permission_confirmed": true
+  },
+  "segments": [
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Supplication Service",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "to St. Demetrius the Myrrh-Streamer",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "By Monk Gerasimos Mikragiananites.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Translated by Fr. Seraphim Dedes.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed is our God always, now and ever, and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 142 (143).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Lord, hear my prayer; give ear to my supplication in Your truth; answer me in Your righteousness; do not enter into judgment with Your servant, for no one living shall become righteous in Your sight. For the enemy persecuted my soul; he humbled my life to the ground; he caused me to dwell in dark places as one long dead, and my spirit was in anguish within me; my heart was troubled within me. I remembered the days of old, and I meditated on all Your works; I meditated on the works of Your hands. I spread out my hands to You; my soul thirsts for You like a waterless land. Hear me speedily, O Lord; my spirit faints within me; turn not Your face from me, lest I become like those who go down into the pit. Cause me to hear Your mercy in the morning, for I hope in You; make me know, O Lord, the way wherein I should walk, for I lift up my soul to You. Deliver me from my enemies, O Lord, for to You I flee for refuge. Teach me to do Your will, for You are my God; Your good Spirit shall guide me in the land of uprightness. For Your name's sake, O Lord, give me life; in Your righteousness You shall bring my soul out of affliction. In Your mercy You shall destroy my enemies; You shall utterly destroy all who afflict my soul, for I am Your servant. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "Then \"God is the Lord\" is sung four times, with or without the verses.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "God is the Lord, and He revealed Himself to us. Blessed is he who comes in the name of the Lord. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse 1: Give thanks to the Lord and call upon His holy name.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "or: Give thanks to the Lord, for He is good; for His mercy endures forever.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse 2: All the nations surrounded me, but in the name of the Lord I defended myself against them.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse 3: And this came about from the Lord, and it is wonderful in our eyes.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Troparia.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4. You who were lifted.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You are the Savior's famed victorious Athlete, * and for the Orthodox protector and helper, * O holy Great Martyr St. Demetrius. * Deliver your city from all disasters and danger, * and obtain for us relief from our sins and our passions, * by your entreaties, which the Lord accepts, * for us who pray now * as if in your holy shrine. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Repeat.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now. Same Melody.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "We the unworthy shall not ever be silent, * O Theotokos, from proclaiming your powers. * For were you not concerned to intercede for us, * who would have delivered us * from such manifold dangers, * and who else would up to now * have preserved us in freedom? * O Lady, we shall not depart from you, * for you ever save your servants * from evils of every kind. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 50 (51).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on me, O God, according to Your great mercy; and according to the abundance of Your compassion, blot out my transgression. Wash me thoroughly from my lawlessness and cleanse me from my sin. For I know my lawlessness, and my sin is always before me. Against You only have I sinned and done evil in Your sight; that You may be justified in Your words, and overcome when You are judged. For behold, I was conceived in transgressions, and in sins my mother bore me. Behold, You love truth; You showed me the unknown and secret things of Your wisdom. You shall sprinkle me with hyssop, and I will be cleansed; You shall wash me, and I will be made whiter than snow. You shall make me hear joy and gladness; my bones that were humbled shall greatly rejoice. Turn Your face from my sins, and blot out all my transgressions. Create in me a clean heart, O God, and renew a right spirit within me. Do not cast me away from Your presence, and do not take Your Holy Spirit from me. Restore to me the joy of Your salvation, and uphold me with Your guiding Spirit. I will teach transgressors Your ways, and the ungodly shall turn back to You. Deliver me from bloodguiltiness, O God, the God of my salvation, and my tongue shall greatly rejoice in Your righteousness. O Lord, You shall open my lips, and my mouth will declare Your praise. For if You desired sacrifice, I would give it; You will not be pleased with whole burnt offerings. A sacrifice to God is a broken spirit, a broken and humbled heart God will not despise. Do good, O Lord, in Your good pleasure to Zion, and let the walls of Jerusalem be built; then You will be pleased with a sacrifice of righteousness, with offerings and whole burnt offerings; then shall they offer young bulls on Your altar. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "The Canon",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode i. Mode pl. 4. Of old when the Israelite.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Martyr Demetrius, by divine * power you contested; * therefore help us and give to us, * who run to your ardent intercession, * power against sinful passions, O medaled Saint. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "By working those miracles that amaze, * you have saved from perils * of all kinds those who full of faith * take refuge in your intercession, * O St. Demetrius, Great Martyr of the Lord. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Martyr, propitiate Christ our God * that we may be granted * the forgiveness of all our sins * and healing of all the sinful passions, * O sympathetic defender Demetrius. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ever-virgin Mary, since you gave birth * to God in the body, * cure the suffering and the pain * of my ailing body, and with your light * dispel the darkness that covers my humble soul. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode iii. O divine Master Builder.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ever pray to the Master * who is most gracious and kind * on behalf of all who extol you and who with focused mind * come to your sacred shrine, * that He deliver His people * from every calamity, Martyr Demetrius. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Give us spiritual healing and health of body as well * and the cure and treatment for every symptom afflicting us, * O St. Demetrius, by your entreaties to Christ God * for us who have earnestly run to your patronage. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "We who earnestly hasten to your divine sacred shrine * hope to be delivered from every injury coming from * the one attacking us, * and to obtain God's compassion * through you, O all-wonderful Martyr Demetrius. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From benevolent kindness * O Virgin Mary, you gave * birth to the Creator of all things; He is the giver of * compassion and the sea * of tender love. So take pity * on us now extolling your ineffable childbirth. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Deliver us, holy Great Martyr Demetrius, from disasters * and from injury and distress by your ardent prayers; * we count on you to entreat the Lord to save us. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Look graciously upon your servant, all-praiseworthy Theotokos, and upon my painful physical suffering, and remedy my anguish of spirit. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on us, O God, according to Your great mercy, we pray You, hear us and have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us pray for pious and Orthodox Christians.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for (episcopal rank) (name).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for mercy, life, peace, health, salvation, protection, forgiveness, and remission of the sins of the servants of God, all pious Orthodox Christians residing and visiting in this city: the parishioners, the members of the parish council, the stewards, and benefactors of this holy church.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for the servants of God… (At this time the Priest commemorates those for whom the Paraklesis is sung.)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for those who bear fruit and do good works in this holy and all-venerable church, for those who labor and those who sing, and for the people here present who await Your great and rich mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For You are a merciful God Who loves mankind, and to You we offer up glory, to the Father and to the Son and to the Holy Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Kathisma.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 2. In seeking the heights.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Of old you became protector of Thessalonica, * preserving from all chastisement and calamity * the people who would run to you * and with fervor and faith cry aloud to you, * \"O St. Demetrius, preserve us from the threat * of imminent disaster, we pray to you.\" [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode iv. I have heard the report.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Now invisibly visit us * in this place apportioned by God to you, O Saint, * and dispel the sorrow and distress * that have taken hold of our minds and souls. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Holy Martyr Demetrius, * using your superior might annihilate * that most prideful dragon who invents * wicked schemes that he employs when fighting us. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Never cease to deliver us * and to save your city from all calamity, * as you rescued it of old, O Saint, * from the threat of earthquake and from being destroyed. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Holy Virgin who bodily * gave birth to the Fashioner of creation all, * we entreat you now to intercede * that He will deliver us from every harm. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode v. Sovereign Lord our God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Grant to us relief * from diseases and the passions all, * O Demetrius, when we pray at your shrine, * from which flows the Holy Spirit's grace abundantly. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You contested well, * holy Martyr, and you sanctified * your own city by your blood and with the myrrh. * Keep her safe now from disaster and calamity. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Having you as their * great and sympathetic advocate * and protector, do the citizens of great * Thessalonica now honor you, Demetrius. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Free of all distress * keep our life, O Virgin, we entreat, * and deliver us from soul-destroying bouts * of depression that the enemy brings down on us. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode vi. I pour out my supplication.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Your city * Thessaloniki, O Martyr, * sees the casket of your all-holy relics * as a divine Mercy Seat, like the Bible's, * providing blessings to those who approach with faith, * relief from suffering as well, * and forgiveness of sins, O Demetrius. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Preserve us * from all diseases and scandals, * from distress and pain, O Great holy Martyr, * by your entreaties for us to our Lord Christ. * O St. Demetrius, keep us uninjured from * disastrous earthquakes, as we run * to your mighty protection with earnest faith. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "In times past, * you have delivered your city * Thessalonica, O all-blessed Martyr, * from threat and danger of very strong earthquakes. * So now preserve her and us free of injury * in all calamities to come, * since you pray to the Lord with great confidence. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Maiden, * the Lord who brought into being * all creation and who freed from corruption * all who revere the great mystery, namely * the awe-inspiring event of your childbirth, * was born of you from your pure blood, * O all-laudable Virgin Mother of God. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Deliver us, holy Great Martyr Demetrius, from disasters * and from injury and distress by your ardent prayers; * we count on you to entreat the Lord to save us. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Entreat for us, * O spotless Maiden who gave birth to the divine Word * inexplicably through a word in the latter days, * since you indeed * speak with motherly freedom. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on us, O God, according to Your great mercy, we pray You, hear us and have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us pray for pious and Orthodox Christians.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for (episcopal rank) (name).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for mercy, life, peace, health, salvation, protection, forgiveness, and remission of the sins of the servants of God, all pious Orthodox Christians residing and visiting in this city: the parishioners, the members of the parish council, the stewards, and benefactors of this holy church.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for the servants of God… (At this time the Priest commemorates those for whom the Paraklesis is sung.)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for those who bear fruit and do good works in this holy and all-venerable church, for those who labor and those who sing, and for the people here present who await Your great and rich mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For You are a merciful God Who loves mankind, and to You we offer up glory, to the Father and to the Son and to the Holy Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Kontakion. Mode 2.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Of old the casket that held your all-holy bones * poured out a sweet scented myrrh, O Demetrius. * Now to the faithful it offers the Spirit's grace * when they approach it and lovingly venerate * and worship the Spirit that dwells therein. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "(The Antiphon may be omitted, in which case we immediately sing the Prokeimenon.)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Antiphon I.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Since my youth have many passions waged war against me. O my Savior, nonetheless help me and save me. (2) [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You, the haters of Zion, be put to shame by the Lord, for like thatch in fire you will be completely dried up. (2) [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From the Holy Spirit every soul receives life, and through cleansing is lifted and brightened, in a hidden, sacred manner, by the trinal Monad. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From the Holy Spirit do the streams of grace well forth; they irrigate everything created, so that life be engendered. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Prokeimenon.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The righteous shall flourish like a palm tree; he shall be multiplied like the cedar in Lebanon. (2)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse: God is wondrous in His saints.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The righteous shall flourish like a palm tree; he shall be multiplied like the cedar in Lebanon. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us pray to the Lord our God that we may be made worthy to hear the holy Gospel.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Wisdom. Arise. Let us hear the Holy Gospel.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Peace be with all.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( And with your spirit. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The reading is from the Holy Gospel according to Luke.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us be attentive.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Glory to You, O Lord, glory to You. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lk. 21:12-19",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The Lord said to his disciples, \"Beware of men who will lay their hands on you and persecute you, delivering you up to the synagogues and prisons, and you will be brought before kings and governors for my name's sake. This will be a time for you to bear testimony. Settle it therefore in your minds, not to meditate beforehand how to answer; for I will give you a mouth and wisdom, which none of your adversaries will be able to withstand or contradict. You will be delivered up even by parents and brothers and kinsmen and friends, and some of you they will put to death; you will be hated by all for my name's sake. But not a hair of your head will perish. By your endurance you will gain your lives.\" [RSV]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Glory to You, O Lord, glory to You. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Mode 2.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "At the intercession of the holy Martyr, O Lord of mercy, blot out my many offences. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "At the intercession of the Theotokos, O Lord of mercy, blot out my many offences. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode pl. 2. When the saints deposited.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse: Have mercy on me, O God, according to Your great mercy; and according to the abundance of Your compassion, blot out my transgression.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Martyr Saint Demetrius, * believers all and your city * faithfully depend on you * for your ardent patronage, and they say to you: * As you saved us before, * many times, O Martyr, * from disaster and calamity, * likewise deliver us * from impending evils and suffering; * for Godly-minded as we are, * we sincerely trust that you care for us. * And pray to the Lord Christ * to grant us the forgiveness of our sins, * to cure diseases afflicting us, * and to end our suffering. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O God, save Your people and bless Your inheritance. Look upon Your world with mercy and compassion. Raise the Orthodox Christians in glory, and send down upon us Your rich mercies, through the intercessions of our most pure Lady the Theotokos and ever-Virgin Mary, the power of the precious and life giving Cross, the protection of the honorable, bodiless Powers of heaven, the supplications of the honorable and glorious prophet, and forerunner John the Baptist, the holy, glorious, and praiseworthy Apostles, our Fathers among the Saints, the great hierarchs and ecumenical teachers, Basil the Great, Gregory the Theologian and John Chrysostom, Athanasios, Cyril, and John the Merciful, patriarchs of Alexandria; Nicholas, bishop of Myra, Spyridon, bishop of Trimythous, Nektarios of Pentapolis, the wonder-workers; the holy, glorious great Martyrs George the Victorious, Theodore the Teron, and Theodore the General, Menas the Wonderworker, the Hieromartyrs Haralambos and Eleftherios; the holy, glorious, and victorious martyrs; the glorious great Martyr and all-laudable Euphemia; the holy and glorious Martyrs Thecla, Barbara, Anastasia, Katherine, Kyriake, Fotene, Marina, Paraskeve and Irene; of our holy God-bearing Fathers; (local patron saint); the holy and righteous ancestors of God Joachim and Anna, the holy and glorious Great Martyr Demetrius, the Myrrh-streamer, and of all your Saints. We beseech you, only merciful Lord, hear us sinners who pray to you and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. (12)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Through the mercy, compassion, and love of mankind of Your only-begotten Son, with whom You are blessed, together with Your all-holy, good and life-giving Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode vii. The Servants from Judea.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Since you care for your people, * O thrice-blessed Demetrius, keep up free of harm * from unexpected trials * and devastating earthquakes, * as we cry to the Lord in faith * and say, \"O blessed are You, the God of our Fathers.\" [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Like a meadow most fragrant * does the casket containing your relics now exhale * the breath of life eternal; * it mystically rejoices * our minds, O Demetrius, * eliminating the stench * of every sinful passion. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "I am dead due to evils * I committed, O Martyr Demetrius, and so * I run to your most ardent * intercession and cry out: * Kill the passions that move in me, * and bring my mind back to life, * by grace that you were given. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O immaculate Virgin, * with the knowledge of God brighten my ungrateful mind, * so that I may continue * on the way of repentance * and obtain ever-lasting life, * for I take refuge in your protection, O pure Maiden. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode viii. O praise and bless Him.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Thessaloniki * has you, O Saint, as its patron, * O Demetrius, and thus with admiration * declares the good you do and the wealth of grace God gave you. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ever deliver * from all attacks and from perils * those who seek your intercession, holy Martyr * Demetrius, and run to your church that has your relics. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Dispel the odor * of sinful passions, O blessed * Saint Demetrius, with mystical sweet frangrance * of spiritual myrrh, so that we may sing your praises. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You are our shelter * and our relief in disasters, * as the Mother of our God, all-holy Virgin. * We exalt supremely your ineffable childbirth. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode ix. You are the Theotokos.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The casket with your relics * pours out cures and healing * that from the Spirit come down like a gentle rain * on those whose hearts never doubt you, * whom we all magnify. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From catastrophic scourges * and destructive earthquakes * preserve your city, O Martyr Demetrius. * Thessaloniki extols you who are her patron Saint. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "When people come with deep faith * to your holy relics * they are delivered from troubles and tragedies, * and much obliged they extol you, Martyr Demetrius. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O highly favored Lady, * throne of the Most High God, * my soul has fallen, succumbing to passions all. * Illuminate it and lift it to holy living again. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Megalynaria.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "It is truly right to call you blessed, Theotokos, the ever-blessed and all-blameless one and the Mother of our God. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Greater in honor than the Cherubim, and in glory greater beyond compare than the Seraphim; you without corruption gave birth to God the Word, and are truly Theotokos. You do we magnify. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ornament of Martyrs are you indeed, * and Thessaloniki's * famous champion and patron Saint, * ardent intercessor for us before the Savior; * we joyfully salute you, * blessed Demetrius. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Now Thessaloniki has the divine * casket of your relics, * of which she once had been deprived, * as heavenly treasure. The city and the whole Church * extol you, O all-blessed * Martyr Demetrius. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "In your great and earnest concern you once * saved Thessaloniki * from the earthquake's destructive force. * Likewise now deliver from imminent disaster * our city and its people, * Martyr Demetrius. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Martyr Saint Demetrius, we entreat, * deliver from dangers * of all kinds and from every woe * those who in all earnest request your intercession * and venerate your holy * relics with ardent faith. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Martyr and myrrh-streamer, drive away * speedily the odor * of the passions that are unclean, * with the sweetest fragrance of spiritual myrrh oil, * and pray that we be granted * pardon for all our sins. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "See us who are standing with most profound * rev'rence, O myrrh-streamer * in your churches throughout the world. * Grant all our petitions, * which are unto salvation, * and save us from the devil's * vicious attacks on us. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Join the Theotokos, all you arrays * of angelic powers, honored Forerunner of the Lord, * holy Twelve Apostles * and all the Saints together, * and pray for our salvation, and intercede for us. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Trisagion Prayers.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Holy God, Holy Mighty, Holy Immortal, have mercy on us. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "All-holy Trinity, have mercy on us. Lord, forgive our sins. Master, pardon our transgressions. Holy One, visit and heal our infirmities for Your name's sake.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. Lord, have mercy. Lord, have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For Thine is the Kingdom and the power and the glory, of the Father and of the Son and of the Holy Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 3. Your confession.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "All the world has you, its mighty champion, * fortifying us in times of danger, * and defeating our foes, O Victorious One. * So, as you humbled Lyaios's arrogance * by giving courage to Nestor in the stadium, * thus, O holy Great Martyr Demetrius, * to Christ our God pray fervently, * beseeching Him to grant us His great mercy. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on us, O God, according to Your great mercy, we pray You, hear us and have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for the protection of the holy Great Church of Christ, our sacred Archdiocese (and this sacred Metropolis), this city and every city and land, from wrath, famine, pestilence, earthquake, flood, fire, sword, foreign invasion, civil strife, and accidental death. That our good and loving God may be merciful, gracious and kindly-disposed, and may divert and disperse all anger and disease coming against us, and deliver us from His own just threat hanging over us, and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray that the Lord our God may hear the prayer of us sinners, and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Hear us, O God our Savior, the hope of all those who live everywhere on earth and those far out at sea or in the air. Be gracious toward our sins, Master, and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For You are a merciful and loving God, and to You we give glory, to the Father and the Son and the Holy Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to You, our God. Glory to You.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "May Christ our true God, through the intercessions of His all-pure and all-immaculate holy Mother, the power of the precious and life-giving Cross, the protection of the honorable, bodiless powers of heaven, the supplications of the honorable, glorious prophet and forerunner John the Baptist, of the holy, glorious, and praiseworthy apostles, of the holy, glorious, and triumphant martyrs, of our righteous and God-bearing fathers, (local patron saint); of the holy and righteous ancestors of God Joachim and Anna, the holy and glorious Great Martyr Demetrius, the Myrrh-streamer, and of all the saints, have mercy on us and save us, for He is good and loves mankind.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 2. Joseph took You down.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Rescue us who run to you with faith, * honoring your sweet scented relics, O Saint Demetrius. * We implore you to deliver us from every woe, * from the losses and suffering * resulting from earthquakes, * and from all affliction of our souls and bodies alike. * Since you are His holy Great Martyr, * you have special access to Christ God, * and you answer prayers of those who honor you. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lady, receive the supplications of your servants, and rescue us from all necessity and affliction. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Mother of God, I have committed my every hope wholly unto you. Keep me under your shelter. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy on us [and save us].",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    }
+  ],
+  "content_kind": "native_text"
+}

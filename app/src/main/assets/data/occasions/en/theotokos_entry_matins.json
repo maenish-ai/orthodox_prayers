@@ -1,0 +1,2628 @@
+{
+  "id": "occasion::theotokos_entry_matins",
+  "title": {
+    "ar": "دخول سيدتنا والدة الإله إلى الهيكل",
+    "en": "The Entry of our Most Holy Lady the Theotokos into the Temple",
+    "el": "Τὰ Εἰσόδια τῆς Ὑπεραγίας Θεοτόκου"
+  },
+  "source_language": "en",
+  "displayable": true,
+  "source_document": {
+    "source_id": "goarch_digital_chant_stand_english",
+    "source_url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2026/11/21/ma/gr-en/index.html",
+    "source_sha256": "9f68ef62be0346718493e5164c267f7f9c89ddeccb4cbc7060122e29f79929ed",
+    "machine_translation_used": false,
+    "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+  },
+  "category": "occasions",
+  "full_service_complete": true,
+  "completeness_scope": "COMPLETE_SOURCE_EDITION_ONLY",
+  "source_provenance": {
+    "status": "PINNED_NATIVE_SERVICE_BOOK",
+    "source_id": "goarch_digital_chant_stand_english",
+    "source_sha256": "9f68ef62be0346718493e5164c267f7f9c89ddeccb4cbc7060122e29f79929ed",
+    "machine_translation_used": false
+  },
+  "native_source": {
+    "source_id": "goarch_digital_chant_stand_english",
+    "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2026/11/21/ma/gr-en/index.html",
+    "native_language": "en",
+    "permission_confirmed": true
+  },
+  "edition_date": "2026-11-21",
+  "segments": [
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The Service of Matins",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "on Saturday, November 21, 2026",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Menaion - November 21",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The Entry of the Most Holy Theotokos",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Katavasias of Christmas I",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "…",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Powered by Digital Chant Stand",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "A National Ministry of the Greek Orthodox Archdiocese of America",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Sources",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "GOADEDES Greek Orthodox Archdiocese of America and Fr. Seraphim Dedes. AC Anthony Cook. AGH Fr. Andreas Houpos. GKD George K. Duvall. KW Metropolitan Kallistos Ware. NR Nicholas Roumas. RB Richard Barrett. JMB John Michael Boyer. SD Fr. Seraphim Dedes. TC Thomas Carroll. VPA Virgil Fr. Peter Andronache. GOA Greek Orthodox Archdiocese of America. HC Holy Cross Orthodox Press. MLGS Monastery of the Life-Giving Spring. OCA Orthodox Church in America.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "NKJV Scripture taken from the New King James Version™. Copyright © 1982 by Thomas Nelson, Inc. Used by permission. All rights reserved.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "RSV Revised Standard Version of the Bible, copyright © 1946, 1952, and 1971 National Council of the Churches of Christ in the United States of America. Used by permission. All rights reserved.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "SAAS Scripture taken from the St. Athanasius Academy Septuagint™. Copyright © 2008 by St. Athanasius Academy of Orthodox Theology. Used by permission. All rights reserved.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Disclaimer",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The translation, rubrics, Greek and English texts are for the purposes of worship only and are subject to change without notice at the discretion of the Greek Orthodox Archdiocese of America.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "All rights reserved. The materials contained within this booklet remain the property of all contributing translators. It is published solely for the purpose of providing a source of worship materials to the parishes of the Orthodox Church and may be copied and otherwise reproduced as needed by the parish toward this end; however, it may not be reprinted, reproduced, transmitted, stored in a retrieval system, or translated into any language in any form by any means – electronic, mechanical, recording, or otherwise – for the purpose of sale without the express written permission of the Greek Orthodox Archdiocese of America.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "GOA DCS Website",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "https://dcs.goarch.org",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Email",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "dcsinfo@goarch.org",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Fonts",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Font copyright (c) 2010 Google Corporation with Reserved Font Arimo, Tinos and Cousine.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Copyright (c) 2012 Red Hat, Inc. with Reserved Font Name Liberation. This Font Software is licensed under the SIL Open Font License, Version 1.1.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Books - Sources",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Menaion - November 21",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The Entry of the Most Holy Theotokos",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "__________",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "MATINS",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "bookmark",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "bookmark",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "God is the Lord, and He revealed Himself to us. Blessed is he who comes in the name of the Lord. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse 1: Give thanks to the Lord and call upon His holy name.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse 2: All the nations surrounded me, but in the name of the Lord I defended myself against them.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse 3: And this came about from the Lord, and it is wonderful in our eyes.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Apolytikion of the Feast.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From Menaion - - -",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Today is the prelude of God’s good pleasure, and the proclamation of humanity’s salvation. In the temple of God, the Virgin is presented openly, and in herself she announces Christ to all. Let us, then, with a great voice cry aloud to her: “Rejoice, you are the fulfillment of the Creator’s dispensation.” (3) [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again and again in peace let us pray to the Lord.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR: Lord, have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Help us, save us, have mercy on us, and protect us, O God, by Your grace.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR: Lord, have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR: To You, O Lord.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For Yours is the dominion, and Yours is the kingdom and the power and the glory, of the Father and the Son and the Holy Spirit, now and ever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR: Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "bookmark",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Kathisma I.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From Menaion - - -",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 1. The soldiers..",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Τὸν τάφον σου Σωτήρ.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The feeder of our Life, now an infant in body, * the offspring of the just Joachim and Anna, * is offered to God today in the holy Sanctuary. * She was blessed therein by the priest Zacharias. * Therefore let us all, with faith, proclaim she is blessed,* for she is the Mother of the Lord. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Both now. Repeat.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The feeder of our Life, now an infant in body, * the offspring of the just Joachim and Anna, * is offered to God today in the holy Sanctuary. * She was blessed therein by the priest Zacharias. * Therefore let us all, with faith, proclaim she is blessed,* for she is the Mother of the Lord. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Kathisma II.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From Menaion - - -",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4. Joseph marveled.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Κατεπλάγη Ἰωσήφ.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Consecrated unto God * were you before you were conceived; * being born on earth, to Him * you now are offered as a gift, * O pure one, filling the promise made by your parents. * In purity returned unto the Temple divine * from infancy with lamps brightly shining, in truth * you were a temple divine and a vessel * of the divine unapproachable Light. * How truly great is your sacred entrance, * O only ever-virgin Bride of God. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Both now. Repeat.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Consecrated unto God * were you before you were conceived; * being born on earth, to Him * you now are offered as a gift, * O pure one, filling the promise made by your parents. * In purity returned unto the Temple divine * from infancy with lamps brightly shining, in truth * you were a temple divine and a vessel * of the divine unapproachable Light. * How truly great is your sacred entrance, * O only ever-virgin Bride of God. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Kathisma III.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From Menaion - - -",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode pl. 4. When he perceived.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Τὸ προσταχθέν.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Exult, O David, the composer of divine hymns; * and dance for joy, O Joachim along with Anna; * for from you has come forth a most holy offspring, * yes, Mary the divine lantern bearing the light. * And as she enters the Temple she does rejoice. * As he saw her, the priestly son of Barachiah blest her, * and full of joy he cried aloud, Rejoice, wonder of all the world. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Both now. Repeat.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Exult, O David, the composer of divine hymns; * and dance for joy, O Joachim along with Anna; * for from you has come forth a most holy offspring, * yes, Mary the divine lantern bearing the light. * And as she enters the Temple she does rejoice. * As he saw her, the priestly son of Barachiah blest her, * and full of joy he cried aloud, Rejoice, wonder of all the world. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again and again in peace let us pray to the Lord.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR: Lord, have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Help us, save us, have mercy on us, and protect us, O God, by Your grace.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR: Lord, have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR: To You, O Lord.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For blessed is Your name, and glorified is Your kingdom, of the Father and the Son and the Holy Spirit, now and ever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR: Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "bookmark",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Antiphon 1.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From my youth, many passions war against me. O my Savior, I implore You, uphold me and save me. (2) [GOASD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You who hate Zion, be shamed by the Lord; for you will be withered like grass in the fire. (2) [GOASD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "By the Holy Spirit every soul is animated, and when purified, it is mystically uplifted and brightened by the triune Godhead. [GOASD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From the Holy Spirit the streams of grace well forth; they water all creation, so that life be engendered. [GOASD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Prokeimenon. Psalm 44.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Listen, O daughter, behold and incline your ear, and forget your people and your father’s house. For the King desired your beauty. (2)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse: My heart overflowed with a good word; I tell my works to the King.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Listen, O daughter, behold and incline your ear, and forget your people and your father’s house. For the King desired your beauty. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "Stand for the Gospel reading.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "DEACON",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us pray to the Lord.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR: Lord, have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For You, our God, are holy, and You rest among the holy ones, and to You we offer up glory, to the Father and the Son and the Holy Spirit, now and ever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR: Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 2.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let everything that breathes praise the Lord. (2) Let everything that breathes praise the Lord. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "DEACON",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us pray to the Lord our God that we may be made worthy to hear the holy Gospel.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR: Lord, have mercy. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "DEACON",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Wisdom. Arise. Let us hear the holy Gospel.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Peace be with all.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR: And with your spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "bookmark",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The reading is from the holy Gospel according to Luke.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "DEACON",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us be attentive.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to You, O Lord, glory to You.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST (from the gate)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lk. 1:39 – 49, 56",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "In those days, Mary arose and went with haste into the hill country, to a city of Judah, and she entered the house of Zacharias and greeted Elizabeth. And when Elizabeth heard the greeting of Mary, the babe leaped in her womb; and Elizabeth was filled with the Holy Spirit and she exclaimed with a loud cry, “Blessed are you among women, and blessed is the fruit of your womb! And why is this granted me, that the mother of my Lord should come to me? For behold, when the voice of your greeting came to my ears, the babe in my womb leaped for joy. And blessed is she who believed that there would be a fulfillment of what was spoken to her from the Lord.” And Mary said, “My soul magnifies the Lord, and my spirit rejoices in God my Savior, for he has regarded the low estate of his handmaiden. For behold, henceforth all generations will call me blessed; for he who is mighty has done great things for me, and holy is his name.” And Mary remained with her about three months, and returned to her home. [RSV]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to You, O Lord, glory to You.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 50 (51).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on me, O God, according to Your great mercy; and according to the abundance of Your compassion, blot out my transgression. Wash me thoroughly from my lawlessness and cleanse me from my sin. For I know my lawlessness, and my sin is always before me. Against You only have I sinned and done evil in Your sight; that You may be justified in Your words, and overcome when You are judged. For behold, I was conceived in transgressions, and in sins my mother bore me. Behold, You love truth; You showed me the unknown and secret things of Your wisdom. You shall sprinkle me with hyssop, and I will be cleansed; You shall wash me, and I will be made whiter than snow. You shall make me hear joy and gladness; my bones that were humbled shall greatly rejoice. Turn Your face from my sins, and blot out all my transgressions. Create in me a clean heart, O God, and renew a right spirit within me. Do not cast me away from Your presence, and do not take Your Holy Spirit from me. Restore to me the joy of Your salvation, and uphold me with Your guiding Spirit. I will teach transgressors Your ways, and the ungodly shall turn back to You. Deliver me from bloodguiltiness, O God, the God of my salvation, and my tongue shall greatly rejoice in Your righteousness. O Lord, You shall open my lips, and my mouth will declare Your praise. For if You desired sacrifice, I would give it; You will not be pleased with whole burnt offerings. A sacrifice to God is a broken spirit, a broken and humbled heart God will not despise. Do good, O Lord, in Your good pleasure to Zion, and let the walls of Jerusalem be built; then You will be pleased with a sacrifice of righteousness, with offerings and whole burnt offerings; then shall they offer young bulls on Your altar. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From Menaion - - -",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Mode 2.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Today the animate temple of the great King comes into the Temple, to prepare herself to become His divine dwelling. O peoples, be exultant. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Today the animate temple of the great King comes into the Temple, to prepare herself to become His divine dwelling. O peoples, be exultant. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Idiomelon. Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse: Have mercy on me, O God, according to Your great mercy; and according to the abundance of Your compassion, blot out my transgression. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Today the Theotokos, the temple that contains God, is led into the Temple of God; and Zacharias welcomes her. Today the Holy of Holies is exultant, and the chorus of Angels mystically celebrates. Together with them let us also keep the feast today, and with Gabriel let us cry aloud: Rejoice, O Maiden full of grace, the Lord is with you; and He has the great mercy. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O God, save Your people and bless Your inheritance. Look upon Your world with mercy and compassion. Raise the Orthodox Christians in glory, and send down upon us Your rich mercies:",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "through the intercessions of our all-immaculate Lady Theotokos and ever-virgin Mary, whose Entry into the Temple we celebrate, by the power of the precious and life-giving Cross, the protection of the honorable, heavenly, bodiless powers, the supplications of the honorable, glorious prophet and forerunner John the Baptist, the holy, glorious, and praiseworthy apostles, our fathers among the saints, the great hierarchs and ecumenical teachers Basil the Great, Gregory the Theologian, and John Chrysostom; Athanasius, Cyril, and John the Merciful, patriarchs of Alexandria, Nicholas, bishop of Myra, Spyridon, bishop of Trimythous, Nektarios of Pentapolis, the wonderworkers; the holy, glorious, great martyrs George the triumphant, Demetrios the myrrh-streamer, Theodore the soldier, and Theodore the general; Menas the wonderworker; Charalampus and Eleutherius, the hieromartyrs; the holy, glorious, and victorious martyrs; the glorious great Martyr and all-laudable Euphemia; the holy and glorious Martyrs Thecla, Barbara, Anastasia, Catherine, Kyriaki, Photini, Marina, Paraskevi and Irene; our venerable and God-bearing fathers; (local patron saint); the holy and righteous ancestors of God Joachim and Anna; and all Your saints:",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "We beseech you, only merciful Lord, hear us sinners who pray to you and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR: Lord, have mercy. (12)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Through the mercy, compassion, and love for humankind of Your only-begotten Son, with whom You are blessed, and Your all-holy, good and life-creating Spirit, now and ever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR: Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From Menaion - - -",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Kontakion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4. You who were lifted.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ὁ ὑψωθεὶς ἐν τῷ Σταυρῷ.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The Savior’s most pure and immaculate temple, the very precious bridal chamber and Virgin, who is the sacred treasure of the glory of God, on this day is introduced into the House of the Lord, and with herself she brings the grace in the divine Spirit. She is extolled by the Angels of God. A heavenly tabernacle is she. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Oikos.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Seeing the grace of God’s ineffable and divine mysteries evident and manifestly fulfilled in the Virgin, I rejoice; and I am at a loss to understand the ineffable and strange manner in which the immaculate Maid alone proved to be chosen above all creation visible and invisible. Therefore, wishing to extol her, I am greatly perplexed in mind and speech. Nevertheless I dare to do it, and I proclaim and magnify: A heavenly tabernacle is she. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "bookmark",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "Stand for the reading of the Synaxarion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Synaxarion",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From the Menaion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "On November 21, we commemorate the Entry of the Mother of God into the Temple.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "By the intercessions of the Theotokos, O God, have mercy on us. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "bookmark",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Katavasias Odes 1-8",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Ode i. Katavasia. Mode 1.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Christ is born! Glorify Him! * Christ is come from heaven! Go and meet Him! * Christ is on earth! Arise to Him! * Sing to the Lord, all you inhabitants of earth, and all you peoples, praise Him, * and with merriment extol Him who is glorified! [GOASD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Ode iii. Katavasia. Mode 1.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "To the Son, begotten from the Father unchangingly before the ages, * and now becoming incarnate from the Virgin without seed; * to Christ God let us cry aloud, * “You have exalted the horn of our strength. * Only You are holy, O Lord!” [GOASD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Ode iv. Katavasia. Mode 1.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "A rod has come forth from Jesse’s root, * and You its flower grew from it, praiseworthy Christ, now born of the Virgin, * whom Habakkuk called Paran, shady, thickly wooded mountain. * From her who knew no man You came incarnate, O immaterial God. * Glory to Your strength, O Lord! [GOASD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Ode v. Katavasia. Mode 1.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O God of peace and Father of mercies, * You have sent to us the Wonderful Counselor, * the Angel of Your great counsel, granting us peace. * And now to light of knowledge of God we have been guided, * and we rise from night to dawn and glorify You, O benevolent Lord. [GOASD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Ode vi. Katavasia. Mode 1.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Jonah long ago * was hurled from the belly of the whale as he went in, like a newborn babe. * With the Virgin now, * when the Logos had dwelt in His Mother’s womb, * taking flesh, He then emerged, preserving her intact.* Yielding not to changeability, * He preserved her unaltered in childbirth. [GOASD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Ode vii. Katavasia. Mode 1.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Brought up together piously, the Servants * with contempt regarded the impious king’s decree. * The threat of the furnace did not frighten them. * Rather, standing in the midst of flames, they prayed and sang, * “Blessed are You, O Lord God of our fathers!” [GOASD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Ode viii. Katavasia. Mode 1.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "We praise and we bless and we worship the Lord.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Babylon’s bedewing furnace bore the image of an extraordinary wonder. * For it did not burn the youths it was holding, * nor did the fire of Divinity consume the Virgin’s womb wherein it went. * And so let us songfully extol and praise, * “Let all creation bless the Lord, sing a hymn to Him, * and exalt Him beyond measure unto all the ages.” [GOASD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "bookmark",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "Stand for the singing of Ode ix.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "DEACON",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us honor and magnify in song the Theotokos and the Mother of the light.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "The Magnificat is omitted.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From Menaion - - -",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Ode ix.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Canon 1.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4. Heirmos.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ὡς ἐμψύχῳ Θεοῦ κιβωτῷ.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "When they saw the Entry of the Virgin Maiden, the Angels were astonished, at how she entered with glory into the Holy of Holies.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Now let no uninitiated hand * approach the living Ark of God to touch it. * Rather let believers’ lips sing out in exultation * the Angel’s salutation unceasingly * to the Theotokos and cry out: * You, O pure and virgin Maiden, are truly superior to all. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Troparia.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "When they saw the Entry of the all-pure one the Angels were astonished at how she entered with glory into the Holy of Holies.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O pure Mother of God, since you have * the beauty of your soul clear and resplendent, * and since you are full of the Grace of God from heaven, * you ever illumine with eternal light * those who cry aloud with a glad heart: * You, O pure and virgin Maiden, are truly superior to all. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "When they saw the Entry of the all-pure one the Angels were astonished how paradoxically she entered into the Holy of Holies.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Soaring higher than the power of speech * is your miracle, O pure Theotokos. * For beyond all reason I perceive in you a body * that in no way admitted the flow of sin. * Therefore with thanksgiving I cry out: * You, O pure and virgin Maiden, are truly superior to all. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Angels and people, let us all honor the Entry of the virgin Maid, how she entered in glory into the Holy of Holies.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Paradoxally the Law prefigured you, * O pure one, as a jar and tabernacle, * spiritual ark and rod of Aaron and the curtain, * indestructible Temple and the gate of God. * Thus it teaches us all to cry out: * You, O pure and virgin Maiden, are truly superior to all. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From Menaion - - -",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Canon 2.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 1. The cloud that radiates.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Τὴν φωτοφόρον νεφέλην.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O my soul, magnify the Maiden who was offered in the Temple of the Lord and was blessed by the priests’ hands.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mary who bore a divine Son * was born the fruit of the promise * that Joachim and Anna made, * being holy and righteous. * Now as an infant in the flesh * they offer her as incense acceptable * to inhabit the holies * of the holy Temple as a holy girl. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O my soul, magnify the Maiden who was offered in the Temple of the Lord and was blessed by the priests’ hands.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "She is by nature an infant * who in a way passing nature * will be the Mother of her God. * Let us therefore extol her. * For she is offered to the Lord * in the Temple according to the Law today, * for a sweet-smelling savor, * as the spiritual fruit of the righteous pair. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. For the Trinity.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O my soul, magnify the power of the Godhead that is three hypostases and also undivided.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us give honor and glory * to Father Son and the Spirit, * nature in three hypostases * and undivided glory, * which is unceasingly extolled * on earth and in heaven, the inseparable * holy Trinity, and is * in a single Godhead piously adored. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now. Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O my soul, magnify the woman who is higher in honor and in glory than the armies of heaven.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For us who faithfully hasten * to your compassion for refuge, * O Virgin Mother of our God, * and who piously worship * your Son as God of all the world * and Master, entreat Him now most fervently * that He save us from injury and dangers * and temptations of all kinds. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode 9: Katavasia",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Ode ix. Katavasia. Mode 1.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O my soul, magnify the woman who is higher in honor and in glory than the armies of heaven.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "I see here a new and paradoxical mystery. * For the cave resembles heaven, * the Virgin, the cherubic throne, * the manger, a grand space, * in which He whom nothing can contain was laid, Christ our God; * whom we extol in song and magnify. [GOASD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again and again in peace let us pray to the Lord.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR: Lord, have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Help us, save us, have mercy on us, and protect us, O God, by Your grace.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR: Lord, have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR: To You, O Lord.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For all the powers of heaven praise You, and to You they offer up glory, to the Father and the Son and the Holy Spirit, now and ever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR: Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "bookmark",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Exaposteilarion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From Menaion - - -",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 2. O Women, hearken.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Γυναῖκες ἀκουτίσθητε.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us with faith extol in song * the Virgin Mary, child of God, * of whom the assembly of Prophets * prophesied and of old declared * to be the tablet and the rod, * the mountain that was quarried not. * For she is introduced today * into the Holy of Holies, * to be fostered by the Master. (3) [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "bookmark",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Lauds. Mode 1.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let everything that breathes praise the Lord. Praise the Lord from the heavens, praise Him in the highest. It is fitting to sing a hymn to You, O God. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Praise Him, all you His angels; praise Him, all you His hosts. It is fitting to sing a hymn to You, O God. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Show Stichologia",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Praise Him, sun and moon; praise Him, all you stars and light.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Praise Him, you heavens of heavens, and you waters above the heavens. Let them praise the Lord’s name.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For He spoke, and they were made; He commanded, and they were created.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "He established them forever and unto ages of ages; He set forth His ordinance, and it shall not pass away.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Praise the Lord from the earth, you dragons and all the deeps.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Fire and hail, snow and ice, stormy wind, which perform His word.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mountains and all the hills, fruitful trees and all cedars.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Wild animals and all cattle, creeping things and flying birds.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Kings of the earth and all peoples, princes and all judges of the earth.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Young men and maidens, elders with younger, let them praise the Lord’s name, for His name alone is exalted.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "His thanksgiving is in earth and heaven. And He shall exalt the horn of His people.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "A hymn for all His saints, for the children of Israel, a people who draw near to Him.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Sing to the Lord a new song, His praise in the assembly of His holy ones.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let Israel be glad in Him who made him, and let the children of Zion greatly rejoice in their King.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let them praise His name with dance; with tambourine and harp let them sing to Him.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For the Lord is pleased with His people, and He shall exalt the gentle with salvation.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The holy ones shall boast in glory, and they shall greatly rejoice on their beds.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The high praise of God shall be in their mouth and a two-edged sword in their hand.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "To deal retribution to the nations, reproving among the peoples.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "To shackle their kings with chains and their nobles with fetters of iron.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "To fulfill among them the written judgment: this glory have all His holy ones.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Praise God in His saints; praise Him in the firmament of His power.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Hide Stichologia",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Stichera for the Feast.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From Menaion - - -",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 1. For all the powers of heaven.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Τῶν οὐρανίων ταγμάτων.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Praise Him for His mighty acts; praise Him according to the abundance of His greatness. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The virgins carrying lanterns are brightly paving the way * for ever-virgin Mary; * and truly in the Spirit * they prophesy the future; for she is led * to the Temple from infancy, * going with virginal glory. She is indeed * Theotokos and the temple of God. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Praise Him with the sound of trumpet; praise Him with the harp and lyre. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The Theotokos was shown forth unto the world in truth * to be the noble offspring of a most holy promise, * superior to all things. As she is led * reverently into the house of God, * the pious prayer of her parents she now fulfills; * and by the Holy Spirit she is preserved. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Praise Him with timbrel and dance; praise Him with strings and flute. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Having been nourished, O Virgin, in faith on heavenly bread * within the Master’s Temple, * for the world you have brought forth * the bread of life, the Logos. And as His own * chosen temple immaculate, * in the Spirit you were mystically betrothed * to God the Father and became His Bride. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Praise Him with resounding cymbals; praise Him with triumphant cymbals; let everything that breathes praise the Lord. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Open the gate of the Temple that has received our God. * For Joachim has taken * from his own home in glory * the temple and the throne of the King of all, * and returns her and consecrates * unto the Master the daughter that he begot, * who was chosen as the Mother of God. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Both now.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From Menaion - - -",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 2.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Today the all-blameless Virgin is led to the Temple, to become the abode of God the King of all and Nourisher of our whole life. Today the most pure sanctuary is introduced into the Holy of Holies as a heifer three years old. Let us cry out to her as once did the Angel: Rejoice, only blessed among women. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "Stand for the Great Doxology.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "bookmark",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Great Doxology",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory be to You who showed the light. Glory in the highest to God. His peace is on earth, His good pleasure in mankind. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "We praise You, we bless You, we worship You, we glorify You, we give thanks to You for Your great glory.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord King, heavenly God, Father, Ruler over all; Lord, only-begotten Son, Jesus Christ; and You, O Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord God, Lamb of God, Son of the Father, who take away the sin of the world, have mercy on us, You who take away the sins of the world.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Accept our supplication, You who sit at the right hand of the Father, and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For You alone are holy, You alone are Lord, Jesus Christ, to the glory of God the Father. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Every day I will bless You, and Your name will I praise to eternity, and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Vouchsafe, O Lord, this day, that we be kept without sin.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed are You, O Lord, the God of our fathers, and praised and glorified is Your name to the ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let Your mercy be on us, O Lord, as we have set our hope on You.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed are You, O Lord. Teach me Your statutes.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed are You, O Lord. Teach me Your statutes.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed are You, O Lord. Teach me Your statutes.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, You have been our refuge from generation to generation. I said: Lord, have mercy on me. Heal my soul, for I have sinned against You.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, I have fled to You. Teach me to do Your will, for You are my God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For with You is the fountain of life; in Your light we shall see light.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Continue Your mercy to those who know You.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Holy God, Holy Mighty, Holy Immortal, have mercy on us. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Holy Immortal, have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Holy God, Holy Mighty, Holy Immortal, have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Apolytikion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From Menaion - - -",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Today is the prelude of God’s good pleasure, and the proclamation of humanity’s salvation. In the temple of God, the Virgin is presented openly, and in herself she announces Christ to all. Let us, then, with a great voice cry aloud to her: “Rejoice, you are the fulfillment of the Creator’s dispensation.” [SD]",
+        "el": ""
+      }
+    }
+  ],
+  "content_kind": "native_text"
+}

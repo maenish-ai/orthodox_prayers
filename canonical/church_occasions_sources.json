@@ -1,0 +1,1236 @@
+{
+  "schema_version": 1,
+  "permission_reference": "canonical/owner_source_authorization.json",
+  "machine_translation": false,
+  "cross_language_fallback": false,
+  "sources": [
+    {
+      "id": "holy_monday_matins",
+      "title": {
+        "ar": "الاثنين العظيم — صلاة الختن الأولى",
+        "en": "Holy Monday — First Bridegroom Service",
+        "el": "Μεγάλη Δευτέρα — Ἀκολουθία τοῦ Νυμφίου"
+      },
+      "group": "holy_week",
+      "day": "monday",
+      "language": "ar",
+      "format": "docx",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/صلاة-الختن-الأولى-عشية-أحد-الشعانين.docx",
+      "sha256": "866ef82bd8f4802299539a43fa9f017a00a3cf3ca2c0385ba24bb539fd9f5cbb",
+      "cache_file": "صلاة-الختن-الأولى-عشية-أحد-الشعانين.docx",
+      "source_id": "orthodox_jordan_arabic_services"
+    },
+    {
+      "id": "holy_tuesday_matins",
+      "title": {
+        "ar": "الثلاثاء العظيم — صلاة الختن الثانية",
+        "en": "Holy Tuesday — Second Bridegroom Service",
+        "el": "Μεγάλη Τρίτη — Ἀκολουθία τοῦ Νυμφίου"
+      },
+      "group": "holy_week",
+      "day": "tuesday",
+      "language": "ar",
+      "format": "docx",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/صلاة-الختن-الثانية-عشية-الأثنين-العظيم-المقدس-1.docx",
+      "sha256": "49edaab19f8fc70ef46af14c81328b439971a8d9a88c7c8dc4033e6d2e90fc3d",
+      "cache_file": "صلاة-الختن-الثانية-عشية-الأثنين-العظيم-المقدس-1.docx",
+      "source_id": "orthodox_jordan_arabic_services"
+    },
+    {
+      "id": "holy_wednesday_matins",
+      "title": {
+        "ar": "الأربعاء العظيم — صلاة الختن الثالثة",
+        "en": "Holy Wednesday — Third Bridegroom Service",
+        "el": "Μεγάλη Τετάρτη — Ἀκολουθία τοῦ Νυμφίου"
+      },
+      "group": "holy_week",
+      "day": "wednesday",
+      "language": "ar",
+      "format": "docx",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/صلاة-الختن-الثالثة-عشية-الثلاثاء-العظيم-المقدس.docx",
+      "sha256": "b28c5c1dc8e6ce57bc1f0f4c11aa1989a9fa085b2786d0e01ac54c2dab979163",
+      "cache_file": "صلاة-الختن-الثالثة-عشية-الثلاثاء-العظيم-المقدس.docx",
+      "source_id": "orthodox_jordan_arabic_services"
+    },
+    {
+      "id": "bridegroom_and_thursday",
+      "title": {
+        "ar": "صلوات الختن وسَحَر الخميس العظيم — الكتاب الكامل",
+        "en": "Bridegroom Services and Holy Thursday Matins — Complete Book",
+        "el": "Ἀκολουθίες Νυμφίου καὶ Ὄρθρος Μεγάλης Πέμπτης"
+      },
+      "group": "holy_week",
+      "day": "thursday",
+      "language": "ar",
+      "format": "pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/الختن-1.pdf",
+      "sha256": "ec88b7beb2b85521aeafe49dd21e0c7b16938c01a3b21dfba5257a855325e72c",
+      "cache_file": "الختن-1.pdf",
+      "source_id": "orthodox_jordan_arabic_services"
+    },
+    {
+      "id": "holy_thursday_liturgy",
+      "title": {
+        "ar": "الخميس العظيم — الساعات وقداس باسيليوس",
+        "en": "Holy Thursday — Hours and Vesperal Liturgy",
+        "el": "Μεγάλη Πέμπτη — Ὧρες καὶ Θεία Λειτουργία"
+      },
+      "group": "holy_week",
+      "day": "thursday",
+      "language": "ar",
+      "format": "pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/الخميس-العظيم-1.pdf",
+      "sha256": "8f80b6c05fffc32eb427a696c623f1b5c4e16a84d16653926fa2122f0a679775",
+      "cache_file": "الخميس-العظيم-1.pdf",
+      "source_id": "orthodox_jordan_arabic_services"
+    },
+    {
+      "id": "passion_gospels",
+      "title": {
+        "ar": "أناجيل الآلام الاثنا عشر — مساء الخميس",
+        "en": "The Twelve Passion Gospels — Thursday Evening",
+        "el": "Τὰ Δώδεκα Εὐαγγέλια τῶν Παθῶν"
+      },
+      "group": "holy_week",
+      "day": "thursday",
+      "language": "ar",
+      "format": "pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/الاناجيل-2.pdf",
+      "sha256": "8fbec6c7855189488c48fc431e68afbbf07bd9c1138e577525d926c5463df463",
+      "cache_file": "الاناجيل-2.pdf",
+      "source_id": "orthodox_jordan_arabic_services"
+    },
+    {
+      "id": "holy_friday_royal_hours_vespers",
+      "title": {
+        "ar": "الجمعة العظيمة — الساعات الكبرى وتنزيل المصلوب",
+        "en": "Holy Friday — Royal Hours and Vespers",
+        "el": "Μεγάλη Παρασκευή — Μεγάλες Ὧρες καὶ Ἀποκαθήλωση"
+      },
+      "group": "holy_week",
+      "day": "friday",
+      "language": "ar",
+      "format": "pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/تنزيل-المصلوب-1.pdf",
+      "sha256": "b9d4672a79b913f8120760922d78350b2de18f72cfde5a989518fe6c32b3c0d8",
+      "cache_file": "تنزيل-المصلوب-1.pdf",
+      "source_id": "orthodox_jordan_arabic_services"
+    },
+    {
+      "id": "holy_saturday_matins",
+      "title": {
+        "ar": "جناز المسيح — سَحَر السبت العظيم",
+        "en": "The Lamentations — Holy Saturday Matins",
+        "el": "Ἐπιτάφιος — Ὄρθρος Μεγάλου Σαββάτου"
+      },
+      "group": "holy_week",
+      "day": "friday",
+      "language": "ar",
+      "format": "pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/جناز-المسيح-1.pdf",
+      "sha256": "91a7f69030acb3bab8d05ad7198e6a1213d61c5ee8dee463270fc69467865e47",
+      "cache_file": "جناز-المسيح-1.pdf",
+      "source_id": "orthodox_jordan_arabic_services"
+    },
+    {
+      "id": "holy_saturday_liturgy",
+      "title": {
+        "ar": "السبت العظيم — الغروب والقداس",
+        "en": "Holy Saturday — Vesperal Liturgy",
+        "el": "Μέγα Σάββατο — Ἑσπερινὸς καὶ Θεία Λειτουργία"
+      },
+      "group": "holy_week",
+      "day": "saturday",
+      "language": "ar",
+      "format": "pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/السبت-العظيم-1.pdf",
+      "sha256": "0028d98acbe1a6ebe385d6184596ad8f2b79f93a04b9fd45c4e19b9126b49c0c",
+      "cache_file": "السبت-العظيم-1.pdf",
+      "source_id": "orthodox_jordan_arabic_services"
+    },
+    {
+      "id": "pentecost_book",
+      "title": {
+        "ar": "العنصرة — الغروب والقداس وصلاة السجدة",
+        "en": "Pentecost — Vespers, Liturgy and Kneeling Prayers",
+        "el": "Πεντηκοστή — Ἑσπερινός, Λειτουργία καὶ Γονυκλισία"
+      },
+      "group": "feasts",
+      "day": "pentecost",
+      "language": "ar",
+      "format": "pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/العنصرة-1-1.pdf",
+      "sha256": "43eaed18bb80515f98a3f2f518192996faaf2e30577b5957b3c46a44fcc4f8d3",
+      "cache_file": "العنصرة-1-1.pdf",
+      "source_id": "orthodox_jordan_arabic_services"
+    },
+    {
+      "id": "holy_monday_matins",
+      "title": {
+        "ar": "الاثنين العظيم — صلاة الختن الأولى",
+        "en": "Holy Monday — Bridegroom Matins",
+        "el": "Μεγάλη Δευτέρα — Ὄρθρος"
+      },
+      "group": "holy_week",
+      "day": "monday",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d065/ma/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "86642fa61b3c449060069b815bcaa37671d1809677ebee163501c841ccd36862"
+    },
+    {
+      "id": "holy_monday_matins",
+      "title": {
+        "ar": "الاثنين العظيم — صلاة الختن الأولى",
+        "en": "Holy Monday — Bridegroom Matins",
+        "el": "Μεγάλη Δευτέρα — Ὄρθρος"
+      },
+      "group": "holy_week",
+      "day": "monday",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d065/ma/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "86642fa61b3c449060069b815bcaa37671d1809677ebee163501c841ccd36862"
+    },
+    {
+      "id": "holy_monday_presanctified",
+      "title": {
+        "ar": "الاثنين العظيم — السابق تقديسه",
+        "en": "Holy Monday — Presanctified Liturgy",
+        "el": "Μεγάλη Δευτέρα — Προηγιασμένα"
+      },
+      "group": "holy_week",
+      "day": "monday",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d066/pl1/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "8921a04a8ea21c909a0d8045ef25848bb1d8c9db1f9687852373062f1297b237"
+    },
+    {
+      "id": "holy_monday_presanctified",
+      "title": {
+        "ar": "الاثنين العظيم — السابق تقديسه",
+        "en": "Holy Monday — Presanctified Liturgy",
+        "el": "Μεγάλη Δευτέρα — Προηγιασμένα"
+      },
+      "group": "holy_week",
+      "day": "monday",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d066/pl1/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "8921a04a8ea21c909a0d8045ef25848bb1d8c9db1f9687852373062f1297b237"
+    },
+    {
+      "id": "holy_tuesday_matins",
+      "title": {
+        "ar": "الثلاثاء العظيم — صلاة الختن الثانية",
+        "en": "Holy Tuesday — Bridegroom Matins",
+        "el": "Μεγάλη Τρίτη — Ὄρθρος"
+      },
+      "group": "holy_week",
+      "day": "tuesday",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d066/ma/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "161abe68d9db890b7e75af2cd4e249314a5299c85a319f80871c4dfee068c581"
+    },
+    {
+      "id": "holy_tuesday_matins",
+      "title": {
+        "ar": "الثلاثاء العظيم — صلاة الختن الثانية",
+        "en": "Holy Tuesday — Bridegroom Matins",
+        "el": "Μεγάλη Τρίτη — Ὄρθρος"
+      },
+      "group": "holy_week",
+      "day": "tuesday",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d066/ma/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "161abe68d9db890b7e75af2cd4e249314a5299c85a319f80871c4dfee068c581"
+    },
+    {
+      "id": "holy_tuesday_presanctified",
+      "title": {
+        "ar": "الثلاثاء العظيم — السابق تقديسه",
+        "en": "Holy Tuesday — Presanctified Liturgy",
+        "el": "Μεγάλη Τρίτη — Προηγιασμένα"
+      },
+      "group": "holy_week",
+      "day": "tuesday",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d067/pl1/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "ee43b13d3184c92f97b14b7241b2ade1b58fdf38c0b380d7fbb9640e96159100"
+    },
+    {
+      "id": "holy_tuesday_presanctified",
+      "title": {
+        "ar": "الثلاثاء العظيم — السابق تقديسه",
+        "en": "Holy Tuesday — Presanctified Liturgy",
+        "el": "Μεγάλη Τρίτη — Προηγιασμένα"
+      },
+      "group": "holy_week",
+      "day": "tuesday",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d067/pl1/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "ee43b13d3184c92f97b14b7241b2ade1b58fdf38c0b380d7fbb9640e96159100"
+    },
+    {
+      "id": "holy_wednesday_matins",
+      "title": {
+        "ar": "الأربعاء العظيم — صلاة الختن الثالثة",
+        "en": "Holy Wednesday — Bridegroom Matins",
+        "el": "Μεγάλη Τετάρτη — Ὄρθρος"
+      },
+      "group": "holy_week",
+      "day": "wednesday",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d067/ma/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "015d982d6749b1a6aa6b7b61382d740400a13ecb46ebef827726f41b30268d37"
+    },
+    {
+      "id": "holy_wednesday_matins",
+      "title": {
+        "ar": "الأربعاء العظيم — صلاة الختن الثالثة",
+        "en": "Holy Wednesday — Bridegroom Matins",
+        "el": "Μεγάλη Τετάρτη — Ὄρθρος"
+      },
+      "group": "holy_week",
+      "day": "wednesday",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d067/ma/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "015d982d6749b1a6aa6b7b61382d740400a13ecb46ebef827726f41b30268d37"
+    },
+    {
+      "id": "holy_wednesday_presanctified",
+      "title": {
+        "ar": "الأربعاء العظيم — السابق تقديسه",
+        "en": "Holy Wednesday — Presanctified Liturgy",
+        "el": "Μεγάλη Τετάρτη — Προηγιασμένα"
+      },
+      "group": "holy_week",
+      "day": "wednesday",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d068/pl1/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "dd6804a13a4ac0093883b5421b316a21205abd31d53983cf89428fde8af3d917"
+    },
+    {
+      "id": "holy_wednesday_presanctified",
+      "title": {
+        "ar": "الأربعاء العظيم — السابق تقديسه",
+        "en": "Holy Wednesday — Presanctified Liturgy",
+        "el": "Μεγάλη Τετάρτη — Προηγιασμένα"
+      },
+      "group": "holy_week",
+      "day": "wednesday",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d068/pl1/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "dd6804a13a4ac0093883b5421b316a21205abd31d53983cf89428fde8af3d917"
+    },
+    {
+      "id": "holy_wednesday_unction",
+      "title": {
+        "ar": "الأربعاء العظيم — سر الزيت المقدس",
+        "en": "Holy Wednesday — Holy Unction",
+        "el": "Μεγάλη Τετάρτη — Εὐχέλαιο"
+      },
+      "group": "holy_week",
+      "day": "wednesday",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/eu/unction/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "243a171ea2555a0fff524e9088fb2f53ce39cfa90d69c1a2bf3497dcb57db250"
+    },
+    {
+      "id": "holy_wednesday_unction",
+      "title": {
+        "ar": "الأربعاء العظيم — سر الزيت المقدس",
+        "en": "Holy Wednesday — Holy Unction",
+        "el": "Μεγάλη Τετάρτη — Εὐχέλαιο"
+      },
+      "group": "holy_week",
+      "day": "wednesday",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/eu/unction/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "243a171ea2555a0fff524e9088fb2f53ce39cfa90d69c1a2bf3497dcb57db250"
+    },
+    {
+      "id": "holy_thursday_matins",
+      "title": {
+        "ar": "الخميس العظيم — السحر",
+        "en": "Holy Thursday — Matins",
+        "el": "Μεγάλη Πέμπτη — Ὄρθρος"
+      },
+      "group": "holy_week",
+      "day": "thursday",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d068/ma/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "8bcd889fd0356b1421079041b6c495ea0d5db4eab6a79b23b5a16001114809ed"
+    },
+    {
+      "id": "holy_thursday_matins",
+      "title": {
+        "ar": "الخميس العظيم — السحر",
+        "en": "Holy Thursday — Matins",
+        "el": "Μεγάλη Πέμπτη — Ὄρθρος"
+      },
+      "group": "holy_week",
+      "day": "thursday",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d068/ma/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "8bcd889fd0356b1421079041b6c495ea0d5db4eab6a79b23b5a16001114809ed"
+    },
+    {
+      "id": "holy_thursday_liturgy",
+      "title": {
+        "ar": "الخميس العظيم — الغروب والقداس",
+        "en": "Holy Thursday — Vesperal Liturgy",
+        "el": "Μεγάλη Πέμπτη — Ἑσπερινὴ Λειτουργία"
+      },
+      "group": "holy_week",
+      "day": "thursday",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d069/vl/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "4c2d36325c8fa271325ebd3a6c45eeabea96feb9203f8b554f69c49776e1345c"
+    },
+    {
+      "id": "holy_thursday_liturgy",
+      "title": {
+        "ar": "الخميس العظيم — الغروب والقداس",
+        "en": "Holy Thursday — Vesperal Liturgy",
+        "el": "Μεγάλη Πέμπτη — Ἑσπερινὴ Λειτουργία"
+      },
+      "group": "holy_week",
+      "day": "thursday",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d069/vl/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "4c2d36325c8fa271325ebd3a6c45eeabea96feb9203f8b554f69c49776e1345c"
+    },
+    {
+      "id": "passion_gospels",
+      "title": {
+        "ar": "أناجيل الآلام الاثنا عشر",
+        "en": "The Twelve Passion Gospels",
+        "el": "Τὰ Δώδεκα Εὐαγγέλια τῶν Παθῶν"
+      },
+      "group": "holy_week",
+      "day": "thursday",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d069/ma/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "6bce542fac3b542a543cdffdce1393121ef372e73145158a845b3dc8e6688888"
+    },
+    {
+      "id": "passion_gospels",
+      "title": {
+        "ar": "أناجيل الآلام الاثنا عشر",
+        "en": "The Twelve Passion Gospels",
+        "el": "Τὰ Δώδεκα Εὐαγγέλια τῶν Παθῶν"
+      },
+      "group": "holy_week",
+      "day": "thursday",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d069/ma/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "6bce542fac3b542a543cdffdce1393121ef372e73145158a845b3dc8e6688888"
+    },
+    {
+      "id": "holy_friday_royal_hours",
+      "title": {
+        "ar": "الجمعة العظيمة — الساعات الكبرى",
+        "en": "Holy Friday — Royal Hours",
+        "el": "Μεγάλη Παρασκευή — Μεγάλες Ὧρες"
+      },
+      "group": "holy_week",
+      "day": "friday",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d069/gh/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "839cf19bf98c9e6d4ad422abc8bbc4c6fceff18e8fafb64d30bda1f0c921d003"
+    },
+    {
+      "id": "holy_friday_royal_hours",
+      "title": {
+        "ar": "الجمعة العظيمة — الساعات الكبرى",
+        "en": "Holy Friday — Royal Hours",
+        "el": "Μεγάλη Παρασκευή — Μεγάλες Ὧρες"
+      },
+      "group": "holy_week",
+      "day": "friday",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d069/gh/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "839cf19bf98c9e6d4ad422abc8bbc4c6fceff18e8fafb64d30bda1f0c921d003"
+    },
+    {
+      "id": "holy_friday_vespers",
+      "title": {
+        "ar": "الجمعة العظيمة — تنزيل المصلوب",
+        "en": "Holy Friday — Vespers of the Descent",
+        "el": "Μεγάλη Παρασκευή — Ἀποκαθήλωση"
+      },
+      "group": "holy_week",
+      "day": "friday",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d070/ve/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "5ed1660b152af184f04e1464482305b2d58cc2a747dbe0ff4d42a9e8cb716b5c"
+    },
+    {
+      "id": "holy_friday_vespers",
+      "title": {
+        "ar": "الجمعة العظيمة — تنزيل المصلوب",
+        "en": "Holy Friday — Vespers of the Descent",
+        "el": "Μεγάλη Παρασκευή — Ἀποκαθήλωση"
+      },
+      "group": "holy_week",
+      "day": "friday",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d070/ve/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "5ed1660b152af184f04e1464482305b2d58cc2a747dbe0ff4d42a9e8cb716b5c"
+    },
+    {
+      "id": "holy_saturday_matins",
+      "title": {
+        "ar": "جناز المسيح — سحر السبت العظيم",
+        "en": "The Lamentations — Holy Saturday Matins",
+        "el": "Ἐπιτάφιος — Ὄρθρος Μεγάλου Σαββάτου"
+      },
+      "group": "holy_week",
+      "day": "friday",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d070/ma/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "bc7c087c484e6fab18150cfb95990fc84d7d0b0787c962b3ddb013552c27f113"
+    },
+    {
+      "id": "holy_saturday_matins",
+      "title": {
+        "ar": "جناز المسيح — سحر السبت العظيم",
+        "en": "The Lamentations — Holy Saturday Matins",
+        "el": "Ἐπιτάφιος — Ὄρθρος Μεγάλου Σαββάτου"
+      },
+      "group": "holy_week",
+      "day": "friday",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d070/ma/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "bc7c087c484e6fab18150cfb95990fc84d7d0b0787c962b3ddb013552c27f113"
+    },
+    {
+      "id": "holy_saturday_liturgy",
+      "title": {
+        "ar": "السبت العظيم — الغروب والقداس",
+        "en": "Holy Saturday — Vesperal Liturgy",
+        "el": "Μέγα Σάββατο — Ἑσπερινὴ Λειτουργία"
+      },
+      "group": "holy_week",
+      "day": "saturday",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d071/vl/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "c58ba7679ebda47670c33ac3335238966d14d7a6e58293b9837633d4a7606e57"
+    },
+    {
+      "id": "holy_saturday_liturgy",
+      "title": {
+        "ar": "السبت العظيم — الغروب والقداس",
+        "en": "Holy Saturday — Vesperal Liturgy",
+        "el": "Μέγα Σάββατο — Ἑσπερινὴ Λειτουργία"
+      },
+      "group": "holy_week",
+      "day": "saturday",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d071/vl/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "c58ba7679ebda47670c33ac3335238966d14d7a6e58293b9837633d4a7606e57"
+    },
+    {
+      "id": "nativity_matins",
+      "title": {
+        "ar": "سَحَر عيد الميلاد — طبعة المصدر 2026",
+        "en": "Nativity Matins — 2026 source edition",
+        "el": "Ὄρθρος Χριστουγέννων — ἔκδοση 2026"
+      },
+      "group": "feasts",
+      "day": "christmas",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2026/12/25/ma/gr-en/index.html",
+      "cache_file": "nativity-2026",
+      "sha256": "00d9da4552912443e802a80b983d6d7660d7833e489eed230a157b205ac8648c",
+      "source_id": "goarch_digital_chant_stand_english",
+      "edition_date": "2026-12-25",
+      "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+    },
+    {
+      "id": "nativity_matins",
+      "title": {
+        "ar": "سَحَر عيد الميلاد — طبعة المصدر 2026",
+        "en": "Nativity Matins — 2026 source edition",
+        "el": "Ὄρθρος Χριστουγέννων — ἔκδοση 2026"
+      },
+      "group": "feasts",
+      "day": "christmas",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2026/12/25/ma/gr-en/index.html",
+      "cache_file": "nativity-2026",
+      "sha256": "00d9da4552912443e802a80b983d6d7660d7833e489eed230a157b205ac8648c",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "edition_date": "2026-12-25",
+      "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+    },
+    {
+      "id": "theophany_matins",
+      "title": {
+        "ar": "عيد الظهور الإلهي المقدس",
+        "en": "Holy Theophany",
+        "el": "Τὰ Ἅγια Θεοφάνεια"
+      },
+      "group": "feasts",
+      "day": "theophany",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/01/06/ma/gr-en/index.html",
+      "cache_file": "feast-theophany-2027",
+      "sha256": "c5b431b3346f35331116cc4e79ac0ff28a796021da094ec9903e074bfbbfe69d",
+      "source_id": "goarch_digital_chant_stand_english",
+      "edition_date": "2027-01-06",
+      "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+    },
+    {
+      "id": "theophany_matins",
+      "title": {
+        "ar": "عيد الظهور الإلهي المقدس",
+        "en": "Holy Theophany",
+        "el": "Τὰ Ἅγια Θεοφάνεια"
+      },
+      "group": "feasts",
+      "day": "theophany",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/01/06/ma/gr-en/index.html",
+      "cache_file": "feast-theophany-2027",
+      "sha256": "c5b431b3346f35331116cc4e79ac0ff28a796021da094ec9903e074bfbbfe69d",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "edition_date": "2027-01-06",
+      "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+    },
+    {
+      "id": "meeting_matins",
+      "title": {
+        "ar": "أحد الدينونة — مرفع اللحم",
+        "en": "Sunday of the Last Judgment — Meatfare",
+        "el": "Κυριακὴ τῆς Ἀπόκρεω"
+      },
+      "group": "feasts",
+      "day": "meeting",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/02/02/ma/gr-en/index.html",
+      "cache_file": "feast-meeting-2027",
+      "sha256": "8e748fd47bb3bf0e5a316e25321dc27daa947040f88a73c9b508a4d83f463e7e",
+      "source_id": "goarch_digital_chant_stand_english",
+      "edition_date": "2027-02-02",
+      "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+    },
+    {
+      "id": "meeting_matins",
+      "title": {
+        "ar": "أحد الدينونة — مرفع اللحم",
+        "en": "Sunday of the Last Judgment — Meatfare",
+        "el": "Κυριακὴ τῆς Ἀπόκρεω"
+      },
+      "group": "feasts",
+      "day": "meeting",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/02/02/ma/gr-en/index.html",
+      "cache_file": "feast-meeting-2027",
+      "sha256": "8e748fd47bb3bf0e5a316e25321dc27daa947040f88a73c9b508a4d83f463e7e",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "edition_date": "2027-02-02",
+      "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+    },
+    {
+      "id": "annunciation_matins",
+      "title": {
+        "ar": "الثلاثاء العظيم المقدس",
+        "en": "Great and Holy Tuesday",
+        "el": "Μεγάλη καὶ Ἁγία Τρίτη"
+      },
+      "group": "feasts",
+      "day": "annunciation",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/03/25/ma/gr-en/index.html",
+      "cache_file": "feast-annunciation-2027",
+      "sha256": "34a482c760f8a7cb07987a3137bde668f9cff598bf95f0faa7268235a8ee364f",
+      "source_id": "goarch_digital_chant_stand_english",
+      "edition_date": "2027-03-25",
+      "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+    },
+    {
+      "id": "annunciation_matins",
+      "title": {
+        "ar": "الثلاثاء العظيم المقدس",
+        "en": "Great and Holy Tuesday",
+        "el": "Μεγάλη καὶ Ἁγία Τρίτη"
+      },
+      "group": "feasts",
+      "day": "annunciation",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/03/25/ma/gr-en/index.html",
+      "cache_file": "feast-annunciation-2027",
+      "sha256": "34a482c760f8a7cb07987a3137bde668f9cff598bf95f0faa7268235a8ee364f",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "edition_date": "2027-03-25",
+      "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+    },
+    {
+      "id": "palm_sunday_matins",
+      "title": {
+        "ar": "أحد الشعانين",
+        "en": "Palm Sunday",
+        "el": "Κυριακὴ τῶν Βαΐων"
+      },
+      "group": "feasts",
+      "day": "palm_sunday",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/04/25/ma/gr-en/index.html",
+      "cache_file": "feast-palm_sunday-2027",
+      "sha256": "c29a9545a061f9f13c01f92b2adaf1d07a16d770356dac3b4af1f37c8a33ff90",
+      "source_id": "goarch_digital_chant_stand_english",
+      "edition_date": "2027-04-25",
+      "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+    },
+    {
+      "id": "palm_sunday_matins",
+      "title": {
+        "ar": "أحد الشعانين",
+        "en": "Palm Sunday",
+        "el": "Κυριακὴ τῶν Βαΐων"
+      },
+      "group": "feasts",
+      "day": "palm_sunday",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/04/25/ma/gr-en/index.html",
+      "cache_file": "feast-palm_sunday-2027",
+      "sha256": "c29a9545a061f9f13c01f92b2adaf1d07a16d770356dac3b4af1f37c8a33ff90",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "edition_date": "2027-04-25",
+      "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+    },
+    {
+      "id": "pascha_matins",
+      "title": {
+        "ar": "عيد قيامة ربنا يسوع المسيح — الفصح المقدس",
+        "en": "Holy Pascha — Resurrection of our Lord Jesus Christ",
+        "el": "Ἅγιον Πάσχα — Ἀνάστασις τοῦ Κυρίου"
+      },
+      "group": "feasts",
+      "day": "pascha",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/05/02/ma/gr-en/index.html",
+      "cache_file": "feast-pascha-2027",
+      "sha256": "6a3dc70f511e759b168ce4af8e03d6a9c0efc91c00ce111d347e3554c9750cf4",
+      "source_id": "goarch_digital_chant_stand_english",
+      "edition_date": "2027-05-02",
+      "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+    },
+    {
+      "id": "pascha_matins",
+      "title": {
+        "ar": "عيد قيامة ربنا يسوع المسيح — الفصح المقدس",
+        "en": "Holy Pascha — Resurrection of our Lord Jesus Christ",
+        "el": "Ἅγιον Πάσχα — Ἀνάστασις τοῦ Κυρίου"
+      },
+      "group": "feasts",
+      "day": "pascha",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/05/02/ma/gr-en/index.html",
+      "cache_file": "feast-pascha-2027",
+      "sha256": "6a3dc70f511e759b168ce4af8e03d6a9c0efc91c00ce111d347e3554c9750cf4",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "edition_date": "2027-05-02",
+      "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+    },
+    {
+      "id": "ascension_matins",
+      "title": {
+        "ar": "عيد صعود ربنا",
+        "en": "Ascension of our Lord",
+        "el": "Ἀνάληψις τοῦ Κυρίου"
+      },
+      "group": "feasts",
+      "day": "ascension",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/06/10/ma/gr-en/index.html",
+      "cache_file": "feast-ascension-2027",
+      "sha256": "42a7c7cee682aed59bc780e35d37a8c75774ff51049477cc14da3292d9c4a887",
+      "source_id": "goarch_digital_chant_stand_english",
+      "edition_date": "2027-06-10",
+      "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+    },
+    {
+      "id": "ascension_matins",
+      "title": {
+        "ar": "عيد صعود ربنا",
+        "en": "Ascension of our Lord",
+        "el": "Ἀνάληψις τοῦ Κυρίου"
+      },
+      "group": "feasts",
+      "day": "ascension",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/06/10/ma/gr-en/index.html",
+      "cache_file": "feast-ascension-2027",
+      "sha256": "42a7c7cee682aed59bc780e35d37a8c75774ff51049477cc14da3292d9c4a887",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "edition_date": "2027-06-10",
+      "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+    },
+    {
+      "id": "pentecost_matins",
+      "title": {
+        "ar": "عيد العنصرة المقدسة",
+        "en": "Holy Pentecost",
+        "el": "Ἁγία Πεντηκοστή"
+      },
+      "group": "feasts",
+      "day": "pentecost",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/06/20/ma/gr-en/index.html",
+      "cache_file": "feast-pentecost-2027",
+      "sha256": "06455e233acbd056f8f337f884215829f72c3d91b8ea35bba9787898b86aaf1c",
+      "source_id": "goarch_digital_chant_stand_english",
+      "edition_date": "2027-06-20",
+      "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+    },
+    {
+      "id": "pentecost_matins",
+      "title": {
+        "ar": "عيد العنصرة المقدسة",
+        "en": "Holy Pentecost",
+        "el": "Ἁγία Πεντηκοστή"
+      },
+      "group": "feasts",
+      "day": "pentecost",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/06/20/ma/gr-en/index.html",
+      "cache_file": "feast-pentecost-2027",
+      "sha256": "06455e233acbd056f8f337f884215829f72c3d91b8ea35bba9787898b86aaf1c",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "edition_date": "2027-06-20",
+      "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+    },
+    {
+      "id": "cross_akathist",
+      "title": {
+        "ar": "مديح الصليب المكرم",
+        "en": "Akathist to the Precious Cross",
+        "el": "Ἀκάθιστος τοῦ Τιμίου Σταυροῦ"
+      },
+      "group": "feasts",
+      "day": "cross",
+      "language": "ar",
+      "format": "docx",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/مديح-الصليب-المكرم-1.docx",
+      "source_id": "orthodox_jordan_arabic_services",
+      "minimum_chars": 2000,
+      "minimum_segments": 10,
+      "sha256": "597d250582c7b15f28de16a8101ac9ab601832698d5c5be8b4e0fb187f5d2f8b"
+    },
+    {
+      "id": "nicholas_akathist",
+      "title": {
+        "ar": "مديح القديس نيقولاوس",
+        "en": "Akathist to Saint Nicholas",
+        "el": "Ἀκάθιστος τοῦ Ἁγίου Νικολάου"
+      },
+      "group": "saints",
+      "day": "nicholas",
+      "language": "ar",
+      "format": "docx",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/المديح-للقدِّيس-نيقولاوس-العَجائبي-أُسقف-ميراليكية.docx",
+      "source_id": "orthodox_jordan_arabic_services",
+      "minimum_chars": 2000,
+      "minimum_segments": 10,
+      "sha256": "295cdf8ddff2a3d57de05cd9fc0ea211e916afbe87a2a1d33afe60d147f9ddc0"
+    },
+    {
+      "id": "george_paraklesis",
+      "title": {
+        "ar": "براكليسي القديس جاورجيوس",
+        "en": "Paraklesis to Saint George",
+        "el": "Παράκλησις τοῦ Ἁγίου Γεωργίου"
+      },
+      "group": "saints",
+      "day": "george",
+      "language": "ar",
+      "format": "docx",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/قانون-البراكليسي-للقديس-العظيم-في-الشهداء-جاورجيوس-اللابس-الظفر.docx",
+      "source_id": "orthodox_jordan_arabic_services",
+      "minimum_chars": 2000,
+      "minimum_segments": 10,
+      "sha256": "e6a27f0e2399cde0de49cff96ef862a97825cd160bf40bc337dc8397fbac07af"
+    },
+    {
+      "id": "john_paraklesis",
+      "title": {
+        "ar": "براكليسي القديس يوحنا المعمدان",
+        "en": "Paraklesis to Saint John the Baptist",
+        "el": "Παράκλησις τοῦ Τιμίου Προδρόμου"
+      },
+      "group": "saints",
+      "day": "john",
+      "language": "ar",
+      "format": "docx",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/قانون-البراكليسي-للسابق-المجيد-القدّيس-يوحنا-المعمدان.docx",
+      "source_id": "orthodox_jordan_arabic_services",
+      "minimum_chars": 2000,
+      "minimum_segments": 10,
+      "sha256": "f1812d6a4876071d0ec8f04e8d7d81759f7ad3032df0aa574136c44f30f3fc60"
+    },
+    {
+      "id": "thekla_paraklesis",
+      "title": {
+        "ar": "براكليسي القديسة تقلا",
+        "en": "Paraklesis to Saint Thekla",
+        "el": "Παράκλησις τῆς Ἁγίας Θέκλας"
+      },
+      "group": "saints",
+      "day": "thekla",
+      "language": "ar",
+      "format": "docx",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/براكليسي-القديسة-تقلا-معادلة-الرسل.docx",
+      "source_id": "orthodox_jordan_arabic_services",
+      "minimum_chars": 2000,
+      "minimum_segments": 10,
+      "sha256": "4d5acd6b23b98c6333973fbe14ff622ce8a6e87a8370003ada04db08fd026b77"
+    },
+    {
+      "id": "andrew_great_canon",
+      "title": {
+        "ar": "القانون الكبير للقديس أندراوس الكريتي",
+        "en": "Great Canon of Saint Andrew of Crete",
+        "el": "Μέγας Κανὼν τοῦ Ἁγίου Ἀνδρέου Κρήτης"
+      },
+      "group": "saints",
+      "day": "andrew",
+      "language": "ar",
+      "format": "docx",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/القانون-الكبير-للقديس-أندراوس-الكريتي-باللحن-السادس.docx",
+      "source_id": "orthodox_jordan_arabic_services",
+      "minimum_chars": 2000,
+      "minimum_segments": 10,
+      "sha256": "0eeb3427687841e58984f2dd133dc6007a386a6bddce8ec0aec99a4e4df2f316"
+    },
+    {
+      "id": "paisios_supplication",
+      "title": {
+        "ar": "ابتهال إلى القديس باييسيوس",
+        "en": "Supplication to Saint Paisios",
+        "el": "Δέησις πρὸς τὸν Ἅγιο Παΐσιο"
+      },
+      "group": "saints",
+      "day": "paisios",
+      "language": "ar",
+      "format": "docx",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/ابتهال-إلى-القديس-البار-باييسيوس-الأثوسي.docx",
+      "source_id": "orthodox_jordan_arabic_services",
+      "minimum_chars": 100,
+      "minimum_segments": 1,
+      "sha256": "f4c79bf94ca1a5348c96723174dbeae8c8292e2ee1e23856bff62e9b69e4f0d5"
+    },
+    {
+      "id": "stnicholasparaklesis1",
+      "title": {
+        "ar": "براكليسي القديس نيقولاوس",
+        "en": "Paraklesis to Saint Nicholas",
+        "el": "Παράκλησις τοῦ Ἁγίου Νικολάου"
+      },
+      "group": "saints",
+      "day": "stnicholasparaklesis1",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/other/stnicholasparaklesis1/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "6665e8593efa1f8536296332ff287d0cd73b2042f583cc25c23307d06792ea74"
+    },
+    {
+      "id": "stnicholasparaklesis1",
+      "title": {
+        "ar": "براكليسي القديس نيقولاوس",
+        "en": "Paraklesis to Saint Nicholas",
+        "el": "Παράκλησις τοῦ Ἁγίου Νικολάου"
+      },
+      "group": "saints",
+      "day": "stnicholasparaklesis1",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/other/stnicholasparaklesis1/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "6665e8593efa1f8536296332ff287d0cd73b2042f583cc25c23307d06792ea74"
+    },
+    {
+      "id": "stpaisiosparaklesis1",
+      "title": {
+        "ar": "براكليسي القديس باييسيوس",
+        "en": "Paraklesis to Saint Paisios",
+        "el": "Παράκλησις τοῦ Ἁγίου Παϊσίου"
+      },
+      "group": "saints",
+      "day": "stpaisiosparaklesis1",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/other/stpaisiosparaklesis1/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "393c9440606a20f2e4c0c1aaf99f96c461afb50c18f2c313dc0cc7e5d5897fd7"
+    },
+    {
+      "id": "stpaisiosparaklesis1",
+      "title": {
+        "ar": "براكليسي القديس باييسيوس",
+        "en": "Paraklesis to Saint Paisios",
+        "el": "Παράκλησις τοῦ Ἁγίου Παϊσίου"
+      },
+      "group": "saints",
+      "day": "stpaisiosparaklesis1",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/other/stpaisiosparaklesis1/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "393c9440606a20f2e4c0c1aaf99f96c461afb50c18f2c313dc0cc7e5d5897fd7"
+    },
+    {
+      "id": "stnektariosparaklesis1",
+      "title": {
+        "ar": "براكليسي القديس نكتاريوس",
+        "en": "Paraklesis to Saint Nektarios",
+        "el": "Παράκλησις τοῦ Ἁγίου Νεκταρίου"
+      },
+      "group": "saints",
+      "day": "stnektariosparaklesis1",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/other/stnektariosparaklesis1/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "9306076105fb3fd63e84e5a43513420b1370aff7a427b71be18ea173edeeb5d3"
+    },
+    {
+      "id": "stnektariosparaklesis1",
+      "title": {
+        "ar": "براكليسي القديس نكتاريوس",
+        "en": "Paraklesis to Saint Nektarios",
+        "el": "Παράκλησις τοῦ Ἁγίου Νεκταρίου"
+      },
+      "group": "saints",
+      "day": "stnektariosparaklesis1",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/other/stnektariosparaklesis1/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "9306076105fb3fd63e84e5a43513420b1370aff7a427b71be18ea173edeeb5d3"
+    },
+    {
+      "id": "stdemetriosparaklesis",
+      "title": {
+        "ar": "براكليسي القديس ديميتريوس",
+        "en": "Paraklesis to Saint Demetrios",
+        "el": "Παράκλησις τοῦ Ἁγίου Δημητρίου"
+      },
+      "group": "saints",
+      "day": "stdemetriosparaklesis",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/other/stdemetriosparaklesis/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "883c5f619be9fa61c3dd5c0ccddb655d6475084aeb6a7513ccfb1ecda9207ec8"
+    },
+    {
+      "id": "stdemetriosparaklesis",
+      "title": {
+        "ar": "براكليسي القديس ديميتريوس",
+        "en": "Paraklesis to Saint Demetrios",
+        "el": "Παράκλησις τοῦ Ἁγίου Δημητρίου"
+      },
+      "group": "saints",
+      "day": "stdemetriosparaklesis",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/other/stdemetriosparaklesis/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "883c5f619be9fa61c3dd5c0ccddb655d6475084aeb6a7513ccfb1ecda9207ec8"
+    },
+    {
+      "id": "stbarbaraparaklesis",
+      "title": {
+        "ar": "براكليسي القديسة بربارة",
+        "en": "Paraklesis to Saint Barbara",
+        "el": "Παράκλησις τῆς Ἁγίας Βαρβάρας"
+      },
+      "group": "saints",
+      "day": "stbarbaraparaklesis",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/other/stbarbaraparaklesis/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_english",
+      "sha256": "8d9aaaf5f55faaba95a4a00825c2e9e41524fff471e2b43cca03b8d26f227c94"
+    },
+    {
+      "id": "stbarbaraparaklesis",
+      "title": {
+        "ar": "براكليسي القديسة بربارة",
+        "en": "Paraklesis to Saint Barbara",
+        "el": "Παράκλησις τῆς Ἁγίας Βαρβάρας"
+      },
+      "group": "saints",
+      "day": "stbarbaraparaklesis",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/other/stbarbaraparaklesis/gr-en/index.html",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "sha256": "8d9aaaf5f55faaba95a4a00825c2e9e41524fff471e2b43cca03b8d26f227c94"
+    },
+    {
+      "id": "theotokos_entry_matins",
+      "title": {
+        "ar": "دخول سيدتنا والدة الإله إلى الهيكل",
+        "en": "The Entry of our Most Holy Lady the Theotokos into the Temple",
+        "el": "Τὰ Εἰσόδια τῆς Ὑπεραγίας Θεοτόκου"
+      },
+      "group": "feasts",
+      "day": "theotokos_entry",
+      "language": "en",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2026/11/21/ma/gr-en/index.html",
+      "cache_file": "entry-2026",
+      "sha256": "9f68ef62be0346718493e5164c267f7f9c89ddeccb4cbc7060122e29f79929ed",
+      "source_id": "goarch_digital_chant_stand_english",
+      "edition_date": "2026-11-21",
+      "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+    },
+    {
+      "id": "theotokos_entry_matins",
+      "title": {
+        "ar": "دخول سيدتنا والدة الإله إلى الهيكل",
+        "en": "The Entry of our Most Holy Lady the Theotokos into the Temple",
+        "el": "Τὰ Εἰσόδια τῆς Ὑπεραγίας Θεοτόκου"
+      },
+      "group": "feasts",
+      "day": "theotokos_entry",
+      "language": "el",
+      "format": "dcs_html",
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2026/11/21/ma/gr-en/index.html",
+      "cache_file": "entry-2026",
+      "sha256": "9f68ef62be0346718493e5164c267f7f9c89ddeccb4cbc7060122e29f79929ed",
+      "source_id": "goarch_digital_chant_stand_greek",
+      "edition_date": "2026-11-21",
+      "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
+    },
+    {
+      "id": "holy_thursday_matins",
+      "title": {
+        "ar": "سَحَر الخميس العظيم — الفصل الكامل",
+        "en": "Holy Thursday Matins — Complete Chapter",
+        "el": "Ὄρθρος Μεγάλης Πέμπτης — Πλήρες κεφάλαιο"
+      },
+      "group": "holy_week",
+      "day": "thursday",
+      "language": "ar",
+      "format": "pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/الختن-1.pdf",
+      "sha256": "ec88b7beb2b85521aeafe49dd21e0c7b16938c01a3b21dfba5257a855325e72c",
+      "cache_file": "الختن-1.pdf",
+      "source_id": "orthodox_jordan_arabic_services",
+      "reuse_pdf_asset_id": "bridegroom_and_thursday",
+      "source_page_start": 122,
+      "source_page_end": 167
+    },
+    {
+      "id": "presanctified_book",
+      "title": {
+        "ar": "كتاب قداس السابق تقديسه",
+        "en": "Presanctified Liturgy — Complete Book",
+        "el": "Προηγιασμένη Λειτουργία — Πλήρες βιβλίο"
+      },
+      "group": "holy_week",
+      "day": "monday",
+      "days": [
+        "monday",
+        "tuesday",
+        "wednesday"
+      ],
+      "language": "ar",
+      "format": "pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/السابق-تقديسه-1.pdf",
+      "source_id": "orthodox_jordan_arabic_services",
+      "sha256": "ace55aed85ca4ac9437bae5e7d3ebe2baab1a7cf4480c481602a64425077907e"
+    },
+    {
+      "id": "holy_wednesday_unction",
+      "title": {
+        "ar": "سر الزيت المقدس — الخدمة الكاملة",
+        "en": "Holy Unction — Complete Service",
+        "el": "Ἱερὸ Εὐχέλαιο — Πλήρης ἀκολουθία"
+      },
+      "group": "holy_week",
+      "day": "wednesday",
+      "language": "ar",
+      "format": "docx",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/خدمة-صلاة-سر-الزيت-المقدس.docx",
+      "source_id": "orthodox_jordan_arabic_services",
+      "sha256": "4b5c661d32c55d0c3ebe7a2a7ad2076bc147e66114d658a9758ef7ed2485f344"
+    }
+  ],
+  "permission_basis": "PROJECT_OWNER_CONFIRMED_REUSE_FROM_JERUSALEM_GREEK_AND_ANTIOCH_ORTHODOX_SOURCES_IN_THIS_TASK"
+}

@@ -1,0 +1,1994 @@
+{
+  "id": "occasion::stnicholasparaklesis1",
+  "title": {
+    "ar": "براكليسي القديس نيقولاوس",
+    "en": "Paraklesis to Saint Nicholas",
+    "el": "Παράκλησις τοῦ Ἁγίου Νικολάου"
+  },
+  "source_language": "en",
+  "displayable": true,
+  "source_document": {
+    "source_id": "goarch_digital_chant_stand_english",
+    "source_url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/other/stnicholasparaklesis1/gr-en/index.html",
+    "source_sha256": "6665e8593efa1f8536296332ff287d0cd73b2042f583cc25c23307d06792ea74",
+    "machine_translation_used": false
+  },
+  "category": "occasions",
+  "full_service_complete": true,
+  "completeness_scope": "COMPLETE_SOURCE_EDITION_ONLY",
+  "source_provenance": {
+    "status": "PINNED_NATIVE_SERVICE_BOOK",
+    "source_id": "goarch_digital_chant_stand_english",
+    "source_sha256": "6665e8593efa1f8536296332ff287d0cd73b2042f583cc25c23307d06792ea74",
+    "machine_translation_used": false
+  },
+  "native_source": {
+    "source_id": "goarch_digital_chant_stand_english",
+    "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/other/stnicholasparaklesis1/gr-en/index.html",
+    "native_language": "en",
+    "permission_confirmed": true
+  },
+  "segments": [
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Supplicatory Canon",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "to Saint Nicholas",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Archbishop of Myra in Lycia",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "the Wonderworker",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Fr. Seraphim Dedes",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed is our God always, now and ever, and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 142 (143).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Lord, hear my prayer; give ear to my supplication in Your truth; answer me in Your righteousness; do not enter into judgment with Your servant, for no one living shall become righteous in Your sight. For the enemy persecuted my soul; he humbled my life to the ground; he caused me to dwell in dark places as one long dead, and my spirit was in anguish within me; my heart was troubled within me. I remembered the days of old, and I meditated on all Your works; I meditated on the works of Your hands. I spread out my hands to You; my soul thirsts for You like a waterless land. Hear me speedily, O Lord; my spirit faints within me; turn not Your face from me, lest I become like those who go down into the pit. Cause me to hear Your mercy in the morning, for I hope in You; make me know, O Lord, the way wherein I should walk, for I lift up my soul to You. Deliver me from my enemies, O Lord, for to You I flee for refuge. Teach me to do Your will, for You are my God; Your good Spirit shall guide me in the land of uprightness. For Your name's sake, O Lord, give me life; in Your righteousness You shall bring my soul out of affliction. In Your mercy You shall destroy my enemies; You shall utterly destroy all who afflict my soul, for I am Your servant. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "Then \"God is the Lord\" is sung four times, with or without the verses.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "God is the Lord, and He revealed Himself to us. Blessed is he who comes in the name of the Lord. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse 1: Give thanks to the Lord and call upon His holy name.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "or: Give thanks to the Lord, for He is good; for His mercy endures forever.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse 2: All the nations surrounded me, but in the name of the Lord I defended myself against them.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse 3: And this came about from the Lord, and it is wonderful in our eyes.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Troparia.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4. You who were lifted.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us now venerate the all-holy Icon * of Bishop Nicholas, our Saint, O believers, * and all of us who wallow in so many sins, and pray, * \"Quickly come, O Hierarch of the Lord, and protect us; * make us safe from terror and the threat of destruction, * and from infectious diseases keep us free, * by your entreaties to God who loves humanity.\"",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Both now. Theotokion. Same Melody.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "We the unworthy shall not ever be silent, * O Theotokos, from proclaiming your powers. * For were you not concerned to intercede for us, * who would have delivered us * from such manifold dangers, * and who else would up to now * have preserved us in freedom? * O Lady, we shall not depart from you, * for you ever save your servants * from evils of every kind.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 50 (51).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on me, O God, according to Your great mercy; and according to the abundance of Your compassion, blot out my transgression. Wash me thoroughly from my lawlessness and cleanse me from my sin. For I know my lawlessness, and my sin is always before me. Against You only have I sinned and done evil in Your sight; that You may be justified in Your words, and overcome when You are judged. For behold, I was conceived in transgressions, and in sins my mother bore me. Behold, You love truth; You showed me the unknown and secret things of Your wisdom. You shall sprinkle me with hyssop, and I will be cleansed; You shall wash me, and I will be made whiter than snow. You shall make me hear joy and gladness; my bones that were humbled shall greatly rejoice. Turn Your face from my sins, and blot out all my transgressions. Create in me a clean heart, O God, and renew a right spirit within me. Do not cast me away from Your presence, and do not take Your Holy Spirit from me. Restore to me the joy of Your salvation, and uphold me with Your guiding Spirit. I will teach transgressors Your ways, and the ungodly shall turn back to You. Deliver me from bloodguiltiness, O God, the God of my salvation, and my tongue shall greatly rejoice in Your righteousness. O Lord, You shall open my lips, and my mouth will declare Your praise. For if You desired sacrifice, I would give it; You will not be pleased with whole burnt offerings. A sacrifice to God is a broken spirit, a broken and humbled heart God will not despise. Do good, O Lord, in Your good pleasure to Zion, and let the walls of Jerusalem be built; then You will be pleased with a sacrifice of righteousness, with offerings and whole burnt offerings; then shall they offer young bulls on Your altar. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The Canon",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Acrostic of the Theotokia: \"Seraphim.\"",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode i. Mode pl. 4. The rod of Moses.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "By your entreaties, as you pray to God for all, O sacred Nicholas, * drive away the dark cloud of despair that covers me, * for you are filled abundantly with divine joy and gladness * because you stand in the presence of * Christ the King of all, O all-blessed Saint.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The sinful passions, like a perfect storm, on every side encompass me, * and my soul is rattled by the tempest of my thoughts. * I pray you steer me to the calm port of doing what Christ wills, * by your entreaties, O Nicholas, * so that I may glorify you, O Saint.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "All-blessed Nicholas, you truly dwell together with Apostles and Saints. * You are always filled with brilliant light that comes from God. * Grant us who venerate today your sublime holy Icon * to be partakers of that divine * uncreated light, by your holy prayers.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Save me, O Lady, from eternal fire of hell, I now implore you with faith, * immaculate Virgin, who received within your womb * the unbearable fire of God. By your welcome entreaties, * free me from imminent punishment, * which is well deserved for my many sins.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode iii. Lord, You are the firm.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed father Nicholas, * by your entreaties, may we receive the peace of God, * so that we may duly * glorify you and honor you.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Grant that we may find relief * and even cures for the illnesses afflicting us, * by your intercessions, we entreat you, St. Nicholas.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Many dangers threaten me, * and passions tempt me on every side. Deliver me, * by your intercessions; O St. Nicholas, rescue me.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Even when the evils of * this life befall me, I do not fear, for I have you, * O all-spotless Virgin, * to protect me and shelter me.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Look graciously * on us, all-blessed St. Nicholas, we beseech you. * By your intercessions, expel the causes of all distress * from the souls of us, who with faith supplicate you.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Look graciously upon your servant, all-praiseworthy Theotokos, and upon my painful physical suffering, and remedy my anguish of spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on us, O God, according to Your great mercy, we pray You, hear us and have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us pray for pious and Orthodox Christians.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for (episcopal rank) (name).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for mercy, life, peace, health, salvation, protection, forgiveness, and remission of the sins of the servants of God, all pious Orthodox Christians residing and visiting in this city: the parishioners, the members of the parish council, the stewards, and benefactors of this holy church.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for the servants of God… (At this time the Priest commemorates those for whom the Paraklesis is sung.)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for those who bear fruit and do good works in this holy and all-venerable church, for those who labor and those who sing, and for the people here present who await Your great and rich mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For You are a merciful God Who loves mankind, and to You we offer up glory, to the Father and to the Son and to the Holy Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Kathisma.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 2. In the pools of your blood.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "With dazzling rays of your wonderful miracles, * you have illumined and cheered the entire earth, * dispelling the gloom of calamity, * and repelling attacks that endanger us, * O fervent protector, St. Nicholas.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode iv. I have heard the report.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "I have fallen into a host * of sins and transgressions, and I am very sick. * O St. Nicholas, deliver me, * by your supplications to our Lord and God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You once rescued from imminent * execution three men, for they were innocent. * I entreat you now to rescue me * from eternal punishment, O Nicholas.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "I have lived my life recklessly. * It is right that I, the delinquent, be condemned. * Pray I find my way to godliness, * through sincere repentance, O St. Nicholas.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Resurrect me, since I am dead, * Lady Theotokos, for you gave birth to Him * who revived the dead, O Virgin pure. * I entreat you, cleanse me of impurity.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode v. Why reject me, Your servant.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Your attention was focused * on the Lord in heaven, to whom you did ascend, * and who had equipped you * with His grace to do marvelous miracles. * Therefore we entreat you, O blessed Nicholas, to save us * from disasters and serious illnesses.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "All the clergy and people * celebrate your memory, O father Nicholas. * They receive your blessings, * and with joy they delight in your miracles; * and, when it is proper, they join the choirs and extol you, * and they call you their fabulous Patron Saint.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Once your heart was illumined * by the light of God, it was indeed like Paradise, * for you had within it * Christ the Lord, who is truly the tree of life. * Pray to Him, O Father, that we your servants may be granted * the delight and the glory of Paradise.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "All-immaculate Virgin, * I have put my every hope of being saved in you. * Now as I am drowning * in a sea of misfortune, I pray to you. * Please do not ignore me, rather extend your hand and save me, * as your Son did to Peter, and rescue me.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode vi. I pour out my supplication.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The risks of life, like a storm on the high seas, * cannot sink my ship, O all-blessed Father. * I am so glad that I have you as pilot, * to steer me safely to calm havens and repose. * O Bishop Nicholas, through you * I shall make it to heaven forevermore.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "All-blessed Saint, sympathize with your servants, * and with brotherly affection assist us, * and give us good health, since you are good-natured. * O godly-minded St. Nicholas, pray for us, * and by your holy prayers to God, * from all hardships and troubles deliver us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Of old you saved those three innocent generals, * by appearing to the Emperor, O Father. * Likewise now save us from every disaster * and from diseases, O all-holy Nicholas, * by your entreaties to the Lord, * and with love we shall honor your memory.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Pray fervently for your servant, O Lady. * My indifference to matters of the spirit * has made me drowsy. So rouse me, and let not * my eyes succumb to the sleep and the death of sin. * For I have chosen you to be * my protectress to guide me throughout my life.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Look graciously * on us, all-blessed St. Nicholas, we beseech you. * By your intercessions, expel the causes of all distress * from the souls of us, who with faith supplicate you.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Entreat for us, * O spotless Maiden who gave birth to the divine Word * inexplicably through a word in the latter days, * since you indeed * speak with motherly freedom.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on us, O God, according to Your great mercy, we pray You, hear us and have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us pray for pious and Orthodox Christians.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for (episcopal rank) (name).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for mercy, life, peace, health, salvation, protection, forgiveness, and remission of the sins of the servants of God, all pious Orthodox Christians residing and visiting in this city: the parishioners, the members of the parish council, the stewards, and benefactors of this holy church.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for the servants of God… (At this time the Priest commemorates those for whom the Paraklesis is sung.)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for those who bear fruit and do good works in this holy and all-venerable church, for those who labor and those who sing, and for the people here present who await Your great and rich mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For You are a merciful God Who loves mankind, and to You we offer up glory, to the Father and to the Son and to the Holy Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Kontakion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 3. On this day.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You became the minister of sacred mysteries in Myra, * holy father Nicholas. Fulfilling Christ's holy Gospel, * you laid down your very soul for your people, * and you saved those who were innocent from dying. * For this reason you were hallowed as a great mystic * of the divine grace of God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "(The Antiphon may be omitted, in which case we immediately sing the Prokeimenon.)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Antiphon I.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Since my youth have many passions waged war against me. O my Savior, nonetheless help me and save me. (2) [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You, the haters of Zion, be put to shame by the Lord, for like thatch in fire you will be completely dried up. (2) [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From the Holy Spirit every soul receives life, and through cleansing is lifted and brightened, in a hidden, sacred manner, by the trinal Monad. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From the Holy Spirit do the streams of grace well forth; they irrigate everything created, so that life be engendered. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Prokeimenon. Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Lord, Your priests shall clothe themselves in righteousness; Your saints shall greatly rejoice. (2)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse: The holy ones shall boast in glory, and they shall greatly rejoice on their beds.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Lord, Your priests shall clothe themselves in righteousness; Your saints shall greatly rejoice. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us pray to the Lord our God that we may be made worthy to hear the holy Gospel.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Wisdom. Arise. Let us hear the Holy Gospel.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Peace be with all.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( And with your spirit. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The reading is from the Holy Gospel according to John.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us be attentive.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Glory to You, O Lord, glory to You. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Jn. 10:1-9",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The Lord said to the Jews who had come to him, \"Truly, truly, I say to you, he who does not enter the sheepfold by the door but climbs in by another way, that man is a thief and a robber; but he who enters by the door is the shepherd of the sheep. To him the gatekeeper opens; the sheep hear his voice, and he calls his own sheep by name and leads them out. When he has brought out all his own, he goes before them, and the sheep follow him, for they know his voice. A stranger they will not follow, but they will flee from him, for they do not know the voice of strangers.\" This figure Jesus used with them, but they did not understand what he was saying to them. So Jesus again said to them, \"Truly, truly, I say to you, I am the door of the sheep. All who came before me are thieves and robbers; but the sheep did not heed them. I am the door; if any one enters by me, he will be saved, and will go in and out and find pasture.\" [RSV]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Glory to You, O Lord, glory to You. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Mode 2.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "At the intercession of Your holy Hierarch, O Lord of mercy, blot out my many offences.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "At the intercession of the Theotokos, O Lord of mercy, blot out my many offences.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode pl. 2. When the saints deposited.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse: Have mercy on me, O God, according to Your great mercy; and according to the abundance of Your compassion, blot out my transgression. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "I have led my life till now in carefree ease and indifference. * I am near the end of it, and I find myself devoid of spiritual fruit. * All I have is the load of my sinful actions. * O good Lord who loves humanity, * take my unbearable burdens in an act of mercy to me. * And grant compunction and sincere repentance to me that I might be saved, * by the intercessions of Nicholas, which you gladly accept * when I invoke them, and by the prayers * of Your holy Mother, O God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O God, save Your people and bless Your inheritance. Look upon Your world with mercy and compassion. Raise the Orthodox Christians in glory, and send down upon us Your rich mercies, through the intercessions of our most pure Lady the Theotokos and ever-Virgin Mary, the power of the precious and life giving Cross, the protection of the honorable, bodiless Powers of heaven, the supplications of the honorable and glorious prophet, and forerunner John the Baptist, the holy, glorious, and praiseworthy Apostles, our Fathers among the Saints, the great hierarchs and ecumenical teachers, Basil the Great, Gregory the Theologian and John Chrysostom, Athanasios, Cyril, and John the Merciful, patriarchs of Alexandria; Spyridon, bishop of Trimythous, Nektarios of Pentapolis, the wonder-workers; the holy, glorious great Martyrs George the Victorious, Demetrios the Myrobletes, Theodore the Teron, and Theodore the General, Menas the Wonderworker, the Hieromartyrs Haralambos and Eleftherios; the holy, glorious, and victorious martyrs; the glorious great Martyr and all-laudable Euphemia; the holy and glorious Martyrs Thecla, Barbara, Anastasia, Katherine, Kyriake, Fotene, Marina, Paraskeve and Irene; of our holy God-bearing Fathers; (local patron saint); the holy and righteous ancestors of God Joachim and Anna, our Father among the Saints Nicholas the Wonder-worker, Archbishop of Myra in Lycia, and of all your Saints. We beseech you, only merciful Lord, hear us sinners who pray to you and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. (12)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Through the mercy, compassion, and love of mankind of Your only-begotten Son, with whom You are blessed, together with Your all-holy, good and life-giving Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode vii. Servants, descendants.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Nicholas, you are known for saving * those who sail the seas, and for defending widows, * subsidizing the poor, and looking after orphans. * Now by your intercessions for us, * keep us safe from any danger.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You work extraordinary wonders, * far away at sea and everywhere on dry land. * When invoked you are there for passengers and patients, * O Nicholas, delivering them * from their illnesses and perils.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Nicholas, you are a physician, * for you cure every life-threatening condition. * Now I pray you to heal my spiritual illness, * and make my soul be healthy and strong, * by your godly intercessions.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Hands lifted, pray for us, O Virgin, * to our God and King, whose mercy is unending, * and deliver us from diseases and disasters, * from all attacks and threats on our lives, * by your mighty intercessions.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode viii. O praise and bless Him.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "By your entreaties * to God, O Nicholas, save us * who are trapped in a hole of temptations. * Earnestly we pray you to rescue us, O Father.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O blessed Father, * as you are living in comfort, * and enjoying the glory of heaven, * by your intercessions, protect us who extol you.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You were illumined * by uncreated divine light. * Now you brighten the souls of the troubled, * dispelling the gloom of temptations, holy Father.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "I now rely on * the mighty help you can give me, * holy Virgin, who gave birth to the Savior * of the world, the Lord, who is merciful and mighty.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode ix. You are the Theotokos.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Nicholas, thrice-blessed, * you are very famous * throughout the world for your virtues and miracles. * We all rejoice and proclaim you to be our Patron Saint.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "When we may be in danger, * we pray you to save us, * who glorify you with faith, O praiseworthy Saint, * who imitated the Savior, all-blessed Nicholas.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Delighting in celestial * flashes of divine light, * O Father Nicholas, you have been blessed by God. * May we find safety and shelter in your protective care.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "My soul is sick and hurting, * suffering from sinning. * O Lady, bless me that I may experience * eternal blessings in heaven, * O Mary Mother of God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Megalynaria.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "It is truly right to call you blessed, Theotokos, the ever-blessed and all-blameless one and the Mother of our God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Greater in honor than the Cherubim, and in glory greater beyond compare than the Seraphim; you without corruption gave birth to God the Word, and are truly Theotokos. You do we magnify.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed Father Nicholas, come to us * now and when we need you to protect us and keep us safe. * Rescue us from perils on land and sea, and save us * who fervently invoke you, and who extol your name.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You are the consistently good repute * of the holy fathers, and the Trinity's pure abode. * You defend the faithful, you comfort the afflicted; * and therefore we salute you, O Father Nicholas.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You are our physician when we are ill; * you take care of orphans; you give rich blessings to the poor. * Rescuer and and savior of travelers in danger, * you hearten those in trouble, wise Father Nicholas!",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "We are proud to call you our Patron Saint, * for you rescue captives and you save travelers at sea, * you support the poor, you defend widows and orphans, * and also feed the hungry, all-blessed Nicholas.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Join the Theotokos, all you arrays * of angelic powers, honored Forerunner of the Lord, * holy Twelve Apostles * and all the Saints together, * and pray for our salvation, and intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Trisagion Prayers.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Holy God, Holy Mighty, Holy Immortal, have mercy on us. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "All-holy Trinity, have mercy on us. Lord, forgive our sins. Master, pardon our transgressions. Holy One, visit and heal our infirmities for Your name's sake.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. Lord, have mercy. Lord, have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For Thine is the Kingdom and the power and the glory, of the Father and of the Son and of the Holy Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Apolytikion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "A rule of faith are you, and an icon of gentleness, and a teacher of self-control. And to your flock this was evident, by the truth of your life and deeds. You were humble and therefore you acquired exalted gifts, treasure in heaven for being poor. O Father and Hierarch St. Nicholas, intercede with Christ our God, and entreat Him to save our souls. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on us, O God, according to Your great mercy, we pray You, hear us and have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for the protection of the holy Great Church of Christ, our sacred Archdiocese (and this sacred Metropolis), this city and every city and land, from wrath, famine, pestilence, earthquake, flood, fire, sword, foreign invasion, civil strife, and accidental death. That our good and loving God may be merciful, gracious and kindly-disposed, and may divert and disperse all anger and disease coming against us, and deliver us from His own just threat hanging over us, and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray that the Lord our God may hear the prayer of us sinners, and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Hear us, O God our Savior, the hope of all those who live everywhere on earth and those far out at sea or in the air. Be gracious toward our sins, Master, and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For You are a merciful and loving God, and to You we give glory, to the Father and the Son and the Holy Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to You, our God. Glory to You.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "May Christ our true God, through the intercessions of His all-pure and all-immaculate holy Mother, the power of the precious and life-giving Cross, the protection of the honorable, bodiless powers of heaven, the supplications of the honorable, glorious prophet and forerunner John the Baptist, of the holy, glorious, and praiseworthy apostles, of the holy, glorious, and triumphant martyrs, of our righteous and God-bearing fathers, of the holy and righteous ancestors of God Joachim and Anna, our Father among the Saints Nicholas the Wonder-worker, Archbishop of Myra in Lycia, and of all the saints, have mercy on us and save us, for He is good and loves mankind.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 2. Joseph took You down.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Since you have been granted grace from God, * freely you dispense cures and healing to all who place themselves * under your protection, O divine St. Nicholas. * You drive out diabolical inveterate passions, * curing all whom you receive into your custody. * Therefore we now also implore you: * Pray the Lord that all who extol you * ever be delivered from impending harm.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lady, receive the supplications of your servants, and rescue us from all necessity and affliction.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Mother of God, I have committed my every hope wholly unto you. Keep me under your shelter.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy on us [and save us].",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    }
+  ],
+  "content_kind": "native_text"
+}

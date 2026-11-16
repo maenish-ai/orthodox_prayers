@@ -1,0 +1,2074 @@
+{
+  "id": "occasion::stpaisiosparaklesis1",
+  "title": {
+    "ar": "براكليسي القديس باييسيوس",
+    "en": "Paraklesis to Saint Paisios",
+    "el": "Παράκλησις τοῦ Ἁγίου Παϊσίου"
+  },
+  "source_language": "en",
+  "displayable": true,
+  "source_document": {
+    "source_id": "goarch_digital_chant_stand_english",
+    "source_url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/other/stpaisiosparaklesis1/gr-en/index.html",
+    "source_sha256": "393c9440606a20f2e4c0c1aaf99f96c461afb50c18f2c313dc0cc7e5d5897fd7",
+    "machine_translation_used": false
+  },
+  "category": "occasions",
+  "full_service_complete": true,
+  "completeness_scope": "COMPLETE_SOURCE_EDITION_ONLY",
+  "source_provenance": {
+    "status": "PINNED_NATIVE_SERVICE_BOOK",
+    "source_id": "goarch_digital_chant_stand_english",
+    "source_sha256": "393c9440606a20f2e4c0c1aaf99f96c461afb50c18f2c313dc0cc7e5d5897fd7",
+    "machine_translation_used": false
+  },
+  "native_source": {
+    "source_id": "goarch_digital_chant_stand_english",
+    "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/other/stpaisiosparaklesis1/gr-en/index.html",
+    "native_language": "en",
+    "permission_confirmed": true
+  },
+  "segments": [
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Supplication Service",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "to St. Paisios of the Holy Mountain Athos",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "By the Sisters of the Holy Monastery of St. John the Theologian in Souroti",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Translated by Fr. Seraphim Dedes",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed is our God always, now and ever, and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 142 (143).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Lord, hear my prayer; give ear to my supplication in Your truth; answer me in Your righteousness; do not enter into judgment with Your servant, for no one living shall become righteous in Your sight. For the enemy persecuted my soul; he humbled my life to the ground; he caused me to dwell in dark places as one long dead, and my spirit was in anguish within me; my heart was troubled within me. I remembered the days of old, and I meditated on all Your works; I meditated on the works of Your hands. I spread out my hands to You; my soul thirsts for You like a waterless land. Hear me speedily, O Lord; my spirit faints within me; turn not Your face from me, lest I become like those who go down into the pit. Cause me to hear Your mercy in the morning, for I hope in You; make me know, O Lord, the way wherein I should walk, for I lift up my soul to You. Deliver me from my enemies, O Lord, for to You I flee for refuge. Teach me to do Your will, for You are my God; Your good Spirit shall guide me in the land of uprightness. For Your name's sake, O Lord, give me life; in Your righteousness You shall bring my soul out of affliction. In Your mercy You shall destroy my enemies; You shall utterly destroy all who afflict my soul, for I am Your servant. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "Then \"God is the Lord\" is sung four times, with or without the verses.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "God is the Lord, and He revealed Himself to us. Blessed is he who comes in the name of the Lord. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse 1: Give thanks to the Lord and call upon His holy name.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "or: Give thanks to the Lord, for He is good; for His mercy endures forever.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse 2: All the nations surrounded me, but in the name of the Lord I defended myself against them.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse 3: And this came about from the Lord, and it is wonderful in our eyes.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Troparia.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4. You who were lifted.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us extol the new devout Saint. Paisios: * he was a lover of divine sacred stillness, * and also imitated the compassion of our God. * Living as if bodiless on Mt. Athos and Sinai * and also in Stomion, he became a chosen vessel. * And now for all he is a gentle guide,* a strong protector, * and intercessor to the Lord. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Same Melody.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "We who are drowning in the ocean passions * and tossed about by every kind of temptation * have heard of your compassion's inexhaustible wealth, * O Father Paisios, * and your strong intercession. * Therefore we call to you, and we pray to you, saying: * Come to us quickly and deliver us, * and guide us safely * to a harbor that has no waves. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now. Theotokion. Same Melody.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "We the unworthy shall not ever be silent, * O Theotokos, from proclaiming your powers. * For were you not concerned to intercede for us, * who would have delivered us * from such manifold dangers, * and who else would up to now * have preserved us in freedom? * O Lady, we shall not depart from you, * for you ever save your servants * from evils of every kind. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 50 (51).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on me, O God, according to Your great mercy; and according to the abundance of Your compassion, blot out my transgression. Wash me thoroughly from my lawlessness and cleanse me from my sin. For I know my lawlessness, and my sin is always before me. Against You only have I sinned and done evil in Your sight; that You may be justified in Your words, and overcome when You are judged. For behold, I was conceived in transgressions, and in sins my mother bore me. Behold, You love truth; You showed me the unknown and secret things of Your wisdom. You shall sprinkle me with hyssop, and I will be cleansed; You shall wash me, and I will be made whiter than snow. You shall make me hear joy and gladness; my bones that were humbled shall greatly rejoice. Turn Your face from my sins, and blot out all my transgressions. Create in me a clean heart, O God, and renew a right spirit within me. Do not cast me away from Your presence, and do not take Your Holy Spirit from me. Restore to me the joy of Your salvation, and uphold me with Your guiding Spirit. I will teach transgressors Your ways, and the ungodly shall turn back to You. Deliver me from bloodguiltiness, O God, the God of my salvation, and my tongue shall greatly rejoice in Your righteousness. O Lord, You shall open my lips, and my mouth will declare Your praise. For if You desired sacrifice, I would give it; You will not be pleased with whole burnt offerings. A sacrifice to God is a broken spirit, a broken and humbled heart God will not despise. Do good, O Lord, in Your good pleasure to Zion, and let the walls of Jerusalem be built; then You will be pleased with a sacrifice of righteousness, with offerings and whole burnt offerings; then shall they offer young bulls on Your altar. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "The Canon",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode i. Mode pl. 4. Of old when the Israelite.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O great imitator of the divine * mercy, you showed mercy all your life and became all things * for all. Now by your intercessions * be there to help us, O father Paisios. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Physician of bodies are you indeed, * and the sweet refreshment and the gladness of hearts and souls, * a great helper when we are in trouble, * a mighty champion and ally in time of war. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Saint, I am drowsy because of great * carelessness, O father, and I hesitate to request * your unsleeping help and your protection. * But come and grant me alertness and watchfulness. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Mother of Him who redeemed the world, * Queen of all, we pray you to disperse all the heavy clouds * of perils and trials, and to shelter * your flock, as you are the swift and light-bearing cloud. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode iii. O divine Master Builder.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "By ascetical labors, you were illumined in heart, * and in mind completely enlightened by grace's radiance. * Thus you were wholly light. * Now by your prayers will you free me * from the darkness of my sins, * Father Paisios. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You were happy to suffer the pains of your illnesses, * and became a model of courage and patient fortitude. * Now I have fallen ill and lie in bed and am hurting. * Strengthen me and turn my pain into all-holy joy. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You were fervent in spirit, O Saint, and found great delight * in angelic stillness, and truly made earth be heavenly. * Look down from heaven now, * and by your prayers to the Savior, * terminate the turbulence of my uncertain life. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You are sweetness and gladness, O Theotokos, and joy, * for you are the Mother of Jesus, the joy of all the world. * When I am in distress, I run to you, my protection. * You are my encouragement, comfort, and ardent aid. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Paisios, God-bearing Saint, we entreat you to hear us calling. * Sympathetically grant us what we are praying for, * since you have great access to the Master. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Look graciously upon your servant, all-praiseworthy Theotokos, and upon my painful physical suffering, and remedy my anguish of spirit. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on us, O God, according to Your great mercy, we pray You, hear us and have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us pray for pious and Orthodox Christians.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for (episcopal rank) (name).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for mercy, life, peace, health, salvation, protection, forgiveness, and remission of the sins of the servants of God, all pious Orthodox Christians residing and visiting in this city: the parishioners, the members of the parish council, the stewards, and benefactors of this holy church.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for the servants of God… (At this time the Priest commemorates those for whom the Paraklesis is sung.)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for those who bear fruit and do good works in this holy and all-venerable church, for those who labor and those who sing, and for the people here present who await Your great and rich mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For You are a merciful God Who loves mankind, and to You we offer up glory, to the Father and to the Son and to the Holy Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Kathisma.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 2. In seeking the heights.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "As you intercede with the Master most fervently, * accept the petitions as we pray to you earnestly. * O father, we cry out to you: * Ever guard and protect, both night and day, * and in the present life and in the age to come, * be our helper, O Paisios, our patron Saint. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode iv. I have heard the report.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Bitter hopelessness and despair * encompassed my heart like a night that never ends. * Then you came and you appeared to me, * O devout Paisios, as light and joy. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "We are filled with exultant joy * when we pray with faith at your holy grave, O Saint; * for it emanates the grace of God, * which is overshadowing us mystically. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "I have fallen, so raise me up; * guide me to repentance, that saving change of mind, * by your intercessions freeing me * from the sinful habits dominating me. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Purest vessel, because of your * splendor of dispassion, are you, O Maid all-pure. * We your servants pray you purify * us from all impurity of body and soul. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode v. Sovereign Lord our God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Be for me a wall of security, O Saint of God, * as my good protector keeping me unharmed * at all times and places, O devout Paisios. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Sinful passions bring painful sores that now infect my heart. * But your sayings are a most delightful balm, * bringing peace and healing, O devout Paisios. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Father, I possess a lethargic and unfruitful soul. * By your prayers grant me energy and zeal, * and encourage me to labors that will honor God. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mother of our God, when the time comes and I stand before * that most frightening tribunal of your Son, * I entreat you hold my right hand and deliver me. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode vi. I pour out my supplication.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Devout Saint, * you were full of divine love, * you were merciful softhearted and cheerful, * for in the desert you were cleansed of the passions * and you acquired a heart filled with tender love. * Now grant to me genuine love * by your strong intercessions on my behalf. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Father, * you despised worldly glory * and you loved to be unseen and unnoticed. * But then the Lord God of glory and Master * displayed to all your most holy humility. * Grant me a drop of this, O Saint, * by your strong intercessions on my behalf. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "An ardent * divine love would catch you up, * and you joined angelic hosts to extol God. * Now I entreat, snatch me up from my many * mundane concerns and my fruitless anxiety, * so that with purity of heart * I may bless and may glorify Christ the Lord. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The living * Paradise of God are you, * holy vessel of the Lord's sweetest fragrance. * Deliver me from the stench of the passions, * and rather make me a place where the virtues dwell. * You are the wellspring and the cause * of the gifts of divine grace, All-blameless one. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Paisios, God-bearing Saint, we entreat you to hear us calling. * Sympathetically grant us what we are praying for, * since you have great access to the Master. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Entreat for us, * O spotless Maiden who gave birth to the divine Word * inexplicably through a word in the latter days, * since you indeed * speak with motherly freedom. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on us, O God, according to Your great mercy, we pray You, hear us and have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us pray for pious and Orthodox Christians.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for (episcopal rank) (name).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for mercy, life, peace, health, salvation, protection, forgiveness, and remission of the sins of the servants of God, all pious Orthodox Christians residing and visiting in this city: the parishioners, the members of the parish council, the stewards, and benefactors of this holy church.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for the servants of God… (At this time the Priest commemorates those for whom the Paraklesis is sung.)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for those who bear fruit and do good works in this holy and all-venerable church, for those who labor and those who sing, and for the people here present who await Your great and rich mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For You are a merciful God Who loves mankind, and to You we offer up glory, to the Father and to the Son and to the Holy Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Kontakion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 2.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O devout Saint, for the Lord you waited patiently; * you were made perfect by enduring infirmities. * Holy father, having found rest now from your pains, you are * an excellent physician, healing both the body and the soul * of diseases and suffering, * pouring out rest and comfort * and treatment of ills at no cost * to those who come to you with faith, * O most wonderful Paisios. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "(The Antiphon may be omitted, in which case we immediately sing the Prokeimenon.)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Antiphon I.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Since my youth have many passions waged war against me. O my Savior, nonetheless help me and save me. (2) [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You, the haters of Zion, be put to shame by the Lord, for like thatch in fire you will be completely dried up. (2) [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From the Holy Spirit every soul receives life, and through cleansing is lifted and brightened, in a hidden, sacred manner, by the trinal Monad. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From the Holy Spirit do the streams of grace well forth; they irrigate everything created, so that life be engendered. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Prokeimenon.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Precious in the sight of the Lord is the death of His holy ones. (2)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse: Blessed is the man who fears the Lord.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Precious in the sight of the Lord is the death of His holy ones. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us pray to the Lord our God that we may be made worthy to hear the holy Gospel.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Wisdom. Arise. Let us hear the Holy Gospel.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Peace be with all.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( And with your spirit. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The reading is from the Holy Gospel according to Luke.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us be attentive.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Glory to You, O Lord, glory to You. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lk. 6:17-23",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "At that time, Jesus stood on a level place, with a great crowd of his disciples and a great multitude of people from all Judea and Jerusalem and the seacoast of Tyre and Sidon, who came to hear him and to be healed of their diseases; and those who were troubled with unclean spirits were cured. And all the crowd sought to touch him, for power came forth from him and healed them all. And he lifted up his eyes on His disciples, and said: \"Blessed are you poor, for yours is the Kingdom of God. Blessed are you that hunger now, for you shall be satisfied. Blessed are you that weep now, for you shall laugh. Blessed are you when men hate you, and when they exclude you and revile you, and cast out your name as evil, on account of the Son of man! Rejoice in that day, and leap for joy, for behold, your reward is great in heaven.\" [RSV]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Glory to You, O Lord, glory to You. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Mode 2.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "At the intercession of Your holy Ascetic, O Lord of mercy, blot out my many offences. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "At the intercession of the Theotokos, O Lord of mercy, blot out my many offences. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode pl. 2. When the saints deposited.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse: Have mercy on me, O God, according to Your great mercy; and according to the abundance of Your compassion, blot out my transgression. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O devout Paisios, I am completely confounded, * for my pride has toppled me * headlong into a pit of dreadful despair; * and darkness surrounds me now. * Therefore I entreat you * to provide a ladder of ascent. * Show me the way that leads * up to light divine and the virtues all, * repentance and humility, * saving faith and hope in the Lord of all; * so that being lifted * unto the height of spiritual love, * I may experience heavenly * exultation evermore. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O God, save Your people and bless Your inheritance. Look upon Your world with mercy and compassion. Raise the Orthodox Christians in glory, and send down upon us Your rich mercies, through the intercessions of our most pure Lady the Theotokos and ever-Virgin Mary, the power of the precious and life giving Cross, the protection of the honorable, bodiless Powers of heaven, the supplications of the honorable and glorious prophet, and forerunner John the Baptist, the holy, glorious, and praiseworthy Apostles, our Fathers among the Saints, the great hierarchs and ecumenical teachers, Basil the Great, Gregory the Theologian and John Chrysostom, Athanasios, Cyril, and John the Merciful, patriarchs of Alexandria; Nicholas, bishop of Myra, Spyridon, bishop of Trimythous, Nektarios of Pentapolis, the wonder-workers; the holy, glorious great Martyrs George the Victorious, Demetrios the Myrobletes, Theodore the Teron, and Theodore the General, Menas the Wonderworker, the Hieromartyrs Haralambos and Eleftherios; the holy, glorious, and victorious martyrs; the glorious great Martyr and all-laudable Euphemia; the holy and glorious Martyrs Thecla, Barbara, Anastasia, Katherine, Kyriake, Fotene, Marina, Paraskeve and Irene; of our holy God-bearing Fathers; (local patron saint); the holy and righteous ancestors of God Joachim and Anna, our devout and God-bearing father Paisios of the Holy Mountain Athos, and of all your Saints. We beseech you, only merciful Lord, hear us sinners who pray to you and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. (12)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Through the mercy, compassion, and love of mankind of Your only-begotten Son, with whom You are blessed, together with Your all-holy, good and life-giving Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode vii. The Servants from Judea.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Pain and suffering found me. * O Paisios, truly I am in dire straits. * But counting on the might of * your holy intercessions, * I take refuge in you, O Saint, * who rescue me from it all, * amazingly and quickly. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "In this life's circumstances * we have you as calm harbor, Saint Paisios. * You are all things for all men, * the hope of the despairing, * the support of the elderly. * And you console those who grieve, * and you assist the needy. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Holy father, we pray you: * rescue those who are lying in bed and nearly dead; * cure patients diagnosed with * incurable diseases, * and from cancer deliver them; * restore their sight to the blind, * and heal autistic children. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "To you, Lady, the only * hope the world has, I lift up my mind and soul and heart, * and faithfully I cry out: * Deliver me from every * kind of danger surrounding me, * by your entreaties to Christ, * as His all-holy Mother. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode viii. O praise and bless Him.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O godly father, * you were a shining example * of angelic life, contemplative and active. * You are for monastics a light unto the ages. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Be an ambassador * for our nation, O father * Saint Paisios, in heaven to the Savior, * praying Him to save us from enemies forever. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Strengthen our youth to be, * like the Maccabees, fearless * to preserve the holy faith of Orthodoxy * unadulterated, O father, by your prayers. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You can do anything * that you wish, as the Mother * of the King of all. And therefore taking courage * in you, O pure Virgin, we evermore extol you. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode ix. You are the Theotokos.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Now I the wretched sinner * have obtained divine aid, * since venerating your icon with ardent faith, * O holy father Paisios, glorified by God. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O father, who has ever * called upon your name and * you did not speedily lay their petitions all * before the Lord God in heaven, devout Paisios? [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O father, speaking freely * unto the Creator, * fervently pray on behalf of the whole wide world, * that from on high He will send down to us unshaken peace. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "All-lauded blessed Lady, * having nearly finished * my supplication, I pray now that you will grant * to me to thank you and glorify you and call you blest. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Megalynaria.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "It is truly right to call you blessed, Theotokos, the ever-blessed and all-blameless one and the Mother of our God. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Greater in honor than the Cherubim, and in glory greater beyond compare than the Seraphim; you without corruption gave birth to God the Word, and are truly Theotokos. You do we magnify. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "We salute you, father, and say, Rejoice, * for you imitated the compassion of God the Lord.* Loving sacred stillness, and filled with the divine love * you gave yourself to God and man, O Paisios. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O divine fountain of love, rejoice ! * Unabating stream of godly sympathy, O rejoice! * Rejoice, O protector of all, and the physician * of both the soul and body, father Paisios. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O all-blessed Saint, you have now become * sweetest longed-for springtime in the bleak winter of our woes, * for you grant to all holy joy and hope and comfort, * the warmest consolation, father Paisios. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Father, in your life many times you saw * the all-holy Virgin, and in ecstasy you cried out: \"Mother of my God, Queen of all, O Virgin Mary, * beneath your mighty shelter ever protect your world.\" [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "As you now are seeing Him face to face, * fairer and more handsome than the rest of the sons of men, * namely Christ the Savior, on our behalf entreat Him * to grant us the forgiveness * of our transgressions all. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From the world over, believers come * to your sacred gravesite, and they pour out their souls to you, * telling you their pains and their troubles, O devout Saint. * Accept their supplications, father Paisios. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O devout Paisios, now each day * does your Monastery with devotion send up to you * gratitude and songs of thanksgiving for the countless * great gifts that you, O father, richly bestow on it. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saints of Cappadocia, O holy priest * Arsenios, and devout Paisios, we entreat: * From all kinds of danger deliver us who pray you * with faith and seek your mighty protection and patronage. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Join the Theotokos, all you arrays * of angelic powers, honored Forerunner of the Lord, * holy Twelve Apostles * and all the Saints together, * and pray for our salvation, and intercede for us. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Trisagion Prayers.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Holy God, Holy Mighty, Holy Immortal, have mercy on us. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "All-holy Trinity, have mercy on us. Lord, forgive our sins. Master, pardon our transgressions. Holy One, visit and heal our infirmities for Your name's sake.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. Lord, have mercy. Lord, have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and the Son and the Holy Spirit. Both now and ever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For Thine is the Kingdom and the power and the glory, of the Father and of the Son and of the Holy Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode pl. 2.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on us, Lord have mercy on us. For with nothing to say in our own defense, we sinners offer this supplication to you our Master. Have mercy on us. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord have mercy on us, for in You we trust. Be not enraged with us greatly, nor remember our iniquities. But look upon us now, being compassionate, and deliver us from our enemies. For You are our God, and we Your people, all of us the work of Your hands, and now we have invoked Your name. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now. Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Open the gate of compassion for us, O blessed Theotokos. For hoping in you, let us not fail in our aim. Through you may we be delivered from adversities. For you are the salvation of the Christian race. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on us, O God, according to Your great mercy, we pray You, hear us and have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for the protection of the holy Great Church of Christ, our sacred Archdiocese (and this sacred Metropolis), this city and every city and land, from wrath, famine, pestilence, earthquake, flood, fire, sword, foreign invasion, civil strife, and accidental death. That our good and loving God may be merciful, gracious and kindly-disposed, and may divert and disperse all anger and disease coming against us, and deliver us from His own just threat hanging over us, and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray that the Lord our God may hear the prayer of us sinners, and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Hear us, O God our Savior, the hope of all those who live everywhere on earth and those far out at sea or in the air. Be gracious toward our sins, Master, and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For You are a merciful and loving God, and to You we give glory, to the Father and the Son and the Holy Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to You, our God. Glory to You.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "May Christ our true God, through the intercessions of His all-pure and all-immaculate holy Mother, the power of the precious and life-giving Cross, the protection of the honorable, bodiless powers of heaven, the supplications of the honorable, glorious prophet and forerunner John the Baptist, of the holy, glorious, and praiseworthy apostles, of the holy, glorious, and triumphant martyrs, of our righteous and God-bearing fathers, (local patron saint); of the holy and righteous ancestors of God Joachim and Anna, our devout and God-bearing father Paisios of the Holy Mountain Athos, and of all the saints, have mercy on us and save us, for He is good and loves mankind.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 2. Joseph took You down.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Come now and appear to us who pray * fervently with tears and with sighing, with faith invoking your name, * devout Saint Paisios, to intercede for us, * and to heal us of maladies of soul and of body, * and to frustrate every scheme the demons aim at us, * so that we may honor you, father, * with a grateful heart and give glory * to the One who gave you glory, Christ our God. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lady, receive the supplications of your servants, and rescue us from all necessity and affliction. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Mother of God, I have committed my every hope wholly unto you. Keep me under your shelter. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy on us [and save us].",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Couplet.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Remember the unangelic translator who met you,",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Paisios, and save him from colossal failure.",
+        "el": ""
+      }
+    }
+  ],
+  "content_kind": "native_text"
+}

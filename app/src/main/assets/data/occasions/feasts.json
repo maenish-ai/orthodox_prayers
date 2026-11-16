@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "date_authority": "EMBEDDED_JERUSALEM_JORDAN_CALENDAR",
+  "feasts": [
+    {
+      "id": "christmas",
+      "julian_month_day": "12-25",
+      "title": {
+        "ar": "عيد ميلاد ربنا وإلهنا ومخلصنا يسوع المسيح بالجسد",
+        "en": "Nativity according to the flesh of our Lord, God, and Savior Jesus Christ",
+        "el": "Ἡ κατὰ σάρκα Γέννησις τοῦ Κυρίου καὶ Θεοῦ καὶ Σωτῆρος ἡμῶν Ἰησοῦ Χριστοῦ"
+      }
+    },
+    {
+      "id": "theophany",
+      "julian_month_day": "01-06",
+      "title": {
+        "ar": "عيد الظهور الإلهي المقدس",
+        "en": "Holy Theophany",
+        "el": "Τὰ Ἅγια Θεοφάνεια"
+      }
+    },
+    {
+      "id": "meeting",
+      "julian_month_day": "02-02",
+      "title": {
+        "ar": "أحد الدينونة — مرفع اللحم",
+        "en": "Sunday of the Last Judgment — Meatfare",
+        "el": "Κυριακὴ τῆς Ἀπόκρεω"
+      }
+    },
+    {
+      "id": "annunciation",
+      "julian_month_day": "03-25",
+      "title": {
+        "ar": "الثلاثاء العظيم المقدس",
+        "en": "Great and Holy Tuesday",
+        "el": "Μεγάλη καὶ Ἁγία Τρίτη"
+      }
+    },
+    {
+      "id": "transfiguration",
+      "julian_month_day": "08-06",
+      "title": {
+        "ar": "عيد تجلي ربنا وإلهنا ومخلصنا يسوع المسيح",
+        "en": "The Holy Transfiguration of our Lord, God and Savior Jesus Christ",
+        "el": "Ἡ Ἁγία Μεταμόρφωσις τοῦ Κυρίου καὶ Θεοῦ καὶ Σωτῆρος ἡμῶν Ἰησοῦ Χριστοῦ"
+      }
+    },
+    {
+      "id": "dormition",
+      "julian_month_day": "08-15",
+      "title": {
+        "ar": "عيد رقاد سيدتنا والدة الإله الدائمة البتولية مريم",
+        "en": "The Dormition of our Most Holy Lady the Theotokos and Ever-Virgin Mary",
+        "el": "Ἡ Κοίμησις τῆς Ὑπεραγίας Δεσποίνης ἡμῶν Θεοτόκου καὶ Ἀειπαρθένου Μαρίας"
+      }
+    },
+    {
+      "id": "theotokos_nativity",
+      "julian_month_day": "09-08",
+      "title": {
+        "ar": "ميلاد سيدتنا والدة الإله الدائمة البتولية مريم",
+        "en": "The Nativity of our Most Holy Lady the Theotokos and Ever-Virgin Mary",
+        "el": "Τὸ Γενέσιον τῆς Ὑπεραγίας Θεοτόκου"
+      }
+    },
+    {
+      "id": "cross",
+      "julian_month_day": "09-14",
+      "title": {
+        "ar": "عيد رفع الصليب الكريم المحيي",
+        "en": "The Universal Exaltation of the Precious and Life-Giving Cross",
+        "el": "Ἡ Παγκόσμιος Ὕψωσις τοῦ Τιμίου καὶ Ζωοποιοῦ Σταυροῦ"
+      }
+    },
+    {
+      "id": "theotokos_entry",
+      "julian_month_day": "11-21",
+      "title": {
+        "ar": "دخول سيدتنا والدة الإله إلى الهيكل",
+        "en": "The Entry of our Most Holy Lady the Theotokos into the Temple",
+        "el": "Τὰ Εἰσόδια τῆς Ὑπεραγίας Θεοτόκου"
+      }
+    },
+    {
+      "id": "palm_sunday",
+      "pascha_offset": -7,
+      "title": {
+        "ar": "أحد الشعانين",
+        "en": "Palm Sunday",
+        "el": "Κυριακὴ τῶν Βαΐων"
+      }
+    },
+    {
+      "id": "pascha",
+      "pascha_offset": 0,
+      "title": {
+        "ar": "عيد قيامة ربنا يسوع المسيح — الفصح المقدس",
+        "en": "Holy Pascha — Resurrection of our Lord Jesus Christ",
+        "el": "Ἅγιον Πάσχα — Ἀνάστασις τοῦ Κυρίου"
+      }
+    },
+    {
+      "id": "ascension",
+      "pascha_offset": 39,
+      "title": {
+        "ar": "عيد صعود ربنا",
+        "en": "Ascension of our Lord",
+        "el": "Ἀνάληψις τοῦ Κυρίου"
+      }
+    },
+    {
+      "id": "pentecost",
+      "pascha_offset": 49,
+      "title": {
+        "ar": "عيد العنصرة المقدسة",
+        "en": "Holy Pentecost",
+        "el": "Ἁγία Πεντηκοστή"
+      }
+    }
+  ]
+}

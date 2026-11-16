@@ -1,0 +1,2066 @@
+{
+  "id": "occasion::stnektariosparaklesis1",
+  "title": {
+    "ar": "براكليسي القديس نكتاريوس",
+    "en": "Paraklesis to Saint Nektarios",
+    "el": "Παράκλησις τοῦ Ἁγίου Νεκταρίου"
+  },
+  "source_language": "en",
+  "displayable": true,
+  "source_document": {
+    "source_id": "goarch_digital_chant_stand_english",
+    "source_url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/other/stnektariosparaklesis1/gr-en/index.html",
+    "source_sha256": "9306076105fb3fd63e84e5a43513420b1370aff7a427b71be18ea173edeeb5d3",
+    "machine_translation_used": false
+  },
+  "category": "occasions",
+  "full_service_complete": true,
+  "completeness_scope": "COMPLETE_SOURCE_EDITION_ONLY",
+  "source_provenance": {
+    "status": "PINNED_NATIVE_SERVICE_BOOK",
+    "source_id": "goarch_digital_chant_stand_english",
+    "source_sha256": "9306076105fb3fd63e84e5a43513420b1370aff7a427b71be18ea173edeeb5d3",
+    "machine_translation_used": false
+  },
+  "native_source": {
+    "source_id": "goarch_digital_chant_stand_english",
+    "url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/other/stnektariosparaklesis1/gr-en/index.html",
+    "native_language": "en",
+    "permission_confirmed": true
+  },
+  "segments": [
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Supplicatory Canon",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "to St. Nektarios",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "By Monk Gerasimos Mikragiannanites",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Translated by Fr. Seraphim Dedes",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "(Complete Score)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed is our God always, now and ever, and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 142 (143).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Lord, hear my prayer; give ear to my supplication in Your truth; answer me in Your righteousness; do not enter into judgment with Your servant, for no one living shall become righteous in Your sight. For the enemy persecuted my soul; he humbled my life to the ground; he caused me to dwell in dark places as one long dead, and my spirit was in anguish within me; my heart was troubled within me. I remembered the days of old, and I meditated on all Your works; I meditated on the works of Your hands. I spread out my hands to You; my soul thirsts for You like a waterless land. Hear me speedily, O Lord; my spirit faints within me; turn not Your face from me, lest I become like those who go down into the pit. Cause me to hear Your mercy in the morning, for I hope in You; make me know, O Lord, the way wherein I should walk, for I lift up my soul to You. Deliver me from my enemies, O Lord, for to You I flee for refuge. Teach me to do Your will, for You are my God; Your good Spirit shall guide me in the land of uprightness. For Your name's sake, O Lord, give me life; in Your righteousness You shall bring my soul out of affliction. In Your mercy You shall destroy my enemies; You shall utterly destroy all who afflict my soul, for I am Your servant. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "Then \"God is the Lord\" is sung four times, with or without the verses.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "God is the Lord, and He revealed Himself to us. Blessed is he who comes in the name of the Lord. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse 1: Give thanks to the Lord and call upon His holy name.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse 2: All the nations surrounded me, but in the name of the Lord I defended myself against them.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse 3: And this came about from the Lord, and it is wonderful in our eyes.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Troparia.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4. You who were lifted.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "To Saint Nektarios, the Lord's holy Bishop, *whom Christ has glorified with bounties from heaven, * let us believers run, and from the depths of our souls * cry to him, \"Deliver us * from distress and affliction, * from disease and suffering, * and temptation, O Father. * We come to you for comfort and for help, * as the protector * of Orthodox Christians all.\"",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Same Melody.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Since you received from God the grace and the power * to cure the serious and painful diseases * of those who come with faith before your relics, we entreat: * Cure those who are suffering * and are harshly afflicted * with tormenting pain, O Saint, * and disorders of all kinds. * Preserve the world and all of us in peace, * by your entreaties, O Father Nektarios.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now. Theotokion. Same Melody.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "We the unworthy shall not ever be silent, * O Theotokos, from proclaiming your powers. * For were you not concerned to intercede for us, * who would have delivered us * from such manifold dangers, * and who else would up to now * have preserved us in freedom? * O Lady, we shall not depart from you, * for you ever save your servants * from evils of every kind.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Psalm 50 (51).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on me, O God, according to Your great mercy; and according to the abundance of Your compassion, blot out my transgression. Wash me thoroughly from my lawlessness and cleanse me from my sin. For I know my lawlessness, and my sin is always before me. Against You only have I sinned and done evil in Your sight; that You may be justified in Your words, and overcome when You are judged. For behold, I was conceived in transgressions, and in sins my mother bore me. Behold, You love truth; You showed me the unknown and secret things of Your wisdom. You shall sprinkle me with hyssop, and I will be cleansed; You shall wash me, and I will be made whiter than snow. You shall make me hear joy and gladness; my bones that were humbled shall greatly rejoice. Turn Your face from my sins, and blot out all my transgressions. Create in me a clean heart, O God, and renew a right spirit within me. Do not cast me away from Your presence, and do not take Your Holy Spirit from me. Restore to me the joy of Your salvation, and uphold me with Your guiding Spirit. I will teach transgressors Your ways, and the ungodly shall turn back to You. Deliver me from bloodguiltiness, O God, the God of my salvation, and my tongue shall greatly rejoice in Your righteousness. O Lord, You shall open my lips, and my mouth will declare Your praise. For if You desired sacrifice, I would give it; You will not be pleased with whole burnt offerings. A sacrifice to God is a broken spirit, a broken and humbled heart God will not despise. Do good, O Lord, in Your good pleasure to Zion, and let the walls of Jerusalem be built; then You will be pleased with a sacrifice of righteousness, with offerings and whole burnt offerings; then shall they offer young bulls on Your altar. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "The Canon",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "with the Acrostic: \"Nektarios, end our suffering. Seraphim.\"",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode i. Mode pl. 4. Of old when the Israelite.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Now wounded by darts of the wicked fiend, * I run to the haven of your help and I cry aloud, * \"Give peace to my life, O holy Father; * and to my soul and my body grant health again.\"",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Effectively leading a holy life, * you now sanctify us who approach your all-holy bones, * and free us from every kind of evil, * O holy God-bearing Father Nektarios.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and to the Son and to the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Kindhearted Nektarios, since you are * a miracle-worker and a Hierarch of the Lord, * to all who are seeking your assistance, * grant cures and healing of serious illnesses.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Now and forever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The soft-hearted Mother of God are you. * Benevolent Lady, show compassion on me, I pray; * and free me from every harm and danger * of the invisible serpent and enemy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode iii. O divine Master Builder.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "As a sensitive father and as a bishop who cares, * rescue us from grave tribulations and merciless assaults * of the archenemy; * and as we daily extol you, * keep us free of all disease and painful suffering.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Rinse our souls with your sweetness, * and wash away bitterness * of the sinful passions, O Father Nektarios; for God * has given you divine * and immaterial nectar * of His grace, and every day it issues from your bones.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and to the Son and to the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "I have come to you, Father, * for I am passing the days * of my life in sickness, distress and excruciating pain. * Therefore I humbly pray * that you will not overlook me, * but instead alleviate my grievous suffering.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Now and forever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O immaculate Virgin, * shelter and guard and protect * from the devil's various scandals, all those who run to you * for safety and for help * beneath your holy protection, * for you are the refuge and support of all the world.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Deliver us * from every harm, holy Hier-arch, and affliction, * as we run to your intercessions with hope and faith, * God-bearing Father Nektarios, and extol you.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Look graciously upon your servant, all-praiseworthy Theotokos, and upon my painful physical suffering, and remedy my anguish of spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on us, O God, according to Your great mercy, we pray You, hear us and have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us pray for pious and Orthodox Christians.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for our Archbishop (name).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for mercy, life, peace, health, salvation, protection, forgiveness, and remission of the sins of the servants of God, all pious Orthodox Christians residing and visiting in this city: the parishioners, the members of the parish council, the stewards, and benefactors of this holy church.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for the servants of God… (At this time the Priest commemorates those for whom the Paraklesis is sung.)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for those who bear fruit and do good works in this holy and all-venerable church, for those who labor and those who sing, and for the people here present who await Your great and rich mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For You are a merciful God Who loves mankind, and to You we offer up glory, to the Father and to the Son and to the Holy Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Kathisma.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 2. In seeking the heights.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The case that contains your relics has been shown to be * a plentiful source of healing by the grace of God. * It cures those who are suffering, * and restores their well-being and healthiness * to those approaching with wholehearted faith, * O Hierarch Father Nektarios.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode iv. I have heard the report.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Safe from every adversity * and from the assaults of the devil who wars with us * keep your parish, which is named for you, * wise and holy Hierarch Nektarios.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Every day, to your sacred shrine * people, sick and suffering, come from everywhere. * Holy Father, give them health again, * and relieve their sorrow, by the grace of God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and to the Son and to the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Now we pray you, Nektarios, * to restore to health our bodies and souls alike; * and absolve us of our trespasses, * as we are wholeheartedly extolling you.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Now and forever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Do direct me, O virgin Maid, * on the saving road of repentance, all-blameless one; * also deaden and remove from me * every insurrection that my passions bring.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode v. Sovereign Lord our God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O all-blessed Saint, * Charlotte shares you now with Aegina * as her patron and protector, and she prays * you will always be her helper in adversity.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Undisturbed, we pray, * be our peaceful life, and unperturbed * by the enemy's assaults of any kind, * through your intercession, Hierarch Nektarios.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and to the Son and to the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Radiant with joy * is the parish that acquired you * as its guardian and as its Patron Saint, * for it knows that it enjoys your speedy help in need.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Now and forever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Save us, for we hope * in your shelter, O immaculate * and unwedded Theotokos and all-pure, * and protect us from all harm, and keep us safe and sound.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode vi. I pour out my supplication.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Unwell now, * we run to you to relieve us * from distress of soul and body, O Father, * for we are sure of your strong intercession. * And fill our hearts with the heavenly joy of God, * and drive away the murky fog * of destructive depression, Nektarios.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From every * ordeal and poisonous scandal * that the devil hurls against us, O Father, * and from distress and necessity, save us, * by your entreaties to Christ the all-merciful; * and pray that He deliver us, * who with faith run to you, Saint Nektarios.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and to the Son and to the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From heaven, * look down on us with compassion, * and unceasingly take care of the parish * that bears your name, holy God-bearing Father, * and wonder-worker Nektarios, and obtained * your holy relics as a great * and immeasurable treasure of grace divine.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Now and forever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Enliven * my humble soul to make progress * in the higher way of life, holy Virgin; * and also save me, immaculate Maiden, * from baser passions that rule me with tyranny, * for you gave birth to God the Word, * the benevolent Savior of humankind.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Deliver us * from every harm, holy Hier-arch, and affliction, * as we run to your intercessions with hope and faith, * God-bearing Father Nektarios, and extol you.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Entreat for us, * O spotless Maiden who gave birth to the divine Word * inexplicably through a word in the latter days, * since you indeed * speak with motherly freedom.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on us, O God, according to Your great mercy, we pray You, hear us and have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us pray for pious and Orthodox Christians.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for our Archbishop (name).",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for mercy, life, peace, health, salvation, protection, forgiveness, and remission of the sins of the servants of God, all pious Orthodox Christians residing and visiting in this city: the parishioners, the members of the parish council, the stewards, and benefactors of this holy church.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for the servants of God… (At this time the Priest commemorates those for whom the Paraklesis is sung.)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for those who bear fruit and do good works in this holy and all-venerable church, for those who labor and those who sing, and for the people here present who await Your great and rich mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For You are a merciful God Who loves mankind, and to You we offer up glory, to the Father and to the Son and to the Holy Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Kontakion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 2.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You restore those who fall, O Nektarios, * and support those who have been shaken and are wavering. * O holy Father, the Lord has glorified you in our days. * Ever keep us safe and unperturbed by the temptations of life, * we entreat you, O Hierarch. * Pray that the Lord will grant us * forgiveness of our offenses, * and that He bless us with good health; * and beseech Him to save our souls.",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "(The Antiphon may be omitted, in which case we immediately sing the Prokeimenon.)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "First Antiphon.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 4.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From my youth, many passions war against me. O my Savior, I implore You, uphold me and save me. (2) [GOASD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "You who hate Zion, be shamed by the Lord; for you will be withered like grass in the fire. (2) [GOASD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "By the Holy Spirit every soul is animated, and when purified, it is mystically uplifted and brightened by the triune Godhead. [GOASD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "From the Holy Spirit the streams of grace well forth; they water all creation, so that life be engendered. [GOASD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Prokeimenon.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Lord, Your priests shall clothe themselves in righteousness; Your saints shall greatly rejoice. (2)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse: Precious in the sight of the Lord is the death of His holy one.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Lord, Your priests shall clothe themselves in righteousness; Your saints shall greatly rejoice. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us pray to the Lord our God that we may be made worthy to hear the holy Gospel.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Wisdom. Arise. Let us hear the holy Gospel.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Peace be with all.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( And with your spirit. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "The reading is from the holy Gospel according to Matthew.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Let us be attentive.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Glory to You, O Lord, glory to You. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mt. 4:25 - 5:12",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "At that time, great crowds followed Jesus from Galilee and the Dekapolis and Jerusalem and Judea and from beyond the Jordan. Seeing the crowds, he went up on the mountain, and when he sat down his disciples came to him. And he opened his mouth and taught them, saying: \"Blessed are the poor in spirit, for theirs is the kingdom of heaven. Blessed are those who mourn, for they shall be comforted. Blessed are the meek, for they shall inherit the earth. Blessed are those who hunger and thirst for righteousness, for they shall be satisfied. Blessed are the merciful, for they shall obtain mercy. Blessed are the pure in heart, for they shall see God. Blessed are the peacemakers, for they shall be called sons of God. Blessed are those who are persecuted for righteousness' sake, for theirs is the kingdom of heaven. Blessed are you when men revile you and persecute you and utter all kinds of evil against you falsely on my account. Rejoice and be glad, for your reward is great in heaven.\" [RSV]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Glory to You, O Lord, glory to You. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory. Mode 2.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "At the intercession of Your holy Hierarch, O Lord of mercy, blot out my many offenses.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "At the intercession of the Theotokos, O Lord of mercy, blot out my many offenses.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode pl. 2. When the saints deposited.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Verse: Have mercy on me, O God, according to Your great mercy; and according to the abundance of Your compassion, blot out my transgression. [SAAS]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Recently you shone upon the Church of Christ as a new star, * O devout Nektarios, * glowing with the purity of your holy life. * Spiritual radiance * of the grace within you * shines upon our souls and brightens them. * And by the dazzling gift * that you have from God, you can heal and cure * the darkness that the demons bring * and the gloom of sickness and suffering. * Therefore we entreat you: O Father, never cease to rescue us * from the assaults of the evil one, * and from all adversity.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O God, save Your people and bless Your inheritance. Look upon Your world with mercy and compassion. Raise the Orthodox Christians in glory, and send down upon us Your rich mercies, through the intercessions of our most pure Lady, the Theotokos and ever virgin Mary, the power of the precious and life-giving Cross, the protection of the honorable, heavenly, bodiless powers, the supplications of the honorable, glorious prophet and forerunner John the Baptist, the holy, glorious, and praiseworthy apostles, our fathers among the saints, the great hierarchs and ecumenical teachers Basil the Great, Gregory the Theologian, and John Chrysostom; Athanasios, Cyril, and John the Merciful, patriarchs of Alexandria, Nicholas, bishop of Myra in Lycia, Spyridon, bishop of Trimythous, the wonderworkers; the holy, glorious, great martyrs George the victorious, Demetrios the Myrobletes, Theodore Teron, and Theodore Stratelates; Menas the wonderworker; Charalambos and Eleutherios, the Hieromartyrs; the holy, glorious, and victorious martyrs; the glorious great Martyr and all-laudable Euphemia; the holy and glorious Martyrs Thecla, Barbara, Anastasia, Katherine, Kyriake, Fotene, Marina, Paraskeve and Irene; our venerable and God-bearing fathers; (local patron saint); holy and righteous ancestors of God Joachim and Anna; our father among the saints Nektarios, Metropolitan of Pentapolis, the Wonderworker, and all Your saints; We beseech you, only merciful Lord, hear us sinners who pray to you and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. (12)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Through the mercy, compassion, and love of mankind of Your only-begotten Son, with whom You are blessed, together with Your all-holy, good and life-giving Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode vii. The Servants from Judea.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Rescue us who extol you, * blessed Father Nektarios, from adversities: * from every kind of illness, * from danger and temptations, * from disasters and terrorists, * and keep us safe from the plots * of bad and hateful people.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "In our own days, O Father, * for us Orthodox Christians you are a ready help, * continually healing * the serious diseases * of the ones who with faith in God * and with devotion for you * revere your holy relics.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and to the Son and to the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Now your new sanctuary, * holy Father Nektarios, is a sacred crown * adorning the Queen City, * whose faithful Christians know you * as their Patron who prays to God; * and taking refuge in you, * they get divine assistance.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Now and forever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Guide my steps, holy Maiden, * on the path to obey the commandments of your Son. * Direct my heart's attention * away from the attractions * and the doorways that lead to sin, * so being saved by your grace, * I might extol you, Virgin.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode viii. O praise and bless Him.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Save me, O Father, * by your divine intercessions. * For my heart is being flooded by the river * of the sinful passions. * So, dry it up completely.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Eminent Father, * you cure diseases; and therefore * we take refuge in your graced and holy relics, * praying to be freed from * tormenting pain and sorrow.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and to the Son and to the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Receive us, Father, * beneath your mighty protection, * holy Hierarch; and by your intercession, * to your holy Parish * dispense paternal blessings.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Now and forever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "All-holy Virgin, * my soul is sick from venom * of the serpent. So I pray that you will cure me, * and illuminate me * with light of true dispassion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Ode ix. You are the Theotokos.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Protect us, holy Father, * from the wicked madness * of our invisible foe, and deliver us, * who run to you for protection, * from all adversity.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Saint of God, intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Heal me, O holy Father. * Take away my soul's pain. * I pray, alleviate physical suffering, * by the abundant divine grace * that God has given you.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and to the Son and to the Holy Spirit.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Implore our gracious Master, * Christ our Lord and Savior, * to save your Parish, the Queen City, and us all * in the American Nation, * Father Nektarios.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Now and forever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Maternally protecting, * nourishing and caring * for us each day, you unceasingly pray for us. * We sing in praise of your blessings, * O Lady full of grace.",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Megalynaria.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "It is truly right to call you blessed, Theotokos, the ever-blessed and all-blameless one and the Mother of our God.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Greater in honor than the Cherubim, and in glory greater beyond compare than the Seraphim; you without corruption gave birth to God the Word, and are truly Theotokos. You do we magnify.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "To the shining star of the Church of Christ, * and the blazing torchlight of the Orthodox way of life, * let us sing and honor the Patron Saint of Charlotte * and Aegina, our holy * Father Nektarios.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Newly flowing river fed by divine * showers from the heavens, coursing into the Church of Christ * with the streams of God's gifts and graces, sweet as nectar, * rejoice, O truly blessed * Father Nektarios.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "As a sacred lamp that was lit by God, * in the height of virtue you shone brightly in recent times. * Through your holy life, you noetically enlighten * the minds of the believers, * Father Nektarios.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Help of the afflicted are you. Rejoice! * And the speedy healer of the demon-possessed, rejoice! * You relieve the pain and the anguish of the faithful * who venerate your relics, * Father Nektarios.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Blessed Saint Nektarios, O rejoice! * You are the assistance of believers throughout the world, * Aegina's true treasure and Greece's great adornment, * and now for us in Charlotte, * helper and Patron Saint.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Keep the sacred places that bear your name * under your protection, holy Father, and free of harm. * Fulfill the petitions of those who hold in honor * your memory and pray you, * blessed Nektarios.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Join the Theotokos, all you arrays * of angelic powers, honored Forerunner of the Lord, * holy Twelve Apostles * and all the Saints together, * and pray for our salvation, and intercede for us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "READER",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Trisagion Prayers.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Holy God, Holy Mighty, Holy Immortal, have mercy on us. (3)",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and to the Son and to the Holy Spirit. Now and forever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "All-holy Trinity, have mercy on us. Lord, forgive our sins. Master, pardon our transgressions. Holy One, visit and heal our infirmities for Your name's sake.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord, have mercy. Lord, have mercy. Lord, have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to the Father and to the Son and to the Holy Spirit. Now and forever and to the ages of ages. Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For Thine is the kingdom and the power and the glory, of the Father and the Son and the Holy Spirit, now and forever and to ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Amen.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode pl. 2.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on us, Lord have mercy on us. For with nothing to say in our own defense, we sinners offer this supplication to you our Master. Have mercy on us. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lord have mercy on us, for in You we trust. Be not enraged with us greatly, nor remember our iniquities. But look upon us now, being compassionate, and deliver us from our enemies. For You are our God, and we Your people, all of us the work of Your hands, and now we have invoked Your name. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Both now. Theotokion.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Open the gate of compassion for us, O blessed Theotokos. For hoping in you, let us not fail in our aim. Through you may we be delivered from adversities. For you are the salvation of the Christian race. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Have mercy on us, O God, according to Your great mercy, we pray You, hear us and have mercy.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray for the protection of the Holy and Great Church of Christ, our Sacred Archdiocese (and this Sacred Metropolis), this city and every city and land, from wrath, famine, pestilence, earthquake, flood, fire, sword, foreign invasion, civil strife, and accidental death. That our good and loving God may be merciful, gracious and kindly-disposed, and may divert and disperse all anger and disease coming against us, and deliver us from His own just threat hanging over us, and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Again we pray that the Lord our God may hear the prayer of us sinners, and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Lord, have mercy. Lord, have mercy. Lord, have mercy. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Hear us, O God our Savior, the hope of all those who live everywhere on earth and those far out at sea. Be gracious toward our sins, Master, and have mercy on us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "For You are a merciful and loving God, and to You we give glory, to the Father and the Son and the Holy Spirit, now and forever and to the ages of ages.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Glory to You, O God, glory to You.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "May Christ our true God, through the intercessions of His all-pure and all-immaculate holy Mother, the power of the precious and life-giving Cross, the protection of the honorable, bodiless powers of heaven, the supplications of the honorable, glorious prophet and forerunner John the Baptist, of the holy, glorious, and praiseworthy apostles, of the holy, glorious, and triumphant martyrs, of our righteous and God-bearing fathers, of the holy and righteous ancestors of God Joachim and Anna, our father among the saints Nektarios, Metropolitan of Pentapolis, the Wonderworker, and of all the saints, have mercy on us and save us, for He is good and merciful and loves mankind.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "CHOIR",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Mode 2. Joseph took You down.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Be our mighty helper and defense, * and the staunch defender and shelter, * O Saint Nektarios, * for us all who come to you with ardent faith in God, * and who lovingly venerate * your all-holy relics, * which the Lord has glorified with grace and miracles. * Through them Christ relieves our afflictions; * He forgives our sins and transgressions; * from on high He blesses us with peace of mind.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Lady, receive the supplications of your servants, and rescue us from all necessity and affliction.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "O Mother of God, I have committed my every hope wholly unto you. Keep me under your shelter.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "PRIEST",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy on us and save us.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Couplet.",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "Nektarios, grant me freedom from passions,",
+        "el": ""
+      }
+    },
+    {
+      "type": "text",
+      "text": {
+        "ar": "",
+        "en": "for, angelic in name only, I seek your assistance.",
+        "el": ""
+      }
+    }
+  ],
+  "content_kind": "native_text"
+}

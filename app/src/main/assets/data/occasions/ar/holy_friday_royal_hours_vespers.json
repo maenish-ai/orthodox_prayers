@@ -1,0 +1,35 @@
+{
+  "id": "occasion::holy_friday_royal_hours_vespers",
+  "title": {
+    "ar": "الجمعة العظيمة — الساعات الكبرى وتنزيل المصلوب",
+    "en": "Holy Friday — Royal Hours and Vespers",
+    "el": "Μεγάλη Παρασκευή — Μεγάλες Ὧρες καὶ Ἀποκαθήλωση"
+  },
+  "source_language": "ar",
+  "displayable": true,
+  "source_document": {
+    "source_id": "orthodox_jordan_arabic_services",
+    "source_url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/تنزيل-المصلوب-1.pdf",
+    "source_sha256": "b9d4672a79b913f8120760922d78350b2de18f72cfde5a989518fe6c32b3c0d8",
+    "machine_translation_used": false
+  },
+  "category": "occasions",
+  "full_service_complete": true,
+  "completeness_scope": "COMPLETE_SOURCE_EDITION_ONLY",
+  "source_provenance": {
+    "status": "PINNED_NATIVE_SERVICE_BOOK",
+    "source_id": "orthodox_jordan_arabic_services",
+    "source_sha256": "b9d4672a79b913f8120760922d78350b2de18f72cfde5a989518fe6c32b3c0d8",
+    "machine_translation_used": false
+  },
+  "native_source": {
+    "source_id": "orthodox_jordan_arabic_services",
+    "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/تنزيل-المصلوب-1.pdf",
+    "native_language": "ar",
+    "permission_confirmed": true
+  },
+  "content_kind": "pdf_facsimile",
+  "asset_pdf": "data/occasions/ar/holy_friday_royal_hours_vespers.pdf",
+  "asset_sha256": "b9d4672a79b913f8120760922d78350b2de18f72cfde5a989518fe6c32b3c0d8",
+  "page_count": 72
+}

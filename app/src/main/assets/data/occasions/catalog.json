@@ -1,0 +1,556 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "holy_monday_matins",
+      "title": {
+        "ar": "الاثنين العظيم — صلاة الختن الأولى",
+        "en": "Holy Monday — First Bridegroom Service",
+        "el": "Μεγάλη Δευτέρα — Ἀκολουθία τοῦ Νυμφίου"
+      },
+      "group": "holy_week",
+      "day": "monday",
+      "languages": [
+        "ar",
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "holy_tuesday_matins",
+      "title": {
+        "ar": "الثلاثاء العظيم — صلاة الختن الثانية",
+        "en": "Holy Tuesday — Second Bridegroom Service",
+        "el": "Μεγάλη Τρίτη — Ἀκολουθία τοῦ Νυμφίου"
+      },
+      "group": "holy_week",
+      "day": "tuesday",
+      "languages": [
+        "ar",
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "holy_wednesday_matins",
+      "title": {
+        "ar": "الأربعاء العظيم — صلاة الختن الثالثة",
+        "en": "Holy Wednesday — Third Bridegroom Service",
+        "el": "Μεγάλη Τετάρτη — Ἀκολουθία τοῦ Νυμφίου"
+      },
+      "group": "holy_week",
+      "day": "wednesday",
+      "languages": [
+        "ar",
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "bridegroom_and_thursday",
+      "title": {
+        "ar": "صلوات الختن وسَحَر الخميس العظيم — الكتاب الكامل",
+        "en": "Bridegroom Services and Holy Thursday Matins — Complete Book",
+        "el": "Ἀκολουθίες Νυμφίου καὶ Ὄρθρος Μεγάλης Πέμπτης"
+      },
+      "group": "holy_week",
+      "day": "thursday",
+      "languages": [
+        "ar"
+      ]
+    },
+    {
+      "id": "holy_thursday_liturgy",
+      "title": {
+        "ar": "الخميس العظيم — الساعات وقداس باسيليوس",
+        "en": "Holy Thursday — Hours and Vesperal Liturgy",
+        "el": "Μεγάλη Πέμπτη — Ὧρες καὶ Θεία Λειτουργία"
+      },
+      "group": "holy_week",
+      "day": "thursday",
+      "languages": [
+        "ar",
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "passion_gospels",
+      "title": {
+        "ar": "أناجيل الآلام الاثنا عشر — مساء الخميس",
+        "en": "The Twelve Passion Gospels — Thursday Evening",
+        "el": "Τὰ Δώδεκα Εὐαγγέλια τῶν Παθῶν"
+      },
+      "group": "holy_week",
+      "day": "thursday",
+      "languages": [
+        "ar",
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "holy_friday_royal_hours_vespers",
+      "title": {
+        "ar": "الجمعة العظيمة — الساعات الكبرى وتنزيل المصلوب",
+        "en": "Holy Friday — Royal Hours and Vespers",
+        "el": "Μεγάλη Παρασκευή — Μεγάλες Ὧρες καὶ Ἀποκαθήλωση"
+      },
+      "group": "holy_week",
+      "day": "friday",
+      "languages": [
+        "ar"
+      ]
+    },
+    {
+      "id": "holy_saturday_matins",
+      "title": {
+        "ar": "جناز المسيح — سَحَر السبت العظيم",
+        "en": "The Lamentations — Holy Saturday Matins",
+        "el": "Ἐπιτάφιος — Ὄρθρος Μεγάλου Σαββάτου"
+      },
+      "group": "holy_week",
+      "day": "friday",
+      "languages": [
+        "ar",
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "holy_saturday_liturgy",
+      "title": {
+        "ar": "السبت العظيم — الغروب والقداس",
+        "en": "Holy Saturday — Vesperal Liturgy",
+        "el": "Μέγα Σάββατο — Ἑσπερινὸς καὶ Θεία Λειτουργία"
+      },
+      "group": "holy_week",
+      "day": "saturday",
+      "languages": [
+        "ar",
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "pentecost_book",
+      "title": {
+        "ar": "العنصرة — الغروب والقداس وصلاة السجدة",
+        "en": "Pentecost — Vespers, Liturgy and Kneeling Prayers",
+        "el": "Πεντηκοστή — Ἑσπερινός, Λειτουργία καὶ Γονυκλισία"
+      },
+      "group": "feasts",
+      "day": "pentecost",
+      "languages": [
+        "ar"
+      ]
+    },
+    {
+      "id": "holy_monday_presanctified",
+      "title": {
+        "ar": "الاثنين العظيم — السابق تقديسه",
+        "en": "Holy Monday — Presanctified Liturgy",
+        "el": "Μεγάλη Δευτέρα — Προηγιασμένα"
+      },
+      "group": "holy_week",
+      "day": "monday",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "holy_tuesday_presanctified",
+      "title": {
+        "ar": "الثلاثاء العظيم — السابق تقديسه",
+        "en": "Holy Tuesday — Presanctified Liturgy",
+        "el": "Μεγάλη Τρίτη — Προηγιασμένα"
+      },
+      "group": "holy_week",
+      "day": "tuesday",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "holy_wednesday_presanctified",
+      "title": {
+        "ar": "الأربعاء العظيم — السابق تقديسه",
+        "en": "Holy Wednesday — Presanctified Liturgy",
+        "el": "Μεγάλη Τετάρτη — Προηγιασμένα"
+      },
+      "group": "holy_week",
+      "day": "wednesday",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "holy_wednesday_unction",
+      "title": {
+        "ar": "الأربعاء العظيم — سر الزيت المقدس",
+        "en": "Holy Wednesday — Holy Unction",
+        "el": "Μεγάλη Τετάρτη — Εὐχέλαιο"
+      },
+      "group": "holy_week",
+      "day": "wednesday",
+      "languages": [
+        "en",
+        "el",
+        "ar"
+      ]
+    },
+    {
+      "id": "holy_thursday_matins",
+      "title": {
+        "ar": "الخميس العظيم — السحر",
+        "en": "Holy Thursday — Matins",
+        "el": "Μεγάλη Πέμπτη — Ὄρθρος"
+      },
+      "group": "holy_week",
+      "day": "thursday",
+      "languages": [
+        "en",
+        "el",
+        "ar"
+      ]
+    },
+    {
+      "id": "holy_friday_royal_hours",
+      "title": {
+        "ar": "الجمعة العظيمة — الساعات الكبرى",
+        "en": "Holy Friday — Royal Hours",
+        "el": "Μεγάλη Παρασκευή — Μεγάλες Ὧρες"
+      },
+      "group": "holy_week",
+      "day": "friday",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "holy_friday_vespers",
+      "title": {
+        "ar": "الجمعة العظيمة — تنزيل المصلوب",
+        "en": "Holy Friday — Vespers of the Descent",
+        "el": "Μεγάλη Παρασκευή — Ἀποκαθήλωση"
+      },
+      "group": "holy_week",
+      "day": "friday",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "nativity_matins",
+      "title": {
+        "ar": "سَحَر عيد الميلاد — طبعة المصدر 2026",
+        "en": "Nativity Matins — 2026 source edition",
+        "el": "Ὄρθρος Χριστουγέννων — ἔκδοση 2026"
+      },
+      "group": "feasts",
+      "day": "christmas",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "theophany_matins",
+      "title": {
+        "ar": "عيد الظهور الإلهي المقدس",
+        "en": "Holy Theophany",
+        "el": "Τὰ Ἅγια Θεοφάνεια"
+      },
+      "group": "feasts",
+      "day": "theophany",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "meeting_matins",
+      "title": {
+        "ar": "أحد الدينونة — مرفع اللحم",
+        "en": "Sunday of the Last Judgment — Meatfare",
+        "el": "Κυριακὴ τῆς Ἀπόκρεω"
+      },
+      "group": "feasts",
+      "day": "meeting",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "annunciation_matins",
+      "title": {
+        "ar": "الثلاثاء العظيم المقدس",
+        "en": "Great and Holy Tuesday",
+        "el": "Μεγάλη καὶ Ἁγία Τρίτη"
+      },
+      "group": "feasts",
+      "day": "annunciation",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "palm_sunday_matins",
+      "title": {
+        "ar": "أحد الشعانين",
+        "en": "Palm Sunday",
+        "el": "Κυριακὴ τῶν Βαΐων"
+      },
+      "group": "feasts",
+      "day": "palm_sunday",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "pascha_matins",
+      "title": {
+        "ar": "عيد قيامة ربنا يسوع المسيح — الفصح المقدس",
+        "en": "Holy Pascha — Resurrection of our Lord Jesus Christ",
+        "el": "Ἅγιον Πάσχα — Ἀνάστασις τοῦ Κυρίου"
+      },
+      "group": "feasts",
+      "day": "pascha",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "ascension_matins",
+      "title": {
+        "ar": "عيد صعود ربنا",
+        "en": "Ascension of our Lord",
+        "el": "Ἀνάληψις τοῦ Κυρίου"
+      },
+      "group": "feasts",
+      "day": "ascension",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "pentecost_matins",
+      "title": {
+        "ar": "عيد العنصرة المقدسة",
+        "en": "Holy Pentecost",
+        "el": "Ἁγία Πεντηκοστή"
+      },
+      "group": "feasts",
+      "day": "pentecost",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "cross_akathist",
+      "title": {
+        "ar": "مديح الصليب المكرم",
+        "en": "Akathist to the Precious Cross",
+        "el": "Ἀκάθιστος τοῦ Τιμίου Σταυροῦ"
+      },
+      "group": "feasts",
+      "day": "cross",
+      "languages": [
+        "ar"
+      ]
+    },
+    {
+      "id": "nicholas_akathist",
+      "title": {
+        "ar": "مديح القديس نيقولاوس",
+        "en": "Akathist to Saint Nicholas",
+        "el": "Ἀκάθιστος τοῦ Ἁγίου Νικολάου"
+      },
+      "group": "saints",
+      "day": "nicholas",
+      "languages": [
+        "ar"
+      ]
+    },
+    {
+      "id": "george_paraklesis",
+      "title": {
+        "ar": "براكليسي القديس جاورجيوس",
+        "en": "Paraklesis to Saint George",
+        "el": "Παράκλησις τοῦ Ἁγίου Γεωργίου"
+      },
+      "group": "saints",
+      "day": "george",
+      "languages": [
+        "ar"
+      ]
+    },
+    {
+      "id": "john_paraklesis",
+      "title": {
+        "ar": "براكليسي القديس يوحنا المعمدان",
+        "en": "Paraklesis to Saint John the Baptist",
+        "el": "Παράκλησις τοῦ Τιμίου Προδρόμου"
+      },
+      "group": "saints",
+      "day": "john",
+      "languages": [
+        "ar"
+      ]
+    },
+    {
+      "id": "thekla_paraklesis",
+      "title": {
+        "ar": "براكليسي القديسة تقلا",
+        "en": "Paraklesis to Saint Thekla",
+        "el": "Παράκλησις τῆς Ἁγίας Θέκλας"
+      },
+      "group": "saints",
+      "day": "thekla",
+      "languages": [
+        "ar"
+      ]
+    },
+    {
+      "id": "andrew_great_canon",
+      "title": {
+        "ar": "القانون الكبير للقديس أندراوس الكريتي",
+        "en": "Great Canon of Saint Andrew of Crete",
+        "el": "Μέγας Κανὼν τοῦ Ἁγίου Ἀνδρέου Κρήτης"
+      },
+      "group": "saints",
+      "day": "andrew",
+      "languages": [
+        "ar"
+      ]
+    },
+    {
+      "id": "paisios_supplication",
+      "title": {
+        "ar": "ابتهال إلى القديس باييسيوس",
+        "en": "Supplication to Saint Paisios",
+        "el": "Δέησις πρὸς τὸν Ἅγιο Παΐσιο"
+      },
+      "group": "saints",
+      "day": "paisios",
+      "languages": [
+        "ar"
+      ]
+    },
+    {
+      "id": "stnicholasparaklesis1",
+      "title": {
+        "ar": "براكليسي القديس نيقولاوس",
+        "en": "Paraklesis to Saint Nicholas",
+        "el": "Παράκλησις τοῦ Ἁγίου Νικολάου"
+      },
+      "group": "saints",
+      "day": "stnicholasparaklesis1",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "stpaisiosparaklesis1",
+      "title": {
+        "ar": "براكليسي القديس باييسيوس",
+        "en": "Paraklesis to Saint Paisios",
+        "el": "Παράκλησις τοῦ Ἁγίου Παϊσίου"
+      },
+      "group": "saints",
+      "day": "stpaisiosparaklesis1",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "stnektariosparaklesis1",
+      "title": {
+        "ar": "براكليسي القديس نكتاريوس",
+        "en": "Paraklesis to Saint Nektarios",
+        "el": "Παράκλησις τοῦ Ἁγίου Νεκταρίου"
+      },
+      "group": "saints",
+      "day": "stnektariosparaklesis1",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "stdemetriosparaklesis",
+      "title": {
+        "ar": "براكليسي القديس ديميتريوس",
+        "en": "Paraklesis to Saint Demetrios",
+        "el": "Παράκλησις τοῦ Ἁγίου Δημητρίου"
+      },
+      "group": "saints",
+      "day": "stdemetriosparaklesis",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "stbarbaraparaklesis",
+      "title": {
+        "ar": "براكليسي القديسة بربارة",
+        "en": "Paraklesis to Saint Barbara",
+        "el": "Παράκλησις τῆς Ἁγίας Βαρβάρας"
+      },
+      "group": "saints",
+      "day": "stbarbaraparaklesis",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "theotokos_entry_matins",
+      "title": {
+        "ar": "دخول سيدتنا والدة الإله إلى الهيكل",
+        "en": "The Entry of our Most Holy Lady the Theotokos into the Temple",
+        "el": "Τὰ Εἰσόδια τῆς Ὑπεραγίας Θεοτόκου"
+      },
+      "group": "feasts",
+      "day": "theotokos_entry",
+      "languages": [
+        "en",
+        "el"
+      ]
+    },
+    {
+      "id": "presanctified_book",
+      "title": {
+        "ar": "كتاب قداس السابق تقديسه",
+        "en": "Presanctified Liturgy — Complete Book",
+        "el": "Προηγιασμένη Λειτουργία — Πλήρες βιβλίο"
+      },
+      "group": "holy_week",
+      "day": "monday",
+      "languages": [
+        "ar"
+      ],
+      "days": [
+        "monday",
+        "tuesday",
+        "wednesday"
+      ]
+    }
+  ],
+  "machine_translation": false,
+  "cross_language_fallback": false
+}

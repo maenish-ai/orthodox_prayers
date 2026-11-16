@@ -52,7 +52,12 @@ public final class LocalDailyContentEngine {
 
     private final Context context;
     private final BibleCorpusRepository fullBible;
-    private final Map<Integer, Map<String, JSONObject>> calendarCache = new HashMap<>();
+    private final Map<Integer, Map<String, JSONObject>> calendarCache =
+            new LinkedHashMap<Integer, Map<String, JSONObject>>(2, .75f, true) {
+                @Override protected boolean removeEldestEntry(Map.Entry<Integer, Map<String, JSONObject>> eldest) {
+                    return size() > 2;
+                }
+            };
     private final Map<String, ScriptureCorpus> scriptureCache = new HashMap<>();
     private JSONObject dailyPropersOverlay;
 

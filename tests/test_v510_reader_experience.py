@@ -8,8 +8,8 @@ def test_510_version_and_reader_progress_contract():
     prefs = (ROOT / "app/src/main/java/com/orthodoxprayers/privateapp/AppPreferences.java").read_text(encoding="utf-8")
     reader = (ROOT / "app/src/main/java/com/orthodoxprayers/privateapp/ui/screens/ReaderScreen.java").read_text(encoding="utf-8")
     home = (ROOT / "app/src/main/java/com/orthodoxprayers/privateapp/ui/screens/HomeScreen.java").read_text(encoding="utf-8")
-    assert 'versionName = "5.6.9"' in build
-    assert "versionCode = 50609" in build
+    assert 'versionName = "5.7.0"' in build
+    assert "versionCode = 50700" in build
     assert "readerProgressPercent" in prefs
     assert "setReaderProgressPercent" in reader
     # Reader progress remains stored for the reader/history features, but the

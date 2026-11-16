@@ -13,6 +13,7 @@ import org.json.JSONObject;
 
 public final class CalendarDayScreen extends BaseScreen {
     private final String date;
+    private boolean active = true;
     public CalendarDayScreen(ScreenHost host, String date) { super(host); this.date = date == null ? "" : date; }
 
     @Override
@@ -54,9 +55,20 @@ public final class CalendarDayScreen extends BaseScreen {
             }
         }
         addServiceButtons(card, item);
+        if (item.optJSONArray("services") == null) {
+            TextView loading = ui.infoBadge(local(com.orthodoxprayers.privateapp.R.string.ui_calendar_preparing_day));
+            card.addView(loading);
+            data.prepareCalendarDay(date, completed -> {
+                if (!active) return;
+                if (completed == null) loading.setText(local(com.orthodoxprayers.privateapp.R.string.ui_calendar_day_load_failed));
+                else { card.removeView(loading); addServiceButtons(card, completed); }
+            });
+        }
         add(page.root, card, 14, 16);
         return page.scroll;
     }
+
+    @Override public void onHidden() { active = false; }
 
     private void addReference(LinearLayout card, JSONObject reading, String label) {
         if (reading == null) return;
@@ -102,7 +114,7 @@ public final class CalendarDayScreen extends BaseScreen {
     private void addServiceButtons(LinearLayout card, JSONObject day) {
         JSONArray services = day.optJSONArray("services");
         if (services == null || services.length() == 0) return;
-        card.addView(ui.infoBadge(local(com.orthodoxprayers.privateapp.R.string.ui_this_day_is_complete_inside_the_signed_package_2072d1f2)), ui.margins(-1, -2, 0, 8, 0, 8));
+        card.addView(ui.infoBadge(local(com.orthodoxprayers.privateapp.R.string.ui_calendar_services_ready)), ui.margins(-1, -2, 0, 8, 0, 8));
         addServiceButton(card, services, appointedServiceId(day), local(com.orthodoxprayers.privateapp.R.string.ui_open_complete_service_beginning_to_end), true);
         addServiceButton(card, services, "orthros", local(com.orthodoxprayers.privateapp.R.string.ui_orthros_2aa869d2), false);
         addServiceButton(card, services, "vespers", local(com.orthodoxprayers.privateapp.R.string.ui_vespers_1daa5b5d), false);
@@ -115,7 +127,8 @@ public final class CalendarDayScreen extends BaseScreen {
         JSONObject selected = null;
         for (int i = 0; i < services.length(); i++) {
             JSONObject service = services.optJSONObject(i);
-            if (service != null && id.equals(service.optString("id", ""))) { selected = service; break; }
+            if (service != null && (id.equals(service.optString("id", ""))
+                    || id.equals(service.optString("extends_service_id", "")))) { selected = service; break; }
         }
         if (selected == null) return;
         boolean liturgy = "divine_liturgy".equals(id)

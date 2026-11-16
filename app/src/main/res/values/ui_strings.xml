@@ -251,7 +251,6 @@
     <string name="ui_text_9b77d3f7" formatted="false">النص</string>
     <string name="ui_text_index_57a9ffa2" formatted="false">فهرس النص</string>
     <string name="ui_text_size_font_spacing_reader_theme_brightness_a_5b5d5d0b" formatted="false">سيعود حجم النص والخط والتباعد وثيم القارئ والسطوع والتمرير التلقائي إلى الوضع الافتراضي.</string>
-    <string name="ui_the_annual_index_stays_lightweight_while_the_sig_deed927c" formatted="false">الرزنامة الكنسية والنصوص الأصلية المضمّنة تغطي العمل اليومي محليًا من 2026 إلى 2050، دون الاعتماد على خادم خارجي.</string>
     <string name="ui_the_app_must_be_updated_to_read_today_s_new_data_bcfbcddc" formatted="false">يلزم تحديث إصدار التطبيق لقراءة بيانات اليوم الجديدة</string>
     <string name="ui_the_app_performs_two_verified_checks_each_day_01_8fac151b" formatted="false">يجهّز التطبيق بيانات اليوم والأيام الثمانية القادمة محليًا بعد تغيّر التاريخ بتوقيت الأردن، ويفحصها عند كل فتح، دون حاجة إلى GitHub Actions أو اتصال بالإنترنت.</string>
     <string name="ui_the_app_will_not_notify_during_the_selected_quie_1f2f6d07" formatted="false">لن يصدر التطبيق إشعارات خلال ساعات الهدوء المحددة.</string>
@@ -273,7 +272,6 @@
     <string name="ui_the_weekly_services_are_already_current_2b76496f" formatted="false">خدمات الأيام والأسابيع المقبلة محدثة بالفعل</string>
     <string name="ui_this_application_is_free_and_is_presented_by_mae_55914117" formatted="false">هذا البرنامج مجاني، ومقدم من معن حنونة للستلايت.
 رقم الهاتف: 00962788272988</string>
-    <string name="ui_this_day_is_complete_inside_the_signed_package_2072d1f2" formatted="false">هذا اليوم موجود كاملًا داخل الحزمة الموقعة.</string>
     <string name="ui_this_item_exists_in_the_index_but_its_content_is_ea12748d" formatted="false">هذا النص موجود في الفهرس، لكن محتواه فارغ. تم منع فتح صفحة بيضاء.</string>
     <string name="ui_this_link_could_not_be_opened_on_the_device_9aa42df0" formatted="false">تعذر فتح هذا الرابط على الجهاز.</string>
     <string name="ui_title_1e29bd87" formatted="false">العنوان</string>
@@ -433,4 +431,30 @@
     <string name="ui_system_brightness_6e11d2d1" formatted="false">سطوع النظام</string>
     <string name="ui_fast_summary_explanation">شرح الحكم للمبتدئ</string>
     <string name="ui_fast_summary_abstinence">الصوم الانقطاعي</string>
+    <string name="ui_church_occasions">المناسبات الكنسية</string>
+    <string name="ui_worship_all">الكل</string>
+    <string name="ui_reader_back_to_start">الرجوع إلى بداية النص</string>
+    <string name="ui_occasions_unavailable">النص الكامل لهذه الخدمة غير متوفر حاليًا في اللغة المختارة.</string>
+    <string name="ui_occasion_holy_week">أسبوع الآلام</string>
+    <string name="ui_occasion_feasts">الأعياد الكنسية</string>
+    <string name="ui_occasion_saints">تذكارات القديسين وصلوات اليوم</string>
+    <string name="ui_occasion_day_services">القراءات والصلوات المعيّنة لهذا التاريخ</string>
+    <string name="ui_occasion_choose_year">اختيار السنة — حتى 2050</string>
+    <string name="ui_occasion_choose_month">اختيار الشهر</string>
+    <string name="ui_occasion_source_books">كتب الخدمات المضمّنة</string>
+    <string name="ui_pdf_previous_page">الصفحة السابقة</string>
+    <string name="ui_pdf_next_page">الصفحة التالية</string>
+    <string name="ui_pdf_choose_page">الانتقال إلى صفحة</string>
+    <string name="ui_pdf_zoom_out">تصغير الصفحة</string>
+    <string name="ui_pdf_zoom_in">تكبير الصفحة</string>
+    <string name="ui_pdf_loading">جارٍ فتح كتاب الخدمة…</string>
+    <string name="ui_pdf_original_page">صفحة من كتاب الخدمة الأصلي</string>
+    <string name="ui_occasions_missing_parts">بعض الخدمات غير متوفرة في هذه اللغة؛ تُعرض الأجزاء المضمّنة فقط.</string>
+    <string name="ui_calendar_preparing_day">جارٍ تجهيز صلوات التاريخ المختار…</string>
+    <string name="ui_calendar_day_load_failed">تعذر تجهيز صلوات هذا التاريخ. أعد فتح اليوم للمحاولة مجددًا.</string>
+    <string name="ui_calendar_choose_date">اختيار تاريخ حتى نهاية 2050</string>
+    <string name="ui_occasion_source_edition">طبعة المصدر: %1$s. تاريخ المناسبة المحلي مبيّن في الرزنامة.</string>
+    <string name="ui_occasion_pinned_book">نص كامل من طبعة مصدر أصلية مثبتة؛ تاريخ الطبعة لا يستبدل الرزنامة المحلية.</string>
+    <string name="ui_calendar_authority_horizon">تغطية 2026–2050 محسوبة وفق التقويم الكنسي القديم، مع أولوية التصحيحات المحلية الموثّقة من عمّان والقدس.</string>
+    <string name="ui_calendar_services_ready">قراءات وصلوات هذا التاريخ جاهزة دون اتصال.</string>
 </resources>

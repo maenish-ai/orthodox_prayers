@@ -69,8 +69,9 @@ def test_home_keeps_nine_day_access_behind_the_compact_calendar_icon() -> None:
     assert 'host.navigate("calendar_day", itemDate)' in upcoming
     assert 'host.navigate("calendar", null)' in upcoming
     assert source_omits_text(home, "عرض تفاصيل الأيام التسعة", "ar")
-    assert 'addShortcutCard(third, com.orthodoxprayers.privateapp.R.drawable.ic_action_search, searchTitle(), "search", null);' in home
-    assert 'if ("ar".equals(language)) return "البحث";' in home
+    assert 'ui_church_occasions), "occasions", null' in home
+    assert '"search", null' not in home
+    assert 'searchTitle()' not in home
     assert source_omits_text(home, "آخر قراءة", "ar")
     assert source_omits_text(home, "اللغات", "ar")
     assert source_omits_text(home, "الإعدادات", "ar")

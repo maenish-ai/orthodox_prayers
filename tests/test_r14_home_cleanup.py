@@ -45,7 +45,8 @@ class R14HomeCleanupTests(unittest.TestCase):
         ):
             self.assertTrue(source_references_text(home, retained, "ar"), retained)
         self.assertIn('return "الكتاب المقدس";', home)
-        self.assertIn('return "البحث";', home)
+        self.assertTrue(source_references_text(home, "المناسبات الكنسية", "ar"))
+        self.assertNotIn('searchTitle()', home)
         self.assertIn("FastingNoticeEngine.evaluate", home)
         self.assertNotIn("addContinueReading", home)
         for hidden in ("المفضلة", "آخر قراءة", "اللغات", "الإعدادات"):

@@ -1,0 +1,35 @@
+{
+  "id": "occasion::passion_gospels",
+  "title": {
+    "ar": "أناجيل الآلام الاثنا عشر — مساء الخميس",
+    "en": "The Twelve Passion Gospels — Thursday Evening",
+    "el": "Τὰ Δώδεκα Εὐαγγέλια τῶν Παθῶν"
+  },
+  "source_language": "ar",
+  "displayable": true,
+  "source_document": {
+    "source_id": "orthodox_jordan_arabic_services",
+    "source_url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/الاناجيل-2.pdf",
+    "source_sha256": "8fbec6c7855189488c48fc431e68afbbf07bd9c1138e577525d926c5463df463",
+    "machine_translation_used": false
+  },
+  "category": "occasions",
+  "full_service_complete": true,
+  "completeness_scope": "COMPLETE_SOURCE_EDITION_ONLY",
+  "source_provenance": {
+    "status": "PINNED_NATIVE_SERVICE_BOOK",
+    "source_id": "orthodox_jordan_arabic_services",
+    "source_sha256": "8fbec6c7855189488c48fc431e68afbbf07bd9c1138e577525d926c5463df463",
+    "machine_translation_used": false
+  },
+  "native_source": {
+    "source_id": "orthodox_jordan_arabic_services",
+    "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/الاناجيل-2.pdf",
+    "native_language": "ar",
+    "permission_confirmed": true
+  },
+  "content_kind": "pdf_facsimile",
+  "asset_pdf": "data/occasions/ar/passion_gospels.pdf",
+  "asset_sha256": "8fbec6c7855189488c48fc431e68afbbf07bd9c1138e577525d926c5463df463",
+  "page_count": 80
+}

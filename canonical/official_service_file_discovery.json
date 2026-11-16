@@ -1,0 +1,750 @@
+{
+  "retrieved_on": "2026-11-16",
+  "source": "https://orthodoxjordan.org/wp-json/wp/v2/media?media_type=application&per_page=100",
+  "scope": "Public application-media index, including duplicates and editions. Discovery does not mean every file was imported. Imported editions and SHA-256 are in church_occasions_sources.json.",
+  "files": [
+    {
+      "id": 51829,
+      "title": "صلاة الدرس",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/06/صلاة-الدرس.pdf"
+    },
+    {
+      "id": 51817,
+      "title": "صلوات المائدة",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/06/صلوات-المائدة.pdf"
+    },
+    {
+      "id": 51799,
+      "title": "صلاة للملاك الحارس",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/06/صلاة-للملاك-الحارس.pdf"
+    },
+    {
+      "id": 51782,
+      "title": "صلاة العربون (الخطوبة)",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/06/صلاة-العربون-الخطوبة.pdf"
+    },
+    {
+      "id": 51714,
+      "title": "خدمة صلاة الإكليل",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/06/خدمة-صلاة-الإكليل.pdf"
+    },
+    {
+      "id": 51696,
+      "title": "صلاة لحل الأكاليل",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/06/صلاة-لحل-الأكاليل.pdf"
+    },
+    {
+      "id": 49318,
+      "title": "خدمة صلاة الجناز",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/خدمة-صلاة-الجناز.pdf"
+    },
+    {
+      "id": 49232,
+      "title": "صلاة لحل الأكاليل 10.5.2024",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/صلاة-لحل-الأكاليل-10.5.2024-1.pdf"
+    },
+    {
+      "id": 49230,
+      "title": "صلاة لحل الأكاليل 10.5.2024",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/صلاة-لحل-الأكاليل-10.5.2024-1.docx"
+    },
+    {
+      "id": 49228,
+      "title": "صلاة تقديس الماء الكبرى 10.5.2024",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/صلاة-تقديس-الماء-الكبرى-10.5.2024-1.pdf"
+    },
+    {
+      "id": 49226,
+      "title": "صلاة تقديس الماء الكبرى 10.5.2024",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/صلاة-تقديس-الماء-الكبرى-10.5.2024-1.docx"
+    },
+    {
+      "id": 49224,
+      "title": "صلاة النياحة (التريصاجيون) 10.5.2024",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/صلاة-النياحة-التريصاجيون-10.5.2024-1.pdf"
+    },
+    {
+      "id": 49222,
+      "title": "صلاة النياحة (التريصاجيون) 10.5.2024",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/صلاة-النياحة-التريصاجيون-10.5.2024-1.docx"
+    },
+    {
+      "id": 49220,
+      "title": "صلاة العربون (الخطوبة) 10.5.2024",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/صلاة-العربون-الخطوبة-10.5.2024-1.pdf"
+    },
+    {
+      "id": 49218,
+      "title": "صلاة العربون (الخطوبة) 10.5.2024",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/صلاة-العربون-الخطوبة-10.5.2024-1.docx"
+    },
+    {
+      "id": 49216,
+      "title": "صلاة الجنازة للعلمانيين 10.5.2024",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/صلاة-الجنازة-للعلمانيين-10.5.2024-1.pdf"
+    },
+    {
+      "id": 49214,
+      "title": "صلاة الجنازة للعلمانيين 10.5.2024",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/صلاة-الجنازة-للعلمانيين-10.5.2024-1.docx"
+    },
+    {
+      "id": 49212,
+      "title": "خدمة صلاة الجناز10.5.2024",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/خدمة-صلاة-الجناز10.5.2024-1.docx"
+    },
+    {
+      "id": 49210,
+      "title": "خدمة صلاة الجناز10.5.2024",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/خدمة-صلاة-الجناز10.5.2024.pdf"
+    },
+    {
+      "id": 49208,
+      "title": "خدمة صلاة الإكليل10.5.2024",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/خدمة-صلاة-الإكليل10.5.2024-1.pdf"
+    },
+    {
+      "id": 49206,
+      "title": "خدمة صلاة الإكليل 10.5.2024",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/خدمة-صلاة-الإكليل-10.5.2024-1.docx"
+    },
+    {
+      "id": 49122,
+      "title": "صلاة المطالبسي (قبل المناولة)",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/صلاة-المطالبسي-قبل-المناولة.pdf"
+    },
+    {
+      "id": 49120,
+      "title": "صلاة المطالبسي (قبل المناولة)",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/صلاة-المطالبسي-قبل-المناولة.docx"
+    },
+    {
+      "id": 49114,
+      "title": "صلاة الشكر بعد المناولة",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/صلاة-الشكر-بعد-المناولة.pdf"
+    },
+    {
+      "id": 49112,
+      "title": "صلاة الشكر بعد المناولة",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/صلاة-الشكر-بعد-المناولة.docx"
+    },
+    {
+      "id": 49106,
+      "title": "سر الاعتراف الالهي10.5.2024",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/سر-الاعتراف-الالهي10.5.2024.pdf"
+    },
+    {
+      "id": 49104,
+      "title": "سر الاعتراف الالهي 1.0.5.2024",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/سر-الاعتراف-الالهي-1.0.5.2024.docx"
+    },
+    {
+      "id": 48961,
+      "title": "المعمودية 10.5.2024",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/المعمودية-10.5.2024.pdf"
+    },
+    {
+      "id": 47833,
+      "title": "الاناجيل",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/الاناجيل-2.pdf"
+    },
+    {
+      "id": 47831,
+      "title": "صلاة النوم الكبرى",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/صلاة-النوم-الكبرى-1.pdf"
+    },
+    {
+      "id": 47829,
+      "title": "جناز المسيح",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/جناز-المسيح-1.pdf"
+    },
+    {
+      "id": 47827,
+      "title": "تنزيل المصلوب",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/تنزيل-المصلوب-1.pdf"
+    },
+    {
+      "id": 47825,
+      "title": "المدايح",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/المدايح-1.pdf"
+    },
+    {
+      "id": 47823,
+      "title": "العنصرة",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/العنصرة-1-1.pdf"
+    },
+    {
+      "id": 47821,
+      "title": "السبت العظيم",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/السبت-العظيم-1.pdf"
+    },
+    {
+      "id": 47819,
+      "title": "السابق تقديسه",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/السابق-تقديسه-1.pdf"
+    },
+    {
+      "id": 47817,
+      "title": "الخميس العظيم",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/الخميس-العظيم-1.pdf"
+    },
+    {
+      "id": 47815,
+      "title": "الختن",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/الختن-1.pdf"
+    },
+    {
+      "id": 47813,
+      "title": "الاناجيل",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/الاناجيل-1.pdf"
+    },
+    {
+      "id": 47792,
+      "title": "صلاة النوم الكبرى",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/صلاة-النوم-الكبرى.pdf"
+    },
+    {
+      "id": 47790,
+      "title": "جناز المسيح",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/جناز-المسيح.pdf"
+    },
+    {
+      "id": 47788,
+      "title": "تنزيل المصلوب",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/تنزيل-المصلوب.pdf"
+    },
+    {
+      "id": 47786,
+      "title": "المدايح",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/المدايح.pdf"
+    },
+    {
+      "id": 47784,
+      "title": "العنصرة",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/العنصرة-.pdf"
+    },
+    {
+      "id": 47782,
+      "title": "السابق تقديسه",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/السابق-تقديسه.pdf"
+    },
+    {
+      "id": 47780,
+      "title": "الخميس العظيم",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/الخميس-العظيم.pdf"
+    },
+    {
+      "id": 47778,
+      "title": "الختن",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/الختن.pdf"
+    },
+    {
+      "id": 47775,
+      "title": "الاناجيل",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/الاناجيل.pdf"
+    },
+    {
+      "id": 47773,
+      "title": "السبت العظيم",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/السبت-العظيم.pdf"
+    },
+    {
+      "id": 35721,
+      "title": "خدمة تقديس المياه الكبرى",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/03/خدمة-تقديس-المياه-الكبرى.pdf"
+    },
+    {
+      "id": 35707,
+      "title": "صلاة الجنازة للعلمانيين",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/03/صلاة-الجنازة-للعلمانيين.pdf"
+    },
+    {
+      "id": 35681,
+      "title": "صلاة لحل الأكاليل",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/03/صلاة-لحل-الأكاليل.pdf"
+    },
+    {
+      "id": 35679,
+      "title": "صلاة العربون (الخطوبة)",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/03/صلاة-العربون-الخطوبة.pdf"
+    },
+    {
+      "id": 35677,
+      "title": "خدمة صلاة الإكليل",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/03/خدمة-صلاة-الإكليل.pdf"
+    },
+    {
+      "id": 35639,
+      "title": "المعمودية",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/03/المعمودية.pdf"
+    },
+    {
+      "id": 27571,
+      "title": "صلاة قبل الاعتراف",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/صلاة-قبل-الاعتراف.pdf"
+    },
+    {
+      "id": 24696,
+      "title": "صلوات المائدة",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/صلوات-المائدة.pdf"
+    },
+    {
+      "id": 24694,
+      "title": "صلاة للملاك الحارس",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/صلاة-للملاك-الحارس.pdf"
+    },
+    {
+      "id": 24692,
+      "title": "صلاة في بداية النهار لآباء بريّة أوبتينو",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/صلاة-في-بداية-النهار-لآباء-بريّة-أوبتينو.pdf"
+    },
+    {
+      "id": 24690,
+      "title": "صلاة النياحة (التريصاجيون)",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/صلاة-النياحة-التريصاجيون.pdf"
+    },
+    {
+      "id": 24688,
+      "title": "صلاة المطالبسي (قبل المناولة)",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/صلاة-المطالبسي-قبل-المناولة.pdf"
+    },
+    {
+      "id": 24686,
+      "title": "صلاة الشكر بعد المناولة",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/صلاة-الشكر-بعد-المناولة.pdf"
+    },
+    {
+      "id": 24684,
+      "title": "صلاة الزيت",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/صلاة-الزيت.pdf"
+    },
+    {
+      "id": 24682,
+      "title": "صلاة الدرس",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/صلاة-الدرس.pdf"
+    },
+    {
+      "id": 24680,
+      "title": "صلاة الختن الثانية عشية الأثنين العظيم المقدس",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/صلاة-الختن-الثانية-عشية-الأثنين-العظيم-المقدس.pdf"
+    },
+    {
+      "id": 24678,
+      "title": "صلاة الختن الأولى عشية أحد الشعانين",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/صلاة-الختن-الأولى-عشية-أحد-الشعانين.pdf"
+    },
+    {
+      "id": 24676,
+      "title": "سر الاعتراف الالهي",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/سر-الاعتراف-الالهي.pdf"
+    },
+    {
+      "id": 24674,
+      "title": "خدمة صلاة الجناز",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/خدمة-صلاة-الجناز.pdf"
+    },
+    {
+      "id": 24672,
+      "title": "ابتهال البراكليسي الصغير",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/ابتهال-البراكليسي-الصغير.pdf"
+    },
+    {
+      "id": 24509,
+      "title": "مقالات روحية",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/مقالات-روحية.pdf"
+    },
+    {
+      "id": 24507,
+      "title": "محبة الله تهز الارض",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/محبة-الله-تهز-الارض.pdf"
+    },
+    {
+      "id": 24505,
+      "title": "سر الكهنوت",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/سر-الكهنوت.pdf"
+    },
+    {
+      "id": 24503,
+      "title": "باركهما",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/باركهما.pdf"
+    },
+    {
+      "id": 24501,
+      "title": "المعطيات الكتابية حول اللاهوت الارثوذكسي",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/المعطيات-الكتابية-حول-اللاهوت-الارثوذكسي.pdf"
+    },
+    {
+      "id": 24499,
+      "title": "الليتورجيا",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/الليتورجيا.pdf"
+    },
+    {
+      "id": 24497,
+      "title": "التأله بحسب القديس اثناسيوس",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/التأله-بحسب-القديس-اثناسيوس.pdf"
+    },
+    {
+      "id": 24495,
+      "title": "الارادة الالهية",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2024/01/الارادة-الالهية.pdf"
+    },
+    {
+      "id": 20714,
+      "title": "PSUT Press release Arabic Version",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/12/PSUT-Press-release-Arabic-Version.pdf"
+    },
+    {
+      "id": 1541,
+      "title": "النظامالداخليوشروطالإنتسابللمدرسة-min",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/05/النظامالداخليوشروطالإنتسابللمدرسة-min.pdf"
+    },
+    {
+      "id": 1536,
+      "title": "البرنامجالدراسيالمُتكامللجميعالدورات-min",
+      "mime_type": "application/pdf",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/05/البرنامجالدراسيالمُتكامللجميعالدورات-min.pdf"
+    },
+    {
+      "id": 839,
+      "title": "صلوات المائدة (1)",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/صلوات-المائدة-1.docx"
+    },
+    {
+      "id": 837,
+      "title": "مديح الصليب المكرم (1)",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/مديح-الصليب-المكرم-1.docx"
+    },
+    {
+      "id": 832,
+      "title": "المطالبسي الالهيّ (1)",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/المطالبسي-الالهيّ-1.docx"
+    },
+    {
+      "id": 830,
+      "title": "خدمة البرويجيسميني السابق تقديسه (1)",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/خدمة-البرويجيسميني-السابق-تقديسه-1.docx"
+    },
+    {
+      "id": 805,
+      "title": "دعاء للقديس يوحنا الذهبي الفم",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/دعاء-للقديس-يوحنا-الذهبي-الفم.docx"
+    },
+    {
+      "id": 803,
+      "title": "سحر الاربعاء",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/سحر-الاربعاء.docx"
+    },
+    {
+      "id": 801,
+      "title": "سحر الجمعة",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/سحر-الجمعة.docx"
+    },
+    {
+      "id": 799,
+      "title": "سحر الخميس",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/سحر-الخميس.docx"
+    },
+    {
+      "id": 797,
+      "title": "سحر السبت",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/سحر-السبت.docx"
+    },
+    {
+      "id": 795,
+      "title": "صلاة الختن الأولى عشية أحد الشعانين",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/صلاة-الختن-الأولى-عشية-أحد-الشعانين.docx"
+    },
+    {
+      "id": 793,
+      "title": "صلاة التوبة (1)",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/صلاة-التوبة-1.docx"
+    },
+    {
+      "id": 791,
+      "title": "سحر الإثنين",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/سحر-الإثنين.docx"
+    },
+    {
+      "id": 789,
+      "title": "سحر الثلاثاء",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/سحر-الثلاثاء.docx"
+    },
+    {
+      "id": 787,
+      "title": "دعاء للروح القدس",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/دعاء-للروح-القدس.docx"
+    },
+    {
+      "id": 785,
+      "title": "خدمة صلاة تقديس الماء خلال القداس الإلهي",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/خدمة-صلاة-تقديس-الماء-خلال-القداس-الإلهي.docx"
+    },
+    {
+      "id": 783,
+      "title": "خدمة المديح الذي لا يجلس فيه",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/خدمة-المديح-الذي-لا-يجلس-فيه.docx"
+    },
+    {
+      "id": 781,
+      "title": "خدمة صلاة سر الزيت المقدس",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/خدمة-صلاة-سر-الزيت-المقدس.docx"
+    },
+    {
+      "id": 779,
+      "title": "ترتيب الابتهال البراكليسي الصغير",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/ترتيب-الابتهال-البراكليسي-الصغير.docx"
+    },
+    {
+      "id": 777,
+      "title": "المطالبسي الالهيّ",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/المطالبسي-الالهيّ.docx"
+    },
+    {
+      "id": 775,
+      "title": "براكليسي لرئيسي الملائكة ميخائيل وجبرائيل",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/براكليسي-لرئيسي-الملائكة-ميخائيل-وجبرائيل-1.docx"
+    },
+    {
+      "id": 773,
+      "title": "براكليسي القديسة تقلا معادلة الرسل",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/براكليسي-القديسة-تقلا-معادلة-الرسل.docx"
+    },
+    {
+      "id": 771,
+      "title": "الكاثسما الأولى عشية السبت",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/الكاثسما-الأولى-عشية-السبت.docx"
+    },
+    {
+      "id": 769,
+      "title": "المديح للقدِّيس نيقولاوس العَجائبي أُسقف ميراليكية",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/المديح-للقدِّيس-نيقولاوس-العَجائبي-أُسقف-ميراليكية.docx"
+    },
+    {
+      "id": 767,
+      "title": "القانون الكبير للقديس أندراوس الكريتي باللحن السادس",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/القانون-الكبير-للقديس-أندراوس-الكريتي-باللحن-السادس.docx"
+    },
+    {
+      "id": 765,
+      "title": "مديح والدة الإله الشافية من السرطان",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/مديح-والدة-الإله-الشافية-من-السرطان.docx"
+    },
+    {
+      "id": 763,
+      "title": "الدمشقيات",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/الدمشقيات.docx"
+    },
+    {
+      "id": 761,
+      "title": "ابتهال إلى القديس البار باييسيوس الأثوسي",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/ابتهال-إلى-القديس-البار-باييسيوس-الأثوسي.docx"
+    },
+    {
+      "id": 759,
+      "title": "قانون تضرّع إلى الملاك الحارس حياة الانسان",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/قانون-تضرّع-إلى-الملاك-الحارس-حياة-الانسان.docx"
+    },
+    {
+      "id": 757,
+      "title": "قانون تضرُّع إلى ربنا يسوع المسيح",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/قانون-تضرُّع-إلى-ربنا-يسوع-المسيح.docx"
+    },
+    {
+      "id": 755,
+      "title": "صلاه للملاك الحارس",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/صلاه-للملاك-الحارس.docx"
+    },
+    {
+      "id": 753,
+      "title": "قانون البراكليسي للقديس العظيم في الشهداء جاورجيوس اللابس الظفر",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/قانون-البراكليسي-للقديس-العظيم-في-الشهداء-جاورجيوس-اللابس-الظفر.docx"
+    },
+    {
+      "id": 751,
+      "title": "قانون البراكليسي للسابق المجيد القدّيس يوحنا المعمدان",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/قانون-البراكليسي-للسابق-المجيد-القدّيس-يوحنا-المعمدان.docx"
+    },
+    {
+      "id": 749,
+      "title": "صلاة في بداية النهار",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/صلاة-في-بداية-النهار.docx"
+    },
+    {
+      "id": 747,
+      "title": "صلاة النوم الكبرى",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/صلاة-النوم-الكبرى.docx"
+    },
+    {
+      "id": 745,
+      "title": "صلاة الغروب",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/صلاة-الغروب.docx"
+    },
+    {
+      "id": 743,
+      "title": "صلاة القديس أفرام السرياني",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/صلاة-القديس-أفرام-السرياني.docx"
+    },
+    {
+      "id": 741,
+      "title": "صلاة السحرية",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/صلاة-السحرية.docx"
+    },
+    {
+      "id": 739,
+      "title": "صلاة الختن الثالثة عشية الثلاثاء العظيم المقدس",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/صلاة-الختن-الثالثة-عشية-الثلاثاء-العظيم-المقدس.docx"
+    },
+    {
+      "id": 737,
+      "title": "صلاة الساعات",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/صلاة-الساعات.docx"
+    },
+    {
+      "id": 735,
+      "title": "صلاة الدرس",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/صلاة-الدرس.docx"
+    },
+    {
+      "id": 733,
+      "title": "صلاة الختن الثانية عشية الأثنين العظيم المقدس (1)",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/صلاة-الختن-الثانية-عشية-الأثنين-العظيم-المقدس-1.docx"
+    },
+    {
+      "id": 721,
+      "title": "براكليسي لرئيسي الملائكة ميخائيل وجبرائيل",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/براكليسي-لرئيسي-الملائكة-ميخائيل-وجبرائيل.docx"
+    }
+  ],
+  "other_authorities": [
+    {
+      "host": "ar.jerusalem-patriarchate.info",
+      "status": "HTTP_403",
+      "known_calendar_url": "https://ar.jerusalem-patriarchate.info/wp-content/uploads/2026/02/arabic_2026.pdf"
+    },
+    {
+      "host": "www.antiochpatriarchate.org",
+      "status": "HTTP_403"
+    }
+  ]
+}

@@ -251,7 +251,6 @@
     <string name="ui_text_9b77d3f7" formatted="false">Text</string>
     <string name="ui_text_index_57a9ffa2" formatted="false">Text index</string>
     <string name="ui_text_size_font_spacing_reader_theme_brightness_a_5b5d5d0b" formatted="false">Text size, font, spacing, reader theme, brightness, and auto-scroll will return to their defaults.</string>
-    <string name="ui_the_annual_index_stays_lightweight_while_the_sig_deed927c" formatted="false">The bundled church calendar and native texts prepare daily content locally for 2026–2050 without relying on an external server.</string>
     <string name="ui_the_app_must_be_updated_to_read_today_s_new_data_bcfbcddc" formatted="false">The app must be updated to read today’s new data</string>
     <string name="ui_the_app_performs_two_verified_checks_each_day_01_8fac151b" formatted="false">The app prepares today and the next eight days locally after the Jordan date changes and checks again whenever it opens. GitHub Actions and internet access are not required.</string>
     <string name="ui_the_app_will_not_notify_during_the_selected_quie_1f2f6d07" formatted="false">The app will not notify during the selected quiet hours.</string>
@@ -273,7 +272,6 @@
     <string name="ui_the_weekly_services_are_already_current_2b76496f" formatted="false">The coming days and weeks are already current</string>
     <string name="ui_this_application_is_free_and_is_presented_by_mae_55914117" formatted="false">This application is free and is presented by Maen Hanouna Satellite.
 Phone: 00962788272988</string>
-    <string name="ui_this_day_is_complete_inside_the_signed_package_2072d1f2" formatted="false">This day is complete inside the signed package.</string>
     <string name="ui_this_item_exists_in_the_index_but_its_content_is_ea12748d" formatted="false">This item exists in the index, but its content is empty. A blank reader was blocked.</string>
     <string name="ui_this_link_could_not_be_opened_on_the_device_9aa42df0" formatted="false">This link could not be opened on the device.</string>
     <string name="ui_title_1e29bd87" formatted="false">Title</string>
@@ -433,4 +431,30 @@ Phone: 00962788272988</string>
     <string name="ui_system_brightness_6e11d2d1" formatted="false">System brightness</string>
     <string name="ui_fast_summary_explanation">Beginner explanation</string>
     <string name="ui_fast_summary_abstinence">Total abstinence</string>
+    <string name="ui_church_occasions">Church occasions</string>
+    <string name="ui_worship_all">All</string>
+    <string name="ui_reader_back_to_start">Back to the beginning</string>
+    <string name="ui_occasions_unavailable">The complete service is not currently available in the selected language.</string>
+    <string name="ui_occasion_holy_week">Holy Week</string>
+    <string name="ui_occasion_feasts">Church feasts</string>
+    <string name="ui_occasion_saints">Saints and daily services</string>
+    <string name="ui_occasion_day_services">Appointed readings and services for this date</string>
+    <string name="ui_occasion_choose_year">Choose year — through 2050</string>
+    <string name="ui_occasion_choose_month">Choose month</string>
+    <string name="ui_occasion_source_books">Included service books</string>
+    <string name="ui_pdf_previous_page">Previous page</string>
+    <string name="ui_pdf_next_page">Next page</string>
+    <string name="ui_pdf_choose_page">Go to page</string>
+    <string name="ui_pdf_zoom_out">Zoom out</string>
+    <string name="ui_pdf_zoom_in">Zoom in</string>
+    <string name="ui_pdf_loading">Opening the service book…</string>
+    <string name="ui_pdf_original_page">Page from the original service book</string>
+    <string name="ui_occasions_missing_parts">Some offices are unavailable in this language; only included offices are shown.</string>
+    <string name="ui_calendar_preparing_day">Preparing services for the selected date…</string>
+    <string name="ui_calendar_day_load_failed">Unable to prepare this date. Reopen the day to try again.</string>
+    <string name="ui_calendar_choose_date">Choose a date through the end of 2050</string>
+    <string name="ui_occasion_source_edition">Source edition: %1$s. The local feast date is shown in the calendar.</string>
+    <string name="ui_occasion_pinned_book">Complete text from a pinned native source edition; its date does not replace the local calendar.</string>
+    <string name="ui_calendar_authority_horizon">2026–2050 follows the calculated Old Calendar cycle; verified local Amman and Jerusalem corrections take priority.</string>
+    <string name="ui_calendar_services_ready">Readings and services for this date are ready offline.</string>
 </resources>

@@ -51,6 +51,8 @@ import com.orthodoxprayers.privateapp.ui.screens.SearchScreen;
 import com.orthodoxprayers.privateapp.ui.screens.SettingsScreen;
 import com.orthodoxprayers.privateapp.ui.screens.SourcesScreen;
 import com.orthodoxprayers.privateapp.ui.screens.UpcomingScreen;
+import com.orthodoxprayers.privateapp.ui.screens.OccasionsScreen;
+import com.orthodoxprayers.privateapp.ui.screens.PdfServiceScreen;
 import com.orthodoxprayers.privateapp.update.UpdateCoordinator;
 
 import org.json.JSONArray;
@@ -450,6 +452,7 @@ public final class MainActivity extends ComponentActivity implements ScreenHost 
             case "bible_chapter": return new BibleChapterScreen(this, entry.argument);
             case "upcoming": return new UpcomingScreen(this);
             case "search": return new SearchScreen(this);
+            case "occasions": return new OccasionsScreen(this, entry.argument);
             case "favorites": return new FavoritesScreen(this);
             case "history": return new HistoryScreen(this);
             case "calendar": return new CalendarScreen(this, entry.argument);
@@ -460,7 +463,13 @@ public final class MainActivity extends ComponentActivity implements ScreenHost 
             case "settings_section": return new SettingsScreen(this, entry.argument);
             case "sources": return new SourcesScreen(this);
             case "churches": return new ChurchesScreen(this, entry.argument);
-            case "reader": return new ReaderScreen(this, entry.argument);
+            case "reader":
+                if (entry.argument != null && entry.argument.startsWith("occasion::")) {
+                    JSONObject edition = repository.findService(entry.argument);
+                    if (edition != null && "pdf_facsimile".equals(edition.optString("content_kind", "")))
+                        return new PdfServiceScreen(this, edition);
+                }
+                return new ReaderScreen(this, entry.argument);
             case "reading_detail":
                 try { return new ReadingDetailScreen(this, entry.payload == null ? null : new JSONObject(entry.payload)); }
                 catch (Exception error) {

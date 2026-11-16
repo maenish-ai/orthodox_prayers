@@ -251,7 +251,6 @@
     <string name="ui_text_9b77d3f7" formatted="false">Κείμενο</string>
     <string name="ui_text_index_57a9ffa2" formatted="false">Εὐρετήριο κειμένου</string>
     <string name="ui_text_size_font_spacing_reader_theme_brightness_a_5b5d5d0b" formatted="false">Τὸ μέγεθος, ἡ γραμματοσειρά, τὸ διάστιχο, τὸ θέμα, ἡ φωτεινότητα καὶ ἡ αὐτόματη κύλιση θὰ ἐπανέλθουν στὶς προεπιλογές.</string>
-    <string name="ui_the_annual_index_stays_lightweight_while_the_sig_deed927c" formatted="false">Τὸ ἐνσωματωμένο ἐκκλησιαστικὸ ἡμερολόγιο καὶ τὰ πρωτότυπα κείμενα προετοιμάζουν τοπικὰ τὸ καθημερινὸ περιεχόμενο γιὰ τὰ ἔτη 2026–2050, χωρὶς ἐξωτερικὸ διακομιστή.</string>
     <string name="ui_the_app_must_be_updated_to_read_today_s_new_data_bcfbcddc" formatted="false">Απαιτεῖται νεότερη ἔκδοση τῆς ἐφαρμογῆς</string>
     <string name="ui_the_app_performs_two_verified_checks_each_day_01_8fac151b" formatted="false">Ἡ ἐφαρμογὴ προετοιμάζει τοπικὰ τὴ σημερινὴ καὶ τὶς ὀκτὼ ἑπόμενες ἡμέρες μετὰ τὴν ἀλλαγὴ ἡμερομηνίας στὴν Ἰορδανία καὶ ἐλέγχει ξανά στὸ ἄνοιγμα. Δὲν ἀπαιτοῦνται GitHub Actions ἢ διαδίκτυο.</string>
     <string name="ui_the_app_will_not_notify_during_the_selected_quie_1f2f6d07" formatted="false">Ἡ ἐφαρμογὴ δὲν στέλνει εἰδοποιήσεις στὶς ὧρες ἡσυχίας.</string>
@@ -273,7 +272,6 @@
     <string name="ui_the_weekly_services_are_already_current_2b76496f" formatted="false">Οἱ ἀκολουθίες τῶν προσεχῶν ἡμερῶν καὶ ἑβδομάδων εἶναι ἤδη ἐνημερωμένες</string>
     <string name="ui_this_application_is_free_and_is_presented_by_mae_55914117" formatted="false">Ἡ ἐφαρμογὴ παρέχεται δωρεὰν ἀπὸ τὸ Maen Hanouna Satellite.
 Τηλέφωνο: 00962788272988</string>
-    <string name="ui_this_day_is_complete_inside_the_signed_package_2072d1f2" formatted="false">Αὐτὴ ἡ ἡμέρα περιέχεται πλήρης στὴν ὑπογεγραμμένη δέσμη.</string>
     <string name="ui_this_item_exists_in_the_index_but_its_content_is_ea12748d" formatted="false">Τὸ στοιχεῖο ὑπάρχει, ἀλλὰ τὸ περιεχόμενο εἶναι κενό.</string>
     <string name="ui_this_link_could_not_be_opened_on_the_device_9aa42df0" formatted="false">Δὲν ἄνοιξε ὁ σύνδεσμος.</string>
     <string name="ui_title_1e29bd87" formatted="false">Τίτλος</string>
@@ -433,4 +431,30 @@
     <string name="ui_system_brightness_6e11d2d1" formatted="false">Φωτεινότητα συστήματος</string>
     <string name="ui_fast_summary_explanation">Ἐξήγησις γιὰ τὸν ἀρχάριο</string>
     <string name="ui_fast_summary_abstinence">Πλήρης ἀποχή</string>
+    <string name="ui_church_occasions">Ἐκκλησιαστικὲς ἑορτές</string>
+    <string name="ui_worship_all">Ὅλα</string>
+    <string name="ui_reader_back_to_start">Ἐπιστροφὴ στὴν ἀρχή</string>
+    <string name="ui_occasions_unavailable">Τὸ πλήρες κείμενο δὲν διατίθεται πρὸς τὸ παρὸν στὴν ἐπιλεγμένη γλώσσα.</string>
+    <string name="ui_occasion_holy_week">Μεγάλη Ἑβδομάδα</string>
+    <string name="ui_occasion_feasts">Ἐκκλησιαστικὲς ἑορτές</string>
+    <string name="ui_occasion_saints">Μνῆμες ἁγίων καὶ καθημερινὲς ἀκολουθίες</string>
+    <string name="ui_occasion_day_services">Διορισμένα ἀναγνώσματα καὶ ἀκολουθίες τῆς ἡμέρας</string>
+    <string name="ui_occasion_choose_year">Ἐπιλογὴ ἔτους — μέχρι τὸ 2050</string>
+    <string name="ui_occasion_choose_month">Ἐπιλογὴ μηνός</string>
+    <string name="ui_occasion_source_books">Ἐνσωματωμένα λειτουργικὰ βιβλία</string>
+    <string name="ui_pdf_previous_page">Προηγούμενη σελίδα</string>
+    <string name="ui_pdf_next_page">Ἑπόμενη σελίδα</string>
+    <string name="ui_pdf_choose_page">Μετάβαση σὲ σελίδα</string>
+    <string name="ui_pdf_zoom_out">Σμίκρυνση</string>
+    <string name="ui_pdf_zoom_in">Μεγέθυνση</string>
+    <string name="ui_pdf_loading">Ἄνοιγμα λειτουργικοῦ βιβλίου…</string>
+    <string name="ui_pdf_original_page">Σελίδα τοῦ πρωτότυπου λειτουργικοῦ βιβλίου</string>
+    <string name="ui_occasions_missing_parts">Ὁρισμένες ἀκολουθίες δὲν διατίθενται σὲ αὐτὴ τὴ γλώσσα· προβάλλονται μόνο οἱ ἐνσωματωμένες.</string>
+    <string name="ui_calendar_preparing_day">Προετοιμασία ἀκολουθιῶν γιὰ τὴν ἐπιλεγμένη ἡμερομηνία…</string>
+    <string name="ui_calendar_day_load_failed">Ἡ προετοιμασία ἀπέτυχε. Ἀνοίξτε ξανὰ τὴν ἡμέρα γιὰ νέα προσπάθεια.</string>
+    <string name="ui_calendar_choose_date">Ἐπιλογὴ ἡμερομηνίας μέχρι τὸ τέλος τοῦ 2050</string>
+    <string name="ui_occasion_source_edition">Ἔκδοση πηγῆς: %1$s. Ἡ τοπικὴ ἡμερομηνία φαίνεται στὸ ἡμερολόγιο.</string>
+    <string name="ui_occasion_pinned_book">Πλήρες κείμενο ἀπὸ καταγεγραμμένη πρωτότυπη ἔκδοση· ἡ ἡμερομηνία της δὲν ἀντικαθιστᾷ τὸ τοπικὸ ἡμερολόγιο.</string>
+    <string name="ui_calendar_authority_horizon">Ἡ περίοδος 2026–2050 ἀκολουθεῖ τὸν ὑπολογιζόμενο κύκλο τοῦ Παλαιοῦ Ἡμερολογίου· προηγοῦνται οἱ τεκμηριωμένες τοπικὲς διορθώσεις τοῦ Ἀμμὰν καὶ τῶν Ἱεροσολύμων.</string>
+    <string name="ui_calendar_services_ready">Τὰ ἀναγνώσματα καὶ οἱ ἀκολουθίες αὐτῆς τῆς ἡμέρας εἶναι διαθέσιμα χωρὶς σύνδεση.</string>
 </resources>

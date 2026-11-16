@@ -1,6 +1,7 @@
 package com.orthodoxprayers.privateapp.ui.screens;
 
 import android.view.Gravity;
+import android.app.DatePickerDialog;
 import android.view.View;
 import android.widget.Button;
 import android.widget.GridLayout;
@@ -32,8 +33,8 @@ public final class CalendarScreen extends BaseScreen {
     public CalendarScreen(ScreenHost host, String argument) {
         super(host);
         YearMonth parsed;
-        try { parsed = argument == null || argument.isEmpty() ? YearMonth.now() : YearMonth.parse(argument); }
-        catch (Exception ignored) { parsed = YearMonth.now(); }
+        try { parsed = argument == null || argument.isEmpty() ? YearMonth.now(java.time.ZoneId.of("Asia/Amman")) : YearMonth.parse(argument); }
+        catch (Exception ignored) { parsed = YearMonth.now(java.time.ZoneId.of("Asia/Amman")); }
         if (parsed.isBefore(MIN_MONTH)) parsed = MIN_MONTH;
         if (parsed.isAfter(MAX_MONTH)) parsed = MAX_MONTH;
         month = parsed;
@@ -43,7 +44,7 @@ public final class CalendarScreen extends BaseScreen {
     public View createView() {
         UiKit.Page page = page(local(com.orthodoxprayers.privateapp.R.string.ui_church_calendar_54dcd19b), true);
         addMonthNavigation(page.root);
-        add(page.root, ui.infoBadge(local(com.orthodoxprayers.privateapp.R.string.ui_the_annual_index_stays_lightweight_while_the_sig_deed927c)), 4, 10);
+        add(page.root, ui.infoBadge(local(com.orthodoxprayers.privateapp.R.string.ui_calendar_authority_horizon)), 4, 10);
         addCalendarGrid(page.root);
         addKnownDays(page.root);
         return page.scroll;
@@ -70,12 +71,24 @@ public final class CalendarScreen extends BaseScreen {
 
         Button today = ui.smallButton(local(com.orthodoxprayers.privateapp.R.string.ui_return_to_this_month_ea36d48b), false);
         today.setOnClickListener(v -> {
-            YearMonth current = YearMonth.now();
+            YearMonth current = YearMonth.now(java.time.ZoneId.of("Asia/Amman"));
             if (current.isBefore(MIN_MONTH)) current = MIN_MONTH;
             if (current.isAfter(MAX_MONTH)) current = MAX_MONTH;
             host.navigate("calendar", current.toString());
         });
         add(root, today, 0, 8);
+        Button chooseDate = ui.smallButton(local(com.orthodoxprayers.privateapp.R.string.ui_calendar_choose_date), false);
+        chooseDate.setOnClickListener(v -> {
+            DatePickerDialog picker = new DatePickerDialog(host.activity(), (view, selectedYear, selectedMonth, selectedDay) ->
+                    host.navigate("calendar_day", LocalDate.of(selectedYear, selectedMonth + 1, selectedDay).toString()),
+                    month.getYear(), month.getMonthValue() - 1, 1);
+            java.util.Calendar minimum = java.util.Calendar.getInstance(); minimum.clear(); minimum.set(2026, 0, 1);
+            java.util.Calendar maximum = java.util.Calendar.getInstance(); maximum.clear(); maximum.set(2050, 11, 31);
+            picker.getDatePicker().setMinDate(minimum.getTimeInMillis());
+            picker.getDatePicker().setMaxDate(maximum.getTimeInMillis());
+            picker.show();
+        });
+        add(root, chooseDate, 0, 8);
     }
 
     private void addCalendarGrid(LinearLayout root) {

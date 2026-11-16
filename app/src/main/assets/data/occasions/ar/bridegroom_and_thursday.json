@@ -1,0 +1,35 @@
+{
+  "id": "occasion::bridegroom_and_thursday",
+  "title": {
+    "ar": "صلوات الختن وسَحَر الخميس العظيم — الكتاب الكامل",
+    "en": "Bridegroom Services and Holy Thursday Matins — Complete Book",
+    "el": "Ἀκολουθίες Νυμφίου καὶ Ὄρθρος Μεγάλης Πέμπτης"
+  },
+  "source_language": "ar",
+  "displayable": true,
+  "source_document": {
+    "source_id": "orthodox_jordan_arabic_services",
+    "source_url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/الختن-1.pdf",
+    "source_sha256": "ec88b7beb2b85521aeafe49dd21e0c7b16938c01a3b21dfba5257a855325e72c",
+    "machine_translation_used": false
+  },
+  "category": "occasions",
+  "full_service_complete": true,
+  "completeness_scope": "COMPLETE_SOURCE_EDITION_ONLY",
+  "source_provenance": {
+    "status": "PINNED_NATIVE_SERVICE_BOOK",
+    "source_id": "orthodox_jordan_arabic_services",
+    "source_sha256": "ec88b7beb2b85521aeafe49dd21e0c7b16938c01a3b21dfba5257a855325e72c",
+    "machine_translation_used": false
+  },
+  "native_source": {
+    "source_id": "orthodox_jordan_arabic_services",
+    "url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/الختن-1.pdf",
+    "native_language": "ar",
+    "permission_confirmed": true
+  },
+  "content_kind": "pdf_facsimile",
+  "asset_pdf": "data/occasions/ar/bridegroom_and_thursday.pdf",
+  "asset_sha256": "ec88b7beb2b85521aeafe49dd21e0c7b16938c01a3b21dfba5257a855325e72c",
+  "page_count": 168
+}

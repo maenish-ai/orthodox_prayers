@@ -6,8 +6,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def test_version_is_552():
     text = (ROOT / 'app/build.gradle.kts').read_text(encoding='utf-8')
-    assert 'versionCode = 50609' in text
-    assert 'versionName = "5.6.9"' in text
+    assert 'versionCode = 50700' in text
+    assert 'versionName = "5.7.0"' in text
 
 
 def test_native_source_manifest_forbids_translation():

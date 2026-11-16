@@ -41,5 +41,5 @@ def test_release_workflow_publishes_updater_contract_assets():
 
 def test_release_version_is_bumped_for_updater_delivery():
     build = read("app/build.gradle.kts")
-    assert 'versionName = "5.6.9"' in build
-    assert "versionCode = 50609" in build
+    assert 'versionName = "5.7.0"' in build
+    assert "versionCode = 50700" in build

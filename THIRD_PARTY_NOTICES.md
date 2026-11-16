@@ -43,3 +43,7 @@ License: `https://creativecommons.org/licenses/by/4.0/`
 ## Orthocal perpetual lectionary reference bootstrap (R63)
 
 R63 can fetch scripture **reference metadata only** from the Orthocal Greek/Julian API at build time. The implementation is pinned for audit to `brianglass/orthocal-python` commit `393d5bb55d31bf14fa9c2a706e21c2f1bb48f400`, which is distributed under the MIT License. The app does not import Orthocal saint stories or use Orthocal saint names as Jerusalem/Jordan authority. Existing pinned Jerusalem/Jordan exact-date and fixed-feast rules take priority over this baseline.
+
+## Church occasions library (5.7.0)
+
+The offline occasions collection preserves original Arabic service PDFs/DOCX from orthodoxjordan.org and native Greek/English service editions from digitalchantstand.goarch.org (GOARCH Digital Chant Stand). Original publishers retain their rights. Reuse follows the application owner's explicit authorization; modern texts are not represented as public domain. Per-edition URLs, language and pinned SHA-256 values are recorded in `canonical/church_occasions_sources.json`. PDF facsimiles preserve the source bytes; text editions preserve native paragraphs without machine translation or cross-language substitution. A source edition's date is not authority for Jordan's local calendar.

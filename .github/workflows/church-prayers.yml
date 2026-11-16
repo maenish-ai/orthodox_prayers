@@ -263,7 +263,9 @@ jobs:
 
       - name: Test and build the app
         timeout-minutes: 20
-        run: ./gradlew --no-daemon testDebugUnitTest lintRelease assembleDebug assembleRelease bundleRelease --stacktrace
+        run: |
+          ./gradlew --no-daemon testDebugUnitTest lintRelease assembleDebug assembleRelease bundleRelease --stacktrace
+          python scripts/verify_calendar_horizon_runtime.py
 
       - name: Prepare final files and updater metadata
         shell: bash

@@ -38,6 +38,11 @@ public final class DataRepository {
     public enum RefreshResult { UPDATED, NOT_MODIFIED, FAILED }
     public enum RefreshState { IDLE, REFRESHING, UPDATED, CURRENT, FAILED }
     public interface RefreshCallback { void onComplete(RefreshResult result, String message); }
+    public interface CalendarDayCallback { void onComplete(JSONObject day); }
+    private final Map<String, JSONObject> preparedCalendarDays = java.util.Collections.synchronizedMap(
+            new LinkedHashMap<String, JSONObject>(8, .75f, true) {
+                @Override protected boolean removeEldestEntry(Map.Entry<String, JSONObject> eldest) { return size() > 8; }
+            });
 
     private static final String TAG = "OrthodoxData";
     private static final int MAX_JSON_BYTES = DataContract.MAX_SIGNED_PAYLOAD_BYTES;
@@ -217,6 +222,8 @@ public final class DataRepository {
     public JSONObject calendarDay(String date) {
         if (date == null) return null;
         String normalized = date.trim();
+        JSONObject prepared = preparedCalendarDays.get(normalized);
+        if (prepared != null) return prepared;
         if (normalized.matches("\\d{4}-\\d{2}-\\d{2}")) {
             try {
                 loadCalendarYear(Integer.parseInt(normalized.substring(0, 4)));
@@ -257,6 +264,22 @@ public final class DataRepository {
     }
 
     public JSONObject dayData(String date) { return calendarDay(date); }
+
+    /** Build the selected date, without replacing today's nine-day package. */
+    public void prepareCalendarDay(String date, CalendarDayCallback callback) {
+        JSONObject existing = preparedCalendarDays.get(date);
+        if (existing != null) { mainHandler.post(() -> callback.onComplete(existing)); return; }
+        executor.execute(() -> {
+            JSONObject result = null;
+            try {
+                LocalDate selected = LocalDate.parse(date);
+                result = localDailyContentEngine.buildWindow(selected, 1);
+                preparedCalendarDays.put(date, result);
+            } catch (Exception error) { Log.w(TAG, "Could not build selected calendar day " + date, error); }
+            JSONObject completed = result;
+            mainHandler.post(() -> callback.onComplete(completed));
+        });
+    }
 
     public boolean hasCompleteRollingWeek() {
         JSONObject localWindow = rollingWeekPackage.optJSONObject("local_daily_window");
@@ -697,6 +720,13 @@ public final class DataRepository {
 
     public JSONObject findService(String id) {
         String requestedId = id == null ? "" : id.trim();
+        if (requestedId.startsWith("occasion::")) {
+            String occasionId = requestedId.substring("occasion::".length());
+            if (!occasionId.matches("[a-z0-9_]+")) return null;
+            JSONObject edition = loadOptionalJsonAsset("data/occasions/" + preferences.effectiveLanguage() + "/" + occasionId + ".json");
+            return edition != null && preferences.effectiveLanguage().equals(edition.optString("source_language", ""))
+                    && edition.optBoolean("displayable", false) ? edition : null;
+        }
         boolean libraryOnly = requestedId.startsWith("library::");
         if (libraryOnly) requestedId = requestedId.substring("library::".length()).trim();
         String date = "";
@@ -721,8 +751,11 @@ public final class DataRepository {
                 ? (bundledStandalone != null ? bundledStandalone : findServiceInArray(library().optJSONArray("services"), serviceId))
                 : dynamic;
         if (!libraryOnly && !date.isEmpty()) {
-            JSONObject day = rollingWeekByDate.get(date);
+            JSONObject day = preparedCalendarDays.get(date);
+            if (day == null) day = rollingWeekByDate.get(date);
             selected = day == null ? null : findServiceInArray(day.optJSONArray("services"), serviceId);
+            if (selected == null && day != null && serviceId.equals(AppointedLiturgyResolver.serviceId(day.optJSONObject("liturgy_service_selection"))))
+                selected = findServiceInArray(day.optJSONArray("services"), "divine_liturgy");
         }
 
         if (selected == null) selected = findServiceInArray(library().optJSONArray("services"), serviceId);
@@ -753,13 +786,51 @@ public final class DataRepository {
         }
         JSONObject resolved = prepareOfficeReaderView(resolvedSource);
         if (resolved != null && "orthros".equals(serviceId)) {
-            JSONObject day = date.isEmpty() ? (isTodayCurrent() ? today() : null) : rollingWeekByDate.get(date);
+            JSONObject day = date.isEmpty() ? (isTodayCurrent() ? today() : null) : preparedCalendarDays.get(date);
+            if (day == null && !date.isEmpty()) day = rollingWeekByDate.get(date);
             resolved = MatinsGospelComposer.compose(resolved, day == null ? null : day.optJSONArray("readings"), preferences.effectiveLanguage());
         }
         if (resolved == null && "divine_liturgy".equals(selected.optString("id", ""))) {
             resolved = bundledStandalone != null ? bundledStandalone : selected;
         }
         return isFollowAlongLiturgy(resolved) ? composeFollowAlongLiturgy(resolved) : resolved;
+    }
+
+    public JSONObject findWorshipSequence(String appointedId) {
+        try {
+            String date = "";
+            if (appointedId.matches("\\d{4}-\\d{2}-\\d{2}::.*")) date = appointedId.substring(0, 10);
+            JSONObject appointed = findService(appointedId);
+            if (date.isEmpty() && "next_sunday_full_liturgy".equals(appointedId) && appointed != null)
+                date = appointed.optString("dynamic_date", "");
+            java.util.List<JSONObject> offices = new java.util.ArrayList<>();
+            for (String office : WorshipSequenceComposer.OFFICE_IDS) {
+                JSONObject selected = "appointed_liturgy".equals(office) ? appointed
+                        : findService(date.isEmpty() ? office : datedServiceId(date, office));
+                if ("thanksgiving_after_communion".equals(office) && selected != null && appointed != null) {
+                    selected = new JSONObject(selected.toString());
+                    selected.put("segments", thanksgivingSegmentsForLiturgy(selected, preferences.effectiveLanguage(),
+                            appointed.optString("composed_from", appointed.optString("id", appointedId))));
+                }
+                offices.add(selected);
+            }
+            return WorshipSequenceComposer.compose(offices, preferences.effectiveLanguage(),
+                    local(com.orthodoxprayers.privateapp.R.string.ui_worship_all));
+        } catch (Exception error) {
+            Log.w(TAG, "Could not compose worship sequence", error);
+            return null;
+        }
+    }
+
+    public JSONObject churchOccasions() {
+        JSONObject catalog = loadOptionalJsonAsset("data/occasions/catalog.json");
+        return catalog == null ? new JSONObject() : catalog;
+    }
+
+    public JSONArray churchFeasts() {
+        JSONObject data = loadOptionalJsonAsset("data/occasions/feasts.json");
+        JSONArray feasts = data == null ? null : data.optJSONArray("feasts");
+        return feasts == null ? new JSONArray() : feasts;
     }
 
     private JSONObject findBundledStandaloneService(String serviceId) {
