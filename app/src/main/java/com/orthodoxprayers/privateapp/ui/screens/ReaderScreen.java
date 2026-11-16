@@ -219,7 +219,7 @@ public final class ReaderScreen extends BaseScreen {
             tab.setSelected(selected);
             tab.setContentDescription(title);
             tab.setOnClickListener(v -> switchWorshipTab(target));
-            tabs.addView(tab, ui.margins(-2, 48, 3, 0, 3, 0));
+            tabs.addView(tab, ui.margins(-2, -2, 3, 0, 3, 0));
             if (selected) selectedTab = tab;
         }
         scroll.addView(tabs, new HorizontalScrollView.LayoutParams(-2, -2));
