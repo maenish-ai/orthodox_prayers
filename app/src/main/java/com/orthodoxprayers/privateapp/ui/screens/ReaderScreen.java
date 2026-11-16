@@ -12,6 +12,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.HorizontalScrollView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -34,7 +35,11 @@ import java.util.List;
 public final class ReaderScreen extends BaseScreen {
     private static final int READER_LAYOUT_VERSION = 2;
 
-    private final String serviceId;
+    private String serviceId;
+    private final String appointedServiceId;
+    private final boolean worshipTabs;
+    private final String worshipDate;
+    private LinearLayout readerHost;
     private RecyclerView recycler;
     private LinearLayoutManager layoutManager;
     private ReaderAdapter adapter;
@@ -71,10 +76,36 @@ public final class ReaderScreen extends BaseScreen {
     public ReaderScreen(ScreenHost host, String serviceId) {
         super(host);
         this.serviceId = serviceId == null ? "" : serviceId;
+        this.appointedServiceId = this.serviceId;
+        this.worshipTabs = isAppointedServiceId(this.serviceId);
+        if (this.serviceId.matches("\\d{4}-\\d{2}-\\d{2}::.*")) {
+            this.worshipDate = this.serviceId.substring(0, 10);
+        } else if ("next_sunday_full_liturgy".equals(this.serviceId)) {
+            JSONObject appointed = data.findService(this.serviceId);
+            this.worshipDate = appointed == null ? "" : appointed.optString("dynamic_date", "");
+        } else {
+            this.worshipDate = "";
+        }
     }
 
     @Override
     public View createView() {
+        readerHost = new LinearLayout(host.activity());
+        readerHost.setOrientation(LinearLayout.VERTICAL);
+        renderReader();
+        return readerHost;
+    }
+
+    private void renderReader() {
+        LinearLayout content = new LinearLayout(host.activity());
+        content.setOrientation(LinearLayout.VERTICAL);
+        if (worshipTabs) content.addView(worshipTabBar(), new LinearLayout.LayoutParams(-1, -2));
+        content.addView(createReaderView(), new LinearLayout.LayoutParams(-1, 0, 1f));
+        readerHost.removeAllViews();
+        readerHost.addView(content, new LinearLayout.LayoutParams(-1, -1));
+    }
+
+    private View createReaderView() {
         service = data.findService(serviceId);
         if (service == null) return errorView(local(com.orthodoxprayers.privateapp.R.string.ui_the_requested_text_was_not_found_in_the_app_data_97e2becd));
 
@@ -98,6 +129,13 @@ public final class ReaderScreen extends BaseScreen {
         root.setOrientation(LinearLayout.VERTICAL);
         root.setBackgroundColor(readerBackground());
         root.setLayoutDirection(preferences.isRtl() ? View.LAYOUT_DIRECTION_RTL : View.LAYOUT_DIRECTION_LTR);
+        if ("orthros".equals(service.optString("id", "")) && !service.optBoolean("matins_gospel_available", false)) {
+            String language = preferences.effectiveLanguage();
+            String message = "ar".equals(language) ? "لا يتوفر إنجيل سَحَر موثّق لهذا اليوم ضمن البيانات الحالية."
+                    : "el".equals(language) ? "Δὲν διατίθεται ἐπαληθευμένο Ἑωθινὸ Εὐαγγέλιο γιὰ αὐτὴ τὴν ἡμέρα."
+                    : "No verified Matins Gospel is available for this day in the current data.";
+            root.addView(ui.infoBadge(message), new LinearLayout.LayoutParams(-1, -2));
+        }
 
         controlsPanel = buildControlsPanel();
         int displayHeight = host.activity().getResources().getDisplayMetrics().heightPixels;
@@ -150,6 +188,62 @@ public final class ReaderScreen extends BaseScreen {
         applyControlsVisibility(false);
         root.post(() -> { restoreReaderPosition(); updateReaderProgress(); });
         return root;
+    }
+
+    private static boolean isAppointedServiceId(String id) {
+        return "divine_liturgy".equals(id) || "divine_liturgy_basil".equals(id)
+                || "presanctified_liturgy".equals(id) || "next_sunday_full_liturgy".equals(id)
+                || id.matches("\\d{4}-\\d{2}-\\d{2}::(divine_liturgy|divine_liturgy_basil|presanctified_liturgy)");
+    }
+
+    private View worshipTabBar() {
+        HorizontalScrollView scroll = new HorizontalScrollView(host.activity());
+        scroll.setHorizontalScrollBarEnabled(false);
+        LinearLayout tabs = ui.row();
+        tabs.setPadding(ui.dp(6), ui.dp(3), ui.dp(6), ui.dp(3));
+        String[] ids = {"orthros", "first_hour", "third_hour", "sixth_hour", "proskomide",
+                "pre_communion_prayers", appointedServiceId, "thanksgiving_after_communion"};
+        String[] ar = {"السَحَر", "الساعة الأولى", "الساعة الثالثة", "الساعة السادسة", "التقدمة",
+                "قبل المناولة", "القداس الإلهي", "بعد المناولة"};
+        String[] en = {"Matins", "First Hour", "Third Hour", "Sixth Hour", "Proskomide",
+                "Before Communion", "Divine Liturgy", "After Communion"};
+        String[] el = {"Ὄρθρος", "Αʹ Ὥρα", "Γʹ Ὥρα", "Ϛʹ Ὥρα", "Προσκομιδή",
+                "Πρὸ Μεταλήψεως", "Θεία Λειτουργία", "Μετὰ Μετάληψη"};
+        String language = preferences.effectiveLanguage();
+        View selectedTab = null;
+        for (int i = 0; i < ids.length; i++) {
+            final String target = i == 6 || worshipDate.isEmpty() ? ids[i] : worshipDate + "::" + ids[i];
+            boolean selected = target.equals(serviceId);
+            String title = "ar".equals(language) ? ar[i] : "el".equals(language) ? el[i] : en[i];
+            Button tab = ui.smallButton(title, selected);
+            tab.setSelected(selected);
+            tab.setContentDescription(title);
+            tab.setOnClickListener(v -> switchWorshipTab(target));
+            tabs.addView(tab, ui.margins(-2, 48, 3, 0, 3, 0));
+            if (selected) selectedTab = tab;
+        }
+        scroll.addView(tabs, new HorizontalScrollView.LayoutParams(-2, -2));
+        final View active = selectedTab;
+        if (active != null) scroll.post(() -> scroll.smoothScrollTo(
+                Math.max(0, active.getLeft() - (scroll.getWidth() - active.getWidth()) / 2), 0));
+        return scroll;
+    }
+
+    private void switchWorshipTab(String target) {
+        if (target.equals(serviceId)) return;
+        onHidden();
+        autoScrollHandler.removeCallbacksAndMessages(null);
+        progressUpdateScheduled = false;
+        serviceId = target;
+        lastDisplayedProgressPercent = -1;
+        controlsPanel = null;
+        liturgyNavigationPanel = null;
+        liturgyNavigationToggle = null;
+        readerProgress = null;
+        autoScrollButton = null;
+        recycler = null;
+        layoutManager = null;
+        renderReader();
     }
 
     private LinearLayout buildControlsPanel() {
@@ -737,6 +831,15 @@ public final class ReaderScreen extends BaseScreen {
     }
 
     private void reloadReader() {
+        if (worshipTabs) {
+            boolean expanded = controlsExpanded;
+            onHidden();
+            autoScrollHandler.removeCallbacksAndMessages(null);
+            progressUpdateScheduled = false;
+            preferences.setReaderControlsExpanded(expanded);
+            renderReader();
+            return;
+        }
         reloadingReader = true;
         host.navigate("reader", serviceId);
     }
@@ -745,7 +848,8 @@ public final class ReaderScreen extends BaseScreen {
         String baseId = serviceId;
         int separator = baseId.indexOf("::");
         if (separator >= 0) baseId = baseId.substring(separator + 2);
-        return "divine_liturgy".equals(baseId) || "next_sunday_full_liturgy".equals(baseId);
+        return "divine_liturgy".equals(baseId) || "next_sunday_full_liturgy".equals(baseId)
+                || "divine_liturgy_basil".equals(baseId) || "presanctified_liturgy".equals(baseId);
     }
 
 

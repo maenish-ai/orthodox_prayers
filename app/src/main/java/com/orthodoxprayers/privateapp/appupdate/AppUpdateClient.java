@@ -22,7 +22,7 @@ public final class AppUpdateClient {
     public interface ProgressCallback { void onProgress(long downloadedBytes, long totalBytes); }
 
     public static final String LATEST_RELEASE_URL =
-            "https://api.github.com/repos/maen1977/orthodox_prayers/releases/latest";
+            "https://api.github.com/repos/maenish-ai/orthodox_prayers/releases/latest";
     private static final int CONNECT_TIMEOUT_MS = 15_000;
     private static final int READ_TIMEOUT_MS = 45_000;
     private static final int MAX_REDIRECTS = 6;

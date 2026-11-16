@@ -752,6 +752,10 @@ public final class DataRepository {
             resolvedSource = bundledStandalone != null ? bundledStandalone : selected;
         }
         JSONObject resolved = prepareOfficeReaderView(resolvedSource);
+        if (resolved != null && "orthros".equals(serviceId)) {
+            JSONObject day = date.isEmpty() ? (isTodayCurrent() ? today() : null) : rollingWeekByDate.get(date);
+            resolved = MatinsGospelComposer.compose(resolved, day == null ? null : day.optJSONArray("readings"), preferences.effectiveLanguage());
+        }
         if (resolved == null && "divine_liturgy".equals(selected.optString("id", ""))) {
             resolved = bundledStandalone != null ? bundledStandalone : selected;
         }
@@ -1954,6 +1958,11 @@ public final class DataRepository {
         String id = service.optString("id", "");
         if ("divine_liturgy".equals(id)) return prepareArabicLiturgyReaderDevotions(service);
         if (!"orthros".equals(id) && !"vespers".equals(id) && !"small_compline".equals(id)) return service;
+        // A clean native document must not be replaced by the historical short
+        // OCR rescue reader: doing so silently discards most of the actual office.
+        JSONObject sourceDocument = service.optJSONObject("source_document");
+        if (sourceDocument != null && "DOCX_PARAGRAPH_TEXT_LAYER_NFC".equals(
+                sourceDocument.optString("extraction", ""))) return service;
         JSONObject core = arabicOfficeReadableCore(id);
         if (core == null) return service;
         try {
@@ -2083,7 +2092,7 @@ public final class DataRepository {
                 JSONArray segments = service.optJSONArray("segments");
                 if (segments == null) return resolved;
                 JSONArray resolvedSegments = applyDynamicSlotReplacements(
-                        new JSONArray(segments.toString()),
+                        LiturgyReadingOrder.prepare(segments, service.optString("id", ""), preferences.effectiveLanguage()),
                         null,
                         null,
                         preferences.effectiveLanguage()
@@ -2122,7 +2131,8 @@ public final class DataRepository {
                 resolved.put(key, deepCopyJson(service.opt(key)));
             }
 
-            JSONArray resolvedBaseSegments = new JSONArray(base.optJSONArray("segments").toString());
+            JSONArray resolvedBaseSegments = LiturgyReadingOrder.prepare(
+                    base.optJSONArray("segments"), baseId, preferences.effectiveLanguage());
             JSONObject effectiveSlots = service.optJSONObject("slot_replacements");
             if (effectiveSlots == null) {
                 effectiveSlots = legacyDynamicSlots(service.optJSONObject("segment_replacements"));
@@ -2130,6 +2140,20 @@ public final class DataRepository {
             JSONObject effectiveInlineSlots = service.optJSONObject("slot_inline_replacements");
             if (effectiveInlineSlots == null) {
                 effectiveInlineSlots = legacyDynamicInlineSlots(service.optJSONObject("inline_replacements"));
+            }
+            if (effectiveInlineSlots == null) effectiveInlineSlots = new JSONObject();
+            else effectiveInlineSlots = new JSONObject(effectiveInlineSlots.toString());
+            if (!effectiveInlineSlots.has("gospel_evangelist_name")) {
+                JSONObject contract = service.optJSONObject("daily_reading_contract");
+                String canonical = contract == null ? "" : contract.optString("gospel_canonical", "");
+                String book = canonical.split("\\.", 2)[0];
+                if ("MAT".equals(book) || "MRK".equals(book) || "LUK".equals(book) || "JHN".equals(book)) {
+                    JSONObject names = new JSONObject();
+                    for (String language : new String[]{"ar", "en", "el"}) {
+                        names.put(language, com.orthodoxprayers.privateapp.bible.BibleBookNames.name(book, language));
+                    }
+                    effectiveInlineSlots.put("gospel_evangelist_name", names);
+                }
             }
             resolvedBaseSegments = applyDynamicSlotReplacements(
                     resolvedBaseSegments,

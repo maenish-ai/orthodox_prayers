@@ -84,7 +84,7 @@ public final class ReaderAdapter extends RecyclerView.Adapter<ReaderAdapter.Hold
         int type = getItemViewType(position);
         if (type == SECTION) bindSection(holder.container, segment);
         else if (type == NOTE) bindNote(holder.container, segment, position);
-        else bindText(holder.container, segment, false);
+        else bindText(holder.container, segment, position);
     }
 
     private void bindSection(LinearLayout container, JSONObject segment) {
@@ -132,7 +132,7 @@ public final class ReaderAdapter extends RecyclerView.Adapter<ReaderAdapter.Hold
         container.addView(card, new LinearLayout.LayoutParams(-1, -2));
     }
 
-    private void bindText(LinearLayout container, JSONObject segment, boolean rubric) {
+    private void bindText(LinearLayout container, JSONObject segment, int position) {
         LinearLayout card = ui.card(readerCardColor(), readerBorderColor(), 14);
         String speaker = data.localized(segment.optJSONObject("speaker"), "").trim();
         LocalizedValue value = data.localizedValue(segment.optJSONObject("text"), "");
@@ -144,15 +144,16 @@ public final class ReaderAdapter extends RecyclerView.Adapter<ReaderAdapter.Hold
                 bodyText = stripSpeakerPrefix(bodyText, speaker);
             }
         }
-        if (!speaker.isEmpty()) {
+        boolean showSpeaker = !speaker.isEmpty() && !speaker.equals(previousSpeaker(position));
+        if (showSpeaker) {
             TextView speakerView = ui.text(speaker, 14, ThemePalette.GOLD, true);
             card.addView(speakerView);
         }
         addEventContextBadge(card, segment);
         addDeliveryBadge(card, segment);
-        TextView body = ui.body(bodyText, rubric);
+        TextView body = ui.body(bodyText, false);
         body.setTextColor(readerPrimaryText());
-        card.addView(body, ui.margins(-1, -2, 0, speaker.isEmpty() ? 0 : 3, 0, 0));
+        card.addView(body, ui.margins(-1, -2, 0, showSpeaker ? 3 : 0, 0, 0));
 
         if (value.translationUnavailable) {
             card.addView(ui.badge(data.local(com.orthodoxprayers.privateapp.R.string.ui_official_native_text_unavailable_for_this_sectio_6c8fe699), false), ui.margins(-1, -2, 0, 7, 0, 0));
@@ -193,14 +194,15 @@ public final class ReaderAdapter extends RecyclerView.Adapter<ReaderAdapter.Hold
     }
 
     private String stripSpeakerPrefix(String text, String speaker) {
-        if (text == null || text.isEmpty() || speaker == null || speaker.isEmpty()) return text == null ? "" : text;
-        String value = text.trim();
-        if (value.startsWith(speaker)) {
-            String remainder = value.substring(speaker.length());
-            if (remainder.startsWith(":") || remainder.startsWith("：")) return remainder.substring(1).trim();
-            if (remainder.startsWith(" ") && remainder.trim().startsWith(":")) return remainder.trim().substring(1).trim();
-        }
-        return value;
+        return SpeakerLabelPolicy.stripPrefix(text, speaker);
+    }
+
+    private String previousSpeaker(int position) {
+        if (position <= 0 || getItemViewType(position - 1) != TEXT) return "";
+        JSONObject previous = segments.get(position - 1);
+        String speaker = data.localized(previous.optJSONObject("speaker"), "").trim();
+        return speaker.isEmpty()
+                ? inferSpeakerPrefix(data.localized(previous.optJSONObject("text"), "")) : speaker;
     }
     private String inferSpeakerPrefix(String text) {
         if (text == null) return "";

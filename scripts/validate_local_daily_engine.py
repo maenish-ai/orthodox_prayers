@@ -8,6 +8,7 @@ import sys
 import xml.etree.ElementTree as ET
 from datetime import date, timedelta
 from pathlib import Path
+from release_version import require_minimum, current_release
 
 ROOT = Path(__file__).resolve().parents[1]
 RANGE = re.compile(r"^([1-3]?[A-Z]+)\.(\d+)\.(\d+)-(?:([1-3]?[A-Z]+)\.)?(?:(\d+)\.)?(\d+)$")
@@ -289,8 +290,7 @@ def verify_android_wiring() -> None:
         fail("coordinator_still_requires_network")
     if "Result.retry" in worker:
         fail("worker_retries_deterministic_local_failure")
-    if 'versionName = "5.6.8"' not in build or "versionCode = 50608" not in build:
-        fail("version_not_5_6_3")
+    require_minimum(50608)
 
 
 def verify_resources() -> None:
@@ -335,7 +335,7 @@ def main() -> None:
         f"date={anchor} window=9 calendar=2026-2050 languages=ar,en,el "
         f"native_window_references={complete} calendar_references={reference_count} "
         f"verified_daily_propers_entries={proper_entries} "
-        "network_required=false version=5.6.8"
+        f"network_required=false version={current_release()[0]}"
     )
 
 
