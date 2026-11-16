@@ -28,6 +28,8 @@ public final class BibleScreen extends BaseScreen {
         LinearLayout intro = ui.card();
         intro.addView(ui.text(local(R.string.ui_bible_intro), 14, ui.colors().secondaryText(), false));
         intro.addView(ui.badge(local(R.string.ui_bible_source_label), true), ui.margins(-1, -2, 0, 7, 0, 0));
+        intro.addView(ui.text(local(R.string.ui_bible_orthodox_source_status), 13,
+                ui.colors().secondaryText(), false), ui.margins(-1, -2, 0, 5, 0, 0));
         add(page.root, intro, 12, 10);
 
         EditText query = new EditText(host.activity());

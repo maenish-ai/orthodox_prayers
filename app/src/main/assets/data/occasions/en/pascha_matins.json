@@ -12,6 +12,11 @@
     "source_url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/05/02/ma/gr-en/index.html",
     "source_sha256": "6a3dc70f511e759b168ce4af8e03d6a9c0efc91c00ce111d347e3554c9750cf4",
     "machine_translation_used": false,
+    "attribution": {
+      "ar": "منصة الترتيل الرقمية للأبرشية اليونانية الأرثوذكسية في أميركا",
+      "en": "GOARCH Digital Chant Stand",
+      "el": "Digital Chant Stand τῆς Ἑλληνορθόδοξης Ἀρχιεπισκοπῆς Ἀμερικῆς"
+    },
     "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
   },
   "category": "occasions",
@@ -2076,6 +2081,22 @@
       "text": {
         "ar": "",
         "en": "The grace that from your mouth shone forth like a torch illumined the universe. It deposited in the world the treasures of the absence of avarice. It showed us the height that is attained by humility. Now you instruct us by your words, Father John Chrysostom. Intercede with Christ God, the Word himself, entreating Him to save our souls. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Source",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "GOARCH Digital Chant Stand",
         "el": ""
       }
     }

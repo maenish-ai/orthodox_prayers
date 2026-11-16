@@ -109,6 +109,35 @@ public final class FastingNoticeEngineTest {
         assertEquals(1, notice.daysUntilStart);
     }
 
+    @Test
+    public void approachingMajorSeasonTakesPriorityOverWeeklyFast() {
+        LocalDate today = LocalDate.of(2026, 11, 1);
+        LocalDate nativityStart = today.plusDays(27);
+        FastingNoticeEngine.DayProvider provider = isoDate -> {
+            LocalDate date = LocalDate.parse(isoDate);
+            if (!date.isBefore(nativityStart) && !date.isAfter(nativityStart.plusDays(39))) {
+                try {
+                    return new JSONObject().put("fasting", new JSONObject()
+                            .put("is_fast", true)
+                            .put("title", new JSONObject()
+                                    .put("ar", "صوم الميلاد")
+                                    .put("en", "Nativity Fast")
+                                    .put("el", "Νηστεία Χριστουγέννων"))
+                            .put("verification", new JSONObject().put("rule", "nativity_fast")));
+                } catch (JSONException error) { throw new AssertionError(error); }
+            }
+            if (date.equals(today.plusDays(3))) return weeklyFastDay("صوم الأربعاء");
+            return calendarDay(isoDate);
+        };
+
+        FastingNoticeEngine.Notice notice = FastingNoticeEngine.evaluate(today, provider);
+
+        assertEquals(FastingNoticeEngine.Kind.UPCOMING_MAJOR_FAST, notice.kind);
+        assertEquals(FastingNoticeEngine.Family.NATIVITY, notice.family);
+        assertEquals(nativityStart, notice.targetDate);
+        assertEquals(27, notice.daysUntilStart);
+    }
+
     private static JSONObject weeklyFastDay(String titleAr) {
         try {
             return new JSONObject().put("fasting", new JSONObject()

@@ -354,6 +354,7 @@
     <string name="ui_bible_title">Ἁγία Γραφή</string>
     <string name="ui_bible_intro">Τὸ κείμενο εἶναι ἀποθηκευμένο μέσα στὴν ἐφαρμογὴ καὶ λειτουργεῖ χωρὶς διαδίκτυο. Τὰ καθημερινὰ ἀναγνώσματα χρησιμοποιοῦν τὸ ἴδιο πλήρες σώμα κειμένου.</string>
     <string name="ui_bible_source_label">Μετάφραση τῶν Ο΄ (Μπρέντον) + Πατριαρχικὸ Κείμενο 1904 — δημόσιο κτήμα</string>
+    <string name="ui_bible_orthodox_source_status">Τὸ ἑλληνικὸ κείμενο χρησιμοποιεῖ ἤδη τοὺς Ο΄ καὶ τὸ Πατριαρχικὸ Κείμενο τοῦ 1904.</string>
     <string name="ui_bible_search_hint">Ἀναζήτηση στὸ κείμενο τῆς Γραφῆς</string>
     <string name="ui_bible_search">Ἀναζήτηση</string>
     <string name="ui_bible_searching">Ἀναζήτηση…</string>
@@ -457,4 +458,6 @@
     <string name="ui_occasion_pinned_book">Πλήρες κείμενο ἀπὸ καταγεγραμμένη πρωτότυπη ἔκδοση· ἡ ἡμερομηνία της δὲν ἀντικαθιστᾷ τὸ τοπικὸ ἡμερολόγιο.</string>
     <string name="ui_calendar_authority_horizon">Ἡ περίοδος 2026–2050 ἀκολουθεῖ τὸν ὑπολογιζόμενο κύκλο τοῦ Παλαιοῦ Ἡμερολογίου· προηγοῦνται οἱ τεκμηριωμένες τοπικὲς διορθώσεις τοῦ Ἀμμὰν καὶ τῶν Ἱεροσολύμων.</string>
     <string name="ui_calendar_services_ready">Τὰ ἀναγνώσματα καὶ οἱ ἀκολουθίες αὐτῆς τῆς ἡμέρας εἶναι διαθέσιμα χωρὶς σύνδεση.</string>
+    <string name="ui_occasion_source_attribution">Πηγὴ καὶ προετοιμασία βιβλίου: %1$s</string>
+    <string name="ui_fast_summary_open_calendar">Ἄνοιγμα τῆς ἡμέρας νηστείας στὸ ἡμερολόγιο</string>
 </resources>

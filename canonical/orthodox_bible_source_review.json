@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-16",
+  "decision": "KEEP_COMPLETE_VERIFIED_CORPUS_UNTIL_COMPLETE_ORTHODOX_EDITION_IS_AVAILABLE",
+  "runtime_network_required": false,
+  "languages": {
+    "ar": {
+      "current_source": "Arabic Van Dyck Bible",
+      "current_scope": "complete Protestant-order Bible",
+      "candidate": "الترجمة العربية الكاملة للسبعينية — د. خالد جورج اليازجي، مدرسة الإسكندرية",
+      "candidate_scope": "complete Septuagint Old Testament",
+      "candidate_print_identity": "1172 pages; ISBN 978-977-8803-40-2",
+      "candidate_text_asset_found": false,
+      "candidate_ebook_status": "listed by the official publisher but currently unavailable and not exposed as a public downloadable verse corpus",
+      "replacement_ready": false,
+      "new_testament_candidate": "ترجمة العهد الجديد الأرثوذكسية للمطران قسطنطين، رئيس أساقفة بغداد والكويت",
+      "new_testament_text_asset_found": false,
+      "evidence": [
+        "https://asfcs.org/product/the-septuagint-an-arabic-translation-with-scholarly-notes/",
+        "https://orthodoxjordan.org/الكتاب-المقدس-واقسامه/",
+        "https://ar.orthodoxwiki.org/عهد_جديد"
+      ],
+      "reason": "The official publisher confirms a complete Arabic Septuagint in print, but no importable official text file or verse corpus is publicly available. The documented Orthodox Arabic New Testament likewise has no located official digital corpus. Replacement must wait for the actual source files so no verses are invented, omitted, or imported from an unrelated edition."
+    },
+    "en": {
+      "current_source": "World English Bible British Edition with Deuterocanon",
+      "current_scope": "complete public-domain corpus including Deuterocanon",
+      "candidate": "Orthodox Study Bible",
+      "candidate_scope": "complete Orthodox canon; NKJV New Testament and St Athanasius Academy Old Testament",
+      "candidate_text_asset_found": false,
+      "replacement_ready": false,
+      "evidence": "https://www.thomasnelson.com/p/orthodox-study-bible/",
+      "reason": "No official complete machine-readable source edition was found for reproducible offline import and verse verification."
+    },
+    "el": {
+      "current_source": "Greek Septuagint with Apocrypha + 1904 Patriarchal Byzantine New Testament",
+      "current_scope": "complete Greek Old Testament and New Testament lanes",
+      "replacement_ready": false,
+      "already_orthodox_textual_basis": true,
+      "evidence": ["https://ebible.org/grcbrent/", "https://ebible.org/grcbyz/"],
+      "reason": "The app already uses the Septuagint and the 1904 Patriarchal Greek New Testament; a label-only replacement would not improve the text."
+    }
+  },
+  "replacement_requirements": [
+    "complete verse corpus for the promised scope",
+    "stable official source and edition identity",
+    "book, chapter, and verse mapping",
+    "reproducible checksum-pinned import",
+    "native text with no machine translation",
+    "no silent fallback or missing-book substitution"
+  ]
+}

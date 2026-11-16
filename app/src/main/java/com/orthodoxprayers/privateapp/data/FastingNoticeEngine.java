@@ -17,7 +17,7 @@ import java.util.Locale;
  * Home hint can warn the user before tomorrow's rule changes.</p>
  */
 public final class FastingNoticeEngine {
-    public static final int MAJOR_FAST_LOOKAHEAD_DAYS = 7;
+    public static final int MAJOR_FAST_LOOKAHEAD_DAYS = 45;
     public static final int WEEKLY_FAST_LOOKAHEAD_DAYS = 7;
     public static final int FAST_LOOKAHEAD_DAYS = 7;
     private static final int MAJOR_FAST_BOUNDARY_SCAN_DAYS = 80;
@@ -139,6 +139,23 @@ public final class FastingNoticeEngine {
                     today.getDayOfWeek(),
                     ruleChange,
                     untilChange
+            );
+        }
+
+        // Long fasting seasons are the useful advance notice on Home. Find
+        // their next boundary before the recurring Wednesday or Friday fast,
+        // which would otherwise always hide an approaching major season.
+        for (int offset = 1; offset <= MAJOR_FAST_LOOKAHEAD_DAYS; offset++) {
+            LocalDate candidate = today.plusDays(offset);
+            Family family = majorFamily(provider.day(candidate.toString()));
+            if (family == Family.NONE) continue;
+            Family previous = majorFamily(provider.day(candidate.minusDays(1).toString()));
+            if (previous == family) continue;
+            LocalDate end = findBoundary(candidate, provider, family, 1);
+            return new Notice(
+                    Kind.UPCOMING_MAJOR_FAST, family, candidate, candidate, end, offset,
+                    0, (int) ChronoUnit.DAYS.between(candidate, end), inclusiveDays(candidate, end),
+                    false, candidate.getDayOfWeek(), null, -1
             );
         }
 

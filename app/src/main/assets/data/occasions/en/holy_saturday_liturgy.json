@@ -11,7 +11,12 @@
     "source_id": "goarch_digital_chant_stand_english",
     "source_url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d071/vl/gr-en/index.html",
     "source_sha256": "c58ba7679ebda47670c33ac3335238966d14d7a6e58293b9837633d4a7606e57",
-    "machine_translation_used": false
+    "machine_translation_used": false,
+    "attribution": {
+      "ar": "منصة الترتيل الرقمية للأبرشية اليونانية الأرثوذكسية في أميركا",
+      "en": "GOARCH Digital Chant Stand",
+      "el": "Digital Chant Stand τῆς Ἑλληνορθόδοξης Ἀρχιεπισκοπῆς Ἀμερικῆς"
+    }
   },
   "category": "occasions",
   "full_service_complete": true,
@@ -4466,6 +4471,22 @@
       "text": {
         "ar": "",
         "en": "( Amen. )",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Source",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "GOARCH Digital Chant Stand",
         "el": ""
       }
     }

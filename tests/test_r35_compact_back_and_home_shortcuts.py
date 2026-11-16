@@ -44,10 +44,10 @@ def test_home_uses_six_shortcut_cards_and_one_context_aware_fasting_card() -> No
     assert 'ui_churches_and_live_services_53a37eff), "churches", null' in home
     assert home.count("addShortcutCard(") >= 7  # six calls plus the helper declaration
     assert 'bibleTitle(), "bible", null' in home
-    assert 'searchTitle(), "search", null' in home
+    assert 'ui_church_occasions), "occasions", null' in home
     assert "addSmartFastingNotice(page.root);" in home
     assert "FastingNoticeEngine.evaluate" in home
-    assert 'host.navigate("fasting_summary", notice.targetDate.toString())' in home
+    assert 'host.navigate("fasting_summary", detailsDate.toString())' in home
     assert "specificCommemoration(today)" not in home
     assert "addRollingWeekStatus(page.root);" not in home
 

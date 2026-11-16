@@ -11,7 +11,12 @@
     "source_id": "orthodox_jordan_arabic_services",
     "source_url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/خدمة-صلاة-سر-الزيت-المقدس.docx",
     "source_sha256": "4b5c661d32c55d0c3ebe7a2a7ad2076bc147e66114d658a9758ef7ed2485f344",
-    "machine_translation_used": false
+    "machine_translation_used": false,
+    "attribution": {
+      "ar": "مطرانية الأردن للروم الأرثوذكس",
+      "en": "Greek Orthodox Archdiocese of Jordan",
+      "el": "Ἑλληνορθόδοξη Ἀρχιεπισκοπὴ Ἰορδανίας"
+    }
   },
   "category": "occasions",
   "full_service_complete": true,
@@ -3413,6 +3418,22 @@
       },
       "speaker": {
         "ar": "الكاهن",
+        "en": "",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "المصدر",
+        "en": "",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "مطرانية الأردن للروم الأرثوذكس",
         "en": "",
         "el": ""
       }

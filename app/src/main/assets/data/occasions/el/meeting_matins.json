@@ -12,6 +12,11 @@
     "source_url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/02/02/ma/gr-en/index.html",
     "source_sha256": "8e748fd47bb3bf0e5a316e25321dc27daa947040f88a73c9b508a4d83f463e7e",
     "machine_translation_used": false,
+    "attribution": {
+      "ar": "منصة الترتيل الرقمية للأبرشية اليونانية الأرثوذكسية في أميركا",
+      "en": "GOARCH Digital Chant Stand",
+      "el": "Digital Chant Stand τῆς Ἑλληνορθόδοξης Ἀρχιεπισκοπῆς Ἀμερικῆς"
+    },
     "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
   },
   "category": "occasions",
@@ -101,14 +106,6 @@
         "ar": "",
         "en": "",
         "el": "Sources"
-      }
-    },
-    {
-      "type": "text",
-      "text": {
-        "ar": "",
-        "en": "",
-        "el": "GOADEDES Greek Orthodox Archdiocese of America and Fr. Seraphim Dedes. AC Anthony Cook. AGH Fr. Andreas Houpos. GKD George K. Duvall. KW Metropolitan Kallistos Ware. NR Nicholas Roumas. RB Richard Barrett. JMB John Michael Boyer. SD Fr. Seraphim Dedes. TC Thomas Carroll. VPA Virgil Fr. Peter Andronache. GOA Greek Orthodox Archdiocese of America. HC Holy Cross Orthodox Press. MLGS Monastery of the Life-Giving Spring. OCA Orthodox Church in America."
       }
     },
     {
@@ -2469,6 +2466,22 @@
         "ar": "",
         "en": "",
         "el": "Χαῖρε κεχαριτωμένη Θεοτόκε Παρθένε· ἐκ σοῦ γὰρ ἀνέτειλεν ὁ Ἥλιος τῆς δικαιοσύνης, Χριστὸς ὁ Θεὸς ἡμῶν, φωτίζων τοὺς ἐν σκότει. Εὐφραίνου καὶ σὺ Πρεσβύτα δίκαιε, δεξάμενος ἐν ἀγκάλαις τὸν ἐλευθερωτὴν τῶν ψυχῶν ἡμῶν, χαριζόμενον ἡμῖν καὶ τὴν Ἀνάστασιν."
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "",
+        "el": "Πηγὴ καὶ προετοιμασία κειμένου"
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "",
+        "el": "GOADEDES Greek Orthodox Archdiocese of America and Fr. Seraphim Dedes. AC Anthony Cook. AGH Fr. Andreas Houpos. GKD George K. Duvall. KW Metropolitan Kallistos Ware. NR Nicholas Roumas. RB Richard Barrett. JMB John Michael Boyer. SD Fr. Seraphim Dedes. TC Thomas Carroll. VPA Virgil Fr. Peter Andronache. GOA Greek Orthodox Archdiocese of America. HC Holy Cross Orthodox Press. MLGS Monastery of the Life-Giving Spring. OCA Orthodox Church in America."
       }
     }
   ],

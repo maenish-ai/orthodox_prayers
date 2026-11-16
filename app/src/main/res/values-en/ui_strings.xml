@@ -354,6 +354,7 @@ Phone: 00962788272988</string>
     <string name="ui_bible_title">Holy Bible</string>
     <string name="ui_bible_intro">The text is stored inside the app and works offline. Daily readings use this same full corpus.</string>
     <string name="ui_bible_source_label">World English Bible British Edition + Deuterocanon — Public Domain</string>
+    <string name="ui_bible_orthodox_source_status">This complete offline corpus remains in use. No official complete machine-readable Orthodox Study Bible edition was found for a reproducible verse import.</string>
     <string name="ui_bible_search_hint">Search the Bible text</string>
     <string name="ui_bible_search">Search</string>
     <string name="ui_bible_searching">Searching…</string>
@@ -457,4 +458,6 @@ Phone: 00962788272988</string>
     <string name="ui_occasion_pinned_book">Complete text from a pinned native source edition; its date does not replace the local calendar.</string>
     <string name="ui_calendar_authority_horizon">2026–2050 follows the calculated Old Calendar cycle; verified local Amman and Jerusalem corrections take priority.</string>
     <string name="ui_calendar_services_ready">Readings and services for this date are ready offline.</string>
+    <string name="ui_occasion_source_attribution">Source and book preparation: %1$s</string>
+    <string name="ui_fast_summary_open_calendar">Open this fasting day in the calendar</string>
 </resources>

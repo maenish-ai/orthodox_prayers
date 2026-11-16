@@ -11,7 +11,12 @@
     "source_id": "goarch_digital_chant_stand_greek",
     "source_url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/tr/d069/gh/gr-en/index.html",
     "source_sha256": "839cf19bf98c9e6d4ad422abc8bbc4c6fceff18e8fafb64d30bda1f0c921d003",
-    "machine_translation_used": false
+    "machine_translation_used": false,
+    "attribution": {
+      "ar": "منصة الترتيل الرقمية للأبرشية اليونانية الأرثوذكسية في أميركا",
+      "en": "GOARCH Digital Chant Stand",
+      "el": "Digital Chant Stand τῆς Ἑλληνορθόδοξης Ἀρχιεπισκοπῆς Ἀμερικῆς"
+    }
   },
   "category": "occasions",
   "full_service_complete": true,
@@ -3443,6 +3448,22 @@
         "ar": "",
         "en": "",
         "el": "Ἀμήν."
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "",
+        "el": "Πηγή"
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "",
+        "el": "Digital Chant Stand τῆς Ἑλληνορθόδοξης Ἀρχιεπισκοπῆς Ἀμερικῆς"
       }
     }
   ],

@@ -12,6 +12,11 @@
     "source_url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/06/10/ma/gr-en/index.html",
     "source_sha256": "42a7c7cee682aed59bc780e35d37a8c75774ff51049477cc14da3292d9c4a887",
     "machine_translation_used": false,
+    "attribution": {
+      "ar": "منصة الترتيل الرقمية للأبرشية اليونانية الأرثوذكسية في أميركا",
+      "en": "GOARCH Digital Chant Stand",
+      "el": "Digital Chant Stand τῆς Ἑλληνορθόδοξης Ἀρχιεπισκοπῆς Ἀμερικῆς"
+    },
     "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
   },
   "category": "occasions",
@@ -2428,6 +2433,22 @@
       "text": {
         "ar": "",
         "en": "You ascended in glory, O Christ our God, after You filled the Disciples with joy, by promising to send them the Holy Spirit, and You blessed them and established their faith, that You are the Son of God, the Redeemer of the world. [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Source",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "GOARCH Digital Chant Stand",
         "el": ""
       }
     }

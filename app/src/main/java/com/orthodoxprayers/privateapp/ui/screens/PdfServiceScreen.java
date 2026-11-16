@@ -93,6 +93,12 @@ public final class PdfServiceScreen extends BaseScreen {
         horizontal.addView(image);
         vertical.addView(horizontal);
         root.addView(vertical, new LinearLayout.LayoutParams(-1, 0, 1f));
+        JSONObject source = edition.optJSONObject("source_document");
+        String sourceName = source == null ? "" : localized(source.optJSONObject("attribution"), "").trim();
+        if (!sourceName.isEmpty()) {
+            TextView attribution = ui.infoBadge(localFormat(R.string.ui_occasion_source_attribution, sourceName));
+            root.addView(attribution);
+        }
         previous.setEnabled(false); next.setEnabled(false);
         int restored = preferences.readerPosition(edition.optString("id"));
         worker.execute(() -> openBook(restored));

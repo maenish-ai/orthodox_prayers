@@ -11,7 +11,12 @@
     "source_id": "goarch_digital_chant_stand_greek",
     "source_url": "https://digitalchantstand.goarch.org/goa/dcs/h/b/eu/unction/gr-en/index.html",
     "source_sha256": "243a171ea2555a0fff524e9088fb2f53ce39cfa90d69c1a2bf3497dcb57db250",
-    "machine_translation_used": false
+    "machine_translation_used": false,
+    "attribution": {
+      "ar": "منصة الترتيل الرقمية للأبرشية اليونانية الأرثوذكسية في أميركا",
+      "en": "GOARCH Digital Chant Stand",
+      "el": "Digital Chant Stand τῆς Ἑλληνορθόδοξης Ἀρχιεπισκοπῆς Ἀμερικῆς"
+    }
   },
   "category": "occasions",
   "full_service_complete": true,
@@ -5171,6 +5176,22 @@
         "ar": "",
         "en": "",
         "el": "Νεῦσον παρακλήσεσι σῶν οἰκετῶν Πανάμωμε, παύουσα δεινῶν ἡμῶν ἐπαναστάσεις, πάσης θλίψεως ἡμᾶς ἀπαλλάττουσα· σὲ γὰρ μόνην ἀσφαλῆ, καὶ βεβαίαν ἄγκυραν ἔχομεν, καὶ τὴν σὴν προστασίαν κεκτήμεθα. Μὴ αἰσχυνθῶμεν Δέσποινα, σὲ προσκαλούμενοι· σπεῦσον εἰς ἱκεσίαν τῶν σοὶ πιστῶς βοώντων· Χαῖρε Δέσποινα, ἡ πάντων βοήθεια, χαρὰ καὶ σκέπη, καὶ σωτηρία τῶν ψυχῶν ἡμῶν."
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "",
+        "el": "Πηγή"
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "",
+        "el": "Digital Chant Stand τῆς Ἑλληνορθόδοξης Ἀρχιεπισκοπῆς Ἀμερικῆς"
       }
     }
   ],

@@ -12,6 +12,11 @@
     "source_url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/03/25/ma/gr-en/index.html",
     "source_sha256": "34a482c760f8a7cb07987a3137bde668f9cff598bf95f0faa7268235a8ee364f",
     "machine_translation_used": false,
+    "attribution": {
+      "ar": "منصة الترتيل الرقمية للأبرشية اليونانية الأرثوذكسية في أميركا",
+      "en": "GOARCH Digital Chant Stand",
+      "el": "Digital Chant Stand τῆς Ἑλληνορθόδοξης Ἀρχιεπισκοπῆς Ἀμερικῆς"
+    },
     "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
   },
   "category": "occasions",
@@ -100,14 +105,6 @@
       "text": {
         "ar": "",
         "en": "Sources",
-        "el": ""
-      }
-    },
-    {
-      "type": "text",
-      "text": {
-        "ar": "",
-        "en": "GOADEDES Greek Orthodox Archdiocese of America and Fr. Seraphim Dedes. AC Anthony Cook. AGH Fr. Andreas Houpos. GKD George K. Duvall. KW Metropolitan Kallistos Ware. NR Nicholas Roumas. RB Richard Barrett. JMB John Michael Boyer. SD Fr. Seraphim Dedes. TC Thomas Carroll. VPA Virgil Fr. Peter Andronache. GOA Greek Orthodox Archdiocese of America. HC Holy Cross Orthodox Press. MLGS Monastery of the Life-Giving Spring. OCA Orthodox Church in America.",
         "el": ""
       }
     },
@@ -2588,6 +2585,22 @@
       "text": {
         "ar": "",
         "en": "Today is the summary of our salvation, and the revelation of the age-old mystery. For the Son of God becomes the Son of the Virgin, and Gabriel announces the good news of grace. Therefore, let us join him, and cry aloud to the Theotokos: “Rejoice, Maiden full of grace! The Lord is with you.” [SD]",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "Source and text preparation",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "GOADEDES Greek Orthodox Archdiocese of America and Fr. Seraphim Dedes. AC Anthony Cook. AGH Fr. Andreas Houpos. GKD George K. Duvall. KW Metropolitan Kallistos Ware. NR Nicholas Roumas. RB Richard Barrett. JMB John Michael Boyer. SD Fr. Seraphim Dedes. TC Thomas Carroll. VPA Virgil Fr. Peter Andronache. GOA Greek Orthodox Archdiocese of America. HC Holy Cross Orthodox Press. MLGS Monastery of the Life-Giving Spring. OCA Orthodox Church in America.",
         "el": ""
       }
     }

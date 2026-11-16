@@ -11,7 +11,12 @@
     "source_id": "orthodox_jordan_arabic_services",
     "source_url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/الختن-1.pdf",
     "source_sha256": "ec88b7beb2b85521aeafe49dd21e0c7b16938c01a3b21dfba5257a855325e72c",
-    "machine_translation_used": false
+    "machine_translation_used": false,
+    "attribution": {
+      "ar": "مطرانية الأردن للروم الأرثوذكس",
+      "en": "Greek Orthodox Archdiocese of Jordan",
+      "el": "Ἑλληνορθόδοξη Ἀρχιεπισκοπὴ Ἰορδανίας"
+    }
   },
   "category": "occasions",
   "full_service_complete": true,

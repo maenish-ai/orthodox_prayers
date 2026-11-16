@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -10,8 +11,8 @@ def text(path):
 def test_v540_version_and_full_bible_build_assets():
     gradle = text("app/build.gradle.kts")
     prepare = text("scripts/prepare_bible_corpus.py")
-    assert 'versionCode = 50700' in gradle
-    assert 'versionName = "5.7.0"' in gradle
+    assert 'versionCode = 50701' in gradle
+    assert 'versionName = "5.7.1"' in gradle
     for name in ["arb-arb-vd.tsv", "eng-eng-webbe.tsv", "grc-grcbrent.tsv", "grc-grcbyz.tsv"]:
         assert name in prepare
     assert 'tasks.named("preBuild").configure { dependsOn(prepareBibleCorpus, prepareChurchServiceCorpus) }' in gradle
@@ -76,3 +77,15 @@ def test_multi_span_bible_resolution_never_returns_a_missing_whole_span():
     assert "int rangeStartVerseCount = verseCount;" in repo
     assert "if (verseCount == rangeStartVerseCount) return null;" in repo
     assert "let the audited fallback" in repo
+
+
+def test_orthodox_bible_review_keeps_complete_corpus_until_replacement_is_verifiable():
+    review = json.loads(text("canonical/orthodox_bible_source_review.json"))
+    assert review["languages"]["el"]["already_orthodox_textual_basis"] is True
+    assert review["languages"]["ar"]["candidate_scope"] == "complete Septuagint Old Testament"
+    assert review["languages"]["ar"]["candidate_text_asset_found"] is False
+    assert review["languages"]["ar"]["new_testament_text_asset_found"] is False
+    assert review["languages"]["ar"]["replacement_ready"] is False
+    assert review["languages"]["en"]["replacement_ready"] is False
+    bible = text("app/src/main/java/com/orthodoxprayers/privateapp/ui/screens/BibleScreen.java")
+    assert "ui_bible_orthodox_source_status" in bible

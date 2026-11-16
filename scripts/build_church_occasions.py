@@ -43,6 +43,13 @@ class NativeCells(HTMLParser):
 
 def localized(value, language): return {key: value if key == language else "" for key in LANGUAGES}
 
+def source_attribution(source_id):
+    if source_id == "orthodox_jordan_arabic_services":
+        return {"ar": "مطرانية الأردن للروم الأرثوذكس", "en": "Greek Orthodox Archdiocese of Jordan", "el": "Ἑλληνορθόδοξη Ἀρχιεπισκοπὴ Ἰορδανίας"}
+    if source_id.startswith("goarch_digital_chant_stand_"):
+        return {"ar": "منصة الترتيل الرقمية للأبرشية اليونانية الأرثوذكسية في أميركا", "en": "GOARCH Digital Chant Stand", "el": "Digital Chant Stand τῆς Ἑλληνορθόδοξης Ἀρχιεπισκοπῆς Ἀμερικῆς"}
+    return {"ar": source_id, "en": source_id, "el": source_id}
+
 def import_segments(raw, source):
     language = source["language"]
     if source["format"] == "docx":
@@ -56,9 +63,16 @@ def import_segments(raw, source):
         parser.feed(raw.decode("utf-8-sig"))
         paragraphs = parser.paragraphs
     segments = []
+    source_credits = []
     speaker = ""
     for kind, text in paragraphs:
         if not text: continue
+        # DCS places its contributor key near the beginning of every book.
+        # It is documentation rather than prayer text, so retain it intact at
+        # the end of the edition where attribution belongs.
+        if "GOADEDES Greek Orthodox Archdiocese" in text:
+            source_credits.append(text)
+            continue
         if kind == "role": speaker = text; continue
         if kind in ("designation", "title", "chapter"):
             speaker = ""
@@ -69,6 +83,15 @@ def import_segments(raw, source):
         item = {"type": "rubric" if kind == "rubric" else "text", "text": localized(text, language)}
         if speaker: item["speaker"] = localized(speaker, language)
         segments.append(item)
+    if source_credits:
+        credit_title = {"ar": "المصدر وإعداد النص", "en": "Source and text preparation", "el": "Πηγὴ καὶ προετοιμασία κειμένου"}[language]
+        segments.append({"type": "section", "title": localized(credit_title, language)})
+        for credit in source_credits:
+            segments.append({"type": "rubric", "text": localized(credit, language)})
+    else:
+        credit_title = {"ar": "المصدر", "en": "Source", "el": "Πηγή"}[language]
+        segments.append({"type": "section", "title": localized(credit_title, language)})
+        segments.append({"type": "rubric", "text": localized(source_attribution(source["source_id"])[language], language)})
     text = "\n".join(s.get("text", {}).get(language, "") for s in segments)
     if len(text) < source.get("minimum_chars", 5000) or len(segments) < source.get("minimum_segments", 25):
         raise ValueError(f"Complete native edition missing: {source['id']}.{language}")
@@ -111,7 +134,8 @@ def main():
         target.mkdir(parents=True, exist_ok=True)
         service = {"id": "occasion::" + service_id, "title": source["title"], "source_language": language,
                    "displayable": True, "source_document": {"source_id": source["source_id"], "source_url": url,
-                   "source_sha256": digest, "machine_translation_used": False}, "category": "occasions"}
+                   "source_sha256": digest, "machine_translation_used": False,
+                   "attribution": source_attribution(source["source_id"])}, "category": "occasions"}
         service["full_service_complete"] = True
         service["completeness_scope"] = "COMPLETE_SOURCE_EDITION_ONLY"
         service["source_provenance"] = {"status": "PINNED_NATIVE_SERVICE_BOOK", "source_id": source["source_id"],

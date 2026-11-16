@@ -11,7 +11,12 @@
     "source_id": "orthodox_jordan_arabic_services",
     "source_url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/الاناجيل-2.pdf",
     "source_sha256": "8fbec6c7855189488c48fc431e68afbbf07bd9c1138e577525d926c5463df463",
-    "machine_translation_used": false
+    "machine_translation_used": false,
+    "attribution": {
+      "ar": "مطرانية الأردن للروم الأرثوذكس",
+      "en": "Greek Orthodox Archdiocese of Jordan",
+      "el": "Ἑλληνορθόδοξη Ἀρχιεπισκοπὴ Ἰορδανίας"
+    }
   },
   "category": "occasions",
   "full_service_complete": true,

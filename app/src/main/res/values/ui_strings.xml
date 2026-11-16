@@ -354,6 +354,7 @@
     <string name="ui_bible_title">الكتاب المقدس</string>
     <string name="ui_bible_intro">النص محفوظ داخل التطبيق ويعمل دون إنترنت. قراءة اليوم تستخدم نفس النص الكامل.</string>
     <string name="ui_bible_source_label">فان دايك — ملكية عامة</string>
+    <string name="ui_bible_orthodox_source_status">يستمر هذا النص الكامل مؤقتًا. توجد ترجمة عربية كاملة للعهد القديم السبعيني لدى مدرسة الإسكندرية، لكن متنها الإلكتروني الرسمي غير متاح للاستيراد بعد؛ لن يستبدل التطبيق الآيات قبل الحصول على ملفات المصدر والتحقق منها.</string>
     <string name="ui_bible_search_hint">ابحث في نص الكتاب المقدس</string>
     <string name="ui_bible_search">بحث</string>
     <string name="ui_bible_searching">جارٍ البحث…</string>
@@ -457,4 +458,6 @@
     <string name="ui_occasion_pinned_book">نص كامل من طبعة مصدر أصلية مثبتة؛ تاريخ الطبعة لا يستبدل الرزنامة المحلية.</string>
     <string name="ui_calendar_authority_horizon">تغطية 2026–2050 محسوبة وفق التقويم الكنسي القديم، مع أولوية التصحيحات المحلية الموثّقة من عمّان والقدس.</string>
     <string name="ui_calendar_services_ready">قراءات وصلوات هذا التاريخ جاهزة دون اتصال.</string>
+    <string name="ui_occasion_source_attribution">المصدر وإعداد الكتاب: %1$s</string>
+    <string name="ui_fast_summary_open_calendar">فتح يوم الصوم في التقويم</string>
 </resources>

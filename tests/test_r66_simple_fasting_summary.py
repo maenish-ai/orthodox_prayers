@@ -12,8 +12,9 @@ def test_home_fasting_notice_opens_the_simple_summary_route() -> None:
     home = read("app/src/main/java/com/orthodoxprayers/privateapp/ui/screens/HomeScreen.java")
     activity = read("app/src/main/java/com/orthodoxprayers/privateapp/MainActivity.java")
 
-    assert 'host.navigate("fasting_summary", notice.targetDate.toString())' in home
+    assert 'host.navigate("fasting_summary", detailsDate.toString())' in home
     assert 'case "fasting_summary": return new FastingSummaryScreen(this, entry.argument);' in activity
+    assert 'host.navigate("calendar_day", date)' in read("app/src/main/java/com/orthodoxprayers/privateapp/ui/screens/FastingSummaryScreen.java")
 
 
 def test_simple_summary_shows_only_fast_type_period_days_and_food_rules() -> None:

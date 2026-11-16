@@ -11,7 +11,12 @@
     "source_id": "orthodox_jordan_arabic_services",
     "source_url": "https://orthodoxjordan.org/wp-content/uploads/2023/04/صلاة-الختن-الثالثة-عشية-الثلاثاء-العظيم-المقدس.docx",
     "source_sha256": "b28c5c1dc8e6ce57bc1f0f4c11aa1989a9fa085b2786d0e01ac54c2dab979163",
-    "machine_translation_used": false
+    "machine_translation_used": false,
+    "attribution": {
+      "ar": "مطرانية الأردن للروم الأرثوذكس",
+      "en": "Greek Orthodox Archdiocese of Jordan",
+      "el": "Ἑλληνορθόδοξη Ἀρχιεπισκοπὴ Ἰορδανίας"
+    }
   },
   "category": "occasions",
   "full_service_complete": true,
@@ -5449,6 +5454,22 @@
       },
       "speaker": {
         "ar": "الجوقة",
+        "en": "",
+        "el": ""
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "المصدر",
+        "en": "",
+        "el": ""
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "مطرانية الأردن للروم الأرثوذكس",
         "en": "",
         "el": ""
       }

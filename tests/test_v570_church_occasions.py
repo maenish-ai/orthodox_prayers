@@ -86,3 +86,29 @@ def test_every_major_feast_has_three_native_titles_and_local_calendar_date_defin
     for feast in feasts:
         assert all(feast['title'].get(language) for language in ('ar', 'en', 'el'))
         assert ('julian_month_day' in feast) != ('pascha_offset' in feast)
+
+def test_holy_week_cards_hide_moving_dates_but_keep_internal_date_selection():
+    source = (ROOT / 'app/src/main/java/com/orthodoxprayers/privateapp/ui/screens/OccasionsScreen.java').read_text()
+    assert 'date + "\\n" + localized' not in source
+    assert 'holyDayTitle(dayKey)' in source
+    assert 'pascha.plusDays(i - 6)' in source
+    for title in ('الاثنين العظيم المقدس', 'الخميس العظيم المقدس', 'الجمعة العظيمة المقدسة', 'السبت العظيم المقدس'):
+        assert title in source
+
+def test_source_contributors_are_at_the_end_and_pdf_attribution_is_visible():
+    edition = load(ASSETS / 'data/occasions/en/nativity_matins.json')
+    assert edition['segments'][-2]['title']['en'] == 'Source and text preparation'
+    assert 'Seraphim Dedes' in edition['segments'][-1]['text']['en']
+    assert not any('Seraphim Dedes' in item.get('text', {}).get('en', '') for item in edition['segments'][:-1])
+    pdf = load(ASSETS / 'data/occasions/ar/holy_saturday_matins.json')
+    assert pdf['source_document']['attribution']['ar'] == 'مطرانية الأردن للروم الأرثوذكس'
+    screen = (ROOT / 'app/src/main/java/com/orthodoxprayers/privateapp/ui/screens/PdfServiceScreen.java').read_text()
+    assert 'ui_occasion_source_attribution' in screen
+
+def test_current_local_hierarchy_names_are_not_hard_coded_into_native_text_prayers():
+    current_names = ('ثيوفيلوس الثالث', 'خريستوفوروس عطالله', 'Theophilos III', 'Christophoros Atallah')
+    for path in (ASSETS / 'data/occasions').glob('*/*.json'):
+        service = load(path)
+        for segment in service.get('segments', []):
+            text = ' '.join(segment.get('text', {}).values())
+            assert not any(name.casefold() in text.casefold() for name in current_names), path

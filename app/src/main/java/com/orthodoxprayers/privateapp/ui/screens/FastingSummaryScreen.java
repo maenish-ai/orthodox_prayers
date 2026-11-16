@@ -144,6 +144,10 @@ public final class FastingSummaryScreen extends BaseScreen {
             ));
         }
         add(page.root, card, 12, 16);
+        android.widget.Button calendar = ui.button(
+                local(com.orthodoxprayers.privateapp.R.string.ui_fast_summary_open_calendar), false);
+        calendar.setOnClickListener(v -> host.navigate("calendar_day", date));
+        add(page.root, calendar, 0, 16);
         return page.scroll;
     }
 

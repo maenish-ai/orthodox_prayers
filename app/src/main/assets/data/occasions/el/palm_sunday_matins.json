@@ -12,6 +12,11 @@
     "source_url": "https://digitalchantstand.goarch.org/goa/dcs/h/s/2027/04/25/ma/gr-en/index.html",
     "source_sha256": "c29a9545a061f9f13c01f92b2adaf1d07a16d770356dac3b4af1f37c8a33ff90",
     "machine_translation_used": false,
+    "attribution": {
+      "ar": "منصة الترتيل الرقمية للأبرشية اليونانية الأرثوذكسية في أميركا",
+      "en": "GOARCH Digital Chant Stand",
+      "el": "Digital Chant Stand τῆς Ἑλληνορθόδοξης Ἀρχιεπισκοπῆς Ἀμερικῆς"
+    },
     "calendar_role": "SOURCE_EDITION_ONLY_NOT_JORDAN_CALENDAR_AUTHORITY"
   },
   "category": "occasions",
@@ -2389,6 +2394,22 @@
         "ar": "",
         "en": "",
         "el": "Συνταφέντες σοι διὰ τοῦ Βαπτίσματος, Χριστὲ ὁ Θεὸς ἡμῶν, τῆς ἀθανάτου ζωῆς ἠξιώθημεν τῇ Ἀναστάσει σου, καὶ ἀνυμνοῦντες κράζομεν· Ὡσαννὰ ἐν τοῖς ὑψίστοις, εὐλογημένος ὁ ἐρχόμενος, ἐν ὀνόματι Κυρίου."
+      }
+    },
+    {
+      "type": "section",
+      "title": {
+        "ar": "",
+        "en": "",
+        "el": "Πηγή"
+      }
+    },
+    {
+      "type": "rubric",
+      "text": {
+        "ar": "",
+        "en": "",
+        "el": "Digital Chant Stand τῆς Ἑλληνορθόδοξης Ἀρχιεπισκοπῆς Ἀμερικῆς"
       }
     }
   ],

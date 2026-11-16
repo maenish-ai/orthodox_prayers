@@ -11,7 +11,12 @@
     "source_id": "orthodox_jordan_arabic_services",
     "source_url": "https://orthodoxjordan.org/wp-content/uploads/2024/05/جناز-المسيح-1.pdf",
     "source_sha256": "91a7f69030acb3bab8d05ad7198e6a1213d61c5ee8dee463270fc69467865e47",
-    "machine_translation_used": false
+    "machine_translation_used": false,
+    "attribution": {
+      "ar": "مطرانية الأردن للروم الأرثوذكس",
+      "en": "Greek Orthodox Archdiocese of Jordan",
+      "el": "Ἑλληνορθόδοξη Ἀρχιεπισκοπὴ Ἰορδανίας"
+    }
   },
   "category": "occasions",
   "full_service_complete": true,

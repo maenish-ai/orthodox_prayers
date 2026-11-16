@@ -83,8 +83,26 @@ public final class OccasionsScreen extends BaseScreen {
         for (int i = 0; i < keys.length; i++) {
             final String dayKey = keys[i]; LocalDate date = pascha.plusDays(i - 6);
             JSONObject day = data.calendarDay(date.toString());
-            card(root, date + "\n" + localized(day == null ? null : day.optJSONObject("feast"), ""), () -> navigate("day", dayKey, year));
+            // The civil date changes every year. Keep it internally for the
+            // appointed service, but show the stable liturgical day name.
+            card(root, localized(day == null ? null : day.optJSONObject("feast"), holyDayTitle(dayKey)),
+                    () -> navigate("day", dayKey, year));
         }
+    }
+    private String holyDayTitle(String day) {
+        String language = preferences.effectiveLanguage();
+        String[][] titles = {
+                {"الاثنين العظيم المقدس", "Holy and Great Monday", "Ἁγία καὶ Μεγάλη Δευτέρα"},
+                {"الثلاثاء العظيم المقدس", "Holy and Great Tuesday", "Ἁγία καὶ Μεγάλη Τρίτη"},
+                {"الأربعاء العظيم المقدس", "Holy and Great Wednesday", "Ἁγία καὶ Μεγάλη Τετάρτη"},
+                {"الخميس العظيم المقدس", "Holy and Great Thursday", "Ἁγία καὶ Μεγάλη Πέμπτη"},
+                {"الجمعة العظيمة المقدسة", "Holy and Great Friday", "Ἁγία καὶ Μεγάλη Παρασκευή"},
+                {"السبت العظيم المقدس", "Holy and Great Saturday", "Ἅγιον καὶ Μέγα Σάββατον"}
+        };
+        String[] keys = {"monday", "tuesday", "wednesday", "thursday", "friday", "saturday"};
+        int lane = "ar".equals(language) ? 0 : "el".equals(language) ? 2 : 1;
+        for (int i = 0; i < keys.length; i++) if (keys[i].equals(day)) return titles[i][lane];
+        return "";
     }
     private void feasts(LinearLayout root) {
         JSONArray feasts = data.churchFeasts();
