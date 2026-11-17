@@ -135,25 +135,25 @@ class R21Phase7NativeLiturgyImportTests(unittest.TestCase):
                 self.assertGreater(len(item.get("segments") or []), minimum, relative)
                 self.assertTrue(item.get("native_source", {}).get("permission_confirmed"), relative)
 
-    def test_basil_and_presanctified_are_displayable_from_authorized_sources(self):
+    def test_basil_and_presanctified_remain_blocked_until_complete(self):
         for service_type in ("basil", "presanctified"):
             edition = self.editions["editions"][service_type]
-            self.assertTrue(edition["displayable"])
+            self.assertFalse(edition["displayable"])
             self.assertEqual("NOT_CLAIMED", edition["ecclesiastical_human_certification"])
             self.assertIn("availability_note", edition)
             self.assertEqual("canonical/liturgy_native_import_contracts.json", edition["import_contract"])
 
-    def test_appointed_basil_card_opens_the_complete_native_template(self):
+    def test_appointed_basil_card_fails_closed_without_complete_native_template(self):
         basil_day = self.update.orthodox_pascha_gregorian(2026)
         basil_day = basil_day.replace()  # keep a date object for clarity
         from datetime import timedelta
         basil_day -= timedelta(days=42)
         service = self.update.build_liturgy_service("divine_liturgy", basil_day, self.update.day_info(basil_day), [], "خدمة اليوم")
         self.assertEqual("basil", service["selected_liturgy_type"])
-        self.assertEqual("DISPLAYABLE_COMPLETE_NATIVE_SERVICE_FROM_BEGINNING_TO_END", service["publication_status"])
-        self.assertEqual("divine_liturgy_basil", service["extends_service_id"])
-        self.assertEqual("library:divine_liturgy_basil", service["template_id"])
-        self.assertTrue(service["full_service_complete"])
+        self.assertEqual("BLOCKED_MISSING_COMPLETE_NATIVE_SERVICE_EDITION", service["publication_status"])
+        self.assertNotIn("extends_service_id", service)
+        self.assertNotIn("template_id", service)
+        self.assertFalse(service["full_service_complete"])
         self.assertFalse(service["wrong_liturgy_fallback_allowed"])
 
 

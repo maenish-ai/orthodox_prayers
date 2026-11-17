@@ -173,7 +173,7 @@ public final class PdfServiceScreen extends BaseScreen {
                     image.setImageBitmap(bitmap);
                     image.setLayoutParams(new HorizontalScrollView.LayoutParams(visibleWidth, visibleHeight));
                     vertical.scrollTo(0, 0); horizontal.scrollTo(0, 0);
-                    pageButton.setText((selected + 1) + " / " + pageCount);
+                    pageButton.setText(String.format(java.util.Locale.getDefault(), "%d / %d", selected + 1, pageCount));
                     previous.setEnabled(selected > 0); next.setEnabled(selected + 1 < pageCount);
                     status.setVisibility(View.GONE);
                     preferences.setReaderPosition(edition.optString("id"), selected, 0);

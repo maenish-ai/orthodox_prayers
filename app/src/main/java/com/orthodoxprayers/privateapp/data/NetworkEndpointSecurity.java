@@ -4,6 +4,7 @@ import java.net.URL;
 import java.util.Collections;
 import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.Locale;
 
 /** Fail-closed endpoint policy for signed content downloads. */
 public final class NetworkEndpointSecurity {
@@ -23,7 +24,7 @@ public final class NetworkEndpointSecurity {
         if (!"https".equalsIgnoreCase(url.getProtocol())) {
             throw new IllegalStateException("https_required");
         }
-        String host = url.getHost() == null ? "" : url.getHost().toLowerCase();
+        String host = url.getHost() == null ? "" : url.getHost().toLowerCase(Locale.ROOT);
         if (!ALLOWED_HOSTS.contains(host)) {
             throw new IllegalStateException("endpoint_host_not_allowed:" + host);
         }

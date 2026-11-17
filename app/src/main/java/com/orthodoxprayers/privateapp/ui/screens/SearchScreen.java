@@ -1,8 +1,6 @@
 package com.orthodoxprayers.privateapp.ui.screens;
 
 import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
@@ -16,6 +14,7 @@ import android.widget.Toast;
 import com.orthodoxprayers.privateapp.data.SearchEngine;
 import com.orthodoxprayers.privateapp.model.SearchResult;
 import com.orthodoxprayers.privateapp.ui.ScreenHost;
+import com.orthodoxprayers.privateapp.ui.ExternalLinkPolicy;
 import com.orthodoxprayers.privateapp.ui.ThemePalette;
 import com.orthodoxprayers.privateapp.ui.UiKit;
 
@@ -128,9 +127,7 @@ public final class SearchScreen extends BaseScreen {
                 host.navigate("reader", service.optString("id"));
                 return;
             }
-            try {
-                host.activity().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(externalUrl)));
-            } catch (Exception error) {
+            if (!ExternalLinkPolicy.open(host.activity(), externalUrl)) {
                 Toast.makeText(host.activity(), local(com.orthodoxprayers.privateapp.R.string.ui_could_not_open_the_official_link_3126ea33), Toast.LENGTH_SHORT).show();
             }
         });

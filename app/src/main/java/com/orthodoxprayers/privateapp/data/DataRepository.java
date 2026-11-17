@@ -1945,7 +1945,7 @@ public final class DataRepository {
     private static void validateContentType(HttpURLConnection connection) {
         String type = connection.getContentType();
         if (type == null) return;
-        String normalized = type.toLowerCase();
+        String normalized = type.toLowerCase(java.util.Locale.ROOT);
         if (!normalized.contains("json") && !normalized.contains("text/plain") && !normalized.contains("octet-stream")) {
             throw new IllegalStateException("invalid_content_type");
         }

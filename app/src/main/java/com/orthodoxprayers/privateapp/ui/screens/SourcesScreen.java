@@ -1,7 +1,5 @@
 package com.orthodoxprayers.privateapp.ui.screens;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -10,6 +8,7 @@ import android.widget.Toast;
 
 import com.orthodoxprayers.privateapp.ui.ScreenHost;
 import com.orthodoxprayers.privateapp.ui.UiKit;
+import com.orthodoxprayers.privateapp.ui.ExternalLinkPolicy;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -108,10 +107,7 @@ public final class SourcesScreen extends BaseScreen {
     }
 
     private void openUrl(String url) {
-        try {
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-            host.activity().startActivity(intent);
-        } catch (Exception error) {
+        if (!ExternalLinkPolicy.open(host.activity(), url)) {
             Toast.makeText(host.activity(), local(com.orthodoxprayers.privateapp.R.string.ui_this_link_could_not_be_opened_on_the_device_9aa42df0), Toast.LENGTH_LONG).show();
         }
     }

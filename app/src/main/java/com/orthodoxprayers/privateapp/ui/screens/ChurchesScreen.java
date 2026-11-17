@@ -1,7 +1,5 @@
 package com.orthodoxprayers.privateapp.ui.screens;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -14,6 +12,7 @@ import com.orthodoxprayers.privateapp.R;
 import com.orthodoxprayers.privateapp.data.SearchEngine;
 import com.orthodoxprayers.privateapp.ui.ScreenHost;
 import com.orthodoxprayers.privateapp.ui.UiKit;
+import com.orthodoxprayers.privateapp.ui.ExternalLinkPolicy;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -372,13 +371,7 @@ public final class ChurchesScreen extends BaseScreen {
     }
 
     private void openUrl(String url) {
-        try {
-            if (url == null || !url.startsWith("https://")) throw new IllegalArgumentException("invalid URL");
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-            intent.addCategory(Intent.CATEGORY_BROWSABLE);
-            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_DOCUMENT);
-            host.activity().startActivity(intent);
-        } catch (Exception error) {
+        if (!ExternalLinkPolicy.open(host.activity(), url)) {
             Toast.makeText(host.activity(), local(R.string.ui_could_not_open_the_official_link_3126ea33),
                     Toast.LENGTH_SHORT).show();
         }

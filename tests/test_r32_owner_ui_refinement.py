@@ -114,8 +114,13 @@ def test_official_live_resources_match_the_current_verified_source_registry() ->
     for resource_id in ("orthodox_tv_official", "orthodox_tv_radio", "jerusalem_patriarchate_radio"):
         assert resource_id in builder
     assert "orthodox_jordan_tv_live" not in builder
-    assert "Intent.CATEGORY_BROWSABLE" in churches
-    assert "Intent.FLAG_ACTIVITY_NEW_DOCUMENT" in churches
+    assert "ExternalLinkPolicy.open" in churches
+    assert "Intent.CATEGORY_BROWSABLE" in read(
+        "app/src/main/java/com/orthodoxprayers/privateapp/ui/ExternalLinkPolicy.java"
+    )
+    assert "Intent.FLAG_ACTIVITY_NEW_DOCUMENT" in read(
+        "app/src/main/java/com/orthodoxprayers/privateapp/ui/ExternalLinkPolicy.java"
+    )
 
 def test_church_directory_offline_fallback_cannot_shrink_the_audited_snapshot() -> None:
     import sys

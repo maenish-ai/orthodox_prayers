@@ -23,6 +23,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.List;
+import java.util.Locale;
 
 public final class ReaderAdapter extends RecyclerView.Adapter<ReaderAdapter.Holder> {
     private static final int SECTION = 1;
@@ -245,7 +246,8 @@ public final class ReaderAdapter extends RecyclerView.Adapter<ReaderAdapter.Hold
             JSONObject segment = segments.get(i);
             String text = allLanguages(segment.optJSONObject("title")) + " " + allLanguages(segment.optJSONObject("text"));
             for (String needle : needles) {
-                if (needle != null && !needle.isEmpty() && text.toLowerCase().contains(needle.toLowerCase())) return i;
+                if (needle != null && !needle.isEmpty()
+                        && text.toLowerCase(Locale.ROOT).contains(needle.toLowerCase(Locale.ROOT))) return i;
             }
         }
         return -1;

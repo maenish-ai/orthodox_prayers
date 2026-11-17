@@ -53,15 +53,13 @@ public final class PrayerReminderWorker extends Worker {
     private static void showNotification(Context context, OrthodoxPrayersApp app, AppPreferences preferences, String kind) {
         NotificationManager manager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         String channelId = channelId(kind);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            NotificationChannel channel = new NotificationChannel(
-                    channelId,
-                    channelName(context, preferences, kind),
-                    NotificationManager.IMPORTANCE_DEFAULT
-            );
-            channel.setDescription(local(context, preferences, com.orthodoxprayers.privateapp.R.string.ui_optional_prayer_and_daily_reading_reminders_f753da85));
-            manager.createNotificationChannel(channel);
-        }
+        NotificationChannel channel = new NotificationChannel(
+                channelId,
+                channelName(context, preferences, kind),
+                NotificationManager.IMPORTANCE_DEFAULT
+        );
+        channel.setDescription(local(context, preferences, com.orthodoxprayers.privateapp.R.string.ui_optional_prayer_and_daily_reading_reminders_f753da85));
+        manager.createNotificationChannel(channel);
 
         Intent intent = new Intent(context, MainActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);

@@ -57,8 +57,8 @@ android {
         applicationId = "com.orthodoxprayers.privateapp"
         minSdk = 26
         targetSdk = 36
-        versionCode = 50702
-        versionName = "5.7.2"
+        versionCode = 50703
+        versionName = "5.7.3"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -79,6 +79,11 @@ android {
 
     buildFeatures {
         buildConfig = true
+    }
+
+    // All three language packs are bundled and switched at runtime.
+    bundle {
+        language { enableSplit = false }
     }
 
     buildTypes {
@@ -114,7 +119,7 @@ dependencies {
     implementation("androidx.work:work-runtime:2.11.2")
     implementation("androidx.profileinstaller:profileinstaller:1.4.1")
     testImplementation("junit:junit:4.13.2")
-    testImplementation("org.json:json:20240303")
+    testImplementation("org.json:json:20260719")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation("androidx.test:core:1.6.1")
     androidTestImplementation("androidx.test:runner:1.6.2")

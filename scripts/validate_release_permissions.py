@@ -13,6 +13,10 @@ ALLOWED = {
     "android.permission.VIBRATE",
     "android.permission.WAKE_LOCK",
     "android.permission.FOREGROUND_SERVICE",
+    # Required only for the explicit Android package-installer handoff. The
+    # app verifies package id, version, SHA-256 and signing certificate first;
+    # Android still requires the user to approve installation.
+    "android.permission.REQUEST_INSTALL_PACKAGES",
 }
 FORBIDDEN_PREFIXES = (
     "android.permission.ACCESS_FINE_LOCATION",

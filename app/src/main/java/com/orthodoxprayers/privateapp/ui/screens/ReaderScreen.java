@@ -24,6 +24,7 @@ import com.orthodoxprayers.privateapp.model.LocalizedValue;
 import com.orthodoxprayers.privateapp.ui.ReaderAdapter;
 import com.orthodoxprayers.privateapp.ui.ReaderBrightnessPolicy;
 import com.orthodoxprayers.privateapp.ui.ReadingProgressPolicy;
+import com.orthodoxprayers.privateapp.ui.ExternalLinkPolicy;
 import com.orthodoxprayers.privateapp.ui.ScreenHost;
 import com.orthodoxprayers.privateapp.ui.ThemePalette;
 
@@ -573,7 +574,7 @@ public final class ReaderScreen extends BaseScreen {
         EditText input = new EditText(host.activity());
         input.setText(preferences.serviceNote(serviceId));
         input.setMinLines(4);
-        input.setGravity(Gravity.TOP | (preferences.isRtl() ? Gravity.RIGHT : Gravity.LEFT));
+        input.setGravity(Gravity.TOP | (preferences.isRtl() ? Gravity.END : Gravity.START));
         input.setHint(local(com.orthodoxprayers.privateapp.R.string.ui_write_a_private_note_stored_only_on_this_device_f02e467f));
         int padding = ui.dp(18);
         LinearLayout wrapper = new LinearLayout(host.activity());
@@ -751,9 +752,7 @@ public final class ReaderScreen extends BaseScreen {
             final String url = sourceUrl;
             Button openSource = ui.smallButton(local(com.orthodoxprayers.privateapp.R.string.ui_open_official_source_7127e1b7), false);
             openSource.setOnClickListener(v -> {
-                try {
-                    host.activity().startActivity(new Intent(Intent.ACTION_VIEW, android.net.Uri.parse(url)));
-                } catch (Exception error) {
+                if (!ExternalLinkPolicy.open(host.activity(), url)) {
                     Toast.makeText(host.activity(), local(com.orthodoxprayers.privateapp.R.string.ui_the_source_link_could_not_be_opened_75a90f8a), Toast.LENGTH_LONG).show();
                 }
             });

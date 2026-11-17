@@ -30,8 +30,10 @@ class LiturgyRoutingContractTests(unittest.TestCase):
     def test_calendar_routes_basil_and_presanctified_to_their_own_ids(self):
         for name in ("CalendarDayScreen.java", "UpcomingScreen.java"):
             source = (ROOT / "app/src/main/java/com/orthodoxprayers/privateapp/ui/screens" / name).read_text(encoding="utf-8")
-            self.assertIn('"divine_liturgy_basil"', source)
-            self.assertIn('"presanctified_liturgy"', source)
+            self.assertIn("AppointedLiturgyResolver.serviceId(selection)", source)
+        resolver = (ROOT / "app/src/main/java/com/orthodoxprayers/privateapp/data/AppointedLiturgyResolver.java").read_text(encoding="utf-8")
+        self.assertIn('"divine_liturgy_basil"', resolver)
+        self.assertIn('"presanctified_liturgy"', resolver)
 
 
 if __name__ == "__main__":

@@ -144,15 +144,15 @@ public final class UiKit {
 
         LinearLayout labels = new LinearLayout(activity);
         labels.setOrientation(LinearLayout.VERTICAL);
-        labels.setGravity(preferences.isRtl() ? Gravity.RIGHT : Gravity.LEFT);
+        labels.setGravity(preferences.isRtl() ? Gravity.END : Gravity.START);
         labels.setPadding(dp(12), 0, dp(12), 0);
         TextView heading = text(title, 18, palette.primaryText(), true);
-        heading.setGravity(preferences.isRtl() ? Gravity.RIGHT : Gravity.LEFT);
+        heading.setGravity(preferences.isRtl() ? Gravity.END : Gravity.START);
         labels.addView(heading, new LinearLayout.LayoutParams(-1, -2));
         String safeSubtitle = subtitle == null ? "" : subtitle.trim();
         if (!safeSubtitle.isEmpty()) {
             TextView detail = text(safeSubtitle, 13, palette.secondaryText(), false);
-            detail.setGravity(preferences.isRtl() ? Gravity.RIGHT : Gravity.LEFT);
+            detail.setGravity(preferences.isRtl() ? Gravity.END : Gravity.START);
             detail.setMaxLines(2);
             labels.addView(detail, margins(-1, -2, 0, 3, 0, 0));
         }

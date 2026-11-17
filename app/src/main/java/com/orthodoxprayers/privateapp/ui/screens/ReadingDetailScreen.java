@@ -1,6 +1,5 @@
 package com.orthodoxprayers.privateapp.ui.screens;
 
-import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -9,6 +8,7 @@ import android.widget.TextView;
 import com.orthodoxprayers.privateapp.model.LocalizedValue;
 import com.orthodoxprayers.privateapp.ui.ScreenHost;
 import com.orthodoxprayers.privateapp.ui.UiKit;
+import com.orthodoxprayers.privateapp.ui.ExternalLinkPolicy;
 
 import org.json.JSONObject;
 
@@ -60,10 +60,7 @@ public final class ReadingDetailScreen extends BaseScreen {
         if (!sourceUrl.isEmpty()) {
             final String url = sourceUrl;
             Button open = ui.smallButton(local(com.orthodoxprayers.privateapp.R.string.ui_open_reading_source_0dc31b35), false);
-            open.setOnClickListener(v -> {
-                try { host.activity().startActivity(new Intent(Intent.ACTION_VIEW, android.net.Uri.parse(url))); }
-                catch (Exception ignored) { }
-            });
+            open.setOnClickListener(v -> ExternalLinkPolicy.open(host.activity(), url));
             card.addView(open, ui.margins(-1, -2, 0, 7, 0, 0));
         }
         Button allSources = ui.smallButton(local(com.orthodoxprayers.privateapp.R.string.ui_all_sources_and_references_5cebd827), false);

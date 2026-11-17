@@ -349,8 +349,7 @@ public final class AppUpdateManager {
     }
 
     private void requestInstallPermissionOrLaunch(Activity activity, File apk) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O
-                && !context.getPackageManager().canRequestPackageInstalls()) {
+        if (!context.getPackageManager().canRequestPackageInstalls()) {
             preferences.setDownloadedAppUpdatePath(apk.getAbsolutePath());
             preferences.setPendingAppUpdateInstall(true);
             new AlertDialog.Builder(activity)

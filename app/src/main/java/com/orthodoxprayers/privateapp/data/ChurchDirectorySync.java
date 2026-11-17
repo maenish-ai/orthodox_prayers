@@ -1,5 +1,7 @@
 package com.orthodoxprayers.privateapp.data;
 
+import com.orthodoxprayers.privateapp.BuildConfig;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -120,14 +122,7 @@ public final class ChurchDirectorySync {
     private static FetchResult fetch(String address) {
         HttpURLConnection connection = null;
         try {
-            connection = (HttpURLConnection) new URL(address).openConnection();
-            connection.setRequestMethod("GET");
-            connection.setConnectTimeout(CONNECT_TIMEOUT_MS);
-            connection.setReadTimeout(READ_TIMEOUT_MS);
-            connection.setInstanceFollowRedirects(true);
-            connection.setRequestProperty("Accept", "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.5");
-            connection.setRequestProperty("Accept-Language", "ar,en;q=0.8");
-            connection.setRequestProperty("User-Agent", "OrthodoxPrayers/5.6.4 official-directory-sync");
+            connection = openOfficialFollowingSameHostRedirects(address);
             int status = connection.getResponseCode();
             InputStream stream = status >= 400 ? connection.getErrorStream() : connection.getInputStream();
             byte[] body = stream == null ? new byte[0] : readLimited(stream, MAX_RESPONSE_BYTES);
@@ -138,6 +133,37 @@ public final class ChurchDirectorySync {
         } finally {
             if (connection != null) connection.disconnect();
         }
+    }
+
+    private static HttpURLConnection openOfficialFollowingSameHostRedirects(String address) throws Exception {
+        URL original = new URL(address);
+        if (!"https".equalsIgnoreCase(original.getProtocol()) || original.getUserInfo() != null || original.getPort() != -1) {
+            throw new SecurityException("unsafe_directory_source");
+        }
+        URL current = original;
+        for (int redirects = 0; redirects <= 5; redirects++) {
+            HttpURLConnection connection = (HttpURLConnection) current.openConnection();
+            connection.setInstanceFollowRedirects(false);
+            connection.setRequestMethod("GET");
+            connection.setConnectTimeout(CONNECT_TIMEOUT_MS);
+            connection.setReadTimeout(READ_TIMEOUT_MS);
+            connection.setRequestProperty("Accept", "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.5");
+            connection.setRequestProperty("Accept-Language", "ar,en;q=0.8");
+            connection.setRequestProperty("User-Agent", "OrthodoxPrayers/" + BuildConfig.VERSION_NAME + " official-directory-sync");
+            int status = connection.getResponseCode();
+            if (status < 300 || status >= 400) return connection;
+            String location = connection.getHeaderField("Location");
+            connection.disconnect();
+            if (location == null || location.trim().isEmpty()) throw new SecurityException("directory_redirect_missing");
+            URL redirected = new URL(current, location);
+            if (!"https".equalsIgnoreCase(redirected.getProtocol())
+                    || !original.getHost().equalsIgnoreCase(redirected.getHost())
+                    || redirected.getUserInfo() != null || redirected.getPort() != -1) {
+                throw new SecurityException("unsafe_directory_redirect");
+            }
+            current = redirected;
+        }
+        throw new SecurityException("too_many_directory_redirects");
     }
 
     private static MatchResult observeKnownRecords(JSONArray churches, String sourceId, String baseUrl, byte[] body) throws Exception {

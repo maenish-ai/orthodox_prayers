@@ -134,11 +134,13 @@ class FastingGuidanceTests(unittest.TestCase):
             profiles = asset["fasting_profiles"]
             fasting_ref = next(day["fasting"] for day in asset["days"] if day["fasting"].get("profile_id"))
             fasting = profiles[fasting_ref["profile_id"]]
-            self.assertNotIn("guidance", fasting)
+            self.assertIn("guidance", fasting)
             self.assertEqual(6, len(fasting["items"]))
             for language in ("ar", "en", "el"):
                 self.assertTrue(fasting["detail"][language].strip())
                 self.assertTrue(fasting["title"][language].strip())
+                self.assertTrue(fasting["guidance"]["health_note"][language].strip())
+                self.assertTrue(fasting["guidance"]["spiritual_note"][language].strip())
 
     def test_r15_patch_verifier_is_present(self):
         verifier = (ROOT / "scripts/verify_r15_patch.py").read_text(encoding="utf-8")

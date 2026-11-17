@@ -598,7 +598,7 @@ public final class MainActivity extends ComponentActivity implements ScreenHost 
                 updateCoordinator.enqueueImmediateBackgroundRefresh(false);
             }
 
-            if (isFinishing() || (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1 && isDestroyed())) return;
+            if (isFinishing() || isDestroyed()) return;
 
             if (retryableOpenFailure && dayChangeWatcherRunning) {
                 automaticOpenRefreshPending = true;
