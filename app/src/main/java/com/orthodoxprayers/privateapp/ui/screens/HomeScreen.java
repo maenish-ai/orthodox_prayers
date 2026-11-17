@@ -178,26 +178,107 @@ public final class HomeScreen extends BaseScreen {
                 baseDate,
                 isoDate -> data.calendarDay(isoDate)
         );
+        FastingNoticeEngine.Notice dailyNotice = FastingNoticeEngine.evaluateUpcomingDailyFast(
+                baseDate, isoDate -> data.calendarDay(isoDate));
+        NativityCalendarNotice nativity = nativityCalendarNotice(baseDate);
+        if (nativity != null) {
+            String secondary = nativity.secondary;
+            // Before either Nativity observance starts, retain the nearest
+            // Wednesday/Friday or special one-day fast as a second line.
+            if (!nativity.fastActive && dailyNotice.kind != FastingNoticeEngine.Kind.NONE) {
+                secondary += "\n" + fastingNoticeTitle(dailyNotice);
+            }
+            addFastingNoticeCard(root, nativity.primary, secondary, nativity.detailsDate);
+            return;
+        }
         if (notice == null || notice.kind == FastingNoticeEngine.Kind.NONE) return;
         String title = fastingNoticeTitle(notice);
+        String secondary = local(com.orthodoxprayers.privateapp.R.string.ui_fast_notice_details_hint);
+        if (notice.kind == FastingNoticeEngine.Kind.UPCOMING_MAJOR_FAST
+                && dailyNotice.kind != FastingNoticeEngine.Kind.NONE) {
+            secondary = fastingNoticeTitle(dailyNotice);
+        }
+        LocalDate detailsDate = notice.upcomingChangeDate != null
+                ? notice.upcomingChangeDate : notice.targetDate;
+        addFastingNoticeCard(root, title, secondary, detailsDate);
+    }
+
+    private void addFastingNoticeCard(LinearLayout root, String title, String secondary, LocalDate detailsDate) {
         LinearLayout card = ui.actionCard(
                 com.orthodoxprayers.privateapp.R.drawable.ic_action_calendar,
                 title,
-                local(com.orthodoxprayers.privateapp.R.string.ui_fast_notice_details_hint)
+                secondary
         );
         card.setElevation(ui.dp(9));
         card.setTranslationZ(ui.dp(2));
         card.setOnClickListener(v -> {
-            LocalDate detailsDate = notice.upcomingChangeDate != null
-                    ? notice.upcomingChangeDate
-                    : notice.targetDate;
-            if (notice.kind == FastingNoticeEngine.Kind.NONE || detailsDate == null) {
+            if (detailsDate == null) {
                 host.navigate("upcoming", null);
             } else {
                 host.navigate("fasting_summary", detailsDate.toString());
             }
         });
         add(root, card, 4, 12);
+    }
+
+    /** Nativity alone is shown in both civil observances used by local parishes. */
+    private NativityCalendarNotice nativityCalendarNotice(LocalDate today) {
+        LocalDate newStart = LocalDate.of(today.getYear(), 11, 15);
+        LocalDate newEnd = LocalDate.of(today.getYear(), 12, 24);
+        LocalDate oldStart = LocalDate.of(today.getYear(), 11, 28);
+        LocalDate oldEnd = LocalDate.of(today.getYear() + 1, 1, 6);
+        if (today.getMonthValue() == 1) {
+            newStart = LocalDate.of(today.getYear() - 1, 11, 15);
+            newEnd = LocalDate.of(today.getYear() - 1, 12, 24);
+            oldStart = LocalDate.of(today.getYear() - 1, 11, 28);
+            oldEnd = LocalDate.of(today.getYear(), 1, 6);
+        }
+        LocalDate displayWindowStart = newStart.minusDays(MAJOR_NATIVITY_NOTICE_DAYS);
+        if (today.isBefore(displayWindowStart) || today.isAfter(oldEnd)) return null;
+        String primary = nativityLaneTitle(true, today, newStart, newEnd);
+        String secondary = nativityLaneTitle(false, today, oldStart, oldEnd);
+        boolean active = within(today, newStart, newEnd) || within(today, oldStart, oldEnd);
+        LocalDate details = within(today, newStart, newEnd) || within(today, oldStart, oldEnd)
+                ? today : (today.isBefore(newStart) ? newStart : oldStart);
+        return new NativityCalendarNotice(primary, secondary, details, active);
+    }
+
+    private static final int MAJOR_NATIVITY_NOTICE_DAYS = 45;
+
+    private boolean within(LocalDate date, LocalDate start, LocalDate end) {
+        return !date.isBefore(start) && !date.isAfter(end);
+    }
+
+    private String nativityLaneTitle(boolean newCalendar, LocalDate today, LocalDate start, LocalDate end) {
+        String language = preferences.effectiveLanguage();
+        String lane = "ar".equals(language) ? (newCalendar ? "التقويم الجديد" : "التقويم القديم")
+                : "el".equals(language) ? (newCalendar ? "Νέο ἡμερολόγιο" : "Παλαιὸ ἡμερολόγιο")
+                : (newCalendar ? "New calendar" : "Old calendar");
+        if (within(today, start, end)) {
+            int day = (int) java.time.temporal.ChronoUnit.DAYS.between(start, today) + 1;
+            if ("ar".equals(language)) return lane + ": صوم الميلاد — اليوم " + day;
+            if ("el".equals(language)) return lane + ": Νηστεία Χριστουγέννων — ἡμέρα " + day;
+            return lane + ": Nativity Fast — day " + day;
+        }
+        if (today.isBefore(start)) {
+            int days = (int) java.time.temporal.ChronoUnit.DAYS.between(today, start);
+            if ("ar".equals(language)) return lane + ": يبدأ صوم الميلاد بعد " + days + " أيام — " + start;
+            if ("el".equals(language)) return lane + ": ἡ Νηστεία Χριστουγέννων ἀρχίζει σὲ " + days + " ἡμέρες — " + start;
+            return lane + ": Nativity Fast starts in " + days + " days — " + start;
+        }
+        if ("ar".equals(language)) return lane + ": اكتمل صوم الميلاد في " + end;
+        if ("el".equals(language)) return lane + ": ἡ Νηστεία Χριστουγέννων ὁλοκληρώθηκε — " + end;
+        return lane + ": Nativity Fast completed — " + end;
+    }
+
+    private static final class NativityCalendarNotice {
+        final String primary;
+        final String secondary;
+        final LocalDate detailsDate;
+        final boolean fastActive;
+        NativityCalendarNotice(String primary, String secondary, LocalDate detailsDate, boolean fastActive) {
+            this.primary = primary; this.secondary = secondary; this.detailsDate = detailsDate; this.fastActive = fastActive;
+        }
     }
 
     private String fastingNoticeTitle(FastingNoticeEngine.Notice notice) {

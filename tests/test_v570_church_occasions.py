@@ -9,6 +9,15 @@ from pypdf import PdfReader
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / 'app/src/main/assets'
 
+def test_every_calendar_day_offers_one_continuous_all_services_reader():
+    screen = (ROOT / "app/src/main/java/com/orthodoxprayers/privateapp/ui/screens/CalendarDayScreen.java").read_text(encoding="utf-8")
+    reader = (ROOT / "app/src/main/java/com/orthodoxprayers/privateapp/ui/screens/ReaderScreen.java").read_text(encoding="utf-8")
+    repository = (ROOT / "app/src/main/java/com/orthodoxprayers/privateapp/data/DataRepository.java").read_text(encoding="utf-8")
+    assert 'host.navigate("reader", "calendar_all::" + date)' in screen
+    assert 'serviceId.startsWith("calendar_all::")' in reader
+    assert "findCalendarDaySequence" in repository
+    assert '"orthros", "vespers", "morning_prayer", "evening_prayer", "small_compline"' in repository
+
 def load(path):
     return json.loads(path.read_text(encoding='utf-8'))
 

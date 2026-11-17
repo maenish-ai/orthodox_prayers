@@ -213,6 +213,28 @@ public final class FastingNoticeEngine {
         return Notice.none(today);
     }
 
+    /**
+     * Returns the nearest ordinary or single-day fast independently from the
+     * long-season headline. Home uses this as a second line while a major fast
+     * is approaching. Once a major season has begun, the weekly Wednesday and
+     * Friday rule is already contained in that season and is intentionally not
+     * repeated.
+     */
+    public static Notice evaluateUpcomingDailyFast(LocalDate today, DayProvider provider) {
+        if (today == null || provider == null) return Notice.none(today);
+        if (majorFamily(provider.day(today.toString())) != Family.NONE) return Notice.none(today);
+        for (int offset = 1; offset <= FAST_LOOKAHEAD_DAYS; offset++) {
+            LocalDate candidate = today.plusDays(offset);
+            JSONObject day = provider.day(candidate.toString());
+            if (!isFastDay(day) || majorFamily(day) != Family.NONE) continue;
+            Kind kind = isWeeklyFast(day, candidate.getDayOfWeek())
+                    ? Kind.UPCOMING_WEEKLY_FAST : Kind.UPCOMING_CALENDAR_FAST;
+            return new Notice(kind, Family.NONE, candidate, candidate, candidate,
+                    offset, 0, 0, 1, false, candidate.getDayOfWeek(), null, -1);
+        }
+        return Notice.none(today);
+    }
+
     private static LocalDate findRuleChange(LocalDate today, DayProvider provider, Family family) {
         JSONObject current = provider.day(today.toString());
         String currentSignature = fastingRuleSignature(current);

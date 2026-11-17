@@ -136,6 +136,17 @@ public final class FastingNoticeEngineTest {
         assertEquals(FastingNoticeEngine.Family.NATIVITY, notice.family);
         assertEquals(nativityStart, notice.targetDate);
         assertEquals(27, notice.daysUntilStart);
+
+        FastingNoticeEngine.Notice daily = FastingNoticeEngine.evaluateUpcomingDailyFast(today, provider);
+        assertEquals(FastingNoticeEngine.Kind.UPCOMING_WEEKLY_FAST, daily.kind);
+        assertEquals(today.plusDays(3), daily.targetDate);
+    }
+
+    @Test
+    public void weeklyFastIsNotRepeatedInsideMajorSeason() {
+        FastingNoticeEngine.Notice daily = FastingNoticeEngine.evaluateUpcomingDailyFast(
+                START, FastingNoticeEngineTest::calendarDay);
+        assertEquals(FastingNoticeEngine.Kind.NONE, daily.kind);
     }
 
     private static JSONObject weeklyFastDay(String titleAr) {

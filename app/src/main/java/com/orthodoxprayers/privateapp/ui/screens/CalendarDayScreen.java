@@ -29,6 +29,7 @@ public final class CalendarDayScreen extends BaseScreen {
         addField(card, local(com.orthodoxprayers.privateapp.R.string.ui_old_calendar_date_02f8092d), localized(item.optJSONObject("julian_label"), item.optString("julian_date", "")));
         addField(card, local(com.orthodoxprayers.privateapp.R.string.ui_commemoration_399506fc), displayableCommemoration(item));
         addField(card, local(com.orthodoxprayers.privateapp.R.string.ui_fasting_f1b1605d), fastingDisplayTitle(item, date));
+        addField(card, local(com.orthodoxprayers.privateapp.R.string.ui_fast_family_nativity), nativityCalendarObservance(date));
         addLiturgySelection(card, item.optJSONObject("liturgy_service_selection"));
         JSONObject fasting = item.optJSONObject("fasting");
         if (isFastingDay(fasting)) addFastingGuide(card, fasting, true);
@@ -115,6 +116,9 @@ public final class CalendarDayScreen extends BaseScreen {
         JSONArray services = day.optJSONArray("services");
         if (services == null || services.length() == 0) return;
         card.addView(ui.infoBadge(local(com.orthodoxprayers.privateapp.R.string.ui_calendar_services_ready)), ui.margins(-1, -2, 0, 8, 0, 8));
+        Button all = ui.button(local(com.orthodoxprayers.privateapp.R.string.ui_worship_all), true);
+        all.setOnClickListener(v -> host.navigate("reader", "calendar_all::" + date));
+        card.addView(all, ui.margins(-1, -2, 0, 5, 0, 0));
         addServiceButton(card, services, appointedServiceId(day), local(com.orthodoxprayers.privateapp.R.string.ui_open_complete_service_beginning_to_end), true);
         addServiceButton(card, services, "orthros", local(com.orthodoxprayers.privateapp.R.string.ui_orthros_2aa869d2), false);
         addServiceButton(card, services, "vespers", local(com.orthodoxprayers.privateapp.R.string.ui_vespers_1daa5b5d), false);

@@ -38,19 +38,30 @@ public final class FastingSummaryScreen extends BaseScreen {
         }
 
         JSONObject fasting = item.optJSONObject("fasting");
+        String nativityObservance = nativityCalendarObservance(date);
         if (!isFastingDay(fasting)) {
             LinearLayout card = ui.card();
             card.addView(centered(
-                    local(com.orthodoxprayers.privateapp.R.string.ui_fast_summary_no_fast),
+                    nativityObservance.isEmpty()
+                            ? local(com.orthodoxprayers.privateapp.R.string.ui_fast_summary_no_fast)
+                            : nativityObservance,
                     17,
-                    ui.colors().secondaryText(),
+                    nativityObservance.isEmpty() ? ui.colors().secondaryText() : ui.colors().accentText(),
                     true
             ));
             add(page.root, card, 16, 16);
+            android.widget.Button calendar = ui.button(
+                    local(com.orthodoxprayers.privateapp.R.string.ui_fast_summary_open_calendar), false);
+            calendar.setOnClickListener(v -> host.navigate("calendar_day", date));
+            add(page.root, calendar, 0, 16);
             return page.scroll;
         }
 
         LinearLayout card = ui.card();
+        if (!nativityObservance.isEmpty()) {
+            card.addView(centered(nativityObservance, 16, ui.colors().accentText(), true),
+                    ui.margins(-1, -2, 0, 4, 0, 10));
+        }
         FastingPeriod period = fastingPeriod();
         boolean multiDay = period != null && period.totalDays > 1;
 

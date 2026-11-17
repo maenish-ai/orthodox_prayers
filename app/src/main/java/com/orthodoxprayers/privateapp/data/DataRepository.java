@@ -822,6 +822,46 @@ public final class DataRepository {
         }
     }
 
+    /** Composes every displayable service listed on a calendar-day screen. */
+    public JSONObject findCalendarDaySequence(String date) {
+        if (date == null || !date.matches("\\d{4}-\\d{2}-\\d{2}")) return null;
+        JSONObject day = calendarDay(date);
+        if (day == null) return null;
+        try {
+            String appointed = AppointedLiturgyResolver.serviceId(day.optJSONObject("liturgy_service_selection"));
+            String[] ids = {appointed, "orthros", "vespers", "morning_prayer", "evening_prayer", "small_compline"};
+            java.util.Set<String> seen = new java.util.LinkedHashSet<>();
+            JSONArray segments = new JSONArray();
+            JSONArray included = new JSONArray();
+            JSONArray unavailable = new JSONArray();
+            for (String id : ids) {
+                if (id == null || id.trim().isEmpty() || !seen.add(id)) continue;
+                JSONObject service = findService(datedServiceId(date, id));
+                JSONArray body = service == null ? null : service.optJSONArray("segments");
+                if (body == null || body.length() == 0) { unavailable.put(id); continue; }
+                segments.put(new JSONObject().put("type", "section")
+                        .put("title", service.optJSONObject("title"))
+                        .put("calendar_service_id", id));
+                for (int index = 0; index < body.length(); index++) {
+                    JSONObject item = body.optJSONObject(index);
+                    if (item != null) segments.put(new JSONObject(item.toString()));
+                }
+                included.put(id);
+            }
+            if (segments.length() == 0) return null;
+            return new JSONObject().put("id", "calendar_day_all::" + date)
+                    .put("source_language", preferences.effectiveLanguage())
+                    .put("title", new JSONObject().put(preferences.effectiveLanguage(),
+                            local(com.orthodoxprayers.privateapp.R.string.ui_worship_all)))
+                    .put("segments", segments).put("included_offices", included)
+                    .put("unavailable_offices", unavailable)
+                    .put("full_service_complete", unavailable.length() == 0);
+        } catch (Exception error) {
+            Log.w(TAG, "Could not compose calendar-day service sequence for " + date, error);
+            return null;
+        }
+    }
+
     public JSONObject churchOccasions() {
         JSONObject catalog = loadOptionalJsonAsset("data/occasions/catalog.json");
         return catalog == null ? new JSONObject() : catalog;

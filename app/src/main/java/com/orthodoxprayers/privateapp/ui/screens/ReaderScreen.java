@@ -108,6 +108,8 @@ public final class ReaderScreen extends BaseScreen {
     private View createReaderView() {
         service = serviceId.startsWith("worship_all::")
                 ? data.findWorshipSequence(serviceId.substring("worship_all::".length()))
+                : serviceId.startsWith("calendar_all::")
+                ? data.findCalendarDaySequence(serviceId.substring("calendar_all::".length()))
                 : data.findService(serviceId);
         if (service == null) return errorView(local(com.orthodoxprayers.privateapp.R.string.ui_the_requested_text_was_not_found_in_the_app_data_97e2becd));
 

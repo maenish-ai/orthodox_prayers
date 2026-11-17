@@ -52,6 +52,30 @@ public abstract class BaseScreen implements AppScreen {
     protected String localFormat(int resourceId, Object... arguments) { return data.localFormat(resourceId, arguments); }
     protected String localized(JSONObject object, String fallback) { return data.localized(object, fallback); }
 
+    /** Dual Nativity observance used locally; other fasting seasons stay unchanged. */
+    protected String nativityCalendarObservance(String isoDate) {
+        LocalDate date;
+        try { date = LocalDate.parse(isoDate); }
+        catch (Exception ignored) { return ""; }
+        int seasonYear = date.getMonthValue() == 1 ? date.getYear() - 1 : date.getYear();
+        LocalDate newStart = LocalDate.of(seasonYear, 11, 15);
+        LocalDate newEnd = LocalDate.of(seasonYear, 12, 24);
+        LocalDate oldStart = LocalDate.of(seasonYear, 11, 28);
+        LocalDate oldEnd = LocalDate.of(seasonYear + 1, 1, 6);
+        boolean newActive = !date.isBefore(newStart) && !date.isAfter(newEnd);
+        boolean oldActive = !date.isBefore(oldStart) && !date.isAfter(oldEnd);
+        if (!newActive && !oldActive) return "";
+        String language = preferences.effectiveLanguage();
+        java.util.List<String> lanes = new java.util.ArrayList<>();
+        if (newActive) lanes.add("ar".equals(language) ? "صوم الميلاد — التقويم الجديد (15/11–24/12)"
+                : "el".equals(language) ? "Νηστεία Χριστουγέννων — νέο ἡμερολόγιο (15/11–24/12)"
+                : "Nativity Fast — new calendar (15 Nov–24 Dec)");
+        if (oldActive) lanes.add("ar".equals(language) ? "صوم الميلاد — التقويم القديم (28/11–6/1)"
+                : "el".equals(language) ? "Νηστεία Χριστουγέννων — παλαιὸ ἡμερολόγιο (28/11–6/1)"
+                : "Nativity Fast — old calendar (28 Nov–6 Jan)");
+        return android.text.TextUtils.join("\n", lanes);
+    }
+
     protected boolean isFastingDay(JSONObject fasting) {
         return fasting != null && fasting.optBoolean("is_fast", false);
     }

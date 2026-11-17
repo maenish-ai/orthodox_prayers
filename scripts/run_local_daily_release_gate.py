@@ -59,7 +59,7 @@ def main() -> None:
         subprocess.run(command, cwd=ROOT, check=True)
     print(
         "\nLOCAL_DAILY_RELEASE_GATE_OK "
-        "version=5.7.1 code=50701 schedule=00:03 timezone=Asia/Amman "
+        "version=5.7.2 code=50702 schedule=00:03 timezone=Asia/Amman "
         "runtime_network_required=false github_daily_action=false calendar=2026-2050"
     )
 

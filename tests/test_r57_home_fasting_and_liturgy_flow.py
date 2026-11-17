@@ -7,6 +7,18 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def test_nativity_fast_shows_new_and_old_calendar_without_changing_other_fasts():
+    base = (ROOT / "app/src/main/java/com/orthodoxprayers/privateapp/ui/screens/BaseScreen.java").read_text(encoding="utf-8")
+    home = (ROOT / "app/src/main/java/com/orthodoxprayers/privateapp/ui/screens/HomeScreen.java").read_text(encoding="utf-8")
+    calendar = (ROOT / "app/src/main/java/com/orthodoxprayers/privateapp/ui/screens/CalendarDayScreen.java").read_text(encoding="utf-8")
+    assert "LocalDate.of(seasonYear, 11, 15)" in base
+    assert "LocalDate.of(seasonYear, 11, 28)" in base
+    assert "LocalDate.of(seasonYear + 1, 1, 6)" in base
+    assert "nativityCalendarNotice(baseDate)" in home
+    assert "evaluateUpcomingDailyFast" in home
+    assert "nativityCalendarObservance(date)" in calendar
+
+
 def calendar_days(year: int) -> dict[str, dict]:
     payload = json.loads((ROOT / f"app/src/main/assets/data/calendar/calendar_{year}.json").read_text(encoding="utf-8"))
     profiles = payload.get("fasting_profiles") or {}
