@@ -74,7 +74,14 @@ def main():
     args = parser.parse_args()
     if args.json_jar is None:
         cache = Path(os.environ.get("GRADLE_USER_HOME", str(Path.home() / ".gradle")))
-        candidates = list((cache / "caches/modules-2/files-2.1/org.json/json/20240303").rglob("json-20240303.jar"))
+        # Do not pin this verifier to an obsolete test-dependency version.  A
+        # clean CI runner only contains the org.json version declared by the
+        # Gradle build, while developer caches may hide this mismatch by still
+        # retaining older jars.
+        candidates = sorted(
+            (cache / "caches/modules-2/files-2.1/org.json/json").rglob("json-*.jar"),
+            reverse=True,
+        )
         if not candidates: raise SystemExit("Build testDebugUnitTest first, or pass --json-jar explicitly")
         args.json_jar = candidates[0]
     java_home = Path(os.environ["JAVA_HOME"]) if os.environ.get("JAVA_HOME") else None
