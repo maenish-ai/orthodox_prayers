@@ -61,7 +61,7 @@ jobs:
       - name: Install checks
         run: python -m pip install --disable-pip-version-check -r requirements-dev.txt
 
-      - name: Restore official Jerusalem/Jordan source-network cache
+      - name: Restore official Orthodox source-network cache
         id: official-network-cache-restore
         uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
@@ -70,7 +70,7 @@ jobs:
           restore-keys: |
             r64-official-network-${{ runner.os }}-
 
-      - name: Harvest focused official Jerusalem/Jordan liturgical source network
+      - name: Harvest focused official Orthodox source network with Jerusalem/Jordan priority
         timeout-minutes: 15
         env:
           PYTHONUNBUFFERED: "1"
@@ -80,7 +80,7 @@ jobs:
           python scripts/build_r64_official_content_inventory.py --require-harvest
           python scripts/extract_r64_commemoration_candidates.py --require-harvest
 
-      - name: Save official Jerusalem/Jordan source-network cache
+      - name: Save official Orthodox source-network cache
         if: always() && steps.official-network-cache-restore.outputs.cache-hit != 'true'
         uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:

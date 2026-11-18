@@ -23,6 +23,19 @@ def is_verified_local(language: str, entry: dict) -> bool:
     )
 
 
+def is_verified_official_native(language: str, entry: dict) -> bool:
+    if is_verified_local(language, entry):
+        return True
+    return (
+        language == "en"
+        and entry.get("evidence_status") == "VERIFIED_NATIVE_ORTHODOX_ENGLISH_SOURCE"
+        and entry.get("jurisdiction") == "antioch_patriarchate"
+        and entry.get("comparative") is False
+        and entry.get("fixed_slot_eligible") is True
+        and entry.get("date_assignment_basis") == "JERUSALEM_ARABIC_AND_GREEK_LEAP_CALENDARS_2024"
+    )
+
+
 def main() -> None:
     queue = json.loads(QUEUE.read_text(encoding="utf-8"))
     evidence = json.loads(EVIDENCE.read_text(encoding="utf-8"))
@@ -46,6 +59,7 @@ def main() -> None:
             "source_ids": sorted({str(entry.get("source_id") or "") for entry in entries}),
         }
     strict_slots = 0
+    official_slots = 0
     partial_slots = 0
     for slot in queue.get("slots", []):
         key = slot.get("old_calendar_month_day")
@@ -72,23 +86,36 @@ def main() -> None:
             and progress[language].get("fixed_slot_eligible") is True
             for language in ("ar", "en", "el")
         )
+        all_official = all(
+            is_verified_official_native(language, lanes.get(language) or {})
+            for language in ("ar", "en", "el")
+        )
         has_any = any(progress[language].get("status") != "MISSING_NATIVE_EVIDENCE" for language in ("ar", "en", "el"))
         if all_verified:
             strict_slots += 1
             slot["status"] = "VERIFIED_NATIVE_AR_EN_EL_LOCAL"
+        elif all_official:
+            official_slots += 1
+            slot["status"] = "VERIFIED_NATIVE_AR_EN_EL_OFFICIAL_ORTHODOX"
         elif has_any:
             partial_slots += 1
             slot["status"] = "PARTIAL_NATIVE_EVIDENCE_PENDING_PROMOTION"
         slot["native_evidence_progress"] = progress
-        slot["promotion_gate"] = "CLOSED_UNTIL_VERIFIED_LOCAL_AR_EN_EL"
+        slot["promotion_gate"] = (
+            "OPEN_OFFICIAL_NATIVE_EVIDENCE"
+            if all_verified or all_official
+            else "CLOSED_UNTIL_VERIFIED_OFFICIAL_AR_EN_EL"
+        )
     queue["native_evidence_summary"] = {
         "evidence_file": "canonical/jerusalem_jordan_fixed_commemorations_native.json",
         "allowed_old_calendar_slots": 366,
         "languages": language_summary,
         "partial_evidence_slots": partial_slots,
         "strict_local_three_language_slots": strict_slots,
+        "cross_jurisdiction_official_three_language_slots": official_slots,
         "strict_named_local_gate": False,
-        "comparative_english_never_counts_as_local": True,
+        "comparative_english_never_counts_as_named": True,
+        "official_cross_jurisdiction_english_requires_local_date_evidence": True,
         "machine_translation_used": False,
         "cross_language_fallback": False,
     }

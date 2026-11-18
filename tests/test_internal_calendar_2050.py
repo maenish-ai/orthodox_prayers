@@ -233,18 +233,14 @@ def test_verified_local_greek_and_local_english_lanes_are_language_isolated():
     assert evidence_day["lanes"]["en"]["jurisdiction"] == "jerusalem_patriarchate"
 
 
-def test_comparative_english_sidecar_preserves_full_text_without_asset_bloat():
+def test_official_antioch_english_leap_title_is_embedded_without_comparative_fallback():
     asset = json.loads((ROOT / "app/src/main/assets/data/calendar/comparative_english.json").read_text(encoding="utf-8"))
     day_asset = json.loads((ROOT / "app/src/main/assets/data/calendar/calendar_2028.json").read_text(encoding="utf-8"))
     day = next(item for item in day_asset["days"] if item["date_iso"] == "2028-03-13")
-    reference = day["comparative_en_ref"]
-    entry = asset["entries"][reference]
-    assert reference == "02-29"
-    assert entry["comparative"] is True
-    assert entry["jurisdiction"] == "comparative_not_jerusalem_jordan"
-    assert "Venerable John Cassian" in entry["text"]
-    assert day["feast"]["en"] == "Commemoration of the saints of February 29 on the Old Church Calendar"
-    assert set(asset["entries"]) == {"02-29"}
+    assert "comparative_en_ref" not in day
+    assert day["feast"]["en"] == "Righteous John Cassian the Confessor"
+    assert day["occasion_status"] == "PINNED_OFFICIAL_ORTHODOX_NATIVE_LANES"
+    assert asset["entries"] == {}
     repository = (ROOT / "app/src/main/java/com/orthodoxprayers/privateapp/data/DataRepository.java").read_text(encoding="utf-8")
     assert "comparative_english.json" in repository
     assert "resolveComparativeEnglishCommemoration" in repository

@@ -6,12 +6,14 @@ import harvest_official_source_network_r64 as h
 import audit_absolute_coverage_r64 as audit
 
 
-def test_r64_network_is_strictly_jerusalem_jordan_and_expanded():
+def test_r64_network_prioritizes_jerusalem_jordan_and_allows_official_antioch_evidence():
     cfg=json.loads((ROOT/'canonical/r64_official_source_network.json').read_text(encoding='utf-8'))
     suffixes=set(cfg['allowed_domain_suffixes'])
     assert {'orthodoxjordan.org','orthodoxjo.tv','jerusalem-patriarchate.info'} <= suffixes
+    assert 'antiochpatriarchate.org' in suffixes
     roots={x['id'] for x in cfg['roots']}
     assert {'orthodox_jordan_ar','orthodox_tv_ar','jerusalem_patriarchate_ar','jerusalem_patriarchate_en','jerusalem_patriarchate_el','jerusalem_patriarchate_radio'} <= roots
+    assert {'antioch_patriarchate_ar','antioch_patriarchate_en'} <= roots
     assert cfg['crawl_policy']['authentication_bypass'] is False
     assert cfg['crawl_policy']['captcha_bypass'] is False
     assert 800 <= cfg['crawl_policy']['default_max_pages'] <= 2000
@@ -21,6 +23,7 @@ def test_r64_network_is_strictly_jerusalem_jordan_and_expanded():
     assert direct['jerusalem_patriarchate_calendar_2026_ar']['language'] == 'ar'
     assert direct['jerusalem_patriarchate_calendar_2026_ar']['url'].endswith('/arabic_2026.pdf')
     assert 'evidence_only' in direct['jerusalem_patriarchate_calendar_2026_ar']['promotion']
+    assert direct['antioch_patriarchate_john_cassian_en']['language'] == 'en'
 
 
 def test_subdomains_are_allowed_but_lookalikes_are_not():
@@ -44,12 +47,12 @@ def test_r64_absolute_gate_is_in_release_gate_and_workflow_strict_after_bootstra
     gate=(ROOT/'scripts/run_local_daily_release_gate.py').read_text(encoding='utf-8')
     workflow=(ROOT/'.github/workflows/church-prayers.yml').read_text(encoding='utf-8')
     assert 'audit_absolute_coverage_r64.py' in gate
-    assert 'Harvest focused official Jerusalem/Jordan liturgical source network' in workflow
+    assert 'Harvest focused official Orthodox source network with Jerusalem/Jordan priority' in workflow
     assert 'audit_absolute_coverage_r64.py --require-complete' in workflow
     assert 'audit_absolute_coverage_r64.py --require-complete --require-named-commemorations' in workflow
     assert '::notice title=R64 content advisory::' in workflow
     assert '::warning::R64 named commemoration coverage is incomplete' not in workflow
-    assert workflow.index('Harvest focused official Jerusalem/Jordan liturgical source network') < workflow.index('Check content, languages, security, and calendar')
+    assert workflow.index('Harvest focused official Orthodox source network with Jerusalem/Jordan priority') < workflow.index('Check content, languages, security, and calendar')
 
 
 def test_perpetual_bootstrap_resolves_every_day_even_when_source_has_no_abbreviated_reading():

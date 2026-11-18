@@ -43,7 +43,7 @@ def main():
       'civil_range':civil,
       'file_count':len(records),
       'aggregate_sha256':aggregate,
-      'approved_change':'R63_PERPETUAL_GREEK_JULIAN_REFERENCE_BASELINE_WITH_JERUSALEM_JORDAN_OVERRIDES',
+      'approved_change':'R64_COMPLETE_NAMED_COMMEMORATIONS_WITH_OFFICIAL_ORTHODOX_NATIVE_EVIDENCE',
       'files':records,
     }
     LOCK.write_text(json.dumps(lock,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

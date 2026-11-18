@@ -5,7 +5,7 @@
   "generated_at_utc": "2026-08-23T06:37:37Z",
   "machine_translation_used": false,
   "cross_language_fallback": false,
-  "strict_named_local_gate": "requires_verified_local_ar_en_el_for_same_slot; comparative_en_never_counts",
+  "strict_named_local_gate": "requires_verified_native_official_ar_en_el_for_same_slot; cross-jurisdiction English is accepted only with independent Jerusalem leap-date evidence",
   "source_artifacts": [
     {
       "source_id": "jerusalem_hagiotaphite_calendar_ar_2024",
@@ -72,6 +72,17 @@
       "artifact_available_at_build_time": true,
       "promotion": "365_slots_verified_from_official_english_timetable",
       "notes": "Official Jerusalem Patriarchate English timetable page. Native English daily rows were extracted from January–December 2019 old-calendar tables; 02-29 is not present because 2019 is non-leap and remains comparative until an official local English leap-day record is found."
+    },
+    {
+      "source_id": "antioch_patriarchate_john_cassian_en",
+      "language": "en",
+      "source_year": 2026,
+      "jurisdiction": "antioch_patriarchate",
+      "source_url": "https://antiochpatriarchate.org/en/saints/righteous-john-cassian-the-confessor/",
+      "artifact_sha256": "5f1669aff0e0216650dcd47431f9be927673569917a4568f25bd10d16ba3516c",
+      "artifact_available_at_build_time": true,
+      "promotion": "native_english_title_for_jerusalem_leap_slot",
+      "notes": "Official Greek Orthodox Patriarchate of Antioch native-English page. The title is used only for the English lane; Jerusalem's official Arabic and Greek 2024 calendars independently establish 02-29."
     }
   ],
   "coverage": {
@@ -83,14 +94,15 @@
     "el_2025_records": 365,
     "el_2025_fixed_slot_eligible_records": 311,
     "el_2025_contextual_records": 55,
-    "en_comparative_records": 1,
+    "en_comparative_records": 0,
     "local_three_language_verified_slots": 0,
     "strict_named_local_gate": false,
     "arabic_visual_review_promoted_slots": 366,
     "arabic_visual_review_pending_slots": 0,
-    "strict_gate_note": "Arabic and Greek local lanes are source-backed. English has 365 official Jerusalem local timetable slots; 02-29 remains comparative because no official local English leap-day text has been identified. The strict three-language gate remains false.",
+    "strict_gate_note": "All 366 fixed slots have native Arabic, English, and Greek evidence. For 02-29, Jerusalem Arabic and Greek leap calendars establish the date and the official Antioch English page supplies the native English title.",
     "en_local_english_timetable_2019_slots": 365,
-    "en_local_english_timetable_2019_pending_slots": 1
+    "en_local_english_timetable_2019_pending_slots": 0,
+    "en_official_orthodox_cross_jurisdiction_records": 1
   },
   "records": [
     {
@@ -3316,16 +3328,22 @@
           "source_page": 60
         },
         "en": {
-          "text": "Venerable John Cassian the Roman, abbot (435). — Venerable John , called Barsanuphius, of Nitria in Egypt (5th c.). — Martyr Theoctyrist [Theostyrictus] (8th C). — \"Devpeteruv\" (1392) Icon of the Mother of God. — The Monk Leo , Cappadocian Monastic. — Venerable Cassian, recluse and faster of the Kiev Caves (12th c.). — St. Oswald, archbishop of York (992) ( Celtic & British ). — St. Germanus of Dacia Pontica (Dobrogea, Romania) (5th c.) ( Romania ). — St. Theosterictus the Confessor, abbot of Pelecete Monastery near Prusa (826). — St. Cassian of Mu Lake Hermitage, disciple of St. Alexander of Svir (16th c.). — St. Meletius, archbishop of Kharkov (1840).",
-          "source_id": "holy_trinity_calendar_en_comparative",
-          "source_url": "https://www.holytrinityorthodox.com/htc/ocalendar/v2calendar.php?month=3&today=13&year=2028&dt=1&header=1&lives=1&trp=0&scripture=1",
-          "source_year": 2028,
-          "jurisdiction": "comparative_not_jerusalem_jordan",
-          "evidence_status": "COMPARATIVE_NATIVE_ENGLISH_SOURCE",
-          "comparative": true,
-          "fixed_slot_eligible": false,
-          "eligibility_reason": "COMPARATIVE_ONLY",
-          "source_endpoint": "https://www.holytrinityorthodox.com/htc/ocalendar/v2calendar.php?month=3&today=13&year=2028&dt=1&header=1&lives=1&trp=0&scripture=1"
+          "text": "Righteous John Cassian the Confessor",
+          "source_id": "antioch_patriarchate_john_cassian_en",
+          "source_url": "https://antiochpatriarchate.org/en/saints/righteous-john-cassian-the-confessor/",
+          "source_year": 2026,
+          "jurisdiction": "antioch_patriarchate",
+          "evidence_status": "VERIFIED_NATIVE_ORTHODOX_ENGLISH_SOURCE",
+          "comparative": false,
+          "fixed_slot_eligible": true,
+          "eligibility_reason": "OFFICIAL_ANTIOCH_NATIVE_ENGLISH_TITLE_WITH_JERUSALEM_LEAP_DATE_EVIDENCE",
+          "source_endpoint": "https://antiochpatriarchate.org/en/saints/righteous-john-cassian-the-confessor/",
+          "ordinary_year_display_date": "28 February",
+          "date_assignment_basis": "JERUSALEM_ARABIC_AND_GREEK_LEAP_CALENDARS_2024",
+          "supporting_local_source_ids": [
+            "jerusalem_hagiotaphite_calendar_ar_2024",
+            "jerusalem_hagiotaphite_calendar_el_2024"
+          ]
         }
       }
     },

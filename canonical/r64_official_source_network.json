@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "name": "Jerusalem Patriarchate / Jordan official public source network",
+  "name": "Official Orthodox public source network — Jerusalem/Jordan priority",
   "jurisdiction": "Greek Orthodox Patriarchate of Jerusalem — Jordan priority",
   "public_only": true,
   "authorized_reuse_asserted_by_project_owner": true,
@@ -147,6 +147,20 @@
         "live",
         "schedule"
       ]
+    },
+    {
+      "id": "antioch_patriarchate_ar",
+      "url": "https://antiochpatriarchate.org/",
+      "language": "ar",
+      "authority": "Greek Orthodox Patriarchate of Antioch official Arabic lane",
+      "categories": ["calendar", "feasts", "saints", "services", "prayers"]
+    },
+    {
+      "id": "antioch_patriarchate_en",
+      "url": "https://antiochpatriarchate.org/en/",
+      "language": "en",
+      "authority": "Greek Orthodox Patriarchate of Antioch official English lane",
+      "categories": ["calendar", "feasts", "saints", "services", "prayers"]
     }
   ],
   "direct_documents": [
@@ -181,12 +195,21 @@
       "authority": "Jerusalem Patriarchate official annual calendar",
       "coverage": "2025 annual calendar; Greek source only; 365 slots parsed with two visual-review records",
       "promotion": "evidence_only_until_native_ar_en_sources_and_per_record_review"
+    },
+    {
+      "id": "antioch_patriarchate_john_cassian_en",
+      "url": "https://antiochpatriarchate.org/en/saints/righteous-john-cassian-the-confessor/",
+      "language": "en",
+      "authority": "Greek Orthodox Patriarchate of Antioch official native-English saint page",
+      "coverage": "Native English title for John Cassian; Jerusalem Arabic and Greek leap calendars establish Old-Calendar 02-29",
+      "promotion": "named_english_lane_with_independent_jerusalem_leap_date_evidence"
     }
   ],
   "allowed_domain_suffixes": [
     "orthodoxjordan.org",
     "orthodoxjo.tv",
-    "jerusalem-patriarchate.info"
+    "jerusalem-patriarchate.info",
+    "antiochpatriarchate.org"
   ],
   "relevance_keywords": {
     "daily": [

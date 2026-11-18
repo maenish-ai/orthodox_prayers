@@ -21,7 +21,8 @@ class NativeCommemorationEvidenceTests(unittest.TestCase):
         self.assertEqual(366, report["coverage"]["records"])
         self.assertEqual(366, report["coverage"]["expected_slots"])
         self.assertEqual(310, report["coverage"]["strict_local_three_language_slots"])
-        self.assertEqual(1, report["coverage"]["comparative_lane_entries"])
+        self.assertEqual(0, report["coverage"]["comparative_lane_entries"])
+        self.assertEqual(311, report["coverage"]["official_native_three_language_slots"])
 
     def test_arabic_visual_review_promotions_are_source_backed_and_not_strict_gate(self):
         packet = json.loads((ROOT / "canonical/arabic_visual_review_promotions.json").read_text(encoding="utf-8"))
@@ -41,7 +42,7 @@ class NativeCommemorationEvidenceTests(unittest.TestCase):
             self.assertFalse(arabic["comparative"], slot)
             self.assertEqual("jerusalem_patriarchate", arabic["jurisdiction"], slot)
 
-    def test_jerusalem_english_timetable_covers_365_local_slots_only(self):
+    def test_jerusalem_english_timetable_plus_antioch_cover_all_366_slots(self):
         local = [
             row["lanes"]["en"]
             for row in self.payload["records"]
@@ -50,10 +51,12 @@ class NativeCommemorationEvidenceTests(unittest.TestCase):
         self.assertEqual(365, len(local))
         self.assertTrue(all(entry["comparative"] is False for entry in local))
         self.assertTrue(all(entry["fixed_slot_eligible"] is True for entry in local))
-        self.assertEqual(1, self.payload["coverage"]["en_comparative_records"])
+        self.assertEqual(0, self.payload["coverage"]["en_comparative_records"])
+        self.assertEqual(1, self.payload["coverage"]["en_official_orthodox_cross_jurisdiction_records"])
         leap = next(row for row in self.payload["records"] if row["old_calendar_month_day"] == "02-29")
-        self.assertEqual("holy_trinity_calendar_en_comparative", leap["lanes"]["en"]["source_id"])
-        self.assertTrue(leap["lanes"]["en"]["comparative"])
+        self.assertEqual("antioch_patriarchate_john_cassian_en", leap["lanes"]["en"]["source_id"])
+        self.assertFalse(leap["lanes"]["en"]["comparative"])
+        self.assertEqual("antioch_patriarchate", leap["lanes"]["en"]["jurisdiction"])
         self.assertFalse(self.payload["coverage"]["strict_named_local_gate"])
 
     def test_pending_arabic_slots_remain_visual_review_only(self):
@@ -82,7 +85,7 @@ class NativeCommemorationEvidenceTests(unittest.TestCase):
             self.assertFalse(greek["comparative"], slot)
             self.assertEqual("jerusalem_patriarchate", greek["jurisdiction"], slot)
 
-    def test_leap_slot_keeps_arabic_and_comparative_english_separate(self):
+    def test_leap_slot_uses_independent_official_native_lanes(self):
         record = next(row for row in self.payload["records"] if row["old_calendar_month_day"] == "02-29")
         self.assertIn("ar", record["lanes"])
         self.assertIn("en", record["lanes"])
@@ -91,7 +94,12 @@ class NativeCommemorationEvidenceTests(unittest.TestCase):
         self.assertEqual(record["lanes"]["el"]["source_page"], 60)
         self.assertFalse(record["lanes"]["el"]["comparative"])
         self.assertNotEqual(record["lanes"]["ar"]["text"], record["lanes"]["en"]["text"])
-        self.assertTrue(record["lanes"]["en"]["comparative"])
+        self.assertFalse(record["lanes"]["en"]["comparative"])
+        self.assertEqual("Righteous John Cassian the Confessor", record["lanes"]["en"]["text"])
+        self.assertEqual(
+            "JERUSALEM_ARABIC_AND_GREEK_LEAP_CALENDARS_2024",
+            record["lanes"]["en"]["date_assignment_basis"],
+        )
 
     def test_arabic_cannot_be_copied_into_english_lane(self):
         payload = copy.deepcopy(self.payload)
@@ -101,11 +109,10 @@ class NativeCommemorationEvidenceTests(unittest.TestCase):
         self.assertFalse(report["ok"])
         self.assertTrue(any("identical text" in error for error in report["errors"]))
 
-    def test_comparative_source_cannot_be_promoted_to_local(self):
+    def test_antioch_source_cannot_be_falsely_promoted_to_local(self):
         payload = copy.deepcopy(self.payload)
         record = next(row for row in payload["records"] if row["old_calendar_month_day"] == "02-29")
         english = record["lanes"]["en"]
-        english["comparative"] = False
         english["jurisdiction"] = "jerusalem_patriarchate"
         english["evidence_status"] = "VERIFIED_NATIVE_LOCAL_ENGLISH_SOURCE"
         report = validate(payload)

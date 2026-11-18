@@ -275,9 +275,21 @@ def verified_native_lanes(day: date, records: dict[str, dict]) -> dict[str, dict
         entry = record["lanes"].get(language)
         if not isinstance(entry, dict):
             continue
-        if entry.get("evidence_status") != expected_status:
-            continue
-        if entry.get("jurisdiction") not in {"jerusalem_patriarchate", "jerusalem_jordan"}:
+        local = (
+            entry.get("evidence_status") == expected_status
+            and entry.get("jurisdiction") in {"jerusalem_patriarchate", "jerusalem_jordan"}
+        )
+        official_antioch_english = (
+            language == "en"
+            and entry.get("evidence_status") == "VERIFIED_NATIVE_ORTHODOX_ENGLISH_SOURCE"
+            and entry.get("jurisdiction") == "antioch_patriarchate"
+            and entry.get("date_assignment_basis") == "JERUSALEM_ARABIC_AND_GREEK_LEAP_CALENDARS_2024"
+            and set(entry.get("supporting_local_source_ids") or []) == {
+                "jerusalem_hagiotaphite_calendar_ar_2024",
+                "jerusalem_hagiotaphite_calendar_el_2024",
+            }
+        )
+        if not local and not official_antioch_english:
             continue
         if entry.get("comparative") is not False:
             continue
@@ -288,6 +300,14 @@ def verified_native_lanes(day: date, records: dict[str, dict]) -> dict[str, dict
             continue
         accepted[language] = copy.deepcopy(entry)
     return accepted
+
+
+def has_cross_jurisdiction_official_lane(lanes: dict[str, dict]) -> bool:
+    return any(
+        entry.get("jurisdiction") == "antioch_patriarchate"
+        for entry in lanes.values()
+        if isinstance(entry, dict)
+    )
 
 
 def appointed_from_refs(refs: dict) -> list[dict]:
@@ -420,10 +440,13 @@ def build() -> dict:
             occasion_days += 1
         jy, jm, jd = gregorian_to_julian_date(cursor)
         selection = liturgy_service_selection(cursor, info)
+        cross_jurisdiction_native = has_cross_jurisdiction_official_lane(native_lanes)
         if occasions:
             commemoration_status = "PINNED_INTERNAL_RULE"
         elif native_lanes and comparative_lanes:
             commemoration_status = "PINNED_NATIVE_AND_COMPARATIVE_LANES"
+        elif cross_jurisdiction_native:
+            commemoration_status = "PINNED_OFFICIAL_ORTHODOX_NATIVE_LANES"
         elif native_lanes:
             commemoration_status = "PINNED_NATIVE_LANE"
         elif comparative_lanes:
@@ -441,6 +464,7 @@ def build() -> dict:
                 "source_kind": (
                     "internal_named_occasion" if occasions else
                     "mixed_native_and_comparative_lanes" if native_lanes and comparative_lanes else
+                    "verified_official_orthodox_native_lanes" if cross_jurisdiction_native else
                     "verified_local_native_lane" if native_lanes else
                     "comparative_english_lane" if comparative_lanes else
                     "old_calendar_date_baseline"

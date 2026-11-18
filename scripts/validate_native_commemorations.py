@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_PATH = ROOT / "canonical" / "jerusalem_jordan_fixed_commemorations_native.json"
 LANGS = ("ar", "en", "el")
 LOCAL_JURISDICTIONS = {"jerusalem_patriarchate", "jerusalem_jordan"}
+OFFICIAL_ORTHODOX_JURISDICTIONS = LOCAL_JURISDICTIONS | {"antioch_patriarchate"}
 MONTH_LENGTHS = {1: 31, 2: 29, 3: 31, 4: 30, 5: 31, 6: 30, 7: 31, 8: 31, 9: 30, 10: 31, 11: 30, 12: 31}
 ARABIC_RE = re.compile(r"[\u0600-\u06ff]")
 GREEK_RE = re.compile(r"[\u0370-\u03ff\u1f00-\u1fff]")
@@ -48,6 +49,23 @@ def is_verified_local(language: str, entry: dict) -> bool:
         and entry.get("jurisdiction") in LOCAL_JURISDICTIONS
         and entry.get("comparative") is False
         and entry.get("fixed_slot_eligible") is True
+    )
+
+
+def is_verified_official_native(language: str, entry: dict) -> bool:
+    if is_verified_local(language, entry):
+        return True
+    return (
+        language == "en"
+        and entry.get("evidence_status") == "VERIFIED_NATIVE_ORTHODOX_ENGLISH_SOURCE"
+        and entry.get("jurisdiction") == "antioch_patriarchate"
+        and entry.get("comparative") is False
+        and entry.get("fixed_slot_eligible") is True
+        and entry.get("date_assignment_basis") == "JERUSALEM_ARABIC_AND_GREEK_LEAP_CALENDARS_2024"
+        and set(entry.get("supporting_local_source_ids") or []) == {
+            "jerusalem_hagiotaphite_calendar_ar_2024",
+            "jerusalem_hagiotaphite_calendar_el_2024",
+        }
     )
 
 
@@ -92,6 +110,7 @@ def validate(payload: dict) -> dict:
             errors.append(f"source artifact {source_id} has invalid language")
 
     strict_slots = 0
+    official_slots = 0
     lane_counts = {lang: 0 for lang in LANGS}
     pending_counts = {lang: 0 for lang in LANGS}
     comparative_count = 0
@@ -109,6 +128,7 @@ def validate(payload: dict) -> dict:
                 errors.append(f"{slot}: unknown language lane {key}")
         texts = {}
         verified = {}
+        official_verified = {}
         for language, entry in lanes.items():
             if language not in LANGS:
                 continue
@@ -156,12 +176,15 @@ def validate(payload: dict) -> dict:
                 if comparative or entry.get("jurisdiction") not in LOCAL_JURISDICTIONS:
                     errors.append(f"{slot}/{language}: verified-local status requires local non-comparative jurisdiction")
             verified[language] = is_verified_local(language, entry)
+            official_verified[language] = is_verified_official_native(language, entry)
             if "REQUIRES_VISUAL_REVIEW" in status or status in {"pending_visual_review", "PER_RECORD_INTEGRITY_REVIEW"}:
                 pending_counts[language] += 1
         if len(set(texts.values())) < len(texts) and len(texts) > 1:
             errors.append(f"{slot}: identical text appears in multiple language lanes; cross-language copying is forbidden")
         if all(verified.get(language, False) for language in LANGS):
             strict_slots += 1
+        if all(official_verified.get(language, False) for language in LANGS):
+            official_slots += 1
 
     if payload.get("machine_translation_used") is not False:
         errors.append("machine_translation_used must be false")
@@ -169,7 +192,7 @@ def validate(payload: dict) -> dict:
         errors.append("cross_language_fallback must be false")
     coverage = payload.get("coverage") if isinstance(payload.get("coverage"), dict) else {}
     if coverage.get("strict_named_local_gate") is not False:
-        errors.append("coverage.strict_named_local_gate must remain false until all three local lanes are verified")
+        errors.append("coverage.strict_named_local_gate describes local-only coverage and must remain false")
     if strict_slots != 0:
         notices.append(f"strict local three-language slots currently verified: {strict_slots}")
     if comparative_count:
@@ -185,6 +208,7 @@ def validate(payload: dict) -> dict:
             "pending_visual_review_counts": pending_counts,
             "comparative_lane_entries": comparative_count,
             "strict_local_three_language_slots": strict_slots,
+            "official_native_three_language_slots": official_slots,
         },
     }
 

@@ -22,8 +22,8 @@ def updater():
 
 def test_version_is_560():
     build = (ROOT / "app/build.gradle.kts").read_text(encoding="utf-8")
-    assert 'versionCode = 50703' in build
-    assert 'versionName = "5.7.3"' in build
+    assert 'versionCode = 50704' in build
+    assert 'versionName = "5.7.4"' in build
 
 
 def test_strict_core_contract_excludes_adjacent_offices():

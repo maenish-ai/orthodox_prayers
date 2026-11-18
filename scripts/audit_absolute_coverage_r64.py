@@ -77,7 +77,7 @@ def main():
    'required_native_languages':list(LANGS),
    'generic_old_calendar_date_label_is_not_named':True,
    'status':'INCOMPLETE' if problems['generic_commemoration'] else 'COMPLETE',
-     'note':'Comparative native-English evidence may be displayed in the English lane but never satisfies the Jerusalem/Jordan local-language named gate; local Arabic, English, and Greek evidence are still required.'
+     'note':'Every language lane must have independent official Orthodox native evidence. A cross-jurisdiction English title is accepted only when official Jerusalem Arabic and Greek leap calendars independently establish the local date.'
 ,
   },
   'missing_dates':missing_dates,'extra_dates':extra_dates,
@@ -89,7 +89,7 @@ def main():
   for key in ('reading_unresolved','fasting_incomplete','service_incomplete','commemoration_incomplete'):
    if problems[key]: errors.append(f'{key}={len(problems[key])}')
   if not BASE.is_file() or len((baseline.get('dates') or {}))!=EXPECTED: errors.append('perpetual baseline is not bootstrapped for all 9131 dates')
-  if not HARVEST.is_file(): errors.append('official Jerusalem/Jordan network harvest is missing')
+  if not HARVEST.is_file(): errors.append('official Orthodox source-network harvest is missing')
  if a.require_named_commemorations and problems['generic_commemoration']:
   errors.append(f'named commemoration coverage incomplete: generic={len(problems["generic_commemoration"])}')
  if errors:

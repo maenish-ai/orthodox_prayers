@@ -25,6 +25,7 @@ def test_every_day_through_2050_has_localized_commemoration():
             "PINNED_COMPARATIVE_ENGLISH_LANE",
             "PINNED_NATIVE_AND_COMPARATIVE_LANES",
             "PINNED_NATIVE_LANE",
+            "PINNED_OFFICIAL_ORTHODOX_NATIVE_LANES",
         }
         assert commemoration.get("status") == day.get("commemoration_status")
         names = commemoration.get("name") or {}
